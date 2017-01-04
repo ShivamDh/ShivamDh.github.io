@@ -1,3 +1,26 @@
+.HomeNav {
+	margin-top: -5px;
+	font-size: 25px;
+	position: absolute;
+	margin-left: -2%;
+}
+
+#About {
+	font-size: 20px;
+	color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .warning {
   color: #9F6000;
   background-color: #FEEFB3;
