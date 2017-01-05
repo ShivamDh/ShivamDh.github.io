@@ -16,6 +16,8 @@ module.exports = React.createClass({
 	// Change link to 'shivamdh.github.io/Personal-Website/' when publish to Github
 	// Change link to 'shivamdh.github.io/Personal-Website/about/' when publish to Github
 	// Change link to 'shivamdh.github.io/Personal-Website/projects/' when publish to Github
+	// Change link to 'shivamdh.github.io/Personal-Website/coop/' when publish to Github
+	// Change link to 'shivamdh.github.io/Personal-Website/contact/' when publish to Github
   render () {
     return (
       <div>
@@ -23,14 +25,9 @@ module.exports = React.createClass({
           wrapperStyle={{
             marginBottom: rhythm(1),
           }}
-          style={{
-            background: 'lightgray',
-          }}
         >
-          <Container
+          <Container className="AtRest"
             style={{
-              maxWidth: 960,
-              paddingTop: 0,
               padding: `${rhythm(1)} ${rhythm(3/4)}`,
             }}
           >
@@ -48,6 +45,16 @@ module.exports = React.createClass({
 			<Link to={prefixLink('/projects/')} style={{ textDecoration: 'none'}}>
 				<p className="ProjNav">
 					My Projects
+				</p>
+			</Link>
+			<Link to={prefixLink('/coop/')} style={{ textDecoration: 'none'}}>
+				<p className="CoopNav">
+					Co-op
+				</p>
+            </Link>
+			<Link to={prefixLink('/contact/')} style={{ textDecoration: 'none'}}>
+				<p className="ContactNav">
+					Contact Me
 				</p>
             </Link>
           </Container>
