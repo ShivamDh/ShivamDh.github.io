@@ -13,6 +13,7 @@ module.exports = React.createClass({
       children: React.PropTypes.any,
     }
   },
+  
 	// Change link to 'shivamdh.github.io/Personal-Website/' when publish to Github
 	// Change link to 'shivamdh.github.io/Personal-Website/about/' when publish to Github
 	// Change link to 'shivamdh.github.io/Personal-Website/projects/' when publish to Github
