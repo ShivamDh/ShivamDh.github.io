@@ -18,20 +18,20 @@ export default class Index extends React.Component {
             {"name": "keywords", "content": "sample, something"},
           ]}
         />
-		    <Link to={prefixLink('/about/')}>
+		    <Link to={prefixLink('shivamdh.github.io/Personal-Website/about/')}>
 				<p id="About">
 					About Me Page Link
 				</p>
 			</Link>
 			
 			<div className = "HomeBack"> 
-				<img src = "/background.jpg"/>
+				<img src = "https://wallpaper-gallery.net/images/technology-wallpaper/technology-wallpaper-18.jpg"/>
 			</div>
 			<div className = "Welcome">
 				<h1> Welcome to my website </h1>
 			</div>
 			<div className = "Scroll">
-				<img src = "http://www.pngmart.com/files/3/Down-Arrow-PNG-Pic.png"/>
+				<img src = "https://www.pngmart.com/files/3/Down-Arrow-PNG-Pic.png"/>
 			</div>
 			<div className = "ScrollText"><h3>Scroll Down</h3></div>
 			<br/>
