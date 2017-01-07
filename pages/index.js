@@ -25,7 +25,7 @@ export default class Index extends React.Component {
 			</Link>
 			
 			<div className = "HomeBack"> 
-				<img src = "http://wallpaper-gallery.net/images/technology-wallpaper/technology-wallpaper-18.jpg"/>
+				<img src = "/background.jpg"/>
 			</div>
 			<div className = "Welcome">
 				<h1> Welcome to my website </h1>
