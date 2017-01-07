@@ -8,6 +8,23 @@ import '../css/styles'
 import { rhythm } from '../utils/typography'
 
 module.exports = React.createClass({
+  loadingtext () {
+  	var winH = window.innerHeight;
+	var winW = window.innerWidth;
+	return (
+		<div id="Load">
+			<p style={{marginTop: winH/2, marginLeft: winW/2-275}}id= "Loading"> Some stuff I sayYYYY </p>
+		</div>
+	  )
+  },
+  
+  loading() {
+	  window.addEventListener('load', function() {
+		var loader = document.getElementById('LoadingScreen');
+		loader.style.display = 'none';
+	  })
+  },
+  
   propTypes () {
     return {
       children: React.PropTypes.any,
@@ -22,6 +39,8 @@ module.exports = React.createClass({
   render () {
     return (
       <div>
+        <div id="LoadingScreen"> {this.loadingtext()} {this.loading()} </div>
+
         <Headroom
           wrapperStyle={{
             marginBottom: rhythm(1),
@@ -61,7 +80,13 @@ module.exports = React.createClass({
           </Container>
         </Headroom>
 		{this.props.children}
+		<img src="http://kingofwallpapers.com/high-resolution-pictures/high-resolution-pictures-007.jpg"/>
+		<img src="http://www.graphicsgodown.com/downloads/000006.jpg"/>
+		<img src="http://www.amazingwallpaperz.com/wp-content/uploads/Battlefield-4-Wallpaper-High-Quality.jpg"/>
+		<img src="https://static.pexels.com/photos/28221/pexels-photo-28221.jpg"/>
       </div>
     )
   },
 })
+
+//Random high-quality pictures are added at the end to slow load time, easier to work with load screen
