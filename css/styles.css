@@ -1,14 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Lato:900|Open+Sans:700|Molle:400i');
+
+html {
+	background-color: red;
+}
+
 .AtRest {
 	max-width: 960;
 	padding-top: 0;
 }
 
-#BottomofPg {
-	margin-top: -20px;
-	width: 35px;
-	height: 35px;
-	background-color: blue;
+#ScrollDown {
+	margin-top: -4.6vh;
+	width: 25px;
+	height: 25px;
 	display: inline-block;
+	z-index: 2;
 }
 
 .headroom {
@@ -91,62 +97,61 @@
 	margin-left: 74%;
 	margin-top: 15px;
 }
-#About {
-	font-size: 20px;
-	color: red;
-}
 
 .HomeBack {
 	width: 100%;
-	height: 600px;
+	height: 640px;
 	z-index: -10;
 	float: left;
-	margin-top: -100px;
+	margin-top: -140px;
 }
 
 .HomeBack > img {
 	width: 100%;
-	height: 600px;
+	height: 640px;
 	z-index: 0;
 }
 
 .Welcome {
 	float: left;
-	margin-top: 40vh;
-	width: 100%;
+	margin-top: 205px;
+	width: 71.8%;
 	z-index: 0;
 	position: absolute;
+	box-shadow: none;
 }
 
-.Welcome > h1 {
-	text-align: center;
+.Welcome > pre > p {
+	margin-top: 95px;
+	margin-left: 30px;
 	color: red;
-	font-size: 30px;
-	z-index: 10;
+	font-size: 80px;
+	font-family: Abril Fatface, cursive;
+	text-shadow:  2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+	z-index: 1;
 }
 
-.Scroll {
-	float: left;
-	z-index: 0;
-	position: absolute;
-	margin-top: 23%;
-	margin-left: 42.6%;
+#pic {
+	float: right;
+	height: 600px;
+	width: 380px;
+	margin-top: -600px;
+	background-color: rgba(166,166,166,0.35);
 }
 
-.Scroll > img {
-	height: 100px;
-	width: 200px;
-	z-index: 0;
+#pic > img {
+	margin-top: 10px;
+	height: 420px;
+	width: 380px;
 }
 
-.ScrollText {
-	float: left;
-	color: yellow;
-	width: 100%;
-	text-align: center;
-	margin-top: 31.8%;
-	position: absolute;
-	z-index: 0;
+#pic > p {
+	margin-top: -30px;
+	font-size: 22px;
+	color: #6a3722;
+	text-shadow: 3px 0px 10px white;
+	font-family: Open Sans;
+	text-align: justify;
 }
 
 /* when at the top of the page */
@@ -174,16 +179,16 @@
 .Signature {
 	margin-top: 0px;
 	color: red;
-	font-size: 35px;
+	font-size: 30px;
 	text-shadow: 3px 1px 5px blue;
-	font-family: Brush Script MT, Arial;
+	font-family: Molle, Arial;
 	position: absolute;
-	margin-left: -14%;
+	margin-left: -15.5%;
 }
 
-.headroom--unpinned > div > div > div > .Signature {
+.headroom--unpinned > div > div > .Signature {
 	font-size: 25px;
-	margin-left: -13%;
+	margin-left: -14%;
 	margin-top: 20px;
 }
 
@@ -191,11 +196,53 @@
 	width: 100%;
 	height: 100vh;
 	background-color: red;
-	margin-top: 1000px;
+	margin-top: 500px;
+}
+
+.JustMe > p:first-child {
+	font-size: 45px;
+	text-align: center;
+	position: relative;
+	line-height: 250%;
 }
 
 
 
+
+
+
+#Footer {
+	background-image: url("http://wallpapercave.com/wp/JVOjf2q.jpg");
+	color: red;
+	width: 100%;
+	height: 150px;
+}
+
+#Footer > p:first-child {
+	color:white;
+}
+
+#Footer > p:nth-child(2) {
+	color:blue;
+}
+
+#Footer > p:nth-child(2) > a {
+	text-decoration: none;
+	color: white;
+}
+
+#Footer > img {
+	width: 50px;
+	height: 50px;
+}
+
+
+
+.ContactPg {
+	margin-top: -30px;
+	height: 430px;
+	background-color: yellow;
+}
 
 
 
