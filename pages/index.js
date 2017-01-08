@@ -8,6 +8,7 @@ import { config } from 'config'
 
 export default class Index extends React.Component {
 	// Change link to 'shivamdh.github.io/Personal-Website/about/' when publish to Github
+				// <img src = "http://wallpaper-gallery.net/images/technology-wallpaper/technology-wallpaper-18.jpg"/>
   render () {
     return (
       <div>
@@ -18,22 +19,25 @@ export default class Index extends React.Component {
             {"name": "keywords", "content": "sample, something"},
           ]}
         />
-		    <Link to={prefixLink('shivamdh.github.io/Personal-Website/about/')}>
+			<div id="BottomofPg">
 				<p id="About">
-					About Me Page Link
+					A
 				</p>
-			</Link>
+			</div>
 			
 			<div className = "HomeBack"> 
-				<img src = "https://wallpaper-gallery.net/images/technology-wallpaper/technology-wallpaper-18.jpg"/>
+				<img src = "/background.jpg"/>
 			</div>
 			<div className = "Welcome">
 				<h1> Welcome to my website </h1>
 			</div>
 			<div className = "Scroll">
-				<img src = "https://www.pngmart.com/files/3/Down-Arrow-PNG-Pic.png"/>
+				<img src = "http://www.pngmart.com/files/3/Down-Arrow-PNG-Pic.png"/>
 			</div>
 			<div className = "ScrollText"><h3>Scroll Down</h3></div>
+			<div className = "JustMe">
+			
+			</div>
 			<br/>
 			<br/>
 			<br/>
@@ -56,23 +60,7 @@ export default class Index extends React.Component {
 			<br/>			
 			<br/>			
 			<br/>			
-			<br/>			
-			<br/>			
-			<br/>			
-			<br/>			
-			<br/>			
-			<br/>			
-			<br/>			
-			<br/>			
-			<br/>			
-			<br/>
-			<br/>
-			<br/>
-			<br/>			
-			<br/>
-			<br/>
-			<br/>
-			<br/>
+			Hello
       </div>
     )
   }
