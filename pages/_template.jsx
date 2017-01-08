@@ -10,22 +10,6 @@ import { rhythm } from '../utils/typography'
 
 module.exports = React.createClass({
   
-  componentDidMount () {
-	  window.addEventListener('resize', () => this.forceUpdate())
-  },
-  
-  welcome() {
-	
-	var check = window.innerWidth;
-	if (check > 1200) {
-		return (
-			<div>
-			<p className="Signature">MAVIHS</p>
-			</div>
-		)
-	}
-  },
-  
   propTypes () {
     return {
       children: React.PropTypes.any,
@@ -50,28 +34,28 @@ module.exports = React.createClass({
               padding: `${rhythm(1)} ${rhythm(3/4)}`,
             }}
           >
-		  
-            <Link to={prefixLink('shivamdh.github.io/Personal-Website/')} style={{ textDecoration: 'none'}}>
+		  <div> <p className="Signature">SHIVAM</p> </div>
+            <Link to={prefixLink('/')} style={{ textDecoration: 'none'}}>
 				<p className="HomeNav">
 					Home
 				</p>
             </Link>
-			<Link to={prefixLink('shivamdh.github.io/Personal-Website/about/')} style={{ textDecoration: 'none'}}>
+			<Link to={prefixLink('/about/')} style={{ textDecoration: 'none'}}>
 				<p className="AboutMeNav">
 					About Me
 				</p>
             </Link>
-			<Link to={prefixLink('shivamdh.github.io/Personal-Website/projects/')} style={{ textDecoration: 'none'}}>
+			<Link to={prefixLink('/projects/')} style={{ textDecoration: 'none'}}>
 				<p className="ProjNav">
 					My Projects
 				</p>
 			</Link>
-			<Link to={prefixLink('shivamdh.github.io/Personal-Website/coop/')} style={{ textDecoration: 'none'}}>
+			<Link to={prefixLink('/coop/')} style={{ textDecoration: 'none'}}>
 				<p className="CoopNav">
 					Co-op
 				</p>
             </Link>
-			<Link to={prefixLink('shivamdh.github.io/Personal-Website/contact/')} style={{ textDecoration: 'none'}}>
+			<Link to={prefixLink('/contact/')} style={{ textDecoration: 'none'}}>
 				<p className="ContactNav">
 					Contact Me
 				</p>
@@ -79,6 +63,16 @@ module.exports = React.createClass({
           </Container>
         </Headroom>
 		{this.props.children}
+		<div id="Footer">
+			<p>Reach Out! </p>
+			<p> Contact me at on my <em> </em>
+				<a href = "mailto: shdh8888@yahoo.ca?Subject=Contact%20Shivam" target="top"> 
+				email </a>
+			or through <em> </em>
+				<a href = "www.github.com/ShivamDh" target="top">
+				Github </a>
+			</p>
+		</div>
       </div>
     )
   },
