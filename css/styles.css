@@ -3,26 +3,13 @@
 	padding-top: 0;
 }
 
-
-#LoadingScreen {
-	background-color: black;
-	opacity: 1;
-	z-index: 1009;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-	position: fixed;
+#BottomofPg {
+	margin-top: -20px;
+	width: 35px;
+	height: 35px;
+	background-color: blue;
+	display: inline-block;
 }
-
-#LoadingScreen > div > p {
-	color:red;
-	font-size: 50px;
-	margin-top: 270px;
-	margin-left: 30%;
-	z-index: 1010;
-	position: absolute;
-}
-
 
 .headroom {
 	background-color: black;
@@ -125,7 +112,7 @@
 
 .Welcome {
 	float: left;
-	margin-top: 20%;
+	margin-top: 40vh;
 	width: 100%;
 	z-index: 0;
 	position: absolute;
@@ -162,7 +149,6 @@
 	z-index: 0;
 }
 
-
 /* when at the top of the page */
 .headroom--unfixed {
   position: fixed;
@@ -184,6 +170,30 @@
   position: fixed;
   transform: translateY(0%);
 }
+
+.Signature {
+	margin-top: 0px;
+	color: red;
+	font-size: 35px;
+	text-shadow: 3px 1px 5px blue;
+	font-family: Brush Script MT, Arial;
+	position: absolute;
+	margin-left: -14%;
+}
+
+.headroom--unpinned > div > div > div > .Signature {
+	font-size: 25px;
+	margin-left: -13%;
+	margin-top: 20px;
+}
+
+.JustMe {
+	width: 100%;
+	height: 100vh;
+	background-color: red;
+	margin-top: 1000px;
+}
+
 
 
 
