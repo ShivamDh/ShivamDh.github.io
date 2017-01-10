@@ -34,7 +34,7 @@ module.exports = React.createClass({
               padding: `${rhythm(1)} ${rhythm(3/4)}`,
             }}
           >
-		  <div> <p className="Signature">SHIVAM</p> </div>
+		  <div> <h1 className="Signature">SHIVAM</h1> </div>
             <Link to={prefixLink('/')} style={{ textDecoration: 'none'}}>
 				<p className="HomeNav">
 					Home
