@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Lato:900|Open+Sans:700|Molle:400i|Fugaz+One');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Lato:900|Open+Sans:700|Molle:400i|Fugaz+One|Merriweather');
 
 html {
 	background-color: red;
@@ -277,12 +277,27 @@ html {
 }
 
 #Para {
-	background-color: red;
 	width: 44%;
 	margin-left: 6vh;
 	margin-top: -100px;
 	height: 560px;
 	float: left;
+}
+
+#Para > p:first-child, #Para > p:nth-child(2), #Para > p:nth-child(3) {
+	color:white;
+	font-family: Merriweather;
+}
+
+#Para > h4 {
+	font-family: Merriweather;
+	color: yellow;
+	font-size: 21px;
+}
+
+#Para > h4 > a {
+	font-family: Merriweather;
+	color: yellow;
 }
 
 #Skills{
@@ -293,6 +308,13 @@ html {
 	margin-top: -100px;
 	margin-right: 7vh;
 }
+
+#Skills > h1 {
+	text-align: center;
+	font-size: 45px;
+	color:white;
+}
+
 
 
 #Footer {
