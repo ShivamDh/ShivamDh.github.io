@@ -50,11 +50,6 @@ module.exports = React.createClass({
 					My Projects
 				</p>
 			</Link>
-			<Link to={prefixLink('/coop/')} style={{ textDecoration: 'none'}}>
-				<p className="CoopNav">
-					Co-op
-				</p>
-            </Link>
 			<Link to={prefixLink('/contact/')} style={{ textDecoration: 'none'}}>
 				<p className="ContactNav">
 					Contact Me
@@ -64,7 +59,7 @@ module.exports = React.createClass({
         </Headroom>
 		{this.props.children}
 		<div id="Footer">
-			<p>Reach Out! </p>
+			<p> Want to get in touch? Don't hesitate to contact me using my email below </p>
 			<p> Contact me at on my <em> </em>
 				<a href = "mailto: shdh8888@yahoo.ca?Subject=Contact%20Shivam" target="top"> 
 				email </a>
