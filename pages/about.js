@@ -26,7 +26,6 @@ export default class ReactComponent extends React.Component {
 				My interests and passion lie in software development, specifically implementation and testing.
 				I love to use my problem solving skills to come up with creative and unique solutions.
 			</p>
-			<br/>
 			<h4>
 				I am open to collaboration and job opportunities with my resume available  
 				<em> </em> <a href = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/Res.pdf" target="top">
@@ -52,9 +51,41 @@ export default class ReactComponent extends React.Component {
 				<p> / </p>
 				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/CSS3.png"/>
 				<p> Enhanced Web Design, Advanced Syling Techniques </p>
+				<p> HTML </p>
+				<p> CSS </p>
 			</div>
-			
+			<div id="JavaScript">
+				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/JavaScript.png"/>
+				<p> / </p>
+				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/jQuery.png"/>
+				<p> Highly Responsive and Smart Web Design </p>
+				<p> jQuery </p>
+			</div>
+			<div id="React">
+				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/React.png"/>
+				<p>  </p>
+				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/jsx.png"/>
+				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/es6.png"/>
+				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/babel.png"/>
+				<p> Intricate Client-Side Rendering Knoweledge in Static Site Generation Experience with JSX, ES6 and Babel</p>
+				<p> React.js </p>
+			</div>
+			<div id = "Other">
+				<p> Other </p>
+				<p> Tools </p>
+				<ul>
+					<li> Gatsby.js </li>
+					<li> JIRA </li>
+					<li> GDB </li>
+					<li> Node.js </li>
+					<li> Git </li>
+					<li> SPI </li>
+					<li> VHDL </li>
+					<li> Android Studio </li>
+				</ul>
+			</div>
 		</div>
+		<br/>
 		<br/>
 		<br/>
 		<br/>
