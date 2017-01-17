@@ -315,6 +315,83 @@ html {
 	color:white;
 }
 
+#Skills > div > img {
+	height: 50px;
+}
+
+#C > img:first-child {
+	margin-left: -1px;
+	width: 53px;
+	height: 53px;
+}
+
+#C > p:nth-child(2) {
+	margin-top: -78px;
+	margin-left: 45px;
+	font-size: 50px;
+	color: white;
+}
+
+#C > img:nth-child(3) {
+	margin-top: -70px;
+	margin-left: 58px;
+	font-size: 30px;
+	float: left;
+}
+
+#C > p:nth-child(4) {
+	color: white;
+	margin-top: -60px;
+	margin-left: 120px;
+}
+
+#Java > img:first-child {
+	margin-left: -110px;
+}
+
+#Java > p:nth-child(2) {
+	margin-top: 15px;
+	margin-left: -65px;
+	font-size: 50px;
+	color: white;
+	float:left;
+}
+
+#Java > img:nth-child(3) {
+	margin-left: 15px;
+	width: 45px;
+	height: 45px;
+}
+
+#Java > p:nth-child(4) {
+	color:white;
+	margin-left: 120px;
+	margin-top: -75px;
+}
+
+#Web > img:first-child {
+	margin-left: -67px;
+}
+
+#Web > p:nth-child(2) {
+	margin-top: 15px;
+	margin-left: -23px;
+	font-size: 50px;
+	color: white;
+	float:left;
+}
+
+#Web > img:nth-child(3) {
+	margin-left: 19px;
+	width: 45px;
+	height: 45px;
+}
+
+#Web > p:nth-child(4) {
+	color:white;
+	margin-left: 120px;
+	margin-top: -75px;
+}
 
 
 #Footer {
