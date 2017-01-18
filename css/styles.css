@@ -557,6 +557,91 @@ html {
 	margin-left: 113px;
 }
 
+.Contact1 {
+	/* float: left; */
+	width: 49%;
+	height: 563px;
+	background-image: linear-gradient(45deg, #ff3333, #ff4d4d);
+	margin-top: -2.5%;
+	z-index: -10;
+	display: inline-block;
+}
+
+.Contact1 > h1 {
+	color: #fafbd0;
+	text-align: center;
+	font-size: 50px;
+	margin-top: 110px;
+}
+
+.Contact1 > div:nth-child(3) {
+	color: #fafbd0;
+	font-size: 20px;
+	width: 89%;
+	margin-left: 4%;
+}
+
+.Contact1 > div:nth-child(4) {
+	color: #fafbd0;
+	font-size: 20px;
+	width: 89%;
+	margin-left: 4%;
+}
+
+.Contact2 {
+	/* float: left; */
+	margin-left: 51%;
+	width: 51%;
+	height: 563px;
+	background-image: linear-gradient(45deg, #fbfbd0, #fdfde8);
+	margin-top: -41.7%;
+	z-index: -10;
+	float: right;
+}
+
+.Contact2 > h1 {
+	color: #ff3333;
+	text-align: center;
+	font-size: 50px;
+	margin-top: 110px;
+}
+
+
+
+.Contact2 > div:nth-child(4) {
+	color: #ff3333;
+	font-size: 24px;
+	width: 65%;
+	margin-left: 15%;
+	margin-top: -75px;
+}
+
+.Contact2 > div:nth-child(5) {
+	color: #ff3333;
+	font-size: 24px;
+	width: 89%;
+	margin-left: 4%;
+	
+}
+
+#Con {
+	color: #fafbd0;
+	font-size: 73px;
+	float: left;
+	margin-top: 23px;
+	z-index: 999;
+	margin-left: 77%;
+}
+
+#tact {
+	color: #ff3333;
+	font-size: 73px;
+	float: left;
+	margin-top: 23px;
+	margin-left: 3px;
+}
+
+
 #Footer {
 	background-image: url("http://wallpapercave.com/wp/JVOjf2q.jpg");
 	color: red;
