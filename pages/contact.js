@@ -16,33 +16,38 @@ export default class ReactComponent extends React.Component {
 				<p> Feel free to contact me if you have any questions or comments that I can answer for you.
 				I will try my best to communicate back within 24 hours.  </p>
 			</div>
+			<div>
+				<p> Looking forward to hearing from you! </p>
+			</div>
 		</div>
 		<div className="Contact2"> 
 			<h2 id="tact"> tact </h2>
 			<h1> Here's my details </h1>
 			<div>
-				<a href = "mailto: shdh8888@yahoo.ca?Subject=Contact%20Shivam" target="top"> 
-					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/New_Logo_Gmail.svg/500px-New_Logo_Gmail.svg.png" />
+				<a href = "mailto: shivamdharme@gmail.ca?Subject=Contact%20Shivam" target="top"> 
+					<div>
+						<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/New_Logo_Gmail.svg/500px-New_Logo_Gmail.svg.png" />
+						<h1> Email me at shivamdharme@gmail.com </h1>
+					</div>
 				</a>
-			</div>
-			<div>
-				<p> Email me at Gmail </p>
 			</div>
 			<div>
 				<a href = "www.github.com/ShivamDh">
-					<img src="http://vectorlogofree.com/wp-content/uploads/2014/02/25231-github-cat-in-a-circle-icon-vector-icon-vector-eps.png" />
+					<div>
+						<img src="http://vectorlogofree.com/wp-content/uploads/2014/02/25231-github-cat-in-a-circle-icon-vector-icon-vector-eps.png" />
+						<h1> Visit GitHub (ShivamDh) to view my projects </h1>
+					</div>
 				</a>
-			</div>
-			<div>
-				<p> Visit GitHub (ShivamDh) to view my projects </p>
 			</div>
 			<div>
 				<a href = "https://www.linkedin.com/in/shivam-dharme-358895130">
-					<img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" />
+					<div>
+						<img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" />
+						<h1> Connect with me on LinkedIn! </h1>
+					</div>
 				</a>
 			</div>
 			<div>
-				<p> Connect with me on LinkedIn! </p>
 			</div>
 		</div>
       </div>
