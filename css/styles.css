@@ -557,6 +557,92 @@ html {
 	margin-left: 113px;
 }
 
+.Projects {
+	background: -webkit-linear-gradient(to bottom, #000428 , #004380); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #000428 , #004380); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+	width: 100%;
+	height: 1000px;
+	margin-top: -30px;
+}
+
+.Projects > h1 {
+	margin-top: 12px;
+	margin-left: 26.5%;
+	color: white;
+	float: left;
+}
+
+.Projects > div:nth-child(2) {
+	/* background-color: yellow; */
+	margin-top: 55px;
+	display:inline-block;
+	width: 100%;
+	height: 350px;
+}
+
+.Projects > div:nth-child(2) > img {
+	width: 470px;
+	height: 275px;
+	margin-left: 35px;
+	margin-top: 23px;
+}
+
+.Projects > div:nth-child(2) > h2 {
+	color: white;
+	margin-left: 520px;
+	margin-top: -315px;
+	font-size: 50px;
+}
+
+.Projects > div:nth-child(2) > div > p {
+	width: 60%;
+	margin-left: 38.5%;
+	margin-top: -15px;
+	color: white;
+	font-size: 20px;
+	line-height: 125%;
+}
+
+.Projects > div:nth-child(2) > div > p:nth-child(5) {
+	font-size: 26px;
+}
+
+.Projects > div:nth-child(3) {
+	/* background-color: yellow; */
+	margin-top: -5px;
+	display:inline-block;
+	width: 100%;
+	height: 350px;
+}
+
+.Projects > div:nth-child(3) > img {
+	width: 470px;
+	height: 275px;
+	margin-left: 35px;
+	margin-top: 23px;
+}
+
+.Projects > div:nth-child(3) > h2 {
+	color: white;
+	margin-left: 520px;
+	margin-top: -315px;
+	font-size: 50px;
+}
+
+.Projects > div:nth-child(3) > div > p {
+	width: 60%;
+	margin-left: 38.5%;
+	margin-top: -15px;
+	color: white;
+	font-size: 20px;
+	line-height: 160%;
+}
+
+.Projects > div:nth-child(3) > div > p:nth-child(4) {
+	font-size: 26px;
+}
+
+
 .Contact1 {
 	/* float: left; */
 	width: 49%;
@@ -633,10 +719,10 @@ html {
 }
 
 .Contact2 > div:nth-child(3) > a > div > img {
-	width: 65px;
-	height: 43px;
-	margin-top: 10px;
-	margin-left: 28px;
+	width: 120px;
+	height: 80px;
+	margin-top: -5px;
+	margin-left: 1px;
 }
 
 .Contact2 > div:nth-child(3) > a > div > h1 {
@@ -645,7 +731,7 @@ html {
 	font-size: 24px;
 	width: 75%;
 	margin-left: 15%;
-	margin-top: -80px;
+	margin-top: -100px;
 }
 
 .Contact2 > div:nth-child(4) {
