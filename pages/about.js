@@ -6,11 +6,11 @@ export default class ReactComponent extends React.Component {
     return (
       <div>
         <div id = "Background">
-			<img src = "http://kingofwallpapers.com/black-abstract-wallpaper/black-abstract-wallpaper-018.jpg"/>
+			<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/wallpaper.jpg"/>
 		</div>
 		<h3 id = "AboutPg"> MEET SHIVAM DHARME </h3>
 		<div id = "Myself">
-			<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/44245.png"/>
+			<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/44245.png"/>
 		</div>
 		<br/> <br/><br/> <br/> <br/> <br/>
 		<div id = "break"> </div>
@@ -35,38 +35,38 @@ export default class ReactComponent extends React.Component {
 		<div id = "Skills">
 			<h1> Toolbox </h1>
 			<div id = "C">
-				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/C.png"/>
+				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/C.png"/>
 				<p> / </p>
-				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/C++.png"/>
+				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/C++.png"/>
 				<p> Experienced OOP, Linked List, File I/O </p>
 			</div>
 			<div id="Java">
-				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/Java.png"/>
+				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/Java.png"/>
 				<p> / </p>
-				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/Android.png"/>
+				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/Android.png"/>
 				<p> App Development, Finite State Machine</p>
 			</div>
 			<div id="Web">
-				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/HTML5.png"/>
+				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/HTML5.png"/>
 				<p> / </p>
-				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/CSS3.png"/>
+				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/CSS3.png"/>
 				<p> Enhanced Web Design, Advanced Syling Techniques </p>
 				<p> HTML </p>
 				<p> CSS </p>
 			</div>
 			<div id="JavaScript">
-				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/JavaScript.png"/>
+				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/JavaScript.png"/>
 				<p> / </p>
-				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/jQuery.png"/>
+				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/jQuery.png"/>
 				<p> Highly Responsive and Smart Web Design </p>
 				<p> jQuery </p>
 			</div>
 			<div id="React">
-				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/React.png"/>
+				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/React.png"/>
 				<p>  </p>
-				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/jsx.png"/>
-				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/es6.png"/>
-				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/babel.png"/>
+				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/jsx.png"/>
+				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/es6.png"/>
+				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/babel.png"/>
 				<p> Intricate Client-Side Rendering Knoweledge in Static Site Generation Experience with JSX, ES6 and Babel</p>
 				<p> React.js </p>
 			</div>
