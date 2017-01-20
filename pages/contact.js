@@ -26,7 +26,7 @@ export default class ReactComponent extends React.Component {
 			<div>
 				<a href = "mailto: shivamdharme@gmail.ca?Subject=Contact%20Shivam" target="top"> 
 					<div>
-						<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/New_Logo_Gmail.svg/500px-New_Logo_Gmail.svg.png" />
+						<img src="https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/Mail.png" />
 						<h1> Email me at shivamdharme@gmail.com </h1>
 					</div>
 				</a>
@@ -34,7 +34,7 @@ export default class ReactComponent extends React.Component {
 			<div>
 				<a href = "www.github.com/ShivamDh">
 					<div>
-						<img src="http://vectorlogofree.com/wp-content/uploads/2014/02/25231-github-cat-in-a-circle-icon-vector-icon-vector-eps.png" />
+						<img src="https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/GitHub.png" />
 						<h1> Visit GitHub (ShivamDh) to view my projects </h1>
 					</div>
 				</a>
@@ -42,7 +42,7 @@ export default class ReactComponent extends React.Component {
 			<div>
 				<a href = "https://www.linkedin.com/in/shivam-dharme-358895130">
 					<div>
-						<img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" />
+						<img src="https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/LinkedIn.png" />
 						<h1> Connect with me on LinkedIn! </h1>
 					</div>
 				</a>
