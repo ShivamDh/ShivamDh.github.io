@@ -8,7 +8,6 @@ import { config } from 'config'
 
 export default class Index extends React.Component {
 	// Change link to 'shivamdh.github.io/Personal-Website/about/' when publish to Github
-				// <img src = "http://wallpaper-gallery.net/images/technology-wallpaper/technology-wallpaper-18.jpg"/>
   
   render () {
     return (
@@ -21,11 +20,11 @@ export default class Index extends React.Component {
           ]}
         />
 			<div id="ScrollDown">
-				<a href="#next"> <img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/down_arrow.png" /> </a>
+				
 			</div>
 			
 			<div className = "HomeBack"> 
-				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/background.jpg"/>
+				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/background.jpg"/>
 			</div>
 			<div className = "Welcome">
 				<pre className="tab">
@@ -33,40 +32,31 @@ export default class Index extends React.Component {
 				</pre>
 			</div>
 			<div id="pic">
-				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/4426.jpg"/>
+				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/4426.jpg"/>
 				<p> The will to win, the desire to succeed, the urge to reach your full potential ... these are the keys that will unlock the door to personal excellence.
 				- Confucius </p>
 			</div>
 			
-			<a name = "next"> </a>
 			<div className = "JustMe">
-				<p> Hardworking. Inquisitive. Motivated.</p>
-				<p> Hello </p>
-				<p> Hello </p>
+				<div id = "Who">
+					<h1> WHO I AM </h1>
+				</div>
+				<p> I am a problem-solver who is passionate about writing effective code and gaining new experiences along the way.
+				I like to come up with innovative and exceptional solutions to obstacles at hand and deliver excellence at every turn.</p>
+				<div> </div> 
+				<div> </div> 
 			</div>
-			<br/>
-			<br/>
-			<br/>
-			<br/>
-			<br/>
-			<br/>
-			<br/>
-			<br/>
-			<br/>
-			<br/>
-			<br/>
-			<br/>			
-			<br/>
-			<br/>
-			<br/>
-			<br/>			
-			<br/>			
-			<br/>			
-			<br/>			
-			<br/>			
-			<br/>			
-			<br/>			
-      </div>
+			<div className = "JustMe2">
+				<div id = "Who">
+					<h1> WHAT I DO </h1>
+				</div>
+				<p> I am skilled in both front-end and back-end development. I have experience in website 
+				development, mobile development as well as object-oriented programs. I also have limited 
+				knowledge of embedded systems programming as well as IDE and version control familiarity.</p>
+				<div> </div> 
+				<div> </div> 
+			</div>
+		</div>
     )
   }
 }
