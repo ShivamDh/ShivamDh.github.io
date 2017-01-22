@@ -22,7 +22,7 @@ export default class ReactComponent extends React.Component {
 		</div>
 		<div className="Contact2"> 
 			<h2 id="tact"> tact </h2>
-			<h1> Here's my details </h1>
+			<h1> Here are my details </h1>
 			<div>
 				<a href = "mailto: shivamdharme@gmail.ca?Subject=Contact%20Shivam" target="top"> 
 					<div>
