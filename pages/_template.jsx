@@ -59,17 +59,35 @@ module.exports = React.createClass({
         </Headroom>
 		{this.props.children}
 		<div id="Footer">
-			<p> Want to get in touch? Don't hesitate to contact me using my email below </p>
-			<p> Contact me at on my <em> </em>
-				<a href = "mailto: shdh8888@yahoo.ca?Subject=Contact%20Shivam" target="top"> 
-				email </a>
-			or through <em> </em>
-				<a href = "www.github.com/ShivamDh" target="top">
-				Github </a>
-			</p>
+			<div>
+				<img src="https://www.seek.com.au/Content/Images/Icons/Email_new.png" />
+			</div>
+			<div>
+				<img src="http://image.flaticon.com/icons/svg/34/34227.svg" />
+			</div>
+			<div>
+				<img src="http://orig03.deviantart.net/6873/f/2013/031/c/d/github_by_ovilia1024-d5teqdd.png" />
+			</div>
+			<div id = "Navigations"> 
+				<p> HOME </p>
+				<p> | </p>
+				<p> ABOUT </p>
+				<p> | </p>
+				<p> PROJECTS </p>
+				<p> | </p>
+				<p> CONTACT</p>
+			</div>
 		</div>
       </div>
     )
   },
 })
 //Random high-quality pictures are added at the end to slow load time, easier to work with load screen
+// <p> Connect with me! Don't hesitate to contact me if you have a question for me or just want to talk! </p>
+			// <p> Contact me at on my <em> </em>
+				// <a href = "mailto: shdh8888@yahoo.ca?Subject=Contact%20Shivam" target="top"> 
+				// email </a>
+			// or through <em> </em>
+				// <a href = "www.github.com/ShivamDh" target="top">
+				// Github </a>
+			// </p>
