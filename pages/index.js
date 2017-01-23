@@ -51,8 +51,8 @@ export default class Index extends React.Component {
 					<h1> WHAT I DO </h1>
 				</div>
 				<p> I am skilled in both front-end and back-end development. I have experience in website 
-				development, mobile development as well as object-oriented programs. I also have limited 
-				knowledge of embedded systems programming as well as IDE and version control familiarity.</p>
+				development, mobile development as well as object-oriented programs. I also have some 
+				knowledge of embedded systems programming in addition to familiarity with IDEs and version control.</p>
 				<div> </div> 
 				<div> </div> 
 			</div>
