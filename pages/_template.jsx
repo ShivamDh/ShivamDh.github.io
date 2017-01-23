@@ -59,24 +59,48 @@ module.exports = React.createClass({
         </Headroom>
 		{this.props.children}
 		<div id="Footer">
-			<div>
-				<img src="https://www.seek.com.au/Content/Images/Icons/Email_new.png" />
-			</div>
-			<div>
-				<img src="http://image.flaticon.com/icons/svg/34/34227.svg" />
-			</div>
-			<div>
-				<img src="http://orig03.deviantart.net/6873/f/2013/031/c/d/github_by_ovilia1024-d5teqdd.png" />
-			</div>
+			<a href = "mailto: shivamdharme@gmail.ca?Subject=Contact%20Shivam" target="top"> 
+				<div>
+					<img src="https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/FooterEmail.jpg" />
+				</div>
+			</a>
+			<a href = "https://www.linkedin.com/in/shivam-dharme-358895130">
+				<div>
+					<img src="https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/FooterLinkedIn.svg" />
+				</div>
+			</a>
+			<a href = "www.github.com/ShivamDh">
+				<div>
+					<img src="https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/FooterGithub.jpg" />
+				</div>
+			</a>
 			<div id = "Navigations"> 
-				<p> HOME </p>
-				<p> | </p>
-				<p> ABOUT </p>
-				<p> | </p>
-				<p> PROJECTS </p>
-				<p> | </p>
-				<p> CONTACT</p>
+				<Link to={prefixLink('/')} style={{ textDecoration: 'none'}}>
+					<p id="FooterHome">
+						HOME
+					</p>
+				</Link>
+				<div> </div>
+				<Link to={prefixLink('/about/')} style={{ textDecoration: 'none'}}>
+					<p id="FooterAbout">
+						ABOUT
+					</p>
+				</Link>
+				<div> </div>
+				<Link to={prefixLink('/project/')} style={{ textDecoration: 'none'}}>
+					<p id="FooterProject">
+						PROJECTS
+					</p>
+				</Link>
+				<div> </div>
+				<Link to={prefixLink('/contact/')} style={{ textDecoration: 'none'}}>
+					<p id="FooterContact">
+						CONTACT
+					</p>
+				</Link>
 			</div>
+			<p> © 2017 SHIVAM DHARME ALL RIGHTS RESERVED </p>
+			<div> </div>
 		</div>
       </div>
     )

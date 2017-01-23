@@ -980,25 +980,128 @@ html {
 	background-image: url("http://wallpapercave.com/wp/JVOjf2q.jpg");
 	color: red;
 	width: 100%;
-	height: 150px;
+	height: 211px;
 }
 
-#Footer > p:first-child {
-	color:white;
+#Footer > a:first-child > div {
+	background-color: white;
+	width: 70px;
+	height: 70px;
+	border-radius: 14px;
+	margin-left: 6%;
+	float: left;
+	margin-top: 4.5%;
 }
 
-#Footer > p:nth-child(2) {
-	color:blue;
+#Footer > a:first-child > div > img {
+	width: 55px;
+	height: 55px;
+	margin-left: 7px;
+	margin-top: -1px;
 }
 
-#Footer > p:nth-child(2) > a {
-	text-decoration: none;
+#Footer > a:nth-child(2) > div {
+	background-color: white;
+	width: 70px;
+	height: 70px;
+	border-radius: 14px;
+	margin-left: 5%;
+	float: left;
+	margin-top: 1.5%;
+}
+
+#Footer > a:nth-child(2) > div > img {
+	width: 50px;
+	height: 50px;
+	margin-left: 10px;
+	margin-top: 8px;
+}
+
+#Footer > a:nth-child(3) > div {
+	background-color: white;
+	width: 70px;
+	height: 70px;
+	border-radius: 14px;
+	margin-left: 5%;
+	float: left;
+	margin-top: 4.5%;
+}
+
+#Footer > a:nth-child(3) > div > img {
+	width: 55px;
+	height: 55px;
+	margin-left: 7px;
+	margin-top: 7px;
+}
+
+#Navigations {
+	/* background-color: yellow; */
+	display: inline-block;
+	margin-left: 8%;
+	margin-top: 1%;
+	font-family: Montserrat;
+	font-stretch: 2px;
 	color: white;
 }
 
-#Footer > img {
-	width: 50px;
-	height: 50px;
+#FooterHome {
+	color: white;
+	font-size: 32px;
+}
+
+#Navigations > div:nth-child(2) {
+	background-color: white;
+	width: 5px;
+	height: 70px;
+	float:left;
+	margin-left: 129px;
+	margin-top: -60px;
+}
+
+#FooterAbout {
+	color: white;
+	font-size: 32px;
+	margin-left: 160px;
+	margin-top: -22px;
+}
+
+#Navigations > div:nth-child(4) {
+	background-color: white;
+	width: 5px;
+	height: 70px;
+	float:left;
+	margin-left: 299px;
+	margin-top: -60px;
+}
+
+#FooterProject {
+	color:white;
+	font-size: 32px;
+	margin-left: 335px;
+	margin-top: -22px;
+}
+
+#Navigations > div:nth-child(6) {
+	background-color: white;
+	width: 5px;
+	height: 70px;
+	float:left;
+	margin-left: 532px;
+	margin-top: -60px;
+}
+
+#FooterContact {
+	color:white;
+	font-size: 32px;
+	margin-left: 565px;
+	margin-top: -22px;
+}
+
+#Footer > p:nth-child(5) {
+	display: inline;
+	color:white;
+	font-size: 20px;
+	margin-left: 400px;
 }
 
 
