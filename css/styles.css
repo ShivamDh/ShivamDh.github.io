@@ -679,15 +679,15 @@ html {
 
 .Projects > div:nth-child(2) > img {
 	width: 470px;
-	height: 275px;
+	height: 235px;
 	margin-left: 35px;
-	margin-top: 11px;
+	margin-top: 1px;
 }
 
 .Projects > div:nth-child(2) > h2 {
 	color: white;
 	margin-left: 520px;
-	margin-top: -305px;
+	margin-top: -275px;
 	font-size: 50px;
 }
 
@@ -704,24 +704,35 @@ html {
 	font-size: 26px;
 }
 
+.Projects > div:nth-child(2) > div > div:nth-child(6) {
+	margin-left: 165px;
+	margin-top: -60px;
+	font-size: 17.5px;
+}
+
+.Projects > div:nth-child(2) > div > div:nth-child(6) > a {
+	text-decoration: underline;
+	color: white;
+}
+
 .Projects > div:nth-child(3) {
-	margin-top: 5px;
+	margin-top: -25px;
 	display:inline-block;
 	width: 100%;
 	height: 350px;
 }
 
 .Projects > div:nth-child(3) > img {
-	width: 470px;
-	height: 275px;
-	margin-left: 35px;
+	width: 355px;
+	height: 355px;
+	margin-left: 85px;
 	margin-top: 23px;
 }
 
 .Projects > div:nth-child(3) > h2 {
 	color: white;
 	margin-left: 520px;
-	margin-top: -295px;
+	margin-top: -375px;
 	font-size: 50px;
 }
 
@@ -742,24 +753,35 @@ html {
 	font-size: 17px;
 }
 
+.Projects > div:nth-child(3) > div > div:nth-child(5) {
+	margin-left: 140px;
+	margin-top: -40px;
+	font-size: 17.5px;
+}
+
+.Projects > div:nth-child(3) > div > div:nth-child(5) > a {
+	text-decoration: underline;
+	color: white;
+}
+
 .Projects > div:nth-child(4) {
-	margin-top: -5px;
+	margin-top: 65px;
 	display:inline-block;
 	width: 100%;
 	height: 350px;
 }
 
 .Projects > div:nth-child(4) > img {
-	width: 470px;
-	height: 275px;
+	width: 440px;
+	height: 230px;
 	margin-left: 35px;
-	margin-top: 23px;
+	margin-top: 13px;
 }
 
 .Projects > div:nth-child(4) > h2 {
 	color: white;
 	margin-left: 520px;
-	margin-top: -315px;
+	margin-top: -270px;
 	font-size: 50px;
 }
 
@@ -776,6 +798,17 @@ html {
 	font-size: 26px;
 }
 
+.Projects > div:nth-child(4) > div > div:nth-child(5) {
+	margin-left: 135px;
+	margin-top: -70px;
+	font-size: 17.5px;
+}
+
+.Projects > div:nth-child(4) > div > div:nth-child(5) > a {
+	text-decoration: underline;
+	color: white;
+}
+
 .Projects > div:nth-child(5) {
 	margin-top: -5px;
 	display:inline-block;
@@ -784,16 +817,25 @@ html {
 }
 
 .Projects > div:nth-child(5) > img {
-	width: 470px;
-	height: 275px;
+	float: left;
+	z-index: -999;
+	width: 430px;
+	height: 235px;
 	margin-left: 35px;
 	margin-top: 23px;
+	margin-bottom: 0;
+}
+
+.Projects > div:nth-child(5) {
+	float: left;
+	z-index: -100;
+	margin-top: 10px;
 }
 
 .Projects > div:nth-child(5) > h2 {
 	color: white;
 	margin-left: 520px;
-	margin-top: -315px;
+	margin-top: 15px;
 	font-size: 50px;
 }
 
@@ -808,6 +850,72 @@ html {
 
 .Projects > div:nth-child(5) > div > p:nth-child(4) {
 	font-size: 26px;
+}
+
+.Projects > div:nth-child(5) > div:nth-child(5) {
+	float: left;
+	margin-left: 115px;
+	margin-top: -60px;
+	font-size: 17.5px;
+}
+
+.Projects > div:nth-child(5) > div:nth-child(5) >  a {
+	text-decoration: underline;
+	color: white;
+}
+
+.Projects > div:nth-child(5) > div:nth-child(2) {
+	float: left;
+	z-index: +999;
+	margin-top: 49px;
+	margin-left: -410px;
+	width: 180px;
+	opacity: 0.8;
+}
+
+.Projects > div:nth-child(6) {
+	margin-top: 65px;
+	display:inline-block;
+	width: 100%;
+	height: 350px;
+}
+
+.Projects > div:nth-child(6) > img {
+	width: 280px;
+	height: 280px;
+	margin-left: 95px;
+	margin-top: -53px;
+}
+
+.Projects > div:nth-child(6) > h2 {
+	color: white;
+	margin-left: 520px;
+	margin-top: -320px;
+	font-size: 50px;
+}
+
+.Projects > div:nth-child(6) > div > p {
+	width: 60%;
+	margin-left: 38.5%;
+	margin-top: -15px;
+	color: white;
+	font-size: 20px;
+	line-height: 190%;
+}
+
+.Projects > div:nth-child(6) > div > p:nth-child(5) {
+	font-size: 26px;
+}
+
+.Projects > div:nth-child(6) > div > div:nth-child(6) {
+	margin-left: 110px;
+	margin-top: -62px;
+	font-size: 17.5px;
+}
+
+.Projects > div:nth-child(6) > div > div:nth-child(6) > a {
+	text-decoration: underline;
+	color: white;
 }
 
 
