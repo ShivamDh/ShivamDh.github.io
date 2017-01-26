@@ -4,10 +4,7 @@ import { prefixLink } from 'gatsby-helpers'
 import Helmet from 'react-helmet'
 import { config } from 'config'
 
-// 20, 18, 1
-
 export default class Index extends React.Component {
-	// Change link to 'shivamdh.github.io/Personal-Website/about/' when publish to Github
   
   render () {
     return (
@@ -60,5 +57,3 @@ export default class Index extends React.Component {
     )
   }
 }
-
-//Many breakpoints introduced to see scrolling effect more clearly
