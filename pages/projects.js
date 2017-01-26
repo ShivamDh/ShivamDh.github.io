@@ -7,7 +7,7 @@ export default class ReactComponent extends React.Component {
       <div className="Projects">
         <h1> My Collection of Side Projects </h1>
 		<div>
-			<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/Website.png" />
+			<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/MyWebsite.png" />
 			<h2> Personal Website </h2>
 			<div>
 				<p> - This website was made to showcase my portfolio and online profile</p>
@@ -15,6 +15,11 @@ export default class ReactComponent extends React.Component {
 				<p> - Utilizes CSS3 and HTML5 through ECMAScript 6 (ES6) as well as jQuery module </p>
 				<p> - Combines multiple React modules such as React Headroom and React Router </p>
 				<p> Used: JavaScript (React.js, Gatsby.js), Node, jQuery, HTML, CSS  </p>
+				<div>
+					<a href="www.github.com/ShivamDh/Personal-Website" >
+						<p> <em> Click to visit source code </em></p>
+					</a>
+				</div>
 			</div>
 		</div>
 		<div>
@@ -26,6 +31,11 @@ export default class ReactComponent extends React.Component {
 				<p> Used: C Language, GDB Debugger  </p>
 				<p> <em> Note: There is an Android version of this game under development, one which would be
 				controlled through hand gestures rather than the regular touch screen </em> </p>
+				<div>
+					<a href="www.github.com/ShivamDh/Side-Projects" >
+						<p> <em> Click to visit the source code </em></p>
+					</a>
+				</div>
 			</div>
 		</div>
 		<div>
@@ -36,10 +46,18 @@ export default class ReactComponent extends React.Component {
 				<p> - Calculates molar mass of any valid element or compound to four decimal places. </p>
 				<p> - Incorporates jump case algorithm and recursion for any subscript usage in elements or compounds </p>
 				<p> Used: C Language </p>
+				<div>
+					<a href="www.github.com/ShivamDh/Side-Projects" >
+						<p> <em> Click to visit the source code </em></p>
+					</a>
+				</div>
 			</div>
 		</div>
 		<div>
-			<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/PeriodicTable.png" />
+			<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/HockeyStats1.jpg" />
+			<div> 
+				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/HockeyStats2.png" />
+			</div>
 			<h2> Hockey Statistics Manager </h2>
 			<div>
 				<p> - A hockey data organizer that combines linked list storage and arrangement to provide a flexible statistics calculator and data manager </p>
@@ -47,8 +65,28 @@ export default class ReactComponent extends React.Component {
 				<p> - Utilizes output stream to produce a csv file, arranged to user parameters </p>
 				<p> Used: C Language and GDB Debugger </p>
 			</div>
+			<div id ="h">
+					<a href="www.github.com/ShivamDh/Side-Projects" >
+						<p> <em> Click to visit the source code </em></p>
+					</a>
+			</div>
 		</div>
-		
+		<div>
+			<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/SnakeGame.png" />
+			<h2> Snake Game </h2>
+			<div>
+				<p> - A fun command prompt game written in C++ language </p>
+				<p> - Written using object-oriented design and modularized code for reproducibility </p>
+				<p> - Incorporates vector class usage for data storage of snake coordinates </p>
+				<p> - Allows for a user-defined interface and gameplay to be setup </p>
+				<p> Used: C++ Language, GDB Debugger</p>
+				<div>
+					<a href="www.github.com/ShivamDh/Side-Projects" >
+						<p> <em> Click to visit the source code </em></p>
+					</a>
+				</div>
+			</div>
+		</div>
 		
       </div>
     )
