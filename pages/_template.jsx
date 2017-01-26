@@ -16,11 +16,6 @@ module.exports = React.createClass({
     }
   },
   
-	// Change link to 'shivamdh.github.io/Personal-Website/' when publish to Github
-	// Change link to 'shivamdh.github.io/Personal-Website/about/' when publish to Github
-	// Change link to 'shivamdh.github.io/Personal-Website/projects/' when publish to Github
-	// Change link to 'shivamdh.github.io/Personal-Website/coop/' when publish to Github
-	// Change link to 'shivamdh.github.io/Personal-Website/contact/' when publish to Github
   render () {
     return (
 	<div>
@@ -35,22 +30,22 @@ module.exports = React.createClass({
             }}
           >
 		  <div> <h1 className="Signature">SHIVAM</h1> </div>
-            <Link to={prefixLink('/')} style={{ textDecoration: 'none'}}>
+            <Link to={prefixLink('shivamdh.github.io/Personal-Website/')} style={{ textDecoration: 'none'}}>
 				<p className="HomeNav">
 					Home
 				</p>
             </Link>
-			<Link to={prefixLink('/about/')} style={{ textDecoration: 'none'}}>
+			<Link to={prefixLink('shivamdh.github.io/Personal-Website/about/')} style={{ textDecoration: 'none'}}>
 				<p className="AboutMeNav">
 					About Me
 				</p>
             </Link>
-			<Link to={prefixLink('/projects/')} style={{ textDecoration: 'none'}}>
+			<Link to={prefixLink('shivamdh.github.io/Personal-Website/projects/')} style={{ textDecoration: 'none'}}>
 				<p className="ProjNav">
 					My Projects
 				</p>
 			</Link>
-			<Link to={prefixLink('/contact/')} style={{ textDecoration: 'none'}}>
+			<Link to={prefixLink('shivamdh.github.io/Personal-Website/contact/')} style={{ textDecoration: 'none'}}>
 				<p className="ContactNav">
 					Contact Me
 				</p>
@@ -61,39 +56,39 @@ module.exports = React.createClass({
 		<div id="Footer">
 			<a href = "mailto: shivamdharme@gmail.ca?Subject=Contact%20Shivam" target="top"> 
 				<div>
-					<img src="https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/FooterEmail.jpg" />
+					<img src="https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/FooterEmail.png" />
 				</div>
 			</a>
 			<a href = "https://www.linkedin.com/in/shivam-dharme-358895130">
 				<div>
-					<img src="https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/FooterLinkedIn.svg" />
+					<img src="https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/FooterLinkedIn.jpg" />
 				</div>
 			</a>
-			<a href = "www.github.com/ShivamDh">
+			<a href = "https://www.github.com/ShivamDh">
 				<div>
-					<img src="https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/FooterGithub.jpg" />
+					<img src="https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/FooterGithub.png" />
 				</div>
 			</a>
 			<div id = "Navigations"> 
-				<Link to={prefixLink('/')} style={{ textDecoration: 'none'}}>
+				<Link to={prefixLink('shivamdh.github.io/Personal-Website/')} style={{ textDecoration: 'none'}}>
 					<p id="FooterHome">
 						HOME
 					</p>
 				</Link>
 				<div> </div>
-				<Link to={prefixLink('/about/')} style={{ textDecoration: 'none'}}>
+				<Link to={prefixLink('shivamdh.github.io/Personal-Website/about/')} style={{ textDecoration: 'none'}}>
 					<p id="FooterAbout">
 						ABOUT
 					</p>
 				</Link>
 				<div> </div>
-				<Link to={prefixLink('/project/')} style={{ textDecoration: 'none'}}>
+				<Link to={prefixLink('shivamdh.github.io/Personal-Website/project/')} style={{ textDecoration: 'none'}}>
 					<p id="FooterProject">
 						PROJECTS
 					</p>
 				</Link>
 				<div> </div>
-				<Link to={prefixLink('/contact/')} style={{ textDecoration: 'none'}}>
+				<Link to={prefixLink('shivamdh.github.io/Personal-Website/contact/')} style={{ textDecoration: 'none'}}>
 					<p id="FooterContact">
 						CONTACT
 					</p>
@@ -106,12 +101,3 @@ module.exports = React.createClass({
     )
   },
 })
-//Random high-quality pictures are added at the end to slow load time, easier to work with load screen
-// <p> Connect with me! Don't hesitate to contact me if you have a question for me or just want to talk! </p>
-			// <p> Contact me at on my <em> </em>
-				// <a href = "mailto: shdh8888@yahoo.ca?Subject=Contact%20Shivam" target="top"> 
-				// email </a>
-			// or through <em> </em>
-				// <a href = "www.github.com/ShivamDh" target="top">
-				// Github </a>
-			// </p>
