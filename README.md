@@ -3,6 +3,8 @@
 Have a look at my website using the url: https://shivamdh.github.io/Personal-Website/
 or click [here](https://shivamdh.github.io/Personal-Website/)
 
+**Optimal** Viewing Resolution: 1366x768
+
 The *master* branch contains all the code for the webpage, orgnaized and easy to read.
 
 The *gh-pages* branch contains Gatsby.js published code that will be difficult to follow.
