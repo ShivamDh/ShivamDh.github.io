@@ -1,7 +1,10 @@
 import React from 'react'
 
 export default class ReactComponent extends React.Component {
-
+  componentDidMount() {
+    document.title = "Contact Shivam";
+  }
+  
   render () {
     return (
       <div>
