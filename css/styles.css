@@ -5,7 +5,7 @@ html {
 }
 
 .AtRest {
-	max-width: 960;
+	max-width: 100vh;
 	padding-top: 0;
 }
 
@@ -136,6 +136,19 @@ html {
 	text-shadow: 3px 0px 10px white;
 	font-family: Open Sans;
 	text-align: justify;
+}
+
+/* Mozilla Support */
+@-moz-document url-prefix() {
+	.HomeBack > img {
+		height: 660px;
+	}
+	#pic > img {
+		height: 440px;
+	}
+	#pic {
+		height: 620px;
+	}
 }
 
 /* when at the top of the page */
@@ -459,6 +472,13 @@ html {
 	margin-top: -75px;
 }
 
+/* Mozilla Support  */
+@-moz-document url-prefix() {
+	#Java > img:first-child {
+		margin-left: -2px;
+	}
+}
+
 #Web > img:first-child {
 	margin-left: -67px;
 	margin-top: 5px;
@@ -475,7 +495,7 @@ html {
 }
 
 #Web > img:nth-child(3) {
-	margin-left: 19px;
+	margin-left: 23px;
 	width: 44px;
 	height: 46px;
 }
@@ -498,8 +518,21 @@ html {
 	color:white;
 	font-size: 10px;
 	margin-top: -90px;
-	margin-right: 503px;
+	margin-right: 500px;
 	float:right;
+}
+
+/* Mozilla Support  */
+@-moz-document url-prefix() {
+	#Web > img:first-child {
+		margin-left: -64px;
+	}
+	#Web > p:nth-child(2) {
+		margin-left: 42px;
+	}
+	#Web > p:nth-child(6) {
+		margin-right: 498px;
+	}
 }
 
 #JavaScript > img:first-child {
@@ -535,6 +568,17 @@ html {
 	margin-top: -83px;
 	margin-right: 490px;
 }
+
+/* Mozilla Support */
+@-moz-document url-prefix() {
+	#JavaScript > img:first-child {
+		margin-left: -94px;
+	}
+	#JavaScript > p:nth-child(2) {
+		margin-left: 42px;
+	}
+}
+
 #React > img:first-child {
 	float: left;
 	margin-left: -5px;
@@ -585,6 +629,16 @@ html {
 	margin-top: -59px;
 	margin-right: 532px;
 	float:right;
+}
+
+/* Mozilla Support */
+@-moz-document url-prefix() {
+	#React > img:first-child {
+		margin-left: -65px;
+	}
+	#React> p:nth-child(7) {
+		margin-top: -47px;
+	}
 }
 
 #Other > p:first-child {
@@ -654,6 +708,14 @@ html {
 	/* margin-top: 40px; */
 	margin-left: 113px;
 }
+
+/* Mozilla Support */
+@-moz-document url-prefix() {
+	#Other> ul > li:nth-child(7){
+		margin-left: 135px;
+	}
+}
+
 
 .Projects {
 	background: -webkit-linear-gradient(to bottom, #000428 , #004380); /* Chrome 10-25, Safari 5.1-6 */
@@ -1091,6 +1153,13 @@ html {
 	height: 211px;
 }
 
+/* Mozilla Support */
+@-moz-document url-prefix() {
+	#Footer { 
+		height: 215px;
+	}
+}
+
 #Footer > a:first-child > div {
 	background-color: white;
 	width: 70px;
@@ -1152,6 +1221,10 @@ html {
 	color: white;
 }
 
+#HomeLink {
+	width: 120px;
+}
+
 #FooterHome {
 	color: white;
 	font-size: 32px;
@@ -1166,11 +1239,16 @@ html {
 	margin-top: -60px;
 }
 
+#AboutLink {
+	width: 130px;
+	margin-left: 158px;
+}
+
 #FooterAbout {
 	color: white;
 	font-size: 32px;
-	margin-left: 160px;
 	margin-top: -22px;
+	width: 130px;
 }
 
 #Navigations > div:nth-child(4) {
@@ -1182,10 +1260,14 @@ html {
 	margin-top: -60px;
 }
 
+#ProjectLink {
+	margin-left: 335px;
+	width: 190px;
+}
+
 #FooterProject {
 	color:white;
 	font-size: 32px;
-	margin-left: 335px;
 	margin-top: -22px;
 }
 
@@ -1198,10 +1280,14 @@ html {
 	margin-top: -60px;
 }
 
+#ContactLink {
+	margin-left: 560px;
+	width: 180px;
+}
+
 #FooterContact {
 	color:white;
 	font-size: 32px;
-	margin-left: 565px;
 	margin-top: -22px;
 }
 
