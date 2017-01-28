@@ -1,14 +1,13 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 
 export default class ReactComponent extends React.Component {
-  componentDidMount() {
-    document.title = "Contact Shivam";
-  }
   
   render () {
     return (
       <div>
-        <div className="Contact1"> 
+		<Helmet title = "Contact Shivam" />
+		<div className="Contact1"> 
 			<h2 id="Con"> Con </h2>
 			<h1> Looking to get in touch? </h1>
 			<div>

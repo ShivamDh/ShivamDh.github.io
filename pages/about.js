@@ -1,14 +1,13 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 
 export default class ReactComponent extends React.Component {
-	componentDidMount() {
-    document.title = "About Shivam";
-  }
 
   render () {
     return (
       <div>
-        <div id = "Background">
+		<Helmet title = "About Shivam" />
+		<div id = "Background">
 			<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/wallpaper.jpg"/>
 		</div>
 		<h3 id = "AboutPg"> MEET SHIVAM DHARME </h3>
