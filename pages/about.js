@@ -1,6 +1,9 @@
 import React from 'react'
 
 export default class ReactComponent extends React.Component {
+	componentDidMount() {
+    document.title = "About Shivam";
+  }
 
   render () {
     return (
@@ -68,16 +71,16 @@ export default class ReactComponent extends React.Component {
 				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/es6.png"/>
 				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/babel.png"/>
 				<p> Intricate Client-Side Rendering Knoweledge in Static Site Generation Experience with JSX, ES6 and Babel</p>
-				<p> React.js </p>
+				<p> ReactJS </p>
 			</div>
 			<div id = "Other">
 				<p> Other </p>
 				<p> Tools </p>
 				<ul>
-					<li> Gatsby.js </li>
+					<li> GatsbyJS </li>
 					<li> JIRA </li>
 					<li> GDB </li>
-					<li> Node.js </li>
+					<li> NodeJS </li>
 					<li> Git </li>
 					<li> SPI </li>
 					<li> VHDL </li>
