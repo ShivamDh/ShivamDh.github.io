@@ -21,7 +21,7 @@ export default class ReactComponent extends React.Component {
 				I am currently studying Computer Engineering and looking for my first co-op job for the Spring term of 2017.
 			</p>
 			<p> While studying here, I have also been a part of the University of Waterloo Midnight Sun Solar Car
-				Team as well as complete a few side projects on my own time. Feel free to go to the Projects tab 
+				Team as well as completed a few side projects on my own time and at hackathons. Feel free to go to the Projects tab 
 				to view any of the projects displayed.
 			</p>
 			<p>
