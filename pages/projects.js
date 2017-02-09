@@ -33,7 +33,7 @@ export default class ReactComponent extends React.Component {
 				<p> - Images are sent onto a server run by AWS (Amazon Web Services) that receives image urls and then 
 				transforms them into images upto 10% of the original size</p>
 				<p> - Images are found and repacled dynamically with no change in webpage view </p>
-				<p> Used: C Language, GDB Debugger  </p>
+				<p> Used: HTML, CSS, JavaScript (Node.js), Amazon Web Services </p>
 				<div>
 					<a href="www.github.com/ShivamDh/Side-Projects" >
 						<p> <em> Click to visit the source code </em></p>
