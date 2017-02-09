@@ -25,6 +25,23 @@ export default class ReactComponent extends React.Component {
 			</div>
 		</div>
 		<div>
+			<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/Extension.png" />
+			<h2> QuikPic </h2>
+			<div>
+				<p> - A Chrome extension that allows for faster load times and less internet bandwidth need
+				by dynamically reducing image size and resolution on webpage</p>
+				<p> - Images are sent onto a server run by AWS (Amazon Web Services) that receives image urls and then 
+				transforms them into images upto 10% of the original size</p>
+				<p> - Images are found and repacled dynamically with no change in webpage view </p>
+				<p> Used: C Language, GDB Debugger  </p>
+				<div>
+					<a href="www.github.com/ShivamDh/Side-Projects" >
+						<p> <em> Click to visit the source code </em></p>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div>
 			<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/2048Game.png" />
 			<h2> 2048 Game </h2>
 			<div>
@@ -89,7 +106,6 @@ export default class ReactComponent extends React.Component {
 				</div>
 			</div>
 		</div>
-		
       </div>
     )
   }
