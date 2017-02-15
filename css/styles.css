@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Lato:900|Open+Sans:700|Molle:400i|Fugaz+One|Merriweather|Playfair+Display:900|Raleway:700');
 
-html {
-	/* background-color: red; */
-}
-
 .AtRest {
 	max-width: 960;
 	padding-top: 0;
@@ -173,23 +169,23 @@ html {
   color: #fff;
     letter-spacing: .05em;
     text-shadow: 
-      0.25px -0.5px 0 rgba(255, 255, 255), 
-      -0.25px 0.5px 0 rgba(46, 46, 46), 
-      -0.5px 1px 0 rgba(45, 45, 45), 
-      -0.75px 1.5px 0 rgba(44, 44, 44), 
-      -1px 2px 0 rgba(43, 43, 43), 
-      -1.25px 2.5px 0 rgba(42, 42, 42), 
-      -1.5px 3px 0 rgba(41, 41, 41), 
-      -1.75px 3.5px 0 rgba(40, 40, 40), 
-      -2px 4px 0 rgba(39, 39, 39), 
-      -2.25px 4.5px 0 rgba(38, 38, 38), 
-      -2.5px 5px 0 rgba(37, 37, 37), 
-      -2.75px 5.5px 0 rgba(36, 36, 36), 
-      -3px 6px 0 rgba(35, 35, 35), 
-      -3.25px 6.5px 0 rgba(34, 34, 34), 
-      -3.5px 7px 0 rgba(33, 33, 33), 
-      -3.75px 7.5px 0 rgba(32, 32, 32), 
-      -5.5px 11px 15px rgba(0, 0, 0, 0.9);
+      0.25px -0.5px 0 rgba(150, 150, 150), 
+      -0.25px 0.5px 0 rgba(130, 130, 130), 
+      -0.5px 1px 0 rgba(125, 125, 125), 
+      -0.75px 1.5px 0 rgba(120, 120, 120), 
+      -1px 2px 0 rgba(115, 115, 115), 
+      -1.25px 2.5px 0 rgba(110, 110, 110), 
+      -1.5px 3px 0 rgba(105, 105, 105), 
+      -1.75px 3.5px 0 rgba(100, 100, 100), 
+      -2px 4px 0 rgba(95, 95, 95), 
+      -2.25px 4.5px 0 rgba(90, 90, 90), 
+      -2.5px 5px 0 rgba(85, 85, 85), 
+      -2.75px 5.5px 0 rgba(80, 80, 80), 
+      -3px 6px 0 rgba(75, 75, 75), 
+      -3.25px 6.5px 0 rgba(70, 70, 70), 
+      -3.5px 7px 0 rgba(60, 60, 60), 
+      -3.75px 7.5px 0 rgba(55, 55, 55), 
+      -5.5px 11px 15px rgba(50, 50, 50, 0.9);
 }
 
 .headroom--unpinned > div > div > .Signature {
@@ -199,7 +195,7 @@ html {
 }
 
 .JustMe {
-	width: 100%;
+	width: 98.73vw;
 	height: 350px;
 	background-color: #34495e;
 	margin-top: 500px;
@@ -208,15 +204,15 @@ html {
 .JustMe > div:first-child{
 	border: 5px solid #d4d4d4;
 	border-radius: 55px;
-	width:40%;
-	margin-left: 30%;
+	width:40vw;
+	margin-left: 30vw;
 	margin-top: 35px;
 	display: inline-block;
 	background-color: rgba(0, 0, 0, 0.6);
 }
 
 .JustMe > div:first-child > h1 {
-	font-size: 75px;
+	font-size: 6.15vw;
 	text-align: center;
 	position: relative;
 	font-family: Playfair Display;
@@ -225,10 +221,10 @@ html {
 }
 
 .JustMe > p:nth-child(2) {
-	width: 95%;
+	width: 95vw;
 	margin-top: 50px;
-	margin-left: 2.5%;
-	font-size: 25px;
+	margin-left: 2.5vw;
+	font-size: 1.83vw;
 	font-family: Raleway;
 	color: #d4d4d4;
 	text-align: center;
@@ -237,25 +233,25 @@ html {
 .JustMe > div:nth-child(3) {
 	background-color: #d4d4d4;
 	border-radius: 25px;
-	width: 370px;
+	width: 27vw;
 	height: 10px;
 	float:left;
-	margin-left: 15px;
+	margin-left: 1.1vw;
 	margin-top: -220px;
 }
 
 .JustMe > div:nth-child(4) {
 	background-color: #d4d4d4;
 	border-radius: 25px;
-	width: 370px;
+	width: 27vw;
 	height: 10px;
 	float:left;
-	margin-left: 965px;
+	margin-left: 70.6vw;
 	margin-top: -220px;
 }
 
 .JustMe2 {
-	width: 100%;
+	width: 98.73vw;
 	height: 350px;
 	background-color: #d4d4d4;
 }
@@ -263,8 +259,8 @@ html {
 .JustMe2 > div:first-child{
 	border: 5px solid #34495e;
 	border-radius: 55px;
-	width:40%;
-	margin-left: 30%;
+	width:40vw;
+	margin-left: 30vw;
 	margin-top: 32px;
 	display: inline-block;
 	background-color: rgba(255, 255, 255, 0.6);
@@ -272,7 +268,7 @@ html {
 }
 
 .JustMe2 > div:first-child > h1 {
-	font-size: 75px;
+	font-size: 6.15vw;
 	text-align: center;
 	position: relative;
 	font-family: Playfair Display;
@@ -281,10 +277,10 @@ html {
 }
 
 .JustMe2 > p:nth-child(2) {
-	width: 95%;
+	width: 95vw;
 	margin-top: 50px;
-	margin-left: 2.5%;
-	font-size: 25px;
+	margin-left: 2.5vw;
+	font-size: 1.83vw;
 	font-family: Raleway;
 	color: #34495e;
 	text-align: center;
@@ -293,20 +289,20 @@ html {
 .JustMe2 > div:nth-child(3) {
 	background-color: #34495e;
 	border-radius: 55px;
-	width: 370px;
+	width: 27vw;
 	height: 10px;
 	float:left;
-	margin-left: 15px;
+	margin-left: 1.1vw;
 	margin-top: -220px;
 }
 
 .JustMe2 > div:nth-child(4) {
 	background-color: #34495e;
 	border-radius: 55px;
-	width: 370px;
+	width: 27vw;
 	height: 10px;
 	float:left;
-	margin-left: 965px;
+	margin-left: 70.6vw;
 	margin-top: -220px;
 }
 
@@ -1231,8 +1227,8 @@ html {
 #Footer {
 	background-image: url("http://wallpapercave.com/wp/JVOjf2q.jpg");
 	color: red;
-	width: 100%;
-	height: 211px;
+	width: 98.73vw;
+	height: 215px;
 }
 
 /* Mozilla Support */
@@ -1250,140 +1246,189 @@ html {
 
 #Footer > a:first-child > div {
 	background-color: white;
-	width: 70px;
-	height: 70px;
-	border-radius: 14px;
-	margin-left: 6%;
+	width: 5.1vw;
+	height: 5.1vw;
+	border-radius: 1vw;
+	margin-left: 6vw;
 	float: left;
 	margin-top: 4.5%;
 }
 
+#Footer > a:first-child > div :hover {
+	transform: scale(1.1) rotate(5deg);
+}
+
 #Footer > a:first-child > div > img {
-	width: 55px;
-	height: 55px;
-	margin-left: 7px;
+	width: 4vw;
+	height: 4vw;
+	margin-left: 0.51vw;
 	margin-top: -1px;
 }
 
 #Footer > a:nth-child(2) > div {
 	background-color: white;
-	width: 70px;
-	height: 70px;
-	border-radius: 14px;
-	margin-left: 5%;
+	width: 5.1vw;
+	height: 5.1vw;
+	border-radius: 1vw;
+	margin-left: 5vw;
 	float: left;
 	margin-top: 1.5%;
 }
 
+#Footer > a:nth-child(2) > div :hover {
+	transform: scale(1.1) rotate(5deg);
+}
+
 #Footer > a:nth-child(2) > div > img {
-	width: 50px;
-	height: 50px;
-	margin-left: 10px;
+	width: 3.66vw;
+	height: 3.66vw;
+	margin-left: 0.732vw;
 	margin-top: 8px;
 }
 
 #Footer > a:nth-child(3) > div {
 	background-color: white;
-	width: 70px;
-	height: 70px;
-	border-radius: 14px;
-	margin-left: 5%;
+	width: 5.1vw;
+	height: 5.1vw;
+	border-radius: 1vw;
+	margin-left: 5vw;
 	float: left;
 	margin-top: 4.5%;
 }
 
+#Footer > a:nth-child(3) > div :hover {
+	transform: scale(1.1) rotate(5deg);
+}
+
 #Footer > a:nth-child(3) > div > img {
-	width: 55px;
-	height: 55px;
-	margin-left: 7px;
+	width: 4vw;
+	height: 4vw;
+	margin-left: 0.512vw;
 	margin-top: 7px;
 }
 
 #Navigations {
-	/* background-color: yellow; */
 	display: inline-block;
-	margin-left: 8%;
+	width: 55vw;
+	margin-left: 8vw;
 	margin-top: 1%;
 	font-family: Montserrat;
 	font-stretch: 2px;
 	color: white;
+	height: 172px;
+	padding-left: 0px;
 }
 
 #HomeLink {
-	width: 120px;
+	width: 8.3vw;
+}
+
+#FooterHome:hover {
+	background-color: #360dc6;
 }
 
 #FooterHome {
 	color: white;
-	font-size: 32px;
+	font-size: 2.3vw;
+	padding-left: 0.366vw;
+	padding-top: 0.366vw;
+	padding-bottom: 0.366vw;
+	border-radius: 0.73vw;
 }
 
 #Navigations > div:nth-child(2) {
 	background-color: white;
-	width: 5px;
+	width: 0.366vw;
 	height: 70px;
 	float:left;
-	margin-left: 129px;
+	margin-left: 9.44vw;
 	margin-top: -60px;
 }
 
 #AboutLink {
-	width: 130px;
-	margin-left: 158px;
+	width: 9.3vw;
+	margin-left: 11.4vw;
+}
+
+#FooterAbout:hover {
+	background-color: #360dc6;
 }
 
 #FooterAbout {
 	color: white;
-	font-size: 32px;
-	margin-top: -22px;
-	width: 130px;
+	font-size: 2.3vw;
+	margin-top: -27px;
+	width: 9.3vw;
+	padding-left: 0.366vw;
+	padding-top: 0.366vw;
+	padding-bottom: 0.366vw;
+	border-radius: 0.73vw;
 }
 
 #Navigations > div:nth-child(4) {
 	background-color: white;
-	width: 5px;
+	width: 0.366vw;
 	height: 70px;
 	float:left;
-	margin-left: 299px;
+	margin-left: 21.88vw;
 	margin-top: -60px;
 }
 
 #ProjectLink {
-	margin-left: 335px;
-	width: 190px;
+	margin-left: 24.1vw;
+	width: 13.9vw;
+}
+
+#FooterProject:hover {
+	background-color: #360dc6;
 }
 
 #FooterProject {
 	color:white;
-	font-size: 32px;
-	margin-top: -22px;
+	font-size: 2.3vw;
+	margin-top: -23px;
+	width: 13.1vw;
+	padding-left: 0.366vw;
+	padding-top: 0.366vw;
+	padding-bottom: 0.366vw;
+	border-radius: 0.73vw;
 }
 
 #Navigations > div:nth-child(6) {
 	background-color: white;
-	width: 5px;
+	width: 0.366vw;
 	height: 70px;
 	float:left;
-	margin-left: 532px;
+	margin-left: 38.94vw;
 	margin-top: -60px;
 }
 
 #ContactLink {
-	margin-left: 560px;
-	width: 180px;
+	margin-left: 41vw;
+	width: 13.17vw;
+}
+
+#FooterContact:hover {
+	background-color: #360dc6;
 }
 
 #FooterContact {
 	color:white;
-	font-size: 32px;
-	margin-top: -22px;
+	font-size: 2.35vw;
+	margin-top: -23px;
+	width: 12.3vw;
+	padding-left: 0.366vw;
+	padding-top: 0.366vw;
+	padding-bottom: 0.366vw;
+	border-radius: 0.73vw;
 }
 
 #Footer > p:nth-child(5) {
 	display: inline;
 	color:white;
-	font-size: 20px;
-	margin-left: 400px;
+	font-size: 1.46vw;
+	margin-left: 29.3vw;
+	margin-top: -25px;
 }
 
 
