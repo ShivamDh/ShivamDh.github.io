@@ -233,10 +233,10 @@
 .JustMe > div:nth-child(3) {
 	background-color: #d4d4d4;
 	border-radius: 25px;
-	width: 27vw;
+	width: 27.9vw;
 	height: 10px;
 	float:left;
-	margin-left: 1.1vw;
+	margin-left: 1.4vw;
 	margin-top: -220px;
 }
 
@@ -289,10 +289,10 @@
 .JustMe2 > div:nth-child(3) {
 	background-color: #34495e;
 	border-radius: 55px;
-	width: 27vw;
+	width: 27.9vw;
 	height: 10px;
 	float:left;
-	margin-left: 1.1vw;
+	margin-left: 1.4vw;
 	margin-top: -220px;
 }
 
@@ -798,6 +798,12 @@
 	color: white;
 }
 
+.Projects > div:nth-child(2) > div > div:nth-child(6) :hover {
+	font-size: 20px;
+	color:#f4b35d;
+	text-decoration:none;
+}
+
 .Projects > div:nth-child(3) {
 	margin-top: -25px;
 	display:inline-block;
@@ -841,6 +847,12 @@
 .Projects > div:nth-child(3) > div > div:nth-child(5) > a {
 	text-decoration: underline;
 	color: white;
+}
+
+.Projects > div:nth-child(3) > div > div:nth-child(5) :hover {
+	font-size: 20px;
+	color:#e22d2d;
+	text-decoration:none;
 }
 
 .Projects > div:nth-child(4) {
@@ -892,6 +904,12 @@
 	color: white;
 }
 
+.Projects > div:nth-child(4) > div > div:nth-child(5) :hover {
+	font-size: 19.5px;
+	color:#420072;
+	text-decoration:none;
+}
+
 .Projects > div:nth-child(5) {
 	margin-top: 85px;
 	display:inline-block;
@@ -935,6 +953,12 @@
 .Projects > div:nth-child(5) > div > div:nth-child(5) > a {
 	text-decoration: underline;
 	color: white;
+}
+
+.Projects > div:nth-child(5) > div > div:nth-child(5) :hover {
+	font-size: 19.5px;
+	color:#1ee817;
+	text-decoration:none;
 }
 
 .Projects > div:nth-child(6) {
@@ -992,6 +1016,12 @@
 	color: white;
 }
 
+.Projects > div:nth-child(6) > div:nth-child(5) :hover {
+	font-size: 19.5px;
+	color:#171628;
+	text-decoration:none;
+}
+
 .Projects > div:nth-child(6) > div:nth-child(2) {
 	float: left;
 	z-index: +999;
@@ -1044,6 +1074,12 @@
 .Projects > div:nth-child(7) > div > div:nth-child(6) > a {
 	text-decoration: underline;
 	color: white;
+}
+
+.Projects > div:nth-child(7) > div > div:nth-child(6) :hover {
+	font-size: 19.5px;
+	color:#e29c9c;
+	text-decoration:none;
 }
 
 
