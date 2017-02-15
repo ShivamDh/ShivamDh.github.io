@@ -195,7 +195,7 @@
 }
 
 .JustMe {
-	width: 98.73vw;
+	width: 100%;
 	height: 350px;
 	background-color: #34495e;
 	margin-top: 500px;
@@ -221,7 +221,7 @@
 }
 
 .JustMe > p:nth-child(2) {
-	width: 95vw;
+	width: 94vw;
 	margin-top: 50px;
 	margin-left: 2.5vw;
 	font-size: 1.83vw;
@@ -243,7 +243,7 @@
 .JustMe > div:nth-child(4) {
 	background-color: #d4d4d4;
 	border-radius: 25px;
-	width: 27vw;
+	width: 26vw;
 	height: 10px;
 	float:left;
 	margin-left: 70.6vw;
@@ -251,7 +251,7 @@
 }
 
 .JustMe2 {
-	width: 98.73vw;
+	width: 100%;
 	height: 350px;
 	background-color: #d4d4d4;
 }
@@ -277,7 +277,7 @@
 }
 
 .JustMe2 > p:nth-child(2) {
-	width: 95vw;
+	width: 94vw;
 	margin-top: 50px;
 	margin-left: 2.5vw;
 	font-size: 1.83vw;
@@ -299,7 +299,7 @@
 .JustMe2 > div:nth-child(4) {
 	background-color: #34495e;
 	border-radius: 55px;
-	width: 27vw;
+	width: 26vw;
 	height: 10px;
 	float:left;
 	margin-left: 70.6vw;
@@ -1227,7 +1227,7 @@
 #Footer {
 	background-image: url("http://wallpapercave.com/wp/JVOjf2q.jpg");
 	color: red;
-	width: 98.73vw;
+	width: 100%;
 	height: 215px;
 }
 
