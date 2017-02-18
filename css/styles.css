@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Lato:900|Open+Sans:700|Molle:400i|Fugaz+One|Merriweather|Playfair+Display:900|Raleway:700');
 
 .AtRest {
-	max-width: 960;
+	max-width: 100vw;
 	padding-top: 0;
 }
 
 #ScrollDown {
 	margin-top: -4.6vh;
-	width: 25px;
+	width: 1.83vw;
 	height: 25px;
 	display: inline-block;
 }
@@ -20,61 +20,61 @@
 
 .HomeNav {
 	margin-top: -5px;
-	font-size: 25px;
+	font-size: 1.83vw;
 	position: absolute;
-	margin-left: 2%;
+	margin-left: calc(120px - 0.5vw);
 	color: white;
 	text-shadow: 3px 1px 5px blue;
 }
 
 .headroom--unpinned > div > a > .HomeNav {
-	font-size: 18px;
-	margin-left: 3%;
+	font-size: 1.31vw;
+	margin-left: calc(130px - 0.5vw);
 	margin-top: 15px;
 }
 
 .AboutMeNav {
 	margin-top: -5px;
-	font-size: 25px;
+	font-size: 1.83vw;
 	position: absolute;
-	margin-left: 19%;
+	margin-left: calc(102px + 18vw);
 	text-shadow: 3px 1px 5px orange;
 	color: white;
 }
 
 .headroom--unpinned > div > a > .AboutMeNav {
-	font-size: 18px;
-	margin-left: 20%;
+	font-size: 1.31vw;
+	margin-left: calc(112px + 18vw);
 	margin-top: 15px;
 }
 
 .ProjNav {
 	margin-top: -5px;
-	font-size: 25px;
-	margin-left: 39%;
+	font-size: 1.83vw;
+	margin-left: calc(71px + 42vw);
 	position: absolute;
 	text-shadow: 3px 1px 5px red;
 	color: white;
 }
 
 .headroom--unpinned > div > a > .ProjNav {
-	font-size: 18px;
-	margin-left: 41%;
+	font-size: 1.31vw;
+	margin-left: calc(81px + 42vw);
 	margin-top: 15px;
 }
 
 .ContactNav {
 	margin-top: -5px;
 	color: white;
-	font-size: 25px;
+	font-size: 1.83vw;
 	text-shadow: 3px 1px 5px yellow;
 	position: absolute;
-	margin-left: 63%
+	margin-left: calc(43px + 65.9vw);
 }
 
 .headroom--unpinned > div > a > .ContactNav {
-	font-size: 18px;
-	margin-left: 64%;
+	font-size: 1.31vw;
+	margin-left: calc(53px + 65.9vw);
 	margin-top: 15px;
 }
 
@@ -95,7 +95,7 @@
 .Welcome {
 	float: left;
 	margin-top: 205px;
-	width: 71.8%;
+	width: 71.8vw;
 	z-index: 0;
 	position: absolute;
 	box-shadow: none;
@@ -103,9 +103,9 @@
 
 .Welcome > pre > p {
 	margin-top: 95px;
-	margin-left: 30px;
+	margin-left: 2.2vw;
 	color: red;
-	font-size: 80px;
+	font-size: 5.85vw;
 	font-family: Abril Fatface, cursive;
 	text-shadow:  2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
 	z-index: 1;
@@ -113,25 +113,27 @@
 
 #pic {
 	float: right;
-	height: 620px;
-	width: 380px;
+	height: 45.4vw;
+	width: 27.8vw;
 	margin-top: -600px;
 	background-color: rgba(166,166,166,0.35);
 }
 
 #pic > img {
 	margin-top: 10px;
-	height: 410px;
-	width: 380px;
+	height: 30vw;
+	width: 27.8vw;
 }
 
 #pic > p {
-	margin-top: -30px;
-	font-size: 22px;
+	margin-top: calc(-37px + 0.12vw);
+	font-size: 1.581vw;
+	width: 92%;
 	color: #6a3722;
 	text-shadow: 3px 0px 10px white;
 	font-family: Open Sans;
 	text-align: justify;
+	line-height:1.5;
 }
 
 /* when at the top of the page */
@@ -157,41 +159,40 @@
 }
 
 .Signature {
-	margin-top: -15px;
-	margin-left: -15.5%;
+	margin-top: -13px;
+	margin-left: calc(52px - 16.5%);
 	position: absolute;
-
 	
-  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-  font-size: 40px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #fff;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	font-size: calc(17px + 2.2vw);
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
     letter-spacing: .05em;
     text-shadow: 
-      0.25px -0.5px 0 rgba(150, 150, 150), 
-      -0.25px 0.5px 0 rgba(130, 130, 130), 
-      -0.5px 1px 0 rgba(125, 125, 125), 
-      -0.75px 1.5px 0 rgba(120, 120, 120), 
-      -1px 2px 0 rgba(115, 115, 115), 
-      -1.25px 2.5px 0 rgba(110, 110, 110), 
-      -1.5px 3px 0 rgba(105, 105, 105), 
-      -1.75px 3.5px 0 rgba(100, 100, 100), 
-      -2px 4px 0 rgba(95, 95, 95), 
-      -2.25px 4.5px 0 rgba(90, 90, 90), 
-      -2.5px 5px 0 rgba(85, 85, 85), 
-      -2.75px 5.5px 0 rgba(80, 80, 80), 
-      -3px 6px 0 rgba(75, 75, 75), 
-      -3.25px 6.5px 0 rgba(70, 70, 70), 
-      -3.5px 7px 0 rgba(60, 60, 60), 
-      -3.75px 7.5px 0 rgba(55, 55, 55), 
-      -5.5px 11px 15px rgba(50, 50, 50, 0.9);
+      0.02vw -0.04vw 0 rgba(150, 150, 150), 
+      -0.02vw 0.04vw 0 rgba(130, 130, 130), 
+      -0.04vw 0.08vw 0 rgba(125, 125, 125), 
+      -0.06vw 0.12vw 0 rgba(120, 120, 120), 
+      -0.08vw 0.16vw 0 rgba(115, 115, 115), 
+      -0.1vw 0.20vw 0 rgba(110, 110, 110), 
+      -0.12vw 0.24vw 0 rgba(105, 105, 105), 
+      -0.14vw 0.28vw 0 rgba(100, 100, 100), 
+      -0.16vw 0.32vw 0 rgba(95, 95, 95), 
+      -0.18vw 0.36vw 0 rgba(90, 90, 90), 
+      -0.2vw 0.40vw 0 rgba(85, 85, 85), 
+      -0.22vw 0.44vw 0 rgba(80, 80, 80), 
+      -0.24vw 0.48vw 0 rgba(75, 75, 75), 
+      -0.26vw 0.52vw 0 rgba(70, 70, 70), 
+      -0.28vw 0.56vw 0 rgba(60, 60, 60), 
+      -0.3vw 0.6vw 0 rgba(55, 55, 55), 
+      -0.45vw 1vw 1vw rgba(50, 50, 50, 0.9);
 }
 
 .headroom--unpinned > div > div > .Signature {
 	font-size: 25px;
-	margin-left: -14%;
-	margin-top: 10px;
+	margin-left: calc(52px - 14%);
+	margin-top: 8px;
 }
 
 .JustMe {
@@ -320,29 +321,29 @@
 
 #AboutPg {
 	color: white;
-	font-size: 60px;
+	font-size: 4.4vw;
 	text-align: center;
 	padding-left: 100px;
 	position: relative;
 	line-height: 0%;
-	margin-top: -790px;
+	margin-top: calc(9px - 58.23vw);
 	font-family: Fugaz One;
-	letter-spacing: 8px;
+	letter-spacing: 0.585vw;
 }
 
 #Myself {
-	width: 300px;
-	height: 220px;
+	width: 21.96vw;
+	height: 16.1vw;
 	/* background-color: yellow; */
-	margin-left: 40px;
-	margin-top: -113px;
+	margin-left: 2.92vw;
+	margin-top: calc(-75px - 2.8vw);
 	position: absolute;
 	float: left;
 }
 
 #Myself > img {
-	width: 212px;
-	height: 160px;
+	width: 15.52vw;
+	height: 11.71vw;
 }
 
 #break {
@@ -351,7 +352,7 @@
 	width: 100%;
 	height: 4px;
 	background-color: white;
-	margin-top: -128px;
+	margin-top: calc(8.9vw - 249px);
 }
 
 #Para {
@@ -1261,7 +1262,7 @@
 
 
 #Footer {
-	background-image: url("http://wallpapercave.com/wp/JVOjf2q.jpg");
+	background-image: url("https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/Footer.jpg");
 	color: red;
 	width: 100%;
 	height: 215px;
