@@ -31,7 +31,7 @@ export default class Index extends React.Component {
 			<div id="pic">
 				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/4426.jpg"/>
 				<p> The will to win, the desire to succeed, the urge to reach your full potential ... these are the keys that will unlock the door to personal excellence.
-				- Confucius </p>
+				 - Confucius </p>
 			</div>
 			
 			<div className = "JustMe">

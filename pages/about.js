@@ -87,23 +87,7 @@ export default class ReactComponent extends React.Component {
 				</ul>
 			</div>
 		</div>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
+		<div id="space"> </div>
       </div>
     )
   }
