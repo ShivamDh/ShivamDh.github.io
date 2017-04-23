@@ -42,6 +42,37 @@ export default class ReactComponent extends React.Component {
 			</div>
 		</div>
 		<div>
+			<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/Hangr.PNG" />
+			<h2> Hangr </h2>
+			<div>
+				<p> - An Internet of Things (IoT) project for a "smart closet" that helps users select clothes
+					to wear according to user preferences and clothing matches</p>
+				<p> - User inputs data through photos, visual recognition stores key info and when asked, the 
+					application gives the best suited pair of clothes to wear</p>
+				<p> - Created through IBM's Watson technology with the application running on a web server
+					that connects to Watson through Node-RED software</p>
+				<p> Used: IBM Watson, Node-RED, HTML, CSS, JavaScript</p>
+				<div>
+					<a href="https://github.com/ShivamDh/HackPrincetonS17" >
+						<p> <em> Click to visit the source code </em></p>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div>
+			<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/2048App.PNG" />
+			<h2> 2048 Android App </h2>
+			<div>
+				<p> - An Android version of the once-popular 2048 game that uses hardware sensors such as accelerometer
+					readings to control gameplay and user feed</p>
+				<p> - A low-pass filter is used to accurately measure a user's game selection through motion controls and 
+					a finite state machine implementation for the game</p>
+				<p> - Full OOP implementation allowing for future expansion of custom made blocks as well as user selections
+					regarding which type of gestures to use</p>
+				<p> Used: Java, Android Studio </p>
+			</div>
+		</div>
+		<div>
 			<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/Extension.png" />
 			<h2> QuikPic </h2>
 			<div>
@@ -60,13 +91,12 @@ export default class ReactComponent extends React.Component {
 		</div>
 		<div>
 			<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/2048Game.png" />
-			<h2> 2048 Game </h2>
+			<h2> 2048 Game (Command Line) </h2>
 			<div>
 				<p> - A fun command line game created through C language and GDB testing </p>
 				<p> - Runs simple data structure algorithms for game operation and smooth state transitions </p>
 				<p> Used: C Language, GDB Debugger  </p>
-				<p> <em> Note: There is an Android version of this game under development, one which would be
-				controlled through hand gestures rather than the regular touch screen </em> </p>
+				<p> <em> Note: A newer Andriod version of this game was created, scroll up to see this newer project</em> </p>
 				<div>
 					<a href="www.github.com/ShivamDh/Side-Projects" >
 						<p> <em> Click to visit the source code </em></p>
