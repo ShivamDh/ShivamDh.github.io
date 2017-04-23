@@ -28,7 +28,7 @@ export default class ReactComponent extends React.Component {
 			<div>
 				<a href = "mailto: shivamdharme@gmail.ca?Subject=Contact%20Shivam" target="top"> 
 					<div>
-						<img src="https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/Mail.png" />
+						<img src="https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/MailBW.png" />
 						<h1> Email me at shivamdharme@gmail.com </h1>
 					</div>
 				</a>
@@ -44,7 +44,7 @@ export default class ReactComponent extends React.Component {
 			<div>
 				<a href = "https://www.linkedin.com/in/shivam-dharme-358895130">
 					<div>
-						<img src="https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/LinkedIn.png" />
+						<img src="https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/LinkedInBW.jpg" />
 						<h1> Connect with me on LinkedIn! </h1>
 					</div>
 				</a>
