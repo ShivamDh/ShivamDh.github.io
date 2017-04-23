@@ -25,6 +25,23 @@ export default class ReactComponent extends React.Component {
 			</div>
 		</div>
 		<div>
+			<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/Fitness60.PNG" />
+			<h2> Fitness60 </h2>
+			<div>
+				<p> - An Android app that users can use to record and store their workout and fitness data, which users can 
+					later analyze and see their growth and accomplishments</p>
+				<p> - The project is a multipage application that includes an options menu, new workout tabs and a chance to 
+					view old workouts and activities</p>
+				<p> - Android SQLite stores workout data and SharedPreferences records user options </p>
+				<p> Used: Java, Android Studio, Android SQLite </p>
+				<div>
+					<a href="https://github.com/ShivamDh/Fitness60" >
+						<p> <em> Click to visit the source code </em></p>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div>
 			<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/Extension.png" />
 			<h2> QuikPic </h2>
 			<div>
