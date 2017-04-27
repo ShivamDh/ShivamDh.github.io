@@ -84,6 +84,10 @@ export default class ReactComponent extends React.Component {
 					<li> SPI </li>
 					<li> VHDL </li>
 					<li> Android Studio </li>
+					<li> Python </li>
+					<li> Android SQLite </li>
+					<li> IBM Watson </li>
+					<li> Node-RED </li>
 				</ul>
 			</div>
 		</div>

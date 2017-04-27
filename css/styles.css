@@ -448,7 +448,7 @@
 }
 
 #space {
-	height: 500px;
+	height: 550px;
 }
 
 #Myself {
@@ -799,7 +799,7 @@
 	font-family: Playfair Display;
 	float:left;
 	color: white;
-	margin-top: 1.1vw;
+	margin-top: 3.1vw;
 	margin-left: -0.29vw;
 	text-align: left;
 }
@@ -808,7 +808,7 @@
 	float:left;
 	font-size: 2.56vw;
 	font-family: Playfair Display;
-	margin-top: 3.66vw;
+	margin-top: 5.66vw;
 	margin-left: -6.88vw;	
 	color: white
 }
@@ -822,6 +822,7 @@
 	float: left;
 	font-size: 1.8vw;
 	font-family: Raleway;
+	line-height: 90%;
 }
 
 #Other > ul > li:first-child {
@@ -853,12 +854,28 @@
 
 #Other > ul > li:nth-child(7){
 	/* margin-top: 40px; */
-	margin-left: 5.34vw;
+	margin-left: 5.14vw;
 }
 
 #Other > ul > li:nth-child(8){
 	/* margin-top: 40px; */
-	margin-left: 8.33vw;
+	margin-left: 8.31vw;
+}
+
+#Other > ul > li:nth-child(9) {
+	margin-left: 5.4vw;
+}
+
+#Other > ul > li:nth-child(10) {
+	margin-left: 7.08vw;
+}
+
+#Other > ul > li:nth-child(11) {
+	margin-left: 9.76vw;
+}
+
+#Other > ul > li:nth-child(12) {
+	margin-left: 2.9vw;
 }
 
 /* Mozilla Support */
