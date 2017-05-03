@@ -17,16 +17,16 @@ export default class ReactComponent extends React.Component {
 		<br/> <br/><br/> <br/> <br/> <br/>
 		<div id = "break"> </div>
 		<div id = "Para">
-			<p> My name is Shivam Dharme and I'm a first year university student at the University of Waterloo.
-				I am currently studying Computer Engineering and looking for my first co-op job for the Spring term of 2017.
+			<p> My name is Shivam Dharme and I'm a second year university student at the University of Waterloo.
+				I am currently studying Computer Engineering and completing my first co-op job at Evertz Microsystems.
 			</p>
-			<p> While studying here, I have also been a part of the University of Waterloo Midnight Sun Solar Car
-				Team as well as completed a few side projects on my own time and at hackathons. Feel free to go to the Projects tab 
-				to view any of the projects displayed.
+			<p> While studying at Waterloo, I have also been a part of the University of Waterloo Midnight Sun Solar Car
+				Team where I worked on website development. Along with personal side-projects completed on my free time, I have also
+				participated in hackthons such as HackPrinceton. Feel free to go to the Projects tab to view any of the projects displayed.
 			</p>
 			<p>
-				My interests and passion lie in software development, specifically implementation and testing.
-				I love to use my problem solving skills to come up with creative and unique solutions.
+				My interests and passion lie in software development, with open interests in both front and backend development within
+				website and mobile applications. I love to use my problem solving skills to come up with creative and unique solutions.
 			</p>
 			<h4>
 				I am open to collaboration and job opportunities with my resume available  
