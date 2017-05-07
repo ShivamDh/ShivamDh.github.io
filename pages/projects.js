@@ -70,6 +70,7 @@ export default class ReactComponent extends React.Component {
 				<p> - Full OOP implementation allowing for future expansion of custom made blocks as well as user selections
 					regarding which type of gestures to use</p>
 				<p> Used: Java, Android Studio </p>
+				<p> Code maintained privately, sorry! </p>
 			</div>
 		</div>
 		<div>
