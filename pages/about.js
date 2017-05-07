@@ -8,11 +8,11 @@ export default class ReactComponent extends React.Component {
       <div>
 		<Helmet title = "About Shivam" />
 		<div id = "Background">
-			<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/wallpaper.jpg"/>
+			<img src = "https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/gh-pages/img/wallpaper.jpg"/>
 		</div>
 		<h3 id = "AboutPg"> MEET SHIVAM DHARME </h3>
 		<div id = "Myself">
-			<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/44245.png"/>
+			<img src = "https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/gh-pages/img/44245.png"/>
 		</div>
 		<br/> <br/><br/> <br/> <br/> <br/>
 		<div id = "break"> </div>
@@ -30,45 +30,45 @@ export default class ReactComponent extends React.Component {
 			</p>
 			<h4>
 				I am open to collaboration and job opportunities with my resume available  
-				<em> </em> <a href = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/Res.pdf" target="top">
+				<em> </em> <a href = "https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/gh-pages/Res.pdf" target="top">
 				 here</a> to view.
 			</h4>
 		</div>
 		<div id = "Skills">
 			<h1> Toolbox </h1>
 			<div id = "C">
-				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/C.png"/>
+				<img src = "https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/gh-pages/img/C.png"/>
 				<p> / </p>
-				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/C++.png"/>
+				<img src = "https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/gh-pages/img/C++.png"/>
 				<p> Experienced OOP, Linked List, File I/O </p>
 			</div>
 			<div id="Java">
-				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/Java.png"/>
+				<img src = "https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/gh-pages/img/Java.png"/>
 				<p> / </p>
-				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/Android.png"/>
+				<img src = "https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/gh-pages/img/Android.png"/>
 				<p> App Development, Finite State Machine</p>
 			</div>
 			<div id="Web">
-				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/HTML5.png"/>
+				<img src = "https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/gh-pages/img/HTML5.png"/>
 				<p> / </p>
-				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/CSS3.png"/>
+				<img src = "https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/gh-pages/img/CSS3.png"/>
 				<p> Enhanced Web Design, Advanced Syling Techniques </p>
 				<p> HTML </p>
 				<p> CSS </p>
 			</div>
 			<div id="JavaScript">
-				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/JavaScript.png"/>
+				<img src = "https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/gh-pages/img/JavaScript.png"/>
 				<p> / </p>
-				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/jQuery.png"/>
+				<img src = "https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/gh-pages/img/jQuery.png"/>
 				<p> Highly Responsive and Smart Web Design </p>
 				<p> jQuery </p>
 			</div>
 			<div id="React">
-				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/React.png"/>
+				<img src = "https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/gh-pages/img/React.png"/>
 				<p>  </p>
-				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/jsx.png"/>
-				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/es6.png"/>
-				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/babel.png"/>
+				<img src = "https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/gh-pages/img/jsx.png"/>
+				<img src = "https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/gh-pages/img/es6.png"/>
+				<img src = "https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/gh-pages/img/babel.png"/>
 				<p> Intricate Client-Side Rendering Knoweledge in Static Site Generation Experience with JSX, ES6 and Babel</p>
 				<p> ReactJS </p>
 			</div>

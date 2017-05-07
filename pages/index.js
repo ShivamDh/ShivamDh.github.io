@@ -21,7 +21,7 @@ export default class Index extends React.Component {
 			</div>
 			
 			<div className = "HomeBack"> 
-				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/background.jpg"/>
+				<img src = "https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/gh-pages/img/background.jpg"/>
 			</div>
 			<div className = "Welcome">
 				<pre className="tab">
@@ -29,7 +29,7 @@ export default class Index extends React.Component {
 				</pre>
 			</div>
 			<div id="pic">
-				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/4426.jpg"/>
+				<img src = "https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/gh-pages/img/4426.jpg"/>
 				<p> The will to win, the desire to succeed, the urge to reach your full potential ... these are the keys that will unlock the door to personal excellence.
 				 - Confucius </p>
 			</div>

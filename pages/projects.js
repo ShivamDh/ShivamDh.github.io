@@ -9,7 +9,7 @@ export default class ReactComponent extends React.Component {
 	    <Helmet title = "Shivam's Projects" />
         <h1> My Collection of Side Projects </h1>
 		<div>
-			<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/MyWebsite.png" />
+			<img src = "https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/gh-pages/img/MyWebsite.png" />
 			<h2> Personal Website </h2>
 			<div>
 				<p> - This website was made to showcase my portfolio and online profile</p>
@@ -18,14 +18,14 @@ export default class ReactComponent extends React.Component {
 				<p> - Combines multiple React modules such as React Headroom and React Router </p>
 				<p> Used: JavaScript (React.js, Gatsby.js), Node, jQuery, HTML, CSS  </p>
 				<div>
-					<a href="www.github.com/ShivamDh/Personal-Website" >
+					<a href="www.github.com/ShivamDh/ShivamDh.github.io" >
 						<p> <em> Click to visit source code </em></p>
 					</a>
 				</div>
 			</div>
 		</div>
 		<div>
-			<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/Fitness60.PNG" />
+			<img src = "https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/gh-pages/img/Fitness60.PNG" />
 			<h2> Fitness60 </h2>
 			<div>
 				<p> - An Android app that users can use to record and store their workout and fitness data, which users can 
@@ -42,7 +42,7 @@ export default class ReactComponent extends React.Component {
 			</div>
 		</div>
 		<div>
-			<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/Hangr.PNG" />
+			<img src = "https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/gh-pages/img/Hangr.PNG" />
 			<h2> Hangr </h2>
 			<div>
 				<p> - An Internet of Things (IoT) project for a "smart closet" that helps users select clothes
@@ -60,7 +60,7 @@ export default class ReactComponent extends React.Component {
 			</div>
 		</div>
 		<div>
-			<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/2048App.PNG" />
+			<img src = "https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/gh-pages/img/2048App.PNG" />
 			<h2> 2048 Android App </h2>
 			<div>
 				<p> - An Android version of the once-popular 2048 game that uses hardware sensors such as accelerometer
@@ -73,7 +73,7 @@ export default class ReactComponent extends React.Component {
 			</div>
 		</div>
 		<div>
-			<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/Extension.png" />
+			<img src = "https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/gh-pages/img/Extension.png" />
 			<h2> QuikPic </h2>
 			<div>
 				<p> - A Chrome extension that allows for faster load times and less internet bandwidth need
@@ -90,7 +90,7 @@ export default class ReactComponent extends React.Component {
 			</div>
 		</div>
 		<div>
-			<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/2048Game.png" />
+			<img src = "https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/gh-pages/img/2048Game.png" />
 			<h2> 2048 Game (Command Line) </h2>
 			<div>
 				<p> - A fun command line game created through C language and GDB testing </p>
@@ -105,7 +105,7 @@ export default class ReactComponent extends React.Component {
 			</div>
 		</div>
 		<div>
-			<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/PeriodicTable.png" />
+			<img src = "https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/gh-pages/img/PeriodicTable.png" />
 			<h2> Molar Mass Calculator </h2>
 			<div>
 				<p> - A chemistry based calculator written in C language </p>
@@ -120,9 +120,9 @@ export default class ReactComponent extends React.Component {
 			</div>
 		</div>
 		<div>
-			<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/HockeyStats1.jpg" />
+			<img src = "https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/gh-pages/img/HockeyStats1.jpg" />
 			<div> 
-				<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/HockeyStats2.png" />
+				<img src = "https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/gh-pages/img/HockeyStats2.png" />
 			</div>
 			<h2> Hockey Statistics Manager </h2>
 			<div>
@@ -138,7 +138,7 @@ export default class ReactComponent extends React.Component {
 			</div>
 		</div>
 		<div>
-			<img src = "https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/SnakeGame.png" />
+			<img src = "https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/gh-pages/img/SnakeGame.png" />
 			<h2> Snake Game </h2>
 			<div>
 				<p> - A fun command prompt game written in C++ language </p>

@@ -30,22 +30,22 @@ module.exports = React.createClass({
             }}
           >
 		  <div> <h1 className="Signature">SHIVAM</h1> </div>
-            <Link to={prefixLink('shivamdh.github.io/Personal-Website/')} style={{ textDecoration: 'none'}}>
+            <Link to={prefixLink('/')} style={{ textDecoration: 'none'}}>
 				<p className="HomeNav">
 					Home
 				</p>
             </Link>
-			<Link to={prefixLink('shivamdh.github.io/Personal-Website/about/')} style={{ textDecoration: 'none'}}>
+			<Link to={prefixLink('/about/')} style={{ textDecoration: 'none'}}>
 				<p className="AboutMeNav">
 					About Me
 				</p>
             </Link>
-			<Link to={prefixLink('shivamdh.github.io/Personal-Website/projects/')} style={{ textDecoration: 'none'}}>
+			<Link to={prefixLink('/projects/')} style={{ textDecoration: 'none'}}>
 				<p className="ProjNav">
 					My Projects
 				</p>
 			</Link>
-			<Link to={prefixLink('shivamdh.github.io/Personal-Website/contact/')} style={{ textDecoration: 'none'}}>
+			<Link to={prefixLink('/contact/')} style={{ textDecoration: 'none'}}>
 				<p className="ContactNav">
 					Contact Me
 				</p>
@@ -56,22 +56,22 @@ module.exports = React.createClass({
 		<div id="Footer">
 			<a href = "mailto: shivamdharme@gmail.ca?Subject=Contact%20Shivam" target="top"> 
 				<div>
-					<img src="https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/FooterEmail.png" />
+					<img src="https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/gh-pages/img/FooterEmail.png" />
 				</div>
 			</a>
 			<a href = "https://www.linkedin.com/in/shivam-dharme-358895130">
 				<div>
-					<img src="https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/FooterLinkedIn.jpg" />
+					<img src="https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/gh-pages/img/FooterLinkedIn.jpg" />
 				</div>
 			</a>
 			<a href = "https://www.github.com/ShivamDh">
 				<div>
-					<img src="https://raw.githubusercontent.com/ShivamDh/Personal-Website/gh-pages/img/FooterGithub.png" />
+					<img src="https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/gh-pages/img/FooterGithub.png" />
 				</div>
 			</a>
 			<div id = "Navigations"> 
 				<div id="HomeLink">
-					<Link to={prefixLink('shivamdh.github.io/Personal-Website/')} style={{ textDecoration: 'none'}}>
+					<Link to={prefixLink('/')} style={{ textDecoration: 'none'}}>
 						<p id="FooterHome">
 							HOME
 						</p>
@@ -79,7 +79,7 @@ module.exports = React.createClass({
 				</div>
 				<div> </div>
 				<div id="AboutLink">
-					<Link to={prefixLink('shivamdh.github.io/Personal-Website/about/')} style={{ textDecoration: 'none'}}>
+					<Link to={prefixLink('/about/')} style={{ textDecoration: 'none'}}>
 						<p id="FooterAbout">
 							ABOUT
 						</p>
@@ -87,7 +87,7 @@ module.exports = React.createClass({
 				</div>
 				<div> </div>
 				<div id="ProjectLink">
-					<Link to={prefixLink('shivamdh.github.io/Personal-Website/projects/')} style={{ textDecoration: 'none'}}>
+					<Link to={prefixLink('/projects/')} style={{ textDecoration: 'none'}}>
 						<p id="FooterProject">
 							PROJECTS
 						</p>
@@ -95,7 +95,7 @@ module.exports = React.createClass({
 				</div>
 				<div> </div>
 				<div id="ContactLink">
-					<Link to={prefixLink('shivamdh.github.io/Personal-Website/contact/')} style={{ textDecoration: 'none'}}>
+					<Link to={prefixLink('/contact/')} style={{ textDecoration: 'none'}}>
 						<p id="FooterContact">
 							CONTACT
 						</p>
