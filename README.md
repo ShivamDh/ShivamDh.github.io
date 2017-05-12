@@ -1,15 +1,9 @@
 # My Website
 
-Have a look at my website using the url: https://shivamdh.github.io/Personal-Website/
-or click [here](https://shivamdh.github.io/Personal-Website/)
+Hi there! My website location has changed! Previously, it was hosted on https://shivamdh.github.io/Personal-Website/
+but from now on it has been moved to https://shivamdh.github.io
 
-**Optimal** Viewing Resolution: 1366x768
-
-The *master* branch contains all the code for the webpage, orgnaized and easy to read.
-
-The *gh-pages* branch contains Gatsby.js published code that will be difficult to follow.
-
-I encourage you to look through the master branch if you would like to see my code.
+Click [here](https://shivamdh.github.io/Personal-Website/) to have a look at it!
 
 ## How the website was made
 I created the website using a multitude of languages and frameworks including **HTML**, **CSS**, **JavaScript**, and **React.js**.
