@@ -40,19 +40,19 @@ export default class ReactComponent extends React.Component {
 				<img src = "https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/gh-pages/img/C.png"/>
 				<p> / </p>
 				<img src = "https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/gh-pages/img/C++.png"/>
-				<p> Experienced OOP, Linked List, File I/O </p>
+				<p> Experienced in OOP, Data Structures, Algorithms </p>
 			</div>
 			<div id="Java">
 				<img src = "https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/gh-pages/img/Java.png"/>
 				<p> / </p>
 				<img src = "https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/gh-pages/img/Android.png"/>
-				<p> App Development, Finite State Machine</p>
+				<p> App Development, Finite State Machine, Filtering</p>
 			</div>
 			<div id="Web">
 				<img src = "https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/gh-pages/img/HTML5.png"/>
 				<p> / </p>
 				<img src = "https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/gh-pages/img/CSS3.png"/>
-				<p> Enhanced Web Design, Advanced Syling Techniques </p>
+				<p> Exceptional Web Skills, Advanced Syling Knowledge </p>
 				<p> HTML </p>
 				<p> CSS </p>
 			</div>
@@ -88,6 +88,10 @@ export default class ReactComponent extends React.Component {
 					<li> Android SQLite </li>
 					<li> IBM Watson </li>
 					<li> Node-RED </li>
+					<li> Jasmine </li>
+					<li> Enzyme </li>
+					<li> LESS </li>
+					<li> Redux (Saga)</li>
 				</ul>
 			</div>
 		</div>
