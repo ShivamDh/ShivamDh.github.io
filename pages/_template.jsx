@@ -30,22 +30,22 @@ module.exports = React.createClass({
             }}
           >
 		  <div> <h1 className="Signature">SHIVAM</h1> </div>
-            <Link to={prefixLink('/')} style={{ textDecoration: 'none'}}>
+            <Link to={prefixLink('shivamdh.github.io/')} style={{ textDecoration: 'none'}}>
 				<p className="HomeNav">
 					Home
 				</p>
             </Link>
-			<Link to={prefixLink('/about/')} style={{ textDecoration: 'none'}}>
+			<Link to={prefixLink('shivamdh.github.io/about/')} style={{ textDecoration: 'none'}}>
 				<p className="AboutMeNav">
 					About Me
 				</p>
             </Link>
-			<Link to={prefixLink('/projects/')} style={{ textDecoration: 'none'}}>
+			<Link to={prefixLink('shivamdh.github.io/projects/')} style={{ textDecoration: 'none'}}>
 				<p className="ProjNav">
 					My Projects
 				</p>
 			</Link>
-			<Link to={prefixLink('/contact/')} style={{ textDecoration: 'none'}}>
+			<Link to={prefixLink('shivamdh.github.io/contact/')} style={{ textDecoration: 'none'}}>
 				<p className="ContactNav">
 					Contact Me
 				</p>
@@ -71,7 +71,7 @@ module.exports = React.createClass({
 			</a>
 			<div id = "Navigations"> 
 				<div id="HomeLink">
-					<Link to={prefixLink('/')} style={{ textDecoration: 'none'}}>
+					<Link to={prefixLink('shivamdh.github.io/')} style={{ textDecoration: 'none'}}>
 						<p id="FooterHome">
 							HOME
 						</p>
@@ -79,7 +79,7 @@ module.exports = React.createClass({
 				</div>
 				<div> </div>
 				<div id="AboutLink">
-					<Link to={prefixLink('/about/')} style={{ textDecoration: 'none'}}>
+					<Link to={prefixLink('shivamdh.github.io/about/')} style={{ textDecoration: 'none'}}>
 						<p id="FooterAbout">
 							ABOUT
 						</p>
@@ -87,7 +87,7 @@ module.exports = React.createClass({
 				</div>
 				<div> </div>
 				<div id="ProjectLink">
-					<Link to={prefixLink('/projects/')} style={{ textDecoration: 'none'}}>
+					<Link to={prefixLink('shivamdh.github.io/projects/')} style={{ textDecoration: 'none'}}>
 						<p id="FooterProject">
 							PROJECTS
 						</p>
@@ -95,7 +95,7 @@ module.exports = React.createClass({
 				</div>
 				<div> </div>
 				<div id="ContactLink">
-					<Link to={prefixLink('/contact/')} style={{ textDecoration: 'none'}}>
+					<Link to={prefixLink('shivamdh.github.io/contact/')} style={{ textDecoration: 'none'}}>
 						<p id="FooterContact">
 							CONTACT
 						</p>

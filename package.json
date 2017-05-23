@@ -17,6 +17,7 @@
     "markdown-it-footnote": "^3.0.1",
     "markdown-it-sub": "^1.0.0",
     "object-assign": "^4.1.0",
+    "react-ga": "^2.2.0",
     "react-headroom": "^2.1.2",
     "react-helmet": "^3.2.2",
     "react-responsive-grid": "^0.3.3",
@@ -38,6 +39,6 @@
     "deploy": "gatsby build --prefix-links && gh-pages -d public",
     "develop": "gatsby develop",
     "test": "echo \"Error: no test specified\" && exit 1",
-	"clean": "rm -rf node_modules/gh-pages/.cache"
+    "clean": "rm -rf node_modules/gh-pages/.cache"
   }
 }
