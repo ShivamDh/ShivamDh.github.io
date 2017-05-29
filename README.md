@@ -1,7 +1,6 @@
 # My Website
 
-Hi! My website location has recently changed, it is now located at https://shivamdh.github.io/ or click
-[here](https://shivamdh.github.io/) to have a look at it!
+Hi! My website location has recently changed, it is now located at https://shivamdh.github.io/ [[link]](https://shivamdh.github.io/). Have a look at it!
 
 ## How the website was made
 I created the website using a multitude of languages and frameworks including **HTML**, **CSS**, **JavaScript**, and **React.js**.
