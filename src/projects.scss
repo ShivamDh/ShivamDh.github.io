@@ -1,9 +1,31 @@
 .Projects {
-	padding: 30px 0;
+
+	.pageTitle{
+		margin: 20px 0;
+		color: white;
+	}
 
 	.row {
+
+		.col-sm-4 img {
+			margin-top: 5px;
+		}
+
 		.content {
 			color: white;
+
+			.projectName {
+				margin-top: 0;
+			}
+
+			.githubLink {
+				text-decoration: none;
+				color: inherit;
+
+				&:hover {
+					color: white;
+				}
+			}
 		}
 	}
 }
