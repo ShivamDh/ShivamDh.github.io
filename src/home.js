@@ -4,11 +4,10 @@ import './home.css';
 class Home extends Component {
   render() {
     return (
-      <div className="Home">
-        <div className="Home-header">
-          <h2>Welcome to Home</h2>
+      <div className="home">
+        <div className="home-background" >
         </div>
-		<div> Done Testing </div>
+
       </div>
     );
   }
