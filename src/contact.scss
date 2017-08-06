@@ -1,0 +1,62 @@
+.Contact {
+	color: white;
+
+	.header-image {
+		position: relative;
+	}
+
+
+	.contact-header {
+		position: absolute;
+		width: 100%;
+		height: 50px;
+		float: left;
+		text-align: center;
+		margin-top: -200px;
+
+		.get-in-touch {
+			font-size: 50px;
+			font-family: PT Sans;
+			color: orange;
+		}
+
+		.breakLine {
+			width: 100px;
+			background-color: orange;
+			height: 4px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+
+		.caption {
+
+		}
+	}
+
+	.mainBody {
+
+
+		.contact-info {
+			float: left;
+			width: 100%;
+			background-color: red;
+
+			@media screen and (min-width: 768px) {
+				width: 50%
+			}
+		}
+
+		.contact-form {
+			float: left;
+			width: 100%;
+			background-color: #4E4A4A;
+			padding-top: 25px;
+			padding-bottom: 25px;
+
+			@media screen and (min-width: 768px) {
+				width: 50%
+			}
+		}
+	}
+
+}
