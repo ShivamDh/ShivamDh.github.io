@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import TextField from 'material-ui/TextField'
 import RaisedButton from 'material-ui/RaisedButton'
-import {orange500, orange900} from 'material-ui/styles/colors'
 
 import './contact.css'
 
@@ -56,14 +55,15 @@ class Contact extends Component {
 			    </div>
 		    	<div className="mainBody">
 			    	<div className="contact-info" style={{backgroundImage : 'url(img/contact-side.jpg)'}}>
-			    		<div className="contact-info-header"> Reach Out ! </div>
-			    		<div className="breakLine" />
-			    		<div className="contact-info-1">
-			    			Whether you are interested on working together, have a project for me,
-			    			or would just like to talk, feel free to connect with me.
-			    		</div>
-			    		<div className="contact-info-list">
-
+			    		<div className="contact-info-text">
+				    		<div className="contact-info-header"> Reach Out! </div>
+				    		<div className="contact-info-1">
+				    			Whether you are interested on working together, have a project for me,
+				    			or would just like to talk, feel free to contact me.
+				    		</div>
+				    		<div className="contact-info-list">
+				    			
+				    		</div>
 			    		</div>
 			    	</div>
 			    	<div className="contact-form">
@@ -73,31 +73,31 @@ class Contact extends Component {
 				    			<TextField floatingLabelText="First Name"
 				    				value={this.state.firstName}
 				    				onChange={this.handleFirstNameChange}
-				    				inputStyle={{color: '#9F9F9F'}}
-				    				underlineStyle={{borderColor: orange500}}
-				    				underlineFocusStyle={{borderColor: orange900}}
-				    				floatingLabelFocusStyle={{color: orange900}}
-								    floatingLabelStyle={{color: orange500}}/>
+				    				inputStyle={{color: '#5C5656'}}
+				    				underlineStyle={{borderColor: '#A69D9D'}}
+				    				underlineFocusStyle={{borderColor: '#5C5656'}}
+				    				floatingLabelFocusStyle={{color: '#5C5656'}}
+								    floatingLabelStyle={{color: '#A69D9D'}}/>
 				    		</div>
 				    		<div className="form-lastName">
 				    			<TextField floatingLabelText="Last Name"
 				    				value={this.state.lastName}
 				    				onChange={this.handleLastNameChange}
-				    				inputStyle={{color: '#9F9F9F'}}
-				    				underlineStyle={{borderColor: orange500}}
-				    				underlineFocusStyle={{borderColor: orange900}}
-				    				floatingLabelFocusStyle={{color: orange900}}
-								    floatingLabelStyle={{color: orange500}}/>
+				    				inputStyle={{color: '#5C5656'}}
+				    				underlineStyle={{borderColor: '#A69D9D'}}
+				    				underlineFocusStyle={{borderColor: '#5C5656'}}
+				    				floatingLabelFocusStyle={{color: '#5C5656'}}
+								    floatingLabelStyle={{color: '#A69D9D'}}/>
 				    		</div>
 				    		<div className="form-email">
 				    			<TextField floatingLabelText="Email"
 				    				value={this.state.email}
 				    				onChange={this.handleEmailChange}
-				    				inputStyle={{color: '#9F9F9F'}}
-				    				underlineStyle={{borderColor: orange500}}
-				    				underlineFocusStyle={{borderColor: orange900}}
-				    				floatingLabelFocusStyle={{color: orange900}}
-								    floatingLabelStyle={{color: orange500}}/>
+				    				inputStyle={{color: '#5C5656'}}
+				    				underlineStyle={{borderColor: '#A69D9D'}}
+				    				underlineFocusStyle={{borderColor: '#5C5656'}}
+				    				floatingLabelFocusStyle={{color: '#5C5656'}}
+								    floatingLabelStyle={{color: '#A69D9D'}}/>
 				    		</div>
 				    		<div className="form-message">
 				    			<TextField floatingLabelText="Message"
@@ -106,13 +106,13 @@ class Contact extends Component {
 				    				hintText="Enter your message"
 				    				rows={3} rowsMax={7}
 				    				multiLine floatingLabelFixed
-				    				underlineStyle={{borderColor: orange500}}
-				    				underlineFocusStyle={{borderColor: orange900}}
-				    				floatingLabelFocusStyle={{color: orange900}}
-								    floatingLabelStyle={{color: orange500}}/>
+				    				underlineStyle={{borderColor: '#A69D9D'}}
+				    				underlineFocusStyle={{borderColor: '#5C5656'}}
+				    				floatingLabelFocusStyle={{color: '#5C5656'}}
+								    floatingLabelStyle={{color: '#A69D9D'}}/>
 				    		</div>
 				    		<div className="form-submit">
-				    			<RaisedButton label="Submit" backgroundColor={orange500} 
+				    			<RaisedButton label="Submit" backgroundColor={'#A69D9D'} 
 				    				style={{margin: 12}} onClick={this.submitMessage} />
 				    		</div>
 			    		</div>
