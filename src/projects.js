@@ -30,7 +30,7 @@ class Projects extends Component {
                 <hr />
                 <div className="row starter-blog">
                     <div className="col-sm-4">
-                        <img src="http://placehold.it/1280X720" className="img-responsive" alt="Starter's Blog"/>
+                        <img src="img/starter-blog.png" className="img-responsive" alt="Starter's Blog"/>
                     </div>
                     <div className="col-sm-8 content">
                         <h2 className="projectName"> Starter's Blog </h2>
@@ -196,6 +196,60 @@ class Projects extends Component {
                             </dd>
                             <dd style={{fontStyle: 'italic', marginTop: 10}}> 
                                 - Note: A newer version of this game has been created as an Android application, scroll above to view
+                            </dd>
+                        </dl>
+                        <p> <span className="text-muted"> Used: </span> C Language, GDB Debugger, Command Line Tools </p>
+                    </div>
+                </div>
+                <hr />
+                <div className="row molar-mass">
+                    <div className="col-sm-4">
+                        <img src="http://placehold.it/1280X720" className="img-responsive" alt="Molar Mass Calc"/>
+                    </div>
+                    <div className="col-sm-8 content">
+                        <h2 className="projectName"> Molar Mass Calculator </h2>
+                        <p className="text-muted">
+                            <span className="glyphicon glyphicon-search"></span>
+                            <a className="githubLink" href="https://github.com/ShivamDh/Side-Projects/blob/master/molarMassCalc.c">
+                                &nbsp; Click to view this project on Github
+                            </a>
+                        </p>
+                        <dl>
+                            <dd>
+                                - A chemistry based calculator written in C language
+                            </dd>
+                            <dd>
+                                - Calculates molar mass of any valid element or compound to four decimal places
+                            </dd>
+                            <dd> 
+                                - Incorporates jump case algorithm and recursion for any subscript usage in elements or compounds
+                            </dd>
+                        </dl>
+                        <p> <span className="text-muted"> Used: </span> C Language, Command Line Tools </p>
+                    </div>
+                </div>
+                <hr />
+                <div className="row hockey">
+                    <div className="col-sm-4">
+                        <img src="http://placehold.it/1280X720" className="img-responsive" alt="Hockey Statistics Calculator"/>
+                    </div>
+                    <div className="col-sm-8 content">
+                        <h2 className="projectName"> Hockey Statistics Calculator </h2>
+                        <p className="text-muted">
+                            <span className="glyphicon glyphicon-search"></span>
+                            <a className="githubLink" href="https://github.com/ShivamDh/Side-Projects/blob/master/HockeyStats.c">
+                                &nbsp; Click to view this project on Github
+                            </a>
+                        </p>
+                        <dl>
+                            <dd>
+                                - A hockey data organizer that combines linked list storage and arrangement to provide a flexible statistics calculator and data manager
+                            </dd>
+                            <dd>
+                                - Incorporates File I/O productivity for adaptable input forms
+                            </dd>
+                            <dd> 
+                                - Utilizes output stream to produce a csv file, arranged to user parameters
                             </dd>
                         </dl>
                         <p> <span className="text-muted"> Used: </span> C Language, GDB Debugger, Command Line Tools </p>
