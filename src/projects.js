@@ -255,6 +255,34 @@ class Projects extends Component {
                         <p> <span className="text-muted"> Used: </span> C Language, GDB Debugger, Command Line Tools </p>
                     </div>
                 </div>
+                <hr />
+                <div className="row snake">
+                    <div className="col-sm-4">
+                        <img src="http://placehold.it/1280X720" className="img-responsive" alt="Snake Game"/>
+                    </div>
+                    <div className="col-sm-8 content">
+                        <h2 className="projectName"> Snake Game </h2>
+                        <p className="text-muted">
+                            <span className="glyphicon glyphicon-search"></span>
+                            <a className="githubLink" href="https://github.com/ShivamDh/Side-Projects/blob/master/snakeGame.cpp">
+                                &nbsp; Click to view this project on Github
+                            </a>
+                        </p>
+                        <dl>
+                            <dd>
+                                - A fun command prompt game written in C++ language and uses object-oriented design
+                                for modularized and reproducible code segments
+                            </dd>
+                            <dd>
+                                - Incorporates vector class usage for data storage of snake coordinates
+                            </dd>
+                            <dd> 
+                                - Allows for a user-defined interface and gameplay to be setup
+                            </dd>
+                        </dl>
+                        <p> <span className="text-muted"> Used: </span> C++ Language, GDB Debugger, Command Line Tools </p>
+                    </div>
+                </div>
             </div>
         );
     }
