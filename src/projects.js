@@ -21,10 +21,10 @@ class Projects extends Component {
                         <dl>
                             <dd>- This website was made to showcase my portfolio </dd>
                             <dd>- Created through ReactJS and a multi-page design for an extremely fast and interactive website</dd>
-                            <dd>- Utilizes SASS styling and React-Bootstrap modelling for rendering fitting all screen sizes</dd>
+                            <dd>- Utilizes SASS styling and React-Bootstrap modelling to scale website for all screen sizes</dd>
                             <dd>- Incorporates modern ECMAScript 2016 (ES7) along with multiple third party libraries for UX Design</dd>
                         </dl>
-                        <p> <span className="text-muted"> Used: </span> JavaScript (React.js, ES7), Node, HTML, SASS/CSS, Bootstrap </p>
+                        <p> <span className="text-muted"> Used: </span> JavaScript (React.js, ES7), Node, HTML, SASS/CSS, Bootstrap, Material-UI </p>
                     </div>
                 </div>
                 <hr />
@@ -54,6 +54,36 @@ class Projects extends Component {
                             </dd>
                         </dl>
                         <p> <span className="text-muted"> Used: </span> Django (Python), SQLite, Bootstrap </p>
+                    </div>
+                </div>
+                <hr />
+                <div className="row trip-weather">
+                    <div className="col-sm-4">
+                        <img src="http://placehold.it/1280X720" className="img-responsive" alt="Trip Weather"/>
+                    </div>
+                    <div className="col-sm-8 content">
+                        <h2 className="projectName"> Trip Weather </h2>
+                        <p className="text-muted">
+                            <span className="glyphicon glyphicon-search"></span>
+                            <a className="githubLink" href="https://github.com/ShivamDh/Python-Projects/blob/master/trip_weather.py">
+                                &nbsp; Click to view this project on Github
+                            </a>
+                        </p>
+                        <dl>
+                            <dd>
+                                - Displays weather on a user defined trip from point A to point B with user selections including time of
+                                trip, how often to check for weather on trip, and what units to display data in
+                            </dd>
+                            <dd>
+                                - Utilizes Google Maps Directions API to obtain the fastest route from user inputted source to destination
+                                and decodes coordinates along the route using Google Maps Geocode API and Polyline Decode Algorithm
+                            </dd>
+                            <dd> 
+                                - Sends API requests to Weather Underground API to obtain weather at user specified time for
+                                coordinates found along the route and displays JSON results in a clean manner to user with specified units
+                            </dd>
+                        </dl>
+                        <p> <span className="text-muted"> Used: </span> Python, Google Maps API, Weather Underground API </p>
                     </div>
                 </div>
                 <hr />
@@ -92,7 +122,7 @@ class Projects extends Component {
                         <img src="img/hangr.png" className="img-responsive" alt="Hangr Logo"/>
                     </div>
                     <div className="col-sm-8 content">
-                        <h2 className="projectName"> Hangr </h2>
+                        <h2 className="projectName"> Hangr - A HackPrincetonS17 Project </h2>
                         <p className="text-muted">
                             <span className="glyphicon glyphicon-search"></span>
                             <a className="githubLink" href="https://github.com/ShivamDh/HackPrincetonS17">
@@ -150,7 +180,7 @@ class Projects extends Component {
                         <img src="http://placehold.it/1280X720" className="img-responsive" alt="QuikPic Logo"/>
                     </div>
                     <div className="col-sm-8 content">
-                        <h2 className="projectName"> QuikPic </h2>
+                        <h2 className="projectName"> QuikPic - A QHacks17 Project </h2>
                         <p className="text-muted">
                             <span className="glyphicon glyphicon-search"></span>
                             <a className="githubLink" href="https://github.com/ShivamDh/QHacks17">

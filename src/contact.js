@@ -71,7 +71,7 @@ class Contact extends Component {
 									</a>
 								</div>
 								<div className="contact-github">
-									<a href="www.github.com/ShivamDh" target="top">
+									<a href="https://www.github.com/ShivamDh" target="top">
 										<div>
 											<img alt="github" src="img/github-bw.png" />
 											<div> Visit my projects on GitHub (ShivamDh) </div>
@@ -79,7 +79,7 @@ class Contact extends Component {
 									</a>
 								</div>
 								<div className="contact-linkedin">
-									<a href="https://www.linkedin.com/in/shivam-dharme-358895130">
+									<a href="https://www.linkedin.com/in/shivam-dharme">
 										<div>
 											<img alt="linkedin" src="img/linkedin-bw.jpg" />
 											<div> Connect with me on LinkedIn! </div>
