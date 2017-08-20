@@ -62,7 +62,30 @@ class Contact extends Component {
 				    			or would just like to talk, feel free to contact me.
 				    		</div>
 				    		<div className="contact-info-list">
-				    			
+				    			<div className="contact-email">
+									<a href="mailto: shivamdharme@gmail.ca?Subject=Contact%20Shivam" target="top">
+										<div>
+											<img alt="email" src="img/mail-bw.png" />
+											<div> Email me at shivamdharme@gmail.com </div>
+										</div>
+									</a>
+								</div>
+								<div className="contact-github">
+									<a href="www.github.com/ShivamDh" target="top">
+										<div>
+											<img alt="github" src="img/github-bw.png" />
+											<div> Visit my projects on GitHub (ShivamDh) </div>
+										</div>
+									</a>
+								</div>
+								<div className="contact-linkedin">
+									<a href="https://www.linkedin.com/in/shivam-dharme-358895130">
+										<div>
+											<img alt="linkedin" src="img/linkedin-bw.jpg" />
+											<div> Connect with me on LinkedIn! </div>
+										</div>
+									</a>
+								</div>
 				    		</div>
 			    		</div>
 			    	</div>
