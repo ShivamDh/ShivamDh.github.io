@@ -15,6 +15,41 @@
 	}
 }
 
+@mixin social-media-list-item() {
+	a {
+		text-decoration: none;
+
+		div {
+			display: flex;
+			padding: 10px 0px 10px 3%;
+
+			img {
+				width: 40px;
+				height: 40px;
+				margin-top: auto;
+				margin-bottom: auto;
+			}
+
+			div {
+				margin-top: auto;
+				margin-bottom: auto;
+				padding-left: 2%;
+				width: calc(100% - 40px);
+				font-size: 29px;
+				color: white;
+				background-color: transparent;
+				font-family: Raleway;
+			}
+		}
+
+		&:hover {
+			& > div {
+				background-color: rgba(212, 212, 212, 0.2);
+			}
+		}
+	}
+}
+
 .Contact {
 	color: white;
 	overflow: auto;
@@ -37,8 +72,8 @@
 			width: 100%;
 
 			.get-in-touch, .caption {
-				color: orange;
-				font-family: PT Sans;
+				color: #D6D8EB;
+				font-family: Raleway;
 			}
 
 			.breakLine {
@@ -95,27 +130,50 @@
 			// background-size: cover;
 			float: left;
 			width: 100%;
-			background-color: red;
+			background-color: black;
 
 			@media screen and (min-width: 768px) {
 				width: 50%
 			}
 
-			.breakLine {
-				width: 65px;
-				height: 2px;
-				margin-top: 2px;
-				margin-bottom: 5px;
-				width: 30%;
-				margin-left: 10%
-			}
+			.contact-info-text {
+				width: 90%;
+				margin-left: 5%;
+				margin-right: 5%;
 
-			.contact-info-header {
-				margin-top: 10%;
-				width: 50%;
-				color: white;
-				font-size: 40px;
-				background-color: orange;
+				.contact-info-header {
+					margin-top: 5%;
+					width: 50%;
+					font-size: 50px;
+					color: orange;
+					padding-bottom: 5px;
+					font-family: Raleway;
+				}
+
+				.contact-info-1 {
+					margin-top: 3%;
+					font-size: 20px;
+					color: #E2DFD8;
+					font-family: Raleway;
+					font-weight: 600;
+				}
+
+				.contact-info-list {
+					margin-top: 5%;
+
+					.contact-email {
+						@include social-media-list-item();
+					}
+
+					.contact-github {
+						@include social-media-list-item();
+					}
+
+					.contact-linkedin {
+						@include social-media-list-item();
+					}
+
+				}
 			}
 		}
 
@@ -123,7 +181,7 @@
 			display: flex;
 			float: left;
 			width: 100%;
-			background-color: #4E4A4A;
+			background-color: #E4DFDF;
 			padding-top: 25px;
 			padding-bottom: 25px;
 
@@ -149,10 +207,12 @@
 				.form-header {
 					margin: 0;
 					font-family: Raleway;
+					color: #5E5757
 				}
 
 				.form-firstName , .form-lastName, .form-email, .form-message {
 					div:first-child {
+						font-family: Raleway !important;
 						display: block !important;
 						margin-left: auto;
 						margin-right: auto;
@@ -161,8 +221,17 @@
 				}
 
 				.form-message {
-					div:first-child > div:nth-child(3) > textarea:nth-child(2) {
-						color: #9F9F9F !important;
+					div:first-child {
+
+						div:nth-child(2) {
+							font-weight: 600;
+						}
+
+						div:nth-child(3) > textarea:nth-child(2) {
+							color: #5C5656 !important;
+						}
+
+
 					}
 				}
 
@@ -176,5 +245,4 @@
 
 		}
 	}
-
 }
