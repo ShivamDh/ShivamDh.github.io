@@ -5,7 +5,9 @@ class Home extends Component {
     render() {
         return (
             <div className="home">
-                <div className="home-background" >
+                <div className="home-background" style={{backgroundImage : 'url(img/home-background.jpg)'}}>
+
+
                 </div>
 
             </div>
