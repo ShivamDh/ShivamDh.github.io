@@ -15,41 +15,6 @@
 	}
 }
 
-@mixin social-media-list-item() {
-	a {
-		text-decoration: none;
-
-		div {
-			display: flex;
-			padding: 10px 0px 10px 3%;
-
-			img {
-				width: 40px;
-				height: 40px;
-				margin-top: auto;
-				margin-bottom: auto;
-			}
-
-			div {
-				margin-top: auto;
-				margin-bottom: auto;
-				padding-left: 2%;
-				width: calc(100% - 40px);
-				font-size: 29px;
-				color: white;
-				background-color: transparent;
-				font-family: Raleway;
-			}
-		}
-
-		&:hover {
-			& > div {
-				background-color: rgba(212, 212, 212, 0.2);
-			}
-		}
-	}
-}
-
 .Contact {
 	color: white;
 	overflow: auto;
@@ -143,7 +108,7 @@
 
 				.contact-info-header {
 					margin-top: 5%;
-					width: 50%;
+					width: 100%;
 					font-size: 50px;
 					color: orange;
 					padding-bottom: 5px;
@@ -158,21 +123,102 @@
 					font-weight: 600;
 				}
 
+				@media screen and (max-width: 767px) {
+					padding-bottom: 20px;
+
+					.contact-info-header {
+						font-size: 45px;
+					}
+
+					.contact-info-1 {
+						font-size: 17px;
+					}
+				}
+
+				@media screen and (max-width: 449px) {
+					.contact-info-header {
+						font-size: 35px;
+					}
+
+					.contact-info-1 {
+						font-size: 14px;
+					}
+				}
+
 				.contact-info-list {
 					margin-top: 5%;
 
-					.contact-email {
-						@include social-media-list-item();
-					}
+					.contact-email, .contact-github, .contact-linkedin {
+						a {
+							text-decoration: none;
 
-					.contact-github {
-						@include social-media-list-item();
-					}
+							div {
+								display: flex;
+								padding: 10px 0px 10px 3%;
 
-					.contact-linkedin {
-						@include social-media-list-item();
-					}
+								img {
+									margin-top: auto;
+									margin-bottom: auto;
+									width: 30px;
+									height: 30px;
+								}
 
+								div {
+									margin-top: auto;
+									margin-bottom: auto;
+									padding-left: 2%;
+									color: white;
+									background-color: transparent;
+									font-family: Raleway;
+									width: calc(100% - 30px);
+									font-size: 15px;
+								}
+
+								@media screen and (min-width: 450px) {
+									div {
+										font-size: 19px;
+									}
+								}
+
+								@media screen and (min-width: 550px) {
+									div {
+										font-size: 23px;
+									}
+								}
+
+								@media screen and (min-width: 768px) {
+									div {
+										font-size: 15px;
+									}
+								}
+
+								@media screen and (min-width: 992px) {
+									img {
+										width: 40px;
+										height: 40px;
+									}
+
+									div {
+										width: calc(100% - 40px);
+										font-size: 19px;
+									}
+								}
+
+								@media screen and (min-width: 1200px) {
+									div {
+										font-size: 25px;
+									}
+								}
+
+							}
+
+							&:hover {
+								& > div {
+									background-color: rgba(212, 212, 212, 0.2);
+								}
+							}
+						}
+					}
 				}
 			}
 		}
