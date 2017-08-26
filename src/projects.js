@@ -1,12 +1,22 @@
 import React, { Component } from 'react';
+import { Tab, Tabs } from 'react-bootstrap'
+import FlipMove from 'react-flip-move'
+
 import './projects.css';
 
 class Projects extends Component {
-    render() {
-        return (
-            <div className="container Projects">
-                <h1 className="text-center pageTitle"> Some of the projects I have worked on </h1>
-                <div className="row website">
+    state = {
+        tab: 1,
+        nextList: [],
+        currentList: []
+    }
+
+    constructor(props) {
+        super(props)
+
+        this.projects = {
+            website: (
+                <div className="row website" key="website">
                     <div className="col-sm-4">
                         <img src="img/MyWebsite.png" className="img-responsive" alt="Website Home Screenshot"/>
                     </div>
@@ -27,8 +37,9 @@ class Projects extends Component {
                         <p> <span className="text-muted"> Used: </span> JavaScript (React.js, ES7), Node, HTML, SASS/CSS, Bootstrap, Material-UI </p>
                     </div>
                 </div>
-                <hr />
-                <div className="row starter-blog">
+            ),
+            starter_blog: (
+                <div className="row starter-blog" key="starter-blog">
                     <div className="col-sm-4">
                         <img src="img/starter-blog.png" className="img-responsive" alt="Starter's Blog"/>
                     </div>
@@ -56,10 +67,11 @@ class Projects extends Component {
                         <p> <span className="text-muted"> Used: </span> Django (Python), SQLite, Bootstrap </p>
                     </div>
                 </div>
-                <hr />
-                <div className="row trip-weather">
+            ),
+            trip_weather: (
+                <div className="row trip-weather" key="trip-weather">
                     <div className="col-sm-4">
-                        <img src="http://placehold.it/1280X720" className="img-responsive" alt="Trip Weather"/>
+                        <img src="img/Weather.png" className="img-responsive" alt="Trip Weather"/>
                     </div>
                     <div className="col-sm-8 content">
                         <h2 className="projectName"> Trip Weather </h2>
@@ -86,8 +98,40 @@ class Projects extends Component {
                         <p> <span className="text-muted"> Used: </span> Python, Google Maps API, Weather Underground API </p>
                     </div>
                 </div>
-                <hr />
-                <div className="row fitness60">
+            ),
+            python_calculator: (
+                <div className="row python-calculator" key="python-calculator">
+                    <div className="col-sm-4">
+                        <img src="http://placehold.it/1280X720" className="img-responsive" alt="Python Calculator"/>
+                    </div>
+                    <div className="col-sm-8 content">
+                        <h2 className="projectName"> Python Calculator </h2>
+                        <p className="text-muted">
+                            <span className="glyphicon glyphicon-search"></span>
+                            <a className="githubLink" href="https://github.com/ShivamDh/Python-Projects/blob/master/custom_calculator.py">
+                                &nbsp; Click to view this project on Github
+                            </a>
+                        </p>
+                        <dl>
+                            <dd>
+                                - A Python GUI (graphical user interface) used to build a simple scientific calculator 
+                                with all basic mathematical operations along with a clear 22-digit numeric display  
+                            </dd>
+                            <dd>
+                                - Also utilizes a History sidebar to allow for easy recollection of past mathematical 
+                                results and to be able to utilize past results for current calculations
+                            </dd>
+                            <dd> 
+                                - OOP implementation allowing for future feature addition as well as utilization of Python Tkinter
+                                for features such as Cascading Menubar, Labels, and Style Configurations   
+                            </dd>
+                        </dl>
+                        <p> <span className="text-muted"> Used: </span> Python, Tkinter (GUI package) </p>
+                    </div>
+                </div>
+            ),
+            fitness60: (
+                <div className="row fitness60" key="fitness60">
                     <div className="col-sm-4">
                         <img src="http://placehold.it/1280X720" className="img-responsive" alt="Fitness App"/>
                     </div>
@@ -116,8 +160,9 @@ class Projects extends Component {
                         <p> <span className="text-muted"> Used: </span> Java, Android Studio, Android SQLite </p>
                     </div>
                 </div>
-                <hr />
-                <div className="row hangr">
+            ),
+            hangr: (
+                <div className="row hangr" key="hangr">
                     <div className="col-sm-4">
                         <img src="img/hangr.png" className="img-responsive" alt="Hangr Logo"/>
                     </div>
@@ -146,8 +191,9 @@ class Projects extends Component {
                         <p> <span className="text-muted"> Used: </span> IBM Watson, Node-RED, HTML, CSS, JavaScript </p>
                     </div>
                 </div>
-                <hr />
-                <div className="row 2048-android">
+            ),
+            android2048: (
+                <div className="row 2048-android" key="2048-android">
                     <div className="col-sm-4">
                         <img src="http://placehold.it/1280X720" className="img-responsive" alt="2048 Android App"/>
                     </div>
@@ -174,8 +220,9 @@ class Projects extends Component {
                         <p> <span className="text-muted"> Used: </span> Java, Android Studio </p>
                     </div>
                 </div>
-                <hr />
-                <div className="row quikpic">
+            ),
+            quikpic: (
+                <div className="row quikpic" key="quikpic">
                     <div className="col-sm-4">
                         <img src="http://placehold.it/1280X720" className="img-responsive" alt="QuikPic Logo"/>
                     </div>
@@ -203,8 +250,9 @@ class Projects extends Component {
                         <p> <span className="text-muted"> Used: </span> HTML, CSS, JavaScript (Node.js), Amazon Web Services </p>
                     </div>
                 </div>
-                <hr />
-                <div className="row 2048-c">
+            ),
+            c2048: (
+                <div className="row 2048-c" key="2048-c">
                     <div className="col-sm-4">
                         <img src="http://placehold.it/1280X720" className="img-responsive" alt="2048 Command Line"/>
                     </div>
@@ -231,8 +279,9 @@ class Projects extends Component {
                         <p> <span className="text-muted"> Used: </span> C Language, GDB Debugger, Command Line Tools </p>
                     </div>
                 </div>
-                <hr />
-                <div className="row molar-mass">
+            ),
+            molar_mass: (
+                <div className="row molar-mass" key="molar-mass">
                     <div className="col-sm-4">
                         <img src="http://placehold.it/1280X720" className="img-responsive" alt="Molar Mass Calc"/>
                     </div>
@@ -258,8 +307,9 @@ class Projects extends Component {
                         <p> <span className="text-muted"> Used: </span> C Language, Command Line Tools </p>
                     </div>
                 </div>
-                <hr />
-                <div className="row hockey">
+            ),
+            hockey_stats: (
+                <div className="row hockey-stats" key="hockey-stats">
                     <div className="col-sm-4">
                         <img src="http://placehold.it/1280X720" className="img-responsive" alt="Hockey Statistics Calculator"/>
                     </div>
@@ -285,8 +335,9 @@ class Projects extends Component {
                         <p> <span className="text-muted"> Used: </span> C Language, GDB Debugger, Command Line Tools </p>
                     </div>
                 </div>
-                <hr />
-                <div className="row snake">
+            ),
+            snake: (
+                <div className="row snake" key="snake">
                     <div className="col-sm-4">
                         <img src="http://placehold.it/1280X720" className="img-responsive" alt="Snake Game"/>
                     </div>
@@ -313,6 +364,17 @@ class Projects extends Component {
                         <p> <span className="text-muted"> Used: </span> C++ Language, GDB Debugger, Command Line Tools </p>
                     </div>
                 </div>
+            )
+        }
+    }
+
+    render() {
+        return (
+            <div className="container Projects">
+                <h1 className="text-center pageTitle"> Just some of the projects I have worked on </h1>
+	
+			{this.projects}
+
             </div>
         );
     }
