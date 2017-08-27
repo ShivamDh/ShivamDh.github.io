@@ -366,14 +366,65 @@ class Projects extends Component {
                 </div>
             )
         }
+
+        this.state = {
+            tab: 1,
+            nextList: ['website', 'starter_blog', 'trip_weather', 'python_calculator', 'fitness60', 'hangr',
+                'android2048', 'quikpic', 'c2048', 'molar_mass', 'hockey_stats', 'snake'],
+            currentList: []
+        }
+    }
+
+    _handleTabSelect = (key) => {
+        console.log('selected key ', key)
+        let nextList
+        if (key === 4) {
+            nextList = ['trip_weather', 'python_calculator', 'c2048', 'molar_mass', 'hockey_stats', 'snake']
+        } else if (key === 3) {
+            nextList = ['fitness60', 'android2048']
+        } else if (key === 2) {
+            nextList = ['website', 'starter_blog', 'hangr', 'quikpic']
+        } else {
+            nextList = ['website', 'starter_blog', 'trip_weather', 'python_calculator', 'fitness60', 'hangr',
+                'android2048', 'quikpic', 'c2048', 'molar_mass', 'hockey_stats', 'snake']
+        }
+
+        this.setState({tab: key, nextList})
+    }
+
+    _getProjectItems = (projectKeys) => {
+        return projectKeys.reduce((res, val, index, arr) => (index < arr.length - 1 ?
+            [...res, this.projects[val], <hr key={index}/>] : [...res, this.projects[val]]), [])
     }
 
     render() {
+        let projectItems = this._getProjectItems(this.state.nextList)
+
+        let customEnterAnimation = {
+            from: { transform: 'translate(0)'},
+            to: { transform: 'translate(0)'}
+        }
+
+        let customEnterAnimation1 = {
+            from: { transform: 'translate(0)'},
+            to: { transform: 'translate(0)'}
+        }
+
         return (
             <div className="container Projects">
                 <h1 className="text-center pageTitle"> Just some of the projects I have worked on </h1>
-	
-			{this.projects}
+
+                <Tabs activeKey={this.state.tab} id="project-tab" onSelect={this._handleTabSelect}>
+                    <Tab eventKey={1} title="All"> </Tab>
+                    <Tab eventKey={2} title="Web"> </Tab>
+                    <Tab eventKey={3} title="Mobile"> </Tab>
+                    <Tab eventKey={4} title="Command Line"> </Tab>
+                </Tabs>
+
+                <FlipMove duration={100} enterAnimation="fade" leaveAnimation="fade">
+                    {projectItems}
+                </FlipMove>
+
 
             </div>
         );
