@@ -38,6 +38,56 @@
 		}
 	}
 
+	@media screen and (min-width: 450px) {
+		.header {
+			height: 70px;
+
+			.header-text .text {
+				font-size: 18px;
+			}
+		}	
+	}
+
+	@media screen and (min-width: 550px) {
+		.header {
+			height: 80px;
+
+			.header-text .text {
+				font-size: 24px;
+			}
+		}	
+	}
+
+	@media screen and (min-width: 768px) {
+		.header {
+			height: 100px;
+
+			.header-text .text {
+				font-size: 35.5px;
+			}
+		}	
+	}
+
+	@media screen and (min-width: 992px) {
+		.header {
+			height: 120px;
+
+			.header-text .text {
+				font-size: 49px;
+			}
+		}	
+	}
+
+	@media screen and (min-width: 1200px) {
+		.header {
+			height: 150px;
+
+			.header-text .text {
+				font-size: 60px;
+			}
+		}	
+	}
+
 	.about-me {
 		background-color: orange;
 		width: 100%;
