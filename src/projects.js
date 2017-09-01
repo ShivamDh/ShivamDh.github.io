@@ -411,21 +411,21 @@ class Projects extends Component {
         }
 
         return (
-            <div className="container Projects">
-                <h1 className="text-center pageTitle"> Just some of the projects I have worked on </h1>
+            <div className="Projects" style={{backgroundImage : 'url(img/project-background.jpg)'}}>
+                <div className="container projects-container">
+                    <h1 className="text-center pageTitle"> Just some of the projects I have worked on </h1>
 
-                <Tabs activeKey={this.state.tab} id="project-tab" onSelect={this._handleTabSelect}>
-                    <Tab eventKey={1} title="All"> </Tab>
-                    <Tab eventKey={2} title="Web"> </Tab>
-                    <Tab eventKey={3} title="Mobile"> </Tab>
-                    <Tab eventKey={4} title="Command Line"> </Tab>
-                </Tabs>
+                    <Tabs activeKey={this.state.tab} id="project-tab" onSelect={this._handleTabSelect}>
+                        <Tab eventKey={1} title="All"> </Tab>
+                        <Tab eventKey={2} title="Web"> </Tab>
+                        <Tab eventKey={3} title="Mobile"> </Tab>
+                        <Tab eventKey={4} title="Command Line"> </Tab>
+                    </Tabs>
 
-                <FlipMove duration={100} enterAnimation="fade" leaveAnimation="fade">
-                    {projectItems}
-                </FlipMove>
-
-
+                    <FlipMove duration={100} enterAnimation="fade" leaveAnimation="fade">
+                        {projectItems}
+                    </FlipMove>
+                </div>
             </div>
         );
     }
