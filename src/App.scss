@@ -115,8 +115,79 @@
 	}
 
 	.footer {
-		background-color: black;
+		background: #000000; /* fallback for old browsers */
+		background: linear-gradient(to right, #232526, #414345);
 		width: 100%;
-		height: 250px;
+		height: 200px;
+
+		.footer-navigation {
+			width: 100%;
+			padding-top: 30px;
+			height: 90px;
+			font-size: 14px;
+
+			a {
+				position: relative;
+				display: inline-block;
+				margin: 5px 30px;
+				outline: none;
+				color: white;
+				text-decoration: none;
+				letter-spacing: 1px;
+				padding: 0 20px;
+				height: 35px;
+				line-height: 35px;
+			}
+		}
+
+		.footer-media {
+			width: 40%;
+			margin-left: auto;
+			margin-right: auto;
+			height: 70px;
+			display: flex;
+			justify-content: space-around;
+
+			a {
+				.footer-media-mail, .footer-media-linkedin, .footer-media-github {
+					text-align: center;
+					background-color: white;
+					width: 55px;
+					height: 55px;
+					border-radius: 100%; 	
+					border: 4px outset #ACA0A0;
+					transition: all 0.2s ease;
+				}
+
+				.footer-media-github img {
+					margin-top: calc(50% - 17.5px);
+					width: 35px;
+					height: 35px;
+				}
+
+				.footer-media-linkedin img {
+					margin-top: calc(50% - 15px);
+					width: 30px;
+					height: 28px;
+				}
+
+				.footer-media-mail img {
+					margin-top: calc(50% - 12.5px);
+					width: 35px;
+					height: 25px;
+				}				
+			}
+		}
+
+		.footer-copyright {
+			color: white;
+			font-size: 16px;
+			font-family: Raleway;
+			width: 100%;
+
+			span {
+				font-size: 18px;
+			}
+		}
 	}
 }

@@ -31,8 +31,7 @@ class App extends Component {
 						<Navbar.Header>
 							<Navbar.Brand>
 								<div>
-									<img className="img-responsive" data-letters="Shivam"
-										src="img/header-logo.png" alt="Website Name/Logo" />
+									<img className="img-responsive" src="img/header-logo.png" alt="Website Name/Logo" />
 									<div className="name">
 										<div className="firstName"> SHIVAM </div>
 										<div className="lastName"> DHARME </div>
@@ -57,8 +56,33 @@ class App extends Component {
 						<Route path="/contact" component={Contact} />
 						<Route component={PageNotFound} />
 					</Switch>
-					<div className="footer">
-
+					<div className="footer" style={{'background': 'url(http://www.f-covers.com/cover/black-shapes-pattern-facebook-cover-timeline-banner-for-fb.jpg)'}}>
+						<div className="footer-navigation text-center">
+							<a href="/"> HOME </a>
+							<a href="/about"> ABOUT </a>
+							<a href="/projects"> PROJECTS </a>
+							<a href="/contact"> CONTACT </a>
+						</div>
+						<div className="footer-media" >
+							<a href = "mailto: shivamdharme@gmail.ca?Subject=Contact%20Shivam" target="top">
+								<div className="footer-media-github">
+									<img src="FooterGithub.png" alt="Github" />
+								</div>
+							</a>
+							<a href = "https://www.linkedin.com/in/shivam-dharme">
+								<div className="footer-media-linkedin">
+									<img src="FooterLinkedIn.jpg" alt="LinkedIn" />
+								</div>
+							</a>
+							<a href = "https://www.github.com/ShivamDh">
+								<div className="footer-media-mail">
+									<img src="FooterEmail.png" alt="Mail" />
+								</div>
+							</a>
+						</div>
+						<div className="footer-copyright text-center">
+							© <span> 2017 </span> SHIVAM DHARME ALL RIGHTS RESERVED
+						</div>
 					</div>
 
 				</div>
