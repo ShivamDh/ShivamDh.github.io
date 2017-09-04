@@ -137,7 +137,49 @@
 				padding: 0 20px;
 				height: 35px;
 				line-height: 35px;
+
+				&:before, &:after {
+					position: absolute;
+					width: 35px;
+					height: 3px;
+					background: white;
+					content: '';
+					opacity: 0.2;
+					transition: all 0.25s;
+					pointer-events: none
+				}
+
+				&:before {
+					top: 0;
+					left: 0;
+					transform: rotate(90deg);
+					transform-origin: 0 0;
+				}
+
+				&::after {
+					right: 0;
+					bottom: 0;
+					margin-bottom: -2px;
+					transform: rotate(90deg);
+					transform-origin: 100% 0;
+				}
+
+				&:hover:before, &:hover:after, &:focus:before, &:focus:after {
+					opacity: 1;
+				}
+
+				&:hover:before, &:focus:before {
+					left: 50%;
+					transform: rotate(0deg) translateX(-50%);
+				}
+
+				&:hover:after, &:focus:after {
+					right: 50%;
+					transform: rotate(0deg) translateX(50%);
+				}
 			}
+
+			// @media
 		}
 
 		.footer-media {
@@ -149,6 +191,10 @@
 			justify-content: space-around;
 
 			a {
+				width: fit-content;
+				height: fit-content;
+				border-radius: 100%;
+
 				.footer-media-mail, .footer-media-linkedin, .footer-media-github {
 					text-align: center;
 					background-color: white;
@@ -157,6 +203,62 @@
 					border-radius: 100%; 	
 					border: 4px outset #ACA0A0;
 					transition: all 0.2s ease;
+
+					&:hover {
+						border: 4px inset #ACA0A0;
+						transform: scale(1.3);
+						box-shadow: 0 0 30px #FFFFFF;
+
+						&:before {
+							animation: circle 0.3s;
+						}
+					}
+
+
+					&:before {
+						position: absolute;
+						top: 50%;
+						left: 50%;
+						z-index: 2;
+						display: block;
+						content: '';
+						width: 0;
+						height: 0;
+						background: rgba(255, 255, 255, 0.4);
+						border-radius: 100%;
+						transform: translate(-50%, -50%);
+						opacity: 0;
+					}
+
+					@-webkit-keyframes circle {
+						0% {
+							opacity: 1;
+						}
+						40% {
+							opacity: 1;
+						}
+						100% {
+							width: 200%;
+							height: 200%;
+							opacity: 0;
+						}
+					}
+					@keyframes circle {
+						0% {
+							opacity: 1;
+						}
+						40% {
+							opacity: 1;
+						}
+						100% {
+							width: 200%;
+							height: 200%;
+							opacity: 0;
+						}
+					}
+
+
+
 				}
 
 				.footer-media-github img {
