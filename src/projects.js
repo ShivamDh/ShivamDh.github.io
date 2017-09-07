@@ -28,13 +28,19 @@ class Projects extends Component {
                                 &nbsp; Your are viewing the website right now! Click to visit it on Github
                             </a>
                         </p>
-                        <dl>
+                        <dl className="content-list">
                             <dd>- This website was made to showcase my portfolio </dd>
                             <dd>- Created through ReactJS and a multi-page design for an extremely fast and interactive website</dd>
                             <dd>- Utilizes SASS styling and React-Bootstrap modelling to scale website for all screen sizes</dd>
                             <dd>- Incorporates modern ECMAScript 2016 (ES7) along with multiple third party libraries for UX Design</dd>
                         </dl>
-                        <p> <span className="text-muted"> Used: </span> JavaScript (React.js, ES7), Node, HTML, SASS/CSS, Bootstrap, Material-UI </p>
+                        <div className="languages">
+                            <div> Javascript (React, ES7, Node) </div>
+                            <div> HTML </div>
+                            <div> SASS/CSS </div>
+                            <div> Bootstrap </div>
+                            <div> Material-UI </div>
+                        </div>
                     </div>
                 </div>
             ),
@@ -51,7 +57,7 @@ class Projects extends Component {
                                 &nbsp; Click to view this project on Github
                             </a>
                         </p>
-                        <dl>
+                        <dl className="content-list">
                             <dd>
                                 - An Django blog template created from scratch to gain experience in Django website creation
                                 and integration of Jinja Templating for modular web applications
@@ -64,7 +70,11 @@ class Projects extends Component {
                                 - Website designing and UI layout was created through Bootstrap styling along with custom component creations
                             </dd>
                         </dl>
-                        <p> <span className="text-muted"> Used: </span> Django (Python), SQLite, Bootstrap </p>
+                        <div className="languages">
+                            <div> Django (Python) </div>
+                            <div> SQLite </div>
+                            <div> Bootstrap </div>
+                        </div>
                     </div>
                 </div>
             ),
@@ -81,7 +91,7 @@ class Projects extends Component {
                                 &nbsp; Click to view this project on Github
                             </a>
                         </p>
-                        <dl>
+                        <dl className="content-list">
                             <dd>
                                 - Displays weather on a user defined trip from point A to point B with user selections including time of
                                 trip, how often to check for weather on trip, and what units to display data in
@@ -95,7 +105,11 @@ class Projects extends Component {
                                 coordinates found along the route and displays JSON results in a clean manner to user with specified units
                             </dd>
                         </dl>
-                        <p> <span className="text-muted"> Used: </span> Python, Google Maps API, Weather Underground API </p>
+                        <div className="languages">
+                            <div> Python </div>
+                            <div> Google Maps API </div>
+                            <div> Weather Underground API </div>
+                        </div>
                     </div>
                 </div>
             ),
@@ -112,7 +126,7 @@ class Projects extends Component {
                                 &nbsp; Click to view this project on Github
                             </a>
                         </p>
-                        <dl>
+                        <dl className="content-list">
                             <dd>
                                 - A Python GUI (graphical user interface) used to build a simple scientific calculator 
                                 with all basic mathematical operations along with a clear 22-digit numeric display  
@@ -126,7 +140,10 @@ class Projects extends Component {
                                 for features such as Cascading Menubar, Labels, and Style Configurations   
                             </dd>
                         </dl>
-                        <p> <span className="text-muted"> Used: </span> Python, Tkinter (GUI package) </p>
+                        <div className="languages">
+                            <div> Python </div>
+                            <div> Tkinter (GUI package) </div>
+                        </div>
                     </div>
                 </div>
             ),
@@ -143,7 +160,7 @@ class Projects extends Component {
                                 &nbsp; Click to view this project on Github
                             </a>
                         </p>
-                        <dl>
+                        <dl className="content-list">
                             <dd>
                                 - An Android app that users can use to record and store their workout and fitness data,
                                 which users can later analyze and see their growth and accomplishments
@@ -157,7 +174,11 @@ class Projects extends Component {
                                 allows for users to save app option
                             </dd>
                         </dl>
-                        <p> <span className="text-muted"> Used: </span> Java, Android Studio, Android SQLite </p>
+                        <div className="languages">
+                            <div> Java </div>
+                            <div> Android Studio </div>
+                            <div> Android SQLite </div>
+                        </div>
                     </div>
                 </div>
             ),
@@ -174,7 +195,7 @@ class Projects extends Component {
                                 &nbsp; Click to view this project on Github
                             </a>
                         </p>
-                        <dl>
+                        <dl className="content-list">
                             <dd>
                                 - An Internet of Things (IoT) project for a "smart closet" that helps users
                                 select clothes to wear according to user preferences and clothing matches
@@ -188,7 +209,12 @@ class Projects extends Component {
                                 web server that connects to Watson through Node-RED software
                             </dd>
                         </dl>
-                        <p> <span className="text-muted"> Used: </span> IBM Watson, Node-RED, HTML, CSS, JavaScript </p>
+                        <div className="languages">
+                            <div> IBM Watson </div>
+                            <div> Node-RED (JavaScript) </div>
+                            <div> HTML </div>
+                            <div> CSS </div>
+                        </div>
                     </div>
                 </div>
             ),
@@ -203,7 +229,7 @@ class Projects extends Component {
                             <span className="glyphicon glyphicon-lock"></span>
                                 &nbsp; Code maintained privately, sorry!
                         </p>
-                        <dl>
+                        <dl className="content-list">
                             <dd>
                                 - An Android version of the once-popular 2048 game that uses hardware sensors
                                 such as accelerometer readings to control gameplay and user feed
@@ -217,7 +243,10 @@ class Projects extends Component {
                                 as well as user selections regarding which type of gestures to use
                             </dd>
                         </dl>
-                        <p> <span className="text-muted"> Used: </span> Java, Android Studio </p>
+                        <div className="languages">
+                            <div> Java </div>
+                            <div> Android Studio </div>
+                        </div>
                     </div>
                 </div>
             ),
@@ -234,7 +263,7 @@ class Projects extends Component {
                                 &nbsp; Click to view this project on Github
                             </a>
                         </p>
-                        <dl>
+                        <dl className="content-list">
                             <dd>
                                 - A Chrome extension that allows for faster load times and less internet
                                 bandwidth need by dynamically reducing image size and resolution on webpage
@@ -247,7 +276,12 @@ class Projects extends Component {
                                 - Images are found and repacled dynamically with no change in webpage view
                             </dd>
                         </dl>
-                        <p> <span className="text-muted"> Used: </span> HTML, CSS, JavaScript (Node.js), Amazon Web Services </p>
+                        <div className="languages">
+                            <div> HTML </div>
+                            <div> CSS </div>
+                            <div> JavaScript(Node) </div>
+                            <div> Amazon Web Services (AWS) </div>
+                        </div>
                     </div>
                 </div>
             ),
@@ -264,7 +298,7 @@ class Projects extends Component {
                                 &nbsp; Click to view this project on Github
                             </a>
                         </p>
-                        <dl>
+                        <dl className="content-list">
                             <dd>
                                 - A fun command line game created while learning low-level C language and utilization of simple 
                                 data structures and algorithms for gameplay and state operations
@@ -276,7 +310,11 @@ class Projects extends Component {
                                 - Note: A newer version of this game has been created as an Android application, scroll above to view
                             </dd>
                         </dl>
-                        <p> <span className="text-muted"> Used: </span> C Language, GDB Debugger, Command Line Tools </p>
+                        <div className="languages">
+                            <div> C </div>
+                            <div> GDB Debugger </div>
+                            <div> Command Line Tools </div>
+                        </div>
                     </div>
                 </div>
             ),
@@ -293,7 +331,7 @@ class Projects extends Component {
                                 &nbsp; Click to view this project on Github
                             </a>
                         </p>
-                        <dl>
+                        <dl className="content-list">
                             <dd>
                                 - A chemistry based calculator written in C language
                             </dd>
@@ -304,7 +342,10 @@ class Projects extends Component {
                                 - Incorporates jump case algorithm and recursion for any subscript usage in elements or compounds
                             </dd>
                         </dl>
-                        <p> <span className="text-muted"> Used: </span> C Language, Command Line Tools </p>
+                        <div className="languages">
+                            <div> C </div>
+                            <div> Command Line Tools </div>
+                        </div>
                     </div>
                 </div>
             ),
@@ -321,7 +362,7 @@ class Projects extends Component {
                                 &nbsp; Click to view this project on Github
                             </a>
                         </p>
-                        <dl>
+                        <dl className="content-list">
                             <dd>
                                 - A hockey data organizer that combines linked list storage and arrangement to provide a flexible statistics calculator and data manager
                             </dd>
@@ -332,7 +373,11 @@ class Projects extends Component {
                                 - Utilizes output stream to produce a csv file, arranged to user parameters
                             </dd>
                         </dl>
-                        <p> <span className="text-muted"> Used: </span> C Language, GDB Debugger, Command Line Tools </p>
+                        <div className="languages">
+                            <div> C </div>
+                            <div> GDB Debugger </div>
+                            <div> Command Line Tools </div>
+                        </div>
                     </div>
                 </div>
             ),
@@ -349,7 +394,7 @@ class Projects extends Component {
                                 &nbsp; Click to view this project on Github
                             </a>
                         </p>
-                        <dl>
+                        <dl className="content-list">
                             <dd>
                                 - A fun command prompt game written in C++ language and uses object-oriented design
                                 for modularized and reproducible code segments
@@ -361,7 +406,11 @@ class Projects extends Component {
                                 - Allows for a user-defined interface and gameplay to be setup
                             </dd>
                         </dl>
-                        <p> <span className="text-muted"> Used: </span> C++ Language, GDB Debugger, Command Line Tools </p>
+                        <div className="languages">
+                            <div> C++ </div>
+                            <div> GDB Debugger </div>
+                            <div> Command Line Tools </div>
+                        </div>
                     </div>
                 </div>
             )
