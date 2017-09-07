@@ -1,15 +1,8 @@
 import React, { Component } from 'react';
-import { Switch, Route, Link } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import PageNotFound from './PageNotFound';
 import {Navbar, Nav, NavItem} from 'react-bootstrap'
-import FlatButton from 'material-ui/FlatButton'
-import FontIcon from 'material-ui/FontIcon'
-import darkBaseTheme from 'material-ui/styles/baseThemes/darkBaseTheme';
-import getMuiTheme from 'material-ui/styles/getMuiTheme'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
-import ActionAndroid from 'material-ui/svg-icons/action/android'
-import IconButton from 'material-ui/IconButton';
-import ActionHome from 'material-ui/svg-icons/action/home';
 import Home from './home'
 import Contact from './contact'
 import About from './about'
