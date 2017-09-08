@@ -134,7 +134,7 @@
 				font-size: 24px;
 			}
 
-			.about-me-skills-software {
+			.about-me-skills-software, .about-me-skills-web, .about-me-skills-tech {
 				width: 100%;
 				padding: 0;
 
@@ -165,6 +165,16 @@
 							width: 50%;
 						}
 					}
+				}
+			}
+
+			.about-me-skills-tech .about-me-skills-tech-list ul {
+				li {
+					width: 33.3%;
+				}
+
+				#AWS, #sqlServer {
+					width: 66.6%;
 				}
 			}
 		}
