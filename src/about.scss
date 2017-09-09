@@ -350,5 +350,138 @@
 			}
 
 		}
+
+		@media screen and (min-width: 880px) {
+			.about-me-info .about-me-info-first, .about-me-info  .about-me-info-others {
+				font-size: 16px;
+			}
+
+			.about-me-skills {
+				.about-me-skills-header {
+					font-size: 40px;
+				}
+				font-size: 12px;
+
+				.about-me-skills-software, .about-me-skills-web, .about-me-skills-tech {
+					padding: 0;
+
+					&-header {
+						font-size: 18px;
+					}
+				}
+
+				.about-me-skills-tech .about-me-skills-tech-list ul {
+					li {
+						width: 25%;
+					}
+
+					#AWS, #sqlServer {
+						width: 50%;
+					}
+				}
+			}
+		}
+
+		@media screen and (min-width: 992px) {
+			.about-me-info .about-me-info-first, .about-me-info  .about-me-info-others {
+				font-size: 16px;
+
+				span {
+					font-size: 60px;
+				}
+			}
+
+			.about-me-skills {
+				font-size: 13.2px;
+
+				.about-me-skills-software, .about-me-skills-web, .about-me-skills-tech {
+					padding: 0;
+
+					&-list ul li:before {
+						padding-right: 0px;	
+					}
+				}
+
+				.about-me-skills-software {
+					&-list ul {
+						li {
+							width: 16.6%;
+						}
+
+						#androidDev, #androidSQL {
+							width: 33.2%;
+						}
+					}
+				}
+			}
+		}
+
+		@media screen and (min-width: 1100px) {
+			.about-me-info .about-me-info-first, .about-me-info  .about-me-info-others {
+				font-size: 17px;
+			}
+
+			.about-me-skills {
+				font-size: 13.5px;
+
+				.about-me-skills-software, .about-me-skills-web, .about-me-skills-tech {
+					&-list ul li:before {
+						padding-right: 0px;	
+					}
+				}
+
+				.about-me-skills-software, .about-me-skills-web {
+					&-list ul {
+						li {
+							width: 16.6%;
+						}
+
+						#androidDev, #androidSQL {
+							width: 33.2%;
+						}
+					}
+				}				
+			}
+		}
+
+		@media screen and (min-width: 1200px) {
+			.about-me-info .about-me-info-first, .about-me-info .about-me-info-others {
+				font-size: 18px;
+
+				span {
+					font-size: 70px;
+				}
+			}
+
+			.about-me-skills {
+				font-size: 14px;
+
+				.about-me-skills-software, .about-me-skills-web, .about-me-skills-tech {
+					&-list ul li:before {
+						padding-right: 5px;
+					}
+				}
+			}
+		}
+
+		@media screen and (min-width: 1350px) {
+			.about-me-info .about-me-info-first, .about-me-info .about-me-info-others {
+				font-size: 19px;
+
+				span {
+					font-size: 80px;
+				}
+			}
+
+			.about-me-skills {
+				font-size: 14.5px;
+
+				.about-me-skills-software, .about-me-skills-web, .about-me-skills-tech {
+					&-list ul li:before {
+						padding-right: 7px;
+					}
+				}
+			}
+		}
 	}
 }
