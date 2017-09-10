@@ -49,7 +49,7 @@ class App extends Component {
 						<Route path="/contact" component={Contact} />
 						<Route component={PageNotFound} />
 					</Switch>
-					<div className="footer" style={{'background': 'url(http://www.f-covers.com/cover/black-shapes-pattern-facebook-cover-timeline-banner-for-fb.jpg)'}}>
+					<div className="footer" style={{backgroundImage: 'url(img/footer-background.jpg)'}}>
 						<div className="footer-navigation text-center">
 							<a href="/"> HOME </a>
 							<a href="/about"> ABOUT </a>
@@ -59,17 +59,17 @@ class App extends Component {
 						<div className="footer-media" >
 							<a href = "mailto: shivamdharme@gmail.ca?Subject=Contact%20Shivam" target="top">
 								<div className="footer-media-github">
-									<img src="FooterGithub.png" alt="Github" />
+									<img src="img/FooterGithub.png" alt="Github" />
 								</div>
 							</a>
 							<a href = "https://www.linkedin.com/in/shivam-dharme">
 								<div className="footer-media-linkedin">
-									<img src="FooterLinkedIn.jpg" alt="LinkedIn" />
+									<img src="img/FooterLinkedIn.jpg" alt="LinkedIn" />
 								</div>
 							</a>
 							<a href = "https://www.github.com/ShivamDh">
 								<div className="footer-media-mail">
-									<img src="FooterEmail.png" alt="Mail" />
+									<img src="img/FooterEmail.png" alt="Mail" />
 								</div>
 							</a>
 						</div>

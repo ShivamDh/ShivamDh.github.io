@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=PT+Sans|Raleway');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Raleway:200,300,400,500,600,700,800,900');
 
 @mixin standard-link {
 	color: #BCB8B8;
@@ -33,7 +33,7 @@
 
 				.name {
 					margin-top: 10px;
-					font-weight: 800;
+					font-weight: 900;
 					font-family: PT Sans;
 					color: #726758;
 
@@ -93,14 +93,14 @@
 						position: relative;
 						display: inline-block;
 						transition: transform 0.3s;
-					}
 
-					span::before {
-						position: absolute;
-						top: 100%;
-						content: attr(data-hover);
-						font-weight: 900;
-						transform: translate3d(0,0,0);
+						&:before {
+							position: absolute;
+							top: 100%;
+							content: attr(data-hover);
+							font-weight: 700;
+							transform: translate3d(0,0,0);
+						}
 					}
 
 					&:hover span, &:focus span {
@@ -110,7 +110,7 @@
 
 				.header-link-active a {
 					@include standard-link;
-					font-weight: 600;
+					font-weight: 700;
 					overflow: hidden;
 					padding: 2px 4px;
 					height: 1em;
@@ -163,12 +163,17 @@
 					transform-origin: 0 0;
 				}
 
-				&::after {
+				&:after {
 					right: 0;
 					bottom: 0;
 					margin-bottom: -2px;
 					transform: rotate(90deg);
 					transform-origin: 100% 0;
+				}
+
+				&:hover {
+					color: #337ab7;
+					font-weight: 700;
 				}
 
 				&:hover:before, &:hover:after, &:focus:before, &:focus:after {
