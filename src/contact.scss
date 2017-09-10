@@ -3,13 +3,6 @@
 		font-size: 30px + $size * 5px;
 	}
 
-	.breakLine {
-		width: 40px + $size * 15px;
-		height: 2px + $size * 0.5px;
-		margin-top: 2px + $size * 2px;
-		margin-bottom: 4px +  $size * 4px;
-	}
-
 	.caption {
 		font-size: 12px + $size * 2px;
 	}
@@ -41,46 +34,39 @@
 				font-family: Raleway;
 			}
 
-			.breakLine {
-				background-color: orange;
-			}
+			.get-in-touch {
+				padding-bottom: 10px;
+				width: fit-content;
+				margin: 0 auto 15px auto;
+				position: relative;
 
-			@media screen and (max-width: 449px) {
-				.get-in-touch {
-					font-size: 22px;
-				}
-
-				.breakLine {
-					width: 25px;
-					height: 2px;
-					margin-top: 2px;
-					margin-bottom: 5px;
-				}
-
-				.caption {
-					font-size: 9px;
+				&:after {
+					text-align: center;
+					content: "";
+					position: absolute;
+					left: 35%;
+					bottom: 0;
+					height: 1px;
+					width: 30%;
+					border-bottom: 4px solid orange;
 				}
 			}
 
-			@media screen and (min-width: 450px) and (max-width: 549px) {
-				@include header-text(0);
-			}
-
-			@media screen and (min-width: 550px) and (max-width: 767px) {
-				@include header-text(1);
-			}
-
-			@media screen and (min-width: 768px) and (max-width: 991px) {
+			@media screen and (min-width: 768px) {
 				@include header-text(2);
 			}
 
-			@media screen and (min-width: 992px) and (max-width: 1199px) {
+			@media screen and (min-width: 992px) {
 				@include header-text(3);
 			}
 
 			@media screen and (min-width: 1200px) {
 				@include header-text(4);
 			}
+		}
+
+		@media screen and (max-width: 767px) {
+			display: none;
 		}
 	}
 
@@ -171,7 +157,13 @@
 									background-color: transparent;
 									font-family: Raleway;
 									width: calc(100% - 30px);
-									font-size: 15px;
+									font-size: 12px;
+								}
+
+								@media screen and (min-width: 375px) {
+									div {
+										font-size: 15px;
+									}
 								}
 
 								@media screen and (min-width: 450px) {

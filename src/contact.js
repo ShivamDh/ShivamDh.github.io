@@ -14,13 +14,13 @@ class Contact extends Component {
 	}
 
 	submitMessage = () => {
-		console.log('submitting message')
-		console.log(this.state)
-		this.setState({firstName: '', lastName: '', email: '', message: ''})
-	}
-
-	test = () => {
-		console.log('test')
+		if (this.state.firstName && this.state.lastName && this.state.email && this.state.message) {
+			let body = `This is ${this.state.firstName} ${this.state.lastName}. ${this.state.message} \n Contact email is ${this.state.email}`
+			window.open(`mailto: shivamdharme@gmail.ca?subject=Contact%20Shivam&body=${body}`);
+			this.setState({firstName: '', lastName: '', email: '', message: ''})	
+		} else {
+			alert("For the message to be sent through proper channels, please enter all fields")
+		}
 	}
 
 	handleFirstNameChange = (evt, val) => {
@@ -47,7 +47,6 @@ class Contact extends Component {
 			    		<div className="get-in-touch">
 				    		GET IN TOUCH 
 				    	</div>
-				    	<div className="breakLine center-block"/>
 				    	<div className="caption">
 				    		I'll always make the time to respond to any inquiries
 				    	</div>
@@ -63,7 +62,7 @@ class Contact extends Component {
 				    		</div>
 				    		<div className="contact-info-list">
 				    			<div className="contact-email">
-									<a href="mailto: shivamdharme@gmail.ca?Subject=Contact%20Shivam" target="top">
+									<a href="mailto: shivamdharme@gmail.ca?subject=Contact%20Shivam" target="top">
 										<div>
 											<img alt="email" src="img/mail-bw.png" />
 											<div> Email me at shivamdharme@gmail.com </div>
