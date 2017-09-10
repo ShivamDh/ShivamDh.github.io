@@ -484,4 +484,79 @@
 			}
 		}
 	}
+
+	.about-resume {
+	    display: block;
+	    width: 100%;
+		height: 110px;
+	    overflow: hidden;
+	    color: #f2f2f2;
+	    position: relative;
+	    background: #1F1F1F;
+	    font-family: Raleway;
+	    font-size: 16px;
+	    font-weight: 600;
+	    text-align: center;
+	    letter-spacing: 3px;
+	    transition: background-color .5s linear;
+
+	    &:focus, &:hover {
+		    background: #2D2D2D;
+		    transition: all .3s ease;
+
+		    .about-resume-text {
+			    opacity: 0;
+			    visibility: hidden;
+			    transform: translate3D(0, 4em, 0) scale(.25)
+		    }
+
+		    .about-resume-img {
+			    opacity: 1;
+			    visibility: visible;
+			    transform: translate3D(0, 0, 0) scale(1)
+		    }
+	    }
+
+	    .about-resume-text, .about-resume-img {
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+		    right: 0;
+		    text-align: center
+	    }
+
+	    .about-resume-text {
+		    margin: 40px auto;
+		    opacity: 1;
+		    visibility: visible;
+		    transition: transform .4s cubic-bezier(.425, -.195, .005, 1.215), opacity .13333s linear;
+		    transform: scale(1)
+	    }
+
+	    .about-resume-img {
+		    width: 55px;
+		    height: 50px;
+		    margin: 30px auto;
+		    opacity: 0;
+		    visibility: hidden;
+		    transition: transform .4s cubic-bezier(.425, -.195, .005, 1.215), opacity .4s linear;
+		    transform: translate3D(0, -4em, 0) scale(0)
+	    }
+
+	    @media screen and (min-width: 320px) {
+	    	font-size: 18px;
+
+	    	.about-resume-text {
+	    		margin: 45px auto;
+	    	}
+	    }
+
+	    @media screen and (min-width: 550px) {
+	    	font-size: 25px;
+
+	    	.about-resume-text {
+	    		margin: 40px auto;
+	    	}
+	    }
+	}
 }
