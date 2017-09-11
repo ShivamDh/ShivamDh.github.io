@@ -206,7 +206,58 @@
 		// 		}
 		// 	}
 		// }
+	}
 
-		
+	.home-about-me {
+		width: 100%;
+		background-size: cover;
+		color: #DCDADA;
+		font-family: Raleway;
+		font-weight: 50	0;
+
+		.home-about-me-who, .home-about-me-what {
+			width: 100%;
+			height: calc(50% - 12.5px);
+			padding: 10px 0 20px 0;
+
+			&-header {
+				width: 100%;
+				text-align: center;
+				font-size: 19px;
+				padding: 0 10%;
+				color: #F9F9F9;
+
+				span {
+					font-size: 29px;
+				}
+			}
+
+			&-body {
+				font-size: 13px;
+				width: 100%;
+				padding: 10px 5% 15px 5%;
+
+				span {
+					font-weight: 700;
+					color: white;
+				}
+			}
+		}
+
+		.home-about-me-who {
+			height: calc(50% - 12.5px - 25px);
+		}
+
+		.home-about-me-what {
+			height: calc(50% - 12.5px + 25px);
+			margin-bottom: 0;
+		}
+
+		hr {
+			border-top-width: 5px;
+			border-radius: 100%;
+			margin: 0;
+		}
+
 	}
 }
