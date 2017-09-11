@@ -15,6 +15,16 @@
 		#project-tab {
 			margin-bottom: 20px;
 			font-family: Raleway;
+
+			@media screen and (max-width: 450px) {
+				ul li a {
+					padding: 10px;
+				}
+			}
+
+			@media screen and (max-width: 375px) {
+				font-size: 12px;
+			}
 		}
 
 		.row {
@@ -22,6 +32,15 @@
 
 			.col-sm-4 img {
 				margin-top: 5px;
+			}
+
+			@media screen and (min-width: 768px) {
+				display: flex;
+
+				.col-sm-4 {
+					margin-top: auto;
+					margin-bottom: auto;
+				}
 			}
 
 			.content {
@@ -114,6 +133,11 @@
 					}
 				}
 			}
+		}
+
+		.fitness60 .col-sm-4 img {
+			border: 0.2px solid #969393;
+			border-left: none;
 		}
 	}
 }
