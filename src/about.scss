@@ -6,6 +6,30 @@
   	}
 }
 
+@mixin about-timeline-fontSizes ($date, $span, $header, $subheader, $text) {
+	.cd-timeline-content {
+		.cd-date {
+			font-size: $date;
+
+			span {
+				font-size: $span;
+			}
+		}
+
+		.cd-timeline-content-header {
+			font-size: $header;
+		}
+
+		.cd-timeline-content-subheader {
+			font-size: $subheader;
+		}
+
+		.cd-timeline-content-text {
+			font-size: $text;
+		}
+	}
+}
+
 .About {
 	.header {
 		width: 100%;
@@ -568,6 +592,16 @@
 					margin-bottom: 0;
 				}
 
+				@media screen and (min-width: 992px) {
+					&:first-child {
+						margin-top: 0;
+					}
+
+					&:last-child {
+						margin-bottom: 0;
+					}
+				}
+
 				.cd-timeline-img {
 					position: absolute;
 					top: 0;
@@ -611,9 +645,19 @@
 					}
 				}
 
-				.cd-timeline-content-header, .cd-timeline-content-subheader {
+				.cd-timeline-content-header {
 					font-family: Raleway;
 					font-weight: bold;
+				}
+
+				.cd-timeline-content-subheader {
+					font-family: Raleway;
+					font-weight: bold;
+					padding-bottom: 10px;
+
+					a {
+						text-decoration: none;
+					}
 				}
 
 				.cd-timeline-content-text {
@@ -622,10 +666,47 @@
 					margin: 5px 0;
 					line-height: 1.6;
 				}
+
+				&:before {
+					content: '';
+					position: absolute;
+					top: 16px;
+					right: 100%;
+					height: 0;
+					width: 0;
+					border: 7px solid transparent;
+					border-right: 7px solid white;
+				}
 			}
+			@include about-timeline-fontSizes(8.5px, 10px, 11.5px, 10px, 9px);
 
 			.cd-timeline-content:hover + .cd-timeline-img, .cd-timeline-content:focus + .cd-timeline-img {
 				background: #235B8C;
+			}
+
+			@media screen and (min-width: 992px) {
+				max-width: 992px;
+				margin: 5px auto;
+
+				&:before {
+					left: 50%;
+					margin-left: -2px;
+				}
+
+				.cd-timeline-block:nth-child(even) .cd-timeline-content {
+					box-shadow: 10px 10px 5px #fff;
+					float: right;
+
+					&:before {
+						top: 24px;
+						left: auto;
+						right: 100%;
+						border-color: transparent;
+						border-right-color: white;
+					}
+				}
+
+				@include about-timeline-fontSizes(14px, 17px, 20px, 16px, 14px);
 			}
 		}
 	}
