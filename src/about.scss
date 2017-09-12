@@ -1,3 +1,11 @@
+@mixin clearfix {
+  	&:after {
+    	content: "";
+    	display: table;
+    	clear: both;
+  	}
+}
+
 .About {
 	.header {
 		width: 100%;
@@ -481,6 +489,143 @@
 						padding-right: 7px;
 					}
 				}
+			}
+		}
+	}
+
+	.about-timeline {
+		padding-bottom: 5px;
+		width: 100%;
+	    background-position: center center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    z-index: -1;
+	    overflow: hidden;
+
+		
+		.about-timeline-header {
+			width: fit-content;
+			padding: 20px 0 5px 0;
+			margin: 0 auto 30px auto;
+			color: white;
+			font-family: Raleway;
+			font-size: 40px;
+			position: relative;
+
+			&:after {
+				text-align: center;
+				content: "";
+				position: absolute;
+				left: 35%;
+				bottom: 0;
+				height: 1px;
+				width: 30%;
+				border-bottom: 2px solid #8C8C8C;
+			}
+
+			@media screen and (min-width: 450px) {
+				font-size: 50px;
+			}
+		}
+
+		* {
+			box-sizing: border-box;
+		}
+
+		img {
+			max-width: 100%;
+		}
+
+		.cd-container {
+			width: 90%;
+			margin: 0 auto;
+			@include clearfix;
+			max-width: 100%;
+			position: relative;
+			padding: 20px 0;
+			margin-bottom: 10px;
+
+			&:before {
+				content: '';
+				position: absolute;
+				top: 0;
+				left: 18px;
+				height: 100%;
+				width: 4px;
+				background: darken(#e9f0f5, 5%);
+			}
+
+			.cd-timeline-block {
+				position: relative;
+				margin: 30px 0;
+				@include clearfix;
+
+				&:first-child {
+					margin-top: 0;
+				}
+
+				&:last-child {
+					margin-bottom: 0;
+				}
+
+				.cd-timeline-img {
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 40px;
+					height: 40px;
+					border-radius: 50%;
+					box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(#000, .08), 0 3px 0 4px rgba(#000, .05) ;
+					background: #3E3E3E;
+					transition: all 0.3s ease;
+
+					img {
+						display: block;
+						width: 24px;
+						height: 24px;
+						position: relative;
+						left: 50%;
+						top: 50%;
+						margin-left: -12px;
+						margin-top: -12px;
+					}
+				}
+			}
+
+
+			.cd-timeline-content {
+				position: relative;
+				margin-left: 60px;
+				background: rgba(255, 255, 255, 0.75);
+				padding: 5px;
+				box-shadow: 7px 7px 4px #fff;
+				@include clearfix;
+
+				.cd-date {
+					font-family: Raleway;
+					text-align: right;
+					font-weight: 700;
+
+					span {
+						font-weight: 600;
+					}
+				}
+
+				.cd-timeline-content-header, .cd-timeline-content-subheader {
+					font-family: Raleway;
+					font-weight: bold;
+				}
+
+				.cd-timeline-content-text {
+					font-family: Raleway;
+					font-weight: 500;
+					margin: 5px 0;
+					line-height: 1.6;
+				}
+			}
+
+			.cd-timeline-content:hover + .cd-timeline-img, .cd-timeline-content:focus + .cd-timeline-img {
+				background: #235B8C;
 			}
 		}
 	}

@@ -111,6 +111,46 @@ class About extends Component {
                         </div>
                     </div>
                 </div>
+                <div className="about-timeline" style={{backgroundImage: 'url(img/about-timeline-img.jpg)'}}>
+                    <div className="about-timeline-header"> Experience </div>
+                    <div id="cd-timeline" className="cd-container">
+                        <div className="cd-timeline-block">
+                            <div className="cd-timeline-content">
+                                <div className="cd-date"> MAY - AUG <span> 2017 </span>  </div>
+                                <div className="cd-timeline-content-header">Web Application Developer</div>
+                                <div className="cd-timeline-content-subheader">
+                                    <a href="http://www.evertz.com/"> Evertz Microsystems </a> 
+                                </div> 
+                                <div className="cd-timeline-content-text">
+                                    Developed scalable website applications integrating video streams through React, Redux, ES6, LESS.
+                                    Improved search engine efficiency by over 20% through UI component refactoring and
+                                    refined query model to utilizing more backend power. Built a client-specific independent platform
+                                    for broadcasting controls, utilizing barcode recognition and creating custom job scheduling.
+                                </div>
+                            </div> 
+                            <div className="cd-timeline-img">
+                                <img src="img/about-work-icon.png" alt="Work" />
+                            </div> 
+                        </div> 
+                        <div className="cd-timeline-block">
+                            <div className="cd-timeline-content">
+                                <div className="cd-date"> SEPT <span> 2016 </span> - APR <span> 2017 </span> </div>
+                                <div className="cd-timeline-content-header">Business and Electrical Team Member</div>
+                                <div className="cd-timeline-content-subheader">
+                                    <a href="http://www.uwmidsun.com/"> Midnight Sun Solar Race Car Team </a> 
+                                </div> 
+                                <div className="cd-timeline-content-text">
+                                    Built a working footer module through React and tested website components through Ngrok.
+                                    Wrote bare-metal firmware for car's embedded systems, in SPI and C language.
+                                    Aided in resolving website bug fixes and decision making for business team.
+                                </div>
+                            </div> 
+                            <div className="cd-timeline-img">
+                                <img src="img/about-website-icon.png" alt="Car"/>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
                 <a className="about-resume" href="Res.pdf">
                     <span className="about-resume-text">
                         VIEW MY RESUME
