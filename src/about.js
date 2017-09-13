@@ -149,6 +149,24 @@ class About extends Component {
                                 <img src="img/about-website-icon.png" alt="Car"/>
                             </div>
                         </div> 
+
+                        <div className="cd-timeline-block">
+                            <div className="cd-timeline-content">
+                                <div className="cd-date"> SEPT <span> 2016 </span> - present </div>
+                                <div className="cd-timeline-content-header">Computer Engineering Student</div>
+                                <div className="cd-timeline-content-subheader">
+                                    <a href="http://www.uwaterloo.ca/"> University of Waterloo </a> 
+                                </div> 
+                                <div className="cd-timeline-content-text">
+                                    Candidate for Bachelor's of Applied Science in Computer Engineering.
+                                    First year average: 87%. Top 10 Rank.
+                                    <strong> Expected Graduation in 2021 </strong>
+                                </div>
+                            </div> 
+                            <div className="cd-timeline-img">
+                                <img src="img/about-school-icon.png" alt="Study"/>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <a className="about-resume" href="Res.pdf">
