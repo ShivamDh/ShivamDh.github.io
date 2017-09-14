@@ -242,6 +242,62 @@
 					color: white;
 				}
 			}
+
+			@media screen and (min-width: 375px) {
+				&-header {
+					font-size: 26px;
+
+					span {
+						font-size: 35px;
+					}
+				}
+			}
+
+			@media screen and (min-width: 450px) {
+				&-body {
+					font-size: 14px;
+				}
+			}
+
+			@media screen and (min-width: 550px) {
+				&-header {
+					font-size: 40px;
+
+					span {
+						font-size: 55px;
+					}
+				}
+				
+				&-body {
+					font-size: 15px;
+				}
+			}
+
+			@media screen and (min-width: 768px) {
+				&-body {
+					font-size: 18px;
+				}
+			}
+
+			@media screen and (min-width: 992px) {
+				&-header {
+					font-size: 50px;
+
+					span {
+						font-size: 65px;
+					}
+				}
+
+				&-body {
+					font-size: 20.5px;
+				}
+			}
+
+			@media screen and (min-width: 1200px) {
+				&-body {
+					font-size: 24.5px;
+				}
+			}
 		}
 
 		.home-about-me-who {

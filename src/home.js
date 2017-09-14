@@ -34,6 +34,20 @@ class Home extends Component {
                             <span> cutting-edge </span> solutions to obstacles at hand to deliver <span> excellence </span> at every turn.
                         </div>
                     </div>
+                    <hr/>
+                    <div className="home-about-me-what">
+                        <div className="home-about-me-what-header">
+                            <span>&lt;</span>/<span>&gt;</span>
+                            &nbsp;&nbsp;&nbsp;WHAT I DO&nbsp;&nbsp;&nbsp;
+                            <span>&lt;</span>/<span>&gt;</span>
+                        </div>
+                        <div className="home-about-me-what-body">
+                            I am skilled and experienced in both <span> front-end </span> and <span> back-end </span> development through numerous <span> website</span>,
+                            <span> mobile </span> and <span> command-line </span> applications I have made. My knowledge also expands to <span> scripting</span>, <span> embedded systems</span>,
+                            <span> assembly</span>, <span> GUI</span>, and <span> version control</span>. I am always open to new technologies and willing to pick up and learn new programming languages.
+                        </div>
+                    </div>
+
                 </div>
             </div>
         );
