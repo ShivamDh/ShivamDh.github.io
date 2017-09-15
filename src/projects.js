@@ -18,10 +18,10 @@ class Projects extends Component {
             website: (
                 <div className="row website" key="website">
                     <div className="col-sm-4">
-                        <img src="img/MyWebsite.png" className="img-responsive" alt="Website Home Screenshot"/>
+                        <img src="img/website-revamp.JPG" className="img-responsive" alt="Website Home Screenshot"/>
                     </div>
                     <div className="col-sm-8 content">
-                        <h2 className="projectName"> Personal Website </h2>
+                        <h2 className="projectName"> Personal Website Redesign </h2>
                         <p className="text-muted">
                             <span className="glyphicon glyphicon-star"></span>
                             <a className="githubLink" href="https://github.com/shivamdh/shivamdh.github.io/">
@@ -29,7 +29,7 @@ class Projects extends Component {
                             </a>
                         </p>
                         <dl className="content-list">
-                            <dd>- This website was made to showcase my portfolio </dd>
+                            <dd>- Version 2.0 of my website created, aimed to incorporate more styling and intuitive UI control </dd>
                             <dd>- Created through ReactJS and a multi-page design for an extremely fast and interactive website</dd>
                             <dd>- Utilizes SASS styling and React-Bootstrap modelling to scale website for all screen sizes</dd>
                             <dd>- Incorporates modern ECMAScript 2016 (ES7) along with multiple third party libraries for UX Design</dd>
