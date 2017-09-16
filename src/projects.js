@@ -253,10 +253,67 @@ class Projects extends Component {
                         </div>
                     </div>
                 </div>
+            ),
+            android2048: (
+                <div className="row 2048-android" key="2048-android">
+                    <div className="col-sm-4">
+                        <img src="img/2048App.PNG" className="img-responsive" alt="2048 Android App"/>
+                    </div>
+                    <div className="col-sm-8 content">
+                        <h2 className="projectName"> 2048 Android Application </h2>
+                        <p className="text-muted">
+                            <span className="glyphicon glyphicon-lock"></span>
+                                &nbsp; Code maintained privately, sorry!
+                        </p>
+                        <dl className="content-list">
+                            <dd>
+                                - An Android version of the once-popular 2048 game that uses hardware sensors
+                                such as accelerometer readings to control gameplay and user feed
+                            </dd>
+                            <dd>
+                                - An Android version of the once-popular 2048 game that uses hardware sensors
+                                such as accelerometer readings to control gameplay and user feed
+                            </dd>
+                            <dd> 
+                                - Full OOP implementation allowing for future expansion of custom made blocks
+                                as well as user selections regarding which type of gestures to use
+                            </dd>
+                        </dl>
+                        <div className="languages">
+                            <div> Java </div>
+                            <div> Android Studio </div>
+                        </div>
+                    </div>
+                </div>
+            ),
+            oldWebsite: (
+                <div className="row oldWebsite" key="oldWebsite">
+                    <div className="col-sm-4">
+                        <img src="img/OldWebsite.png" className="img-responsive" alt="Old Website Home Screenshot"/>
+                    </div>
+                    <div className="col-sm-8 content">
+                        <h2 className="projectName"> First Personal Website (Archived) </h2>
+                        <p className="text-muted">
+                            <span className="glyphicon glyphicon-briefcase"></span>
+                            &nbsp; This website has now been archived and no longer open for viewing
+                        </p>
+                        <dl className="content-list">
+                            <dd>- First porfolio website created for showcasing skills in webpage design and honing skills in web development </dd>
+                            <dd>- Created through ReactJS and utilized a multi-page design to display different parts of the profile</dd>
+                            <dd>- Used CSS styling for layout and cross-browser support, JSX syntax for React applications</dd>
+                        </dl>
+                        <div className="languages">
+                            <div> Javascript (React, ES6, Node) </div>
+                            <div> HTML </div>
+                            <div> CSS </div>
+                        </div>
+                    </div>
+                </div>
+            ),
             quikpic: (
                 <div className="row quikpic" key="quikpic">
                     <div className="col-sm-4">
-                        <img src="http://placehold.it/1280X720" className="img-responsive" alt="QuikPic Logo"/>
+                        <img src="img/quikpic.png" className="img-responsive" alt="QuikPic Logo"/>
                     </div>
                     <div className="col-sm-8 content">
                         <h2 className="projectName"> QuikPic - A QHacks17 Project </h2>
