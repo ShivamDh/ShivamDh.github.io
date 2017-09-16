@@ -81,7 +81,7 @@ class Projects extends Component {
             trip_weather: (
                 <div className="row trip-weather" key="trip-weather">
                     <div className="col-sm-4">
-                        <img src="img/Weather.png" className="img-responsive" alt="Trip Weather"/>
+                        <img src="img/trip-weather.jpg" className="img-responsive" alt="Trip Weather"/>
                     </div>
                     <div className="col-sm-8 content">
                         <h2 className="projectName"> Trip Weather </h2>
@@ -116,7 +116,7 @@ class Projects extends Component {
             python_calculator: (
                 <div className="row python-calculator" key="python-calculator">
                     <div className="col-sm-4">
-                        <img src="http://placehold.it/1280X720" className="img-responsive" alt="Python Calculator"/>
+                        <img src="img/custom-calculator.JPG" className="img-responsive" alt="Python Calculator"/>
                     </div>
                     <div className="col-sm-8 content">
                         <h2 className="projectName"> Python Calculator </h2>
@@ -150,7 +150,7 @@ class Projects extends Component {
             fitness60: (
                 <div className="row fitness60" key="fitness60">
                     <div className="col-sm-4">
-                        <img src="http://placehold.it/1280X720" className="img-responsive" alt="Fitness App"/>
+                        <img src="img/Fitness60.PNG" className="img-responsive" alt="Fitness App"/>
                     </div>
                     <div className="col-sm-8 content">
                         <h2 className="projectName"> Fitness 60 </h2>
@@ -218,38 +218,41 @@ class Projects extends Component {
                     </div>
                 </div>
             ),
-            android2048: (
-                <div className="row 2048-android" key="2048-android">
+            hangr: (
+                <div className="row hangr" key="hangr">
                     <div className="col-sm-4">
-                        <img src="http://placehold.it/1280X720" className="img-responsive" alt="2048 Android App"/>
+                        <img src="img/hangr.jpg" className="img-responsive" alt="Hangr Logo"/>
                     </div>
                     <div className="col-sm-8 content">
-                        <h2 className="projectName"> 2048 Android Application </h2>
+                        <h2 className="projectName"> Hangr - A HackPrincetonS17 Project </h2>
                         <p className="text-muted">
-                            <span className="glyphicon glyphicon-lock"></span>
-                                &nbsp; Code maintained privately, sorry!
+                            <span className="glyphicon glyphicon-search"></span>
+                            <a className="githubLink" href="https://github.com/ShivamDh/HackPrincetonS17">
+                                &nbsp; Click to view this project on Github
+                            </a>
                         </p>
                         <dl className="content-list">
                             <dd>
-                                - An Android version of the once-popular 2048 game that uses hardware sensors
-                                such as accelerometer readings to control gameplay and user feed
+                                - An Internet of Things (IoT) project for a "smart closet" that helps users
+                                select clothes to wear according to user preferences and clothing matches
                             </dd>
                             <dd>
-                                - An Android version of the once-popular 2048 game that uses hardware sensors
-                                such as accelerometer readings to control gameplay and user feed
+                                - User inputs data through photos, visual recognition stores key info and
+                                when asked, the application gives the best suited pair of clothes to wear
                             </dd>
                             <dd> 
-                                - Full OOP implementation allowing for future expansion of custom made blocks
-                                as well as user selections regarding which type of gestures to use
+                                - Created through IBM's Watson technology with the application running on a
+                                web server that connects to Watson through Node-RED software
                             </dd>
                         </dl>
                         <div className="languages">
-                            <div> Java </div>
-                            <div> Android Studio </div>
+                            <div> IBM Watson </div>
+                            <div> Node-RED (JavaScript) </div>
+                            <div> HTML </div>
+                            <div> CSS </div>
                         </div>
                     </div>
                 </div>
-            ),
             quikpic: (
                 <div className="row quikpic" key="quikpic">
                     <div className="col-sm-4">
