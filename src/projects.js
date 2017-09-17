@@ -348,7 +348,7 @@ class Projects extends Component {
             c2048: (
                 <div className="row 2048-c" key="2048-c">
                     <div className="col-sm-4">
-                        <img src="http://placehold.it/1280X720" className="img-responsive" alt="2048 Command Line"/>
+                        <img src="img/2048C.JPG" className="img-responsive" alt="2048 Command Line"/>
                     </div>
                     <div className="col-sm-8 content">
                         <h2 className="projectName"> 2048 (Command Line Version) </h2>
@@ -381,7 +381,7 @@ class Projects extends Component {
             molar_mass: (
                 <div className="row molar-mass" key="molar-mass">
                     <div className="col-sm-4">
-                        <img src="http://placehold.it/1280X720" className="img-responsive" alt="Molar Mass Calc"/>
+                        <img src="img/molarMassCalc.JPG" className="img-responsive" alt="Molar Mass Calc"/>
                     </div>
                     <div className="col-sm-8 content">
                         <h2 className="projectName"> Molar Mass Calculator </h2>
