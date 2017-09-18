@@ -7,8 +7,7 @@ import './projects.css';
 class Projects extends Component {
     state = {
         tab: 1,
-        nextList: [],
-        currentList: []
+        projectList: [],
     }
 
     constructor(props) {
@@ -178,42 +177,6 @@ class Projects extends Component {
                             <div> Java </div>
                             <div> Android Studio </div>
                             <div> Android SQLite </div>
-                        </div>
-                    </div>
-                </div>
-            ),
-            hangr: (
-                <div className="row hangr" key="hangr">
-                    <div className="col-sm-4">
-                        <img src="img/hangr.png" className="img-responsive" alt="Hangr Logo"/>
-                    </div>
-                    <div className="col-sm-8 content">
-                        <h2 className="projectName"> Hangr - A HackPrincetonS17 Project </h2>
-                        <p className="text-muted">
-                            <span className="glyphicon glyphicon-search"></span>
-                            <a className="githubLink" href="https://github.com/ShivamDh/HackPrincetonS17">
-                                &nbsp; Click to view this project on Github
-                            </a>
-                        </p>
-                        <dl className="content-list">
-                            <dd>
-                                - An Internet of Things (IoT) project for a "smart closet" that helps users
-                                select clothes to wear according to user preferences and clothing matches
-                            </dd>
-                            <dd>
-                                - User inputs data through photos, visual recognition stores key info and
-                                when asked, the application gives the best suited pair of clothes to wear
-                            </dd>
-                            <dd> 
-                                - Created through IBM's Watson technology with the application running on a
-                                web server that connects to Watson through Node-RED software
-                            </dd>
-                        </dl>
-                        <div className="languages">
-                            <div> IBM Watson </div>
-                            <div> Node-RED (JavaScript) </div>
-                            <div> HTML </div>
-                            <div> CSS </div>
                         </div>
                     </div>
                 </div>
@@ -412,7 +375,7 @@ class Projects extends Component {
             hockey_stats: (
                 <div className="row hockey-stats" key="hockey-stats">
                     <div className="col-sm-4">
-                        <img src="http://placehold.it/1280X720" className="img-responsive" alt="Hockey Statistics Calculator"/>
+                        <img src="img/hockeyStats.JPG" className="img-responsive" alt="Hockey Statistics Calculator"/>
                     </div>
                     <div className="col-sm-8 content">
                         <h2 className="projectName"> Hockey Statistics Calculator </h2>
@@ -444,7 +407,7 @@ class Projects extends Component {
             snake: (
                 <div className="row snake" key="snake">
                     <div className="col-sm-4">
-                        <img src="http://placehold.it/1280X720" className="img-responsive" alt="Snake Game"/>
+                        <img src="img/snake.JPG" className="img-responsive" alt="Snake Game"/>
                     </div>
                     <div className="col-sm-8 content">
                         <h2 className="projectName"> Snake Game </h2>
@@ -478,27 +441,26 @@ class Projects extends Component {
 
         this.state = {
             tab: 1,
-            nextList: ['website', 'starter_blog', 'trip_weather', 'python_calculator', 'fitness60', 'hangr',
-                'android2048', 'quikpic', 'c2048', 'molar_mass', 'hockey_stats', 'snake'],
-            currentList: []
+            projectList: ['website', 'starter_blog', 'fitness60', 'trip_weather', 'python_calculator', 'hangr',
+                'oldWebsite', 'android2048', 'quikpic', 'c2048', 'molar_mass', 'hockey_stats', 'snake'],
         }
     }
 
     _handleTabSelect = (key) => {
         console.log('selected key ', key)
-        let nextList
+        let projectList
         if (key === 4) {
-            nextList = ['trip_weather', 'python_calculator', 'c2048', 'molar_mass', 'hockey_stats', 'snake']
+            projectList = ['trip_weather', 'python_calculator', 'c2048', 'molar_mass', 'hockey_stats', 'snake']
         } else if (key === 3) {
-            nextList = ['fitness60', 'android2048']
+            projectList = ['fitness60', 'android2048']
         } else if (key === 2) {
-            nextList = ['website', 'starter_blog', 'hangr', 'quikpic']
+            projectList = ['website', 'starter_blog', 'hangr',  'oldWebsite', 'quikpic']
         } else {
-            nextList = ['website', 'starter_blog', 'trip_weather', 'python_calculator', 'fitness60', 'hangr',
-                'android2048', 'quikpic', 'c2048', 'molar_mass', 'hockey_stats', 'snake']
+            projectList = ['website', 'starter_blog', 'fitness60', 'trip_weather', 'python_calculator', 'hangr',
+                'oldWebsite', 'android2048', 'quikpic', 'c2048', 'molar_mass', 'hockey_stats', 'snake']
         }
 
-        this.setState({tab: key, nextList})
+        this.setState({tab: key, projectList})
     }
 
     _getProjectItems = (projectKeys) => {
@@ -507,17 +469,7 @@ class Projects extends Component {
     }
 
     render() {
-        let projectItems = this._getProjectItems(this.state.nextList)
-
-        let customEnterAnimation = {
-            from: { transform: 'translate(0)'},
-            to: { transform: 'translate(0)'}
-        }
-
-        let customEnterAnimation1 = {
-            from: { transform: 'translate(0)'},
-            to: { transform: 'translate(0)'}
-        }
+        let projectItems = this._getProjectItems(this.state.projectList)
 
         return (
             <div className="Projects" style={{backgroundImage : 'url(img/project-background.jpg)'}}>
