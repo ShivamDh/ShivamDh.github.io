@@ -42,7 +42,8 @@ class Contact extends Component {
   	render() {
     	return (
 		    <div className="Contact">
-		    	<div className="contact-header" style={{backgroundImage : 'url(img/contact-header.jpg)'}}>
+		    	<div className="contact-header"
+		    		style={{backgroundImage : 'url(https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/contact-header.jpg)'}}>
 			    	<div className="contact-header-text">
 			    		<div className="get-in-touch">
 				    		GET IN TOUCH 
@@ -53,7 +54,8 @@ class Contact extends Component {
 			    	</div>
 			    </div>
 		    	<div className="mainBody">
-			    	<div className="contact-info" style={{backgroundImage : 'url(img/contact-side.jpg)'}}>
+			    	<div className="contact-info"
+			    		style={{backgroundImage : 'url(https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/contact-side.jpg)'}}>
 			    		<div className="contact-info-text">
 				    		<div className="contact-info-header"> Reach Out! </div>
 				    		<div className="contact-info-1">
@@ -64,7 +66,7 @@ class Contact extends Component {
 				    			<div className="contact-email">
 									<a href="mailto: shivamdharme@gmail.ca?subject=Contact%20Shivam" target="top">
 										<div>
-											<img alt="email" src="img/mail-bw.png" />
+											<img alt="email" src="https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/mail-bw.png" />
 											<div> Email me at shivamdharme@gmail.com </div>
 										</div>
 									</a>
@@ -72,7 +74,7 @@ class Contact extends Component {
 								<div className="contact-github">
 									<a href="https://www.github.com/ShivamDh" target="top">
 										<div>
-											<img alt="github" src="img/github-bw.png" />
+											<img alt="github" src="https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/github-bw.png" />
 											<div> Visit my projects on GitHub (ShivamDh) </div>
 										</div>
 									</a>
@@ -80,7 +82,7 @@ class Contact extends Component {
 								<div className="contact-linkedin">
 									<a href="https://www.linkedin.com/in/shivam-dharme">
 										<div>
-											<img alt="linkedin" src="img/linkedin-bw.jpg" />
+											<img alt="linkedin" src="https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/linkedin-bw.jpg" />
 											<div> Connect with me on LinkedIn! </div>
 										</div>
 									</a>

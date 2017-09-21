@@ -24,7 +24,8 @@ class App extends Component {
 						<Navbar.Header>
 							<Navbar.Brand>
 								<div>
-									<img className="img-responsive" src="img/header-logo.png" alt="Website Name/Logo" />
+									<img className="img-responsive" alt="Website Name/Logo"
+										src="img/header-logo.png" />
 									<div className="name">
 										<div className="firstName"> SHIVAM </div>
 										<div className="lastName"> DHARME </div>
@@ -49,7 +50,8 @@ class App extends Component {
 						<Route path="/contact" component={Contact} />
 						<Route component={PageNotFound} />
 					</Switch>
-					<div className="footer" style={{backgroundImage: 'url(img/footer-background.jpg)'}}>
+					<div className="footer"
+						style={{backgroundImage: 'url(https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/footer-background.jpg)'}}>
 						<div className="footer-navigation text-center">
 							<a href="/"> HOME </a>
 							<a href="/about"> ABOUT </a>
@@ -59,17 +61,17 @@ class App extends Component {
 						<div className="footer-media" >
 							<a href = "mailto: shivamdharme@gmail.ca?Subject=Contact%20Shivam" target="top">
 								<div className="footer-media-github">
-									<img src="img/FooterGithub.png" alt="Github" />
+									<img src="https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/FooterGithub.png" alt="Github" />
 								</div>
 							</a>
 							<a href = "https://www.linkedin.com/in/shivam-dharme">
 								<div className="footer-media-linkedin">
-									<img src="img/FooterLinkedIn.jpg" alt="LinkedIn" />
+									<img src="https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/FooterLinkedIn.jpg" alt="LinkedIn" />
 								</div>
 							</a>
 							<a href = "https://www.github.com/ShivamDh">
 								<div className="footer-media-mail">
-									<img src="img/FooterEmail.png" alt="Mail" />
+									<img src="https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/FooterEmail.png" alt="Mail" />
 								</div>
 							</a>
 						</div>
