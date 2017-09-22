@@ -8,6 +8,21 @@
 	padding: 0px;
 }
 
+@mixin footer-navigation-links ($fontSize, $marginLR, $padLR, $height) {
+	font-size: $fontSize;
+
+	a {
+		margin: 5px $marginLR;
+		padding: 0px $padLR;
+		height: $height;
+		line-height: $height;
+
+		&:before, &:after {
+			width: $height;
+		}
+	}
+}
+
 .App{
 	background-color: #000000;
 
@@ -19,34 +34,58 @@
 		border-bottom-right-radius: 20px;
 
 		.container {
+			@media screen and (min-width: 880px) and (max-width: 991px) {
+				width: 850px;
+			}
+
+			@media screen and (min-width: 1400px) {
+				width: 1370px;
+			}
+
+			@media screen and (min-width: 1620px) {
+				width: 1580px;
+			}
+
+			@media screen and (min-width: 1900px) {
+				width: 1850px;
+			}
+
 			.navbar-header .navbar-brand {
-				padding: 0 0 0 15px;
-				width: 165px;
-				display: flex;
+				margin: 0 0 0 15px;
+				padding: 0;
+				width: 150px;
 
-				.img-responsive {
-					margin-top: 2px;
-					width: 40px;
-					height: 45px;
-					margin-right: 5px;
-				}
+				div {
+					display: flex;
 
-				.name {
-					margin-top: 10px;
-					font-weight: 900;
-					font-family: PT Sans;
-					color: #726758;
-
-					.firstName {
-						font-size: 30px;
+					.img-responsive {
+						margin-top: 2px;
+						width: 50px;
+						height: 45px;
+						margin-right: 5px;
 					}
 
-					.lastName {
-						text-align: center;
-						font-size: 14px;
+					.name {
+						margin-top: 10px;
+						font-weight: 900;
+						font-family: PT Sans;
+						color: #ABA193;
+						display: block;
+
+						.firstName {
+							font-size: 30px;
+						}
+
+						.lastName {
+							width: fit-content;
+							margin-left: auto;
+							margin-right: auto;
+							font-size: 14px;
+						}
 					}
 				}
 			}
+
 
 			.navbar-collapse .headerLinks {
 				@media screen and (min-width: 768px) {
@@ -55,12 +94,36 @@
 					width: calc(80% - 15px)
 				}
 
+				@media screen and (min-width: 880px) {
+					width: calc(80% - 15px);
+				}
+
 				@media screen and (min-width: 992px) {
-					width: calc(86% - 15px);
+					width: calc(82.75% - 15px);
 				}
 
 				@media screen and (min-width: 1200px) {
-					width: calc(89% - 15px);
+					width: calc(87.5% - 15px);
+				}
+
+				@media screen and (min-width: 1400px) {
+					width: calc(89.5% - 15px);
+
+					.header-link-inactive a span, .header-link-active a span {
+						font-size: 24px;
+					}
+				}
+
+				@media screen and (min-width: 1620px) {
+					width: calc(91% - 15px);
+				}
+
+				@media screen and (min-width: 1900px) {
+					width: calc(91.5% - 15px);
+
+					.header-link-inactive a span, .header-link-active a span {
+						font-size: 26px;
+					}
 				}
 
 				.header-link-inactive a {
@@ -125,13 +188,11 @@
 		border-top-right-radius: 20px;
 		border-top-left-radius: 20px;
 		width: 100%;
-		height: 200px;
 
 		.footer-navigation {
 			width: 100%;
-			padding-top: 30px;
-			height: 90px;
-			font-size: 8px;
+			padding: 30px 0 15px 0;
+			font-size: 7px;
 
 			a {
 				position: relative;
@@ -140,8 +201,8 @@
 				color: white;
 				text-decoration: none;
 				letter-spacing: 1px;
-				margin: 5px 10px;
-				padding: 0 10px;
+				margin: 5px 8px;
+				padding: 0 5px;
 				height: 20px;
 				line-height: 20px;
 
@@ -191,61 +252,49 @@
 				}
 			}
 
+			@media screen and (min-width: 320px) {
+				@include footer-navigation-links(8px, 10px, 10px, 25px);
+			}
+
 			@media screen and (min-width: 550px) {
-				font-size: 10px;
-
-				a {
-					margin: 5px 15px;
-					padding: 0 15px;
-					height: 25px;
-					line-height: 25px;
-
-					&:before, &:after {
-						width: 25px;
-					}
-				}
+				@include footer-navigation-links(10px, 15px, 15px, 25px);
 			}
 
 			@media screen and (min-width: 768px) {
-				font-size: 12px;
-
-				a {
-					margin: 5px 20px;
-					padding: 0 20px;
-					height: 30px;
-					line-height: 30px;
-
-					&:before, &:after {
-						width: 30px;
-					}
-				}
+				@include footer-navigation-links(13px, 20px, 20px, 30px);
 			}
 
 			@media screen and (min-width: 992px) {
-				font-size: 14px;
+				@include footer-navigation-links(14px, 30px, 20px, 35px);
+			}
 
-				a {
-					margin: 5px 30px;
-					height: 35px;
-					line-height: 35px;
+			@media screen and (min-width: 1200px) {
+				@include footer-navigation-links(15.5px, 35px, 25px, 40px);
+			}
 
-					&:before, &:after {
-						width: 35px;
-					}
-				}
+			@media screen and (min-width: 1400px) {
+				@include footer-navigation-links(17.5px, 45px, 30px, 45px);
+			}
+
+			@media screen and (min-width: 1620px) {
+				@include footer-navigation-links(19.5px, 45px, 30px, 45px);
+			}
+
+			@media screen and (min-width: 1900px) {
+				@include footer-navigation-links(21.5px, 45px, 35px, 45px);
 			}
 		}
 
 		.footer-media {
-			width: 40%;
+			width: 60%;
 			margin-left: auto;
 			margin-right: auto;
 			height: 70px;
 			display: flex;
 			justify-content: space-around;
 
-			@media screen and (max-width: 549px) {
-				width: 50%;
+			@media screen and (min-width: 550px) {
+				width: 40%;
 			}
 
 			a {
@@ -363,7 +412,6 @@
 					.footer-media-mail, .footer-media-linkedin, .footer-media-github {
 						width: 55px;
 						height: 55px;
-						border: 4px outset #ACA0A0;
 
 						&:hover {
 							border: 4px inset #ACA0A0;
@@ -389,24 +437,85 @@
 						height: 25px;
 					}
 				}
+
+				@media screen and (min-width: 1400px) {
+					.footer-media-mail, .footer-media-linkedin, .footer-media-github {
+						width: 65px;
+						height: 65px;
+						border: 4px outset #ACA0A0;
+					}
+
+					.footer-media-github img {
+						margin-top: calc(50% - 20px);
+						width: 40px;
+						height: 40px;
+					}
+
+					.footer-media-linkedin img {
+						margin-top: calc(50% - 17.5px);
+						width: 35px;
+						height: 33px;
+					}
+
+					.footer-media-mail img {
+						margin-top: calc(50% - 15px);
+						width: 40px;
+						height: 30px;
+					}
+				}
+
+				@media screen and (min-width: 1900px) {
+					.footer-media-mail, .footer-media-linkedin, .footer-media-github {
+						width: 75px;
+						height: 75px;
+						border: 6px outset #ACA0A0;
+					}
+
+					.footer-media-github img {
+						margin-top: calc(50% - 22.5px);
+						width: 45px;
+						height: 45px;
+					}
+
+					.footer-media-linkedin img {
+						margin-top: calc(50% - 20px);
+						width: 40px;
+						height: 38px;
+					}
+
+					.footer-media-mail img {
+						margin-top: calc(50% - 17.5px);
+						width: 45px;
+						height: 35px;
+					}
+				}
 			}
 		}
 
 		.footer-copyright {
 			color: white;
-			font-size: 16px;
+			font-size: 13px;
 			font-family: Raleway;
 			width: 100%;
+			padding: 10px 0;
 
 			span {
-				font-size: 18px;
+				font-size: 15px;
 			}
 
-			@media screen and (max-width: 549px) {
-				font-size: 13px;
+			@media screen and (min-width: 550px) {
+				font-size: 16px;
 
 				span {
-					font-size: 15px
+					font-size: 18px
+				}
+			}
+
+			@media screen and (min-width: 1620px) {
+				font-size: 18px;
+
+				span {
+					font-size: 20px
 				}
 			}
 		}

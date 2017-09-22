@@ -23,14 +23,16 @@ class App extends Component {
 					<Navbar inverse>
 						<Navbar.Header>
 							<Navbar.Brand>
-								<div>
-									<img className="img-responsive" alt="Website Name/Logo"
-										src="img/header-logo.png" />
-									<div className="name">
-										<div className="firstName"> SHIVAM </div>
-										<div className="lastName"> DHARME </div>
+								<a href="/">
+									<div>
+										<img className="img-responsive" alt="Website Name/Logo"
+											src="img/header-logo.png" />
+										<div className="name">
+											<div className="firstName"> SHIVAM </div>
+											<div className="lastName"> DHARME </div>
+										</div>
 									</div>
-								</div>
+								</a>
 							</Navbar.Brand>
 							<Navbar.Toggle />
 						</Navbar.Header>
