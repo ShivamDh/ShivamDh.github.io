@@ -15,7 +15,7 @@ class Contact extends Component {
 
 	submitMessage = () => {
 		if (this.state.firstName && this.state.lastName && this.state.email && this.state.message) {
-			let body = `This is ${this.state.firstName} ${this.state.lastName}. ${this.state.message} \n Contact email is ${this.state.email}`
+			let body = `This is ${this.state.firstName} ${this.state.lastName}. ${this.state.message} \n My contact email is ${this.state.email}`
 			window.open(`mailto: shivamdharme@gmail.ca?subject=Contact%20Shivam&body=${body}`);
 			this.setState({firstName: '', lastName: '', email: '', message: ''})	
 		} else {
@@ -136,7 +136,7 @@ class Contact extends Component {
 								    floatingLabelStyle={{color: '#A69D9D'}}/>
 				    		</div>
 				    		<div className="form-submit">
-				    			<RaisedButton label="Submit" backgroundColor={'#A69D9D'} 
+				    			<RaisedButton label="Create Email" backgroundColor={'#A69D9D'} 
 				    				style={{margin: 12}} onClick={this.submitMessage} />
 				    		</div>
 			    		</div>
