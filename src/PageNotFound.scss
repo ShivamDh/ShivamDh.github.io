@@ -1,0 +1,48 @@
+@mixin fontSizes ($header, $subheader, $pad-top) {
+	.pageHeader {
+		font-size: $header;
+	}
+
+	.pageSubHeader {
+		font-size: $subheader;
+		padding-top: $pad-top;
+	}
+}
+
+.pageNotFound {
+	height: calc(100vh - 257px);
+	min-height: 170px;
+	background-size: cover;
+	width: 100%;
+	color: white;
+	font-family: Raleway;
+	text-align: center;
+	padding: 20px 10% 20px 10%;
+
+	.pageNotFoundText {
+		padding-top: 50px;
+
+		@include fontSizes(17px, 10px, 15px);
+
+		@media screen and (min-width: 450px) {
+			@include fontSizes(20px, 12px, 20px);
+		}
+
+		@media screen and (min-width: 768px) {
+			@include fontSizes(27px, 17px, 30px);
+		}
+
+		@media screen and (min-width: 1200px) {
+			@include fontSizes(40px, 25px, 30px);
+		}
+
+		@media screen and (min-width: 1620px) {
+			@include fontSizes(45px, 30px, 35px);
+		}
+
+		@media screen and (min-width: 1900px) {
+			@include fontSizes(50px, 35px, 40px);
+		}
+	}
+
+}

@@ -17,7 +17,8 @@ class Projects extends Component {
             website: (
                 <div className="row website" key="website">
                     <div className="col-sm-4">
-                        <img src="img/website-revamp.JPG" className="img-responsive" alt="Website Home Screenshot"/>
+                        <img className="img-responsive" alt="Website Home Screenshot"
+                            src="https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/website-revamp.jpg" />
                     </div>
                     <div className="col-sm-8 content">
                         <h2 className="projectName"> Personal Website Redesign </h2>
@@ -46,7 +47,8 @@ class Projects extends Component {
             starter_blog: (
                 <div className="row starter-blog" key="starter-blog">
                     <div className="col-sm-4">
-                        <img src="img/starter-blog.png" className="img-responsive" alt="Starter's Blog"/>
+                        <img className="img-responsive" alt="Starter's Blog"
+                            src="https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/starter-blog.png" />
                     </div>
                     <div className="col-sm-8 content">
                         <h2 className="projectName"> Starter's Blog </h2>
@@ -80,7 +82,8 @@ class Projects extends Component {
             trip_weather: (
                 <div className="row trip-weather" key="trip-weather">
                     <div className="col-sm-4">
-                        <img src="img/trip-weather.jpg" className="img-responsive" alt="Trip Weather"/>
+                        <img className="img-responsive" alt="Trip Weather"
+                            src="https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/trip-weather.jpg" />
                     </div>
                     <div className="col-sm-8 content">
                         <h2 className="projectName"> Trip Weather </h2>
@@ -115,7 +118,8 @@ class Projects extends Component {
             python_calculator: (
                 <div className="row python-calculator" key="python-calculator">
                     <div className="col-sm-4">
-                        <img src="img/custom-calculator.JPG" className="img-responsive" alt="Python Calculator"/>
+                        <img className="img-responsive" alt="Python Calculator"
+                            src="https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/custom-calculator.jpg" />
                     </div>
                     <div className="col-sm-8 content">
                         <h2 className="projectName"> Python Calculator </h2>
@@ -149,7 +153,8 @@ class Projects extends Component {
             fitness60: (
                 <div className="row fitness60" key="fitness60">
                     <div className="col-sm-4">
-                        <img src="img/Fitness60.PNG" className="img-responsive" alt="Fitness App"/>
+                        <img className="img-responsive" alt="Fitness App"
+                            src="https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/Fitness60.png" />
                     </div>
                     <div className="col-sm-8 content">
                         <h2 className="projectName"> Fitness 60 </h2>
@@ -184,7 +189,8 @@ class Projects extends Component {
             hangr: (
                 <div className="row hangr" key="hangr">
                     <div className="col-sm-4">
-                        <img src="img/hangr.jpg" className="img-responsive" alt="Hangr Logo"/>
+                        <img className="img-responsive" alt="Hangr Logo"
+                        src="https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/hangr.jpg" />
                     </div>
                     <div className="col-sm-8 content">
                         <h2 className="projectName"> Hangr - A HackPrincetonS17 Project </h2>
@@ -220,7 +226,8 @@ class Projects extends Component {
             android2048: (
                 <div className="row 2048-android" key="2048-android">
                     <div className="col-sm-4">
-                        <img src="img/2048App.PNG" className="img-responsive" alt="2048 Android App"/>
+                        <img className="img-responsive" alt="2048 Android App"
+                            src="https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/2048App.png" />
                     </div>
                     <div className="col-sm-8 content">
                         <h2 className="projectName"> 2048 Android Application </h2>
@@ -252,7 +259,8 @@ class Projects extends Component {
             oldWebsite: (
                 <div className="row oldWebsite" key="oldWebsite">
                     <div className="col-sm-4">
-                        <img src="img/OldWebsite.png" className="img-responsive" alt="Old Website Home Screenshot"/>
+                        <img className="img-responsive" alt="Old Website Home Screenshot"
+                            src="https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/OldWebsite.png" />
                     </div>
                     <div className="col-sm-8 content">
                         <h2 className="projectName"> First Personal Website (Archived) </h2>
@@ -276,7 +284,8 @@ class Projects extends Component {
             quikpic: (
                 <div className="row quikpic" key="quikpic">
                     <div className="col-sm-4">
-                        <img src="img/quikpic.png" className="img-responsive" alt="QuikPic Logo"/>
+                        <img className="img-responsive" alt="QuikPic Logo"
+                            src="https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/quikpic.png" />
                     </div>
                     <div className="col-sm-8 content">
                         <h2 className="projectName"> QuikPic - A QHacks17 Project </h2>
@@ -311,7 +320,8 @@ class Projects extends Component {
             c2048: (
                 <div className="row 2048-c" key="2048-c">
                     <div className="col-sm-4">
-                        <img src="img/2048C.JPG" className="img-responsive" alt="2048 Command Line"/>
+                        <img src="https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/2048C.jpg"
+                            className="img-responsive" alt="2048 Command Line"/>
                     </div>
                     <div className="col-sm-8 content">
                         <h2 className="projectName"> 2048 (Command Line Version) </h2>
@@ -344,7 +354,8 @@ class Projects extends Component {
             molar_mass: (
                 <div className="row molar-mass" key="molar-mass">
                     <div className="col-sm-4">
-                        <img src="img/molarMassCalc.JPG" className="img-responsive" alt="Molar Mass Calc"/>
+                        <img className="img-responsive" alt="Molar Mass Calc"
+                        src="https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/molarMassCalc.jpg" />
                     </div>
                     <div className="col-sm-8 content">
                         <h2 className="projectName"> Molar Mass Calculator </h2>
@@ -375,7 +386,8 @@ class Projects extends Component {
             hockey_stats: (
                 <div className="row hockey-stats" key="hockey-stats">
                     <div className="col-sm-4">
-                        <img src="img/hockeyStats.JPG" className="img-responsive" alt="Hockey Statistics Calculator"/>
+                        <img className="img-responsive" alt="Hockey Statistics Calculator"
+                        src="https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/hockeyStats.jpg" />
                     </div>
                     <div className="col-sm-8 content">
                         <h2 className="projectName"> Hockey Statistics Calculator </h2>
@@ -407,7 +419,8 @@ class Projects extends Component {
             snake: (
                 <div className="row snake" key="snake">
                     <div className="col-sm-4">
-                        <img src="img/snake.JPG" className="img-responsive" alt="Snake Game"/>
+                        <img className="img-responsive" alt="Snake Game"
+                            src="https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/snake.jpg" />
                     </div>
                     <div className="col-sm-8 content">
                         <h2 className="projectName"> Snake Game </h2>
@@ -472,17 +485,15 @@ class Projects extends Component {
         let projectItems = this._getProjectItems(this.state.projectList)
 
         return (
-            <div className="Projects" style={{backgroundImage : 'url(img/project-background.jpg)'}}>
+            <div className="Projects" style={{backgroundImage : 'url(https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/project-background.jpg)'}}>
                 <div className="container projects-container">
-                    <h1 className="text-center pageTitle"> Just some of the projects I have worked on </h1>
-
+                    <div className="text-center pageTitle"> Just some of the projects I have worked on </div>
                     <Tabs activeKey={this.state.tab} id="project-tab" onSelect={this._handleTabSelect}>
                         <Tab eventKey={1} title="All"> </Tab>
                         <Tab eventKey={2} title="Web"> </Tab>
                         <Tab eventKey={3} title="Mobile"> </Tab>
                         <Tab eventKey={4} title="Command Line"> </Tab>
                     </Tabs>
-
                     <FlipMove duration={100} enterAnimation="fade" leaveAnimation="fade">
                         {projectItems}
                     </FlipMove>
