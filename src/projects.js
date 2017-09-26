@@ -494,7 +494,7 @@ class Projects extends Component {
                         <Tab eventKey={3} title="Mobile"> </Tab>
                         <Tab eventKey={4} title="Command Line"> </Tab>
                     </Tabs>
-                    <FlipMove duration={100} enterAnimation="fade" leaveAnimation="fade">
+                    <FlipMove enterAnimation="elevator" leaveAnimation="elevator">
                         {projectItems}
                     </FlipMove>
                 </div>
