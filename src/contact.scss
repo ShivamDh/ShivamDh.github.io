@@ -8,6 +8,16 @@
 	}
 }
 
+@mixin contact-info-textSizes ($header, $text) {
+	.contact-info-header {
+		font-size: $header;
+	}
+
+	.contact-info-1 {
+		font-size: $text;
+	}
+}
+
 .Contact {
 	color: white;
 	overflow: auto;
@@ -21,6 +31,7 @@
 		padding-bottom: 20%;
 		background-size: cover;
 		position: relative;
+		display: none;
 
 		.contact-header-text {
 			position: absolute;
@@ -63,22 +74,32 @@
 			@media screen and (min-width: 1200px) {
 				@include header-text(4);
 			}
+
+			@media screen and (min-width: 1400px) {
+				@include header-text(5.5);
+			}
+
+			@media screen and (min-width: 1620px) {
+				@include header-text(7.5);
+			}
+
+			@media screen and (min-width: 1900px) {
+				@include header-text(10);
+			}
 		}
 
-		@media screen and (max-width: 767px) {
-			display: none;
+		@media screen and (min-width: 768px) {
+			display: block;
 		}
 	}
 
 
 
 	.mainBody {
-		// overflow: auto;
 		display: flex;
 		flex-wrap: wrap;
 
 		.contact-info {
-			// background-size: cover;
 			float: left;
 			width: 100%;
 			background-color: black;
@@ -95,7 +116,7 @@
 				.contact-info-header {
 					margin-top: 5%;
 					width: 100%;
-					font-size: 50px;
+					font-size: 35px;
 					color: orange;
 					padding-bottom: 5px;
 					font-family: Raleway;
@@ -103,32 +124,36 @@
 
 				.contact-info-1 {
 					margin-top: 3%;
-					font-size: 20px;
+					font-size: 14px;
 					color: #E2DFD8;
 					font-family: Raleway;
 					font-weight: 600;
 				}
 
-				@media screen and (max-width: 767px) {
-					padding-bottom: 20px;
-
-					.contact-info-header {
-						font-size: 45px;
-					}
-
-					.contact-info-1 {
-						font-size: 17px;
-					}
+				@media screen and (min-width: 450px) {
+					@include contact-info-textSizes(45px, 17px);
 				}
 
-				@media screen and (max-width: 449px) {
-					.contact-info-header {
-						font-size: 35px;
-					}
+				@media screen and (min-width: 768px) {
+					padding-bottom: 20px;
 
-					.contact-info-1 {
-						font-size: 14px;
-					}
+					@include contact-info-textSizes(50px, 20px);
+				}
+
+				@media screen and (min-width: 1200px) {
+					@include contact-info-textSizes(55px, 22px);
+				}
+
+				@media screen and (min-width: 1400px) {
+					@include contact-info-textSizes(55px, 24.5px);
+				}
+
+				@media screen and (min-width: 1620px) {
+					@include contact-info-textSizes(60px, 27px);
+				}
+
+				@media screen and (min-width: 1900px) {
+					@include contact-info-textSizes(65px, 32px);
 				}
 
 				.contact-info-list {
@@ -202,6 +227,34 @@
 									}
 								}
 
+								@media screen and (min-width: 1400px) {
+									img {
+										width: 55px;
+										height: 55px;
+									}
+
+									div {
+										font-size: 27px;
+									}
+								}
+
+								@media screen and (min-width: 1620px) {
+									div {
+										font-size: 31px;
+									}
+								}
+
+								@media screen and (min-width: 1900px) {
+									img {
+										width: 70px;
+										height: 70px;
+									}
+
+									div {
+										font-size: 35px;
+									}
+								}
+
 							}
 
 							&:hover {
@@ -228,24 +281,50 @@
 			}
 
 			.contact-form-inner {
-				width: 400px;
-
-				@media screen and (max-width: 991px) {
-					width: 350px;
-				}
-
-				@media screen and (max-width: 767px) {
-					width: 450px;
-				}
-
-				@media screen and (max-width: 500px) {
-					width: 90%;
-				}
+				width: 90%;
 
 				.form-header {
 					margin: 0;
 					font-family: Raleway;
-					color: #5E5757
+					color: #5E5757;
+				}
+
+				@media screen and (min-width: 500px) {
+					width: 450px;
+				}
+
+				@media screen and (min-width: 768px) {
+					width: 350px;
+				}
+
+				@media screen and (min-width: 992px) {
+					width: 400px;
+				}
+
+				@media screen and (min-width: 1400px) {
+					width: 450px;
+
+					.form-header {
+						font-size: 44px;
+						padding-bottom: 10px;
+					}
+				}
+
+				@media screen and (min-width: 1620px) {
+					width: 500px;
+
+					.form-header {
+						font-size: 48px;
+						padding-bottom: 15px;
+					}
+				}
+
+				@media screen and (min-width: 1900px) {
+					width: 550px;
+
+					.form-header {
+						padding-bottom: 20px;
+					}
 				}
 
 				.form-firstName , .form-lastName, .form-email, .form-message {
@@ -256,11 +335,38 @@
 						margin-right: auto;
 						width: 100% !important;
 					}
+
+					@media screen and (min-width: 1200px) {
+						padding: 2px 0;
+
+						label, input, div {
+							font-size: 17px;
+						}
+					}
+					
+					@media screen and (min-width: 1400px) {
+						padding: 3px 0;
+					}
+
+					@media screen and (min-width: 1620px) {
+						padding: 8px 0;
+
+						label, input, div {
+							font-size: 17.5px !important;
+						}
+					}
+
+					@media screen and (min-width: 1900px) {
+						padding: 12px 0;
+
+						label, input, div {
+							font-size: 18px !important;
+						}
+					}
 				}
 
 				.form-message {
 					div:first-child {
-
 						div:nth-child(2) {
 							font-weight: 600;
 						}
@@ -268,8 +374,6 @@
 						div:nth-child(3) > textarea:nth-child(2) {
 							color: #5C5656 !important;
 						}
-
-
 					}
 				}
 
