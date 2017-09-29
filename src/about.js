@@ -205,7 +205,7 @@ class About extends Component {
                         </div>
                     </div>
                 </div>
-                <a className="about-resume" href="https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/master/shivam.pdf">
+                <a className="about-resume" href="/resume">
                     <span className="about-resume-text">
                         VIEW MY RESUME
                     </span>

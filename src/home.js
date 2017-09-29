@@ -2,10 +2,12 @@ import React, { Component } from 'react';
 import './home.css';
 
 class Home extends Component {
+
     render() {
         return (
             <div className="home">
-                <div className="home-background" style={{backgroundImage: 'url(https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/home-background.jpg)'}}>
+                <div className="home-background"
+                    style={{backgroundImage: 'url(https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/home-background.jpg)'}}>
                 	<img className="home-profile-image" alt="Profile"
                         src="https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/4424.jpg" />
                 	<div className="home-profile-text">
