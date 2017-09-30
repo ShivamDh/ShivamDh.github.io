@@ -1,3 +1,36 @@
+@mixin landing-text-fontSize ($describ, $name) {
+	.home-profile-text {
+		.home-profile-text-describ {
+			font-size: $describ;
+		}
+
+		.home-profile-text-name {
+			font-size: $name;
+		}
+	}
+}
+
+@mixin landing-page-image ($size) {
+	.home-profile-image {
+		height: $size;
+		width: $size;
+	}
+}
+
+@mixin landing-page-about-fontSizes ($header, $span, $text) {
+	.home-about-me-who-header, .home-about-me-what-header {
+		font-size: $header;
+
+		span {
+			font-size: $span;
+		}
+	}
+	
+	.home-about-me-who-body, .home-about-me-what-body {
+		font-size: $text;
+	}
+}
+
 .home {
 	.home-background {
 		background-size: cover;
@@ -42,57 +75,24 @@
 		}
 
 		@media screen and (min-width: 300px) {
-			.home-profile-text {
-				.home-profile-text-describ {
-					font-size: 19px;
-				}
-
-				.home-profile-text-name {
-					font-size: 21px;
-				}
-			}
+			@include landing-text-fontSize(19px, 21px);
 		}
 
 		@media screen and (min-width: 375px) {
-			.home-profile-text {
-				.home-profile-text-describ {
-					font-size: 24px;
-				}
-
-				.home-profile-text-name {
-					font-size: 27px;
-				}
-			}
+			@include landing-text-fontSize(24px, 27px);
 		}
 
 		@media screen and (min-width: 450px) {
-			.home-profile-text {
-				.home-profile-text-describ {
-					font-size: 29px;
-				}
-
-				.home-profile-text-name {
-					font-size: 32px;
-				}
-			}
+			@include landing-text-fontSize(29px, 32px);
 		}
 
 		@media screen and (min-width: 550px) {
 			.home-profile-image {
 				margin-left: calc(50% - 90px);
-				height: 180px;
-				width: 180px;
 			}
 
-			.home-profile-text {
-				.home-profile-text-describ {
-					font-size: 35px;
-				}
-
-				.home-profile-text-name {
-					font-size: 38px;
-				}
-			}
+			@include landing-page-image(180px);
+			@include landing-text-fontSize(35px, 38px);
 		}
 
 		@media screen and (min-width: 768px) {
@@ -101,111 +101,77 @@
 			.home-profile-image {
 				margin: 100px 0 0 3%;
 				margin-top: 100px;
-				height: 180px;
-				width: 180px;
 			}
 
 			.home-profile-text {
 				padding: 150px 4% 0 3%;
 				width: calc(100% - 180px);
-
-				.home-profile-text-describ {
-					font-size: 33px;
-				}
-
-				.home-profile-text-name {
-					font-size: 37px;
-				}
 			}
+
+			@include landing-text-fontSize(33px, 37px);
 		}
 
 		@media screen and (min-width: 880px) {
-			.home-profile-image {
-				height: 200px;
-				width: 200px;
-			}
-
 			.home-profile-text {
 				width: calc(100% - 200px);
-
-				.home-profile-text-describ {
-					font-size: 38px;
-				}
-
-				.home-profile-text-name {
-					font-size: 40px;
-				}
 			}
+
+			@include landing-page-image(200px);
+			@include landing-text-fontSize(38px, 40px);
 		}
 
 		@media screen and (min-width: 992px) {
-			.home-profile-image {
-				height: 220px;
-				width: 220px;
-			}
-
 			.home-profile-text {
 				width: calc(100% - 220px);
-
-				.home-profile-text-describ {
-					font-size: 44px;
-				}
-
-				.home-profile-text-name {
-					font-size: 48px;
-				}
 			}
+
+			@include landing-page-image(220px);
+			@include landing-text-fontSize(44px, 48px);
 		}
 
 		@media screen and (min-width: 1100px) {
-			.home-profile-text {
-				.home-profile-text-describ {
-					font-size: 48px;
-				}
-
-				.home-profile-text-name {
-					font-size: 52px;
-				}
-			}
+			@include landing-text-fontSize(48px, 52px);
 		}
 
 		@media screen and (min-width: 1200px) {
-			.home-profile-image {
-				height: 270px;
-				width: 270px;
-			}
-
 			.home-profile-text {
 				width: calc(100% - 270px);
-
-				.home-profile-text-describ {
-					font-size: 53px;
-				}
-
-				.home-profile-text-name {
-					font-size: 57px;
-				}
 			}
+
+			@include landing-page-image(270px);
+			@include landing-text-fontSize(53px, 57px);
 		}
 
-		// @media screen and (min-width: 1440px) {
-		// 	.home-profile-image {
-		// 		height: 300px;
-		// 		width: 300px;
-		// 	}
+		@media screen and (min-width: 1400px) {
+			.home-profile-text {
+				width: calc(100% - 300px);
+			}
 
-		// 	.home-profile-text {
-		// 		width: calc(100% - 300px);
+			.home-profile-image {
+				margin: 100px 0 0 4%;
+			}
 
-		// 		.home-profile-text-describ {
-		// 			font-size: 58px;
-		// 		}
+			@include landing-page-image(300px);
+			@include landing-text-fontSize(58px, 65px);
+		}
 
-		// 		.home-profile-text-name {
-		// 			font-size: 65px;
-		// 		}
-		// 	}
-		// }
+		@media screen and (min-width: 1620px) {
+			.home-profile-image {
+				margin: 100px 0 0 4.5%;
+			}
+
+			@include landing-page-image(340px);
+			@include landing-text-fontSize(70px, 77px);
+		}
+
+		@media screen and (min-width: 1900px) {
+			.home-profile-image {
+				margin: 100px 0 0 5%;
+			}
+
+			@include landing-page-image(370px);
+			@include landing-text-fontSize(77px, 86px);
+		}
 	}
 
 	.home-about-me {
@@ -244,68 +210,50 @@
 			}
 
 			@media screen and (min-width: 375px) {
-				&-header {
-					font-size: 26px;
-
-					span {
-						font-size: 35px;
-					}
-				}
+				@include landing-page-about-fontSizes(26px, 35px, 13px);
 			}
 
 			@media screen and (min-width: 450px) {
-				&-body {
-					font-size: 14px;
-				}
+				@include landing-page-about-fontSizes(26px, 35px, 14px);
 			}
 
 			@media screen and (min-width: 550px) {
-				&-header {
-					font-size: 40px;
-
-					span {
-						font-size: 55px;
-					}
-				}
-				
-				&-body {
-					font-size: 15px;
-				}
+				@include landing-page-about-fontSizes(40px, 55px, 15px);
 			}
 
 			@media screen and (min-width: 768px) {
-				&-body {
-					font-size: 18px;
-				}
+				@include landing-page-about-fontSizes(40px, 55px, 18px);
 			}
 
 			@media screen and (min-width: 992px) {
-				&-header {
-					font-size: 50px;
-
-					span {
-						font-size: 65px;
-					}
-				}
-
-				&-body {
-					font-size: 20.5px;
-				}
+				@include landing-page-about-fontSizes(50px, 65px, 20.5px);
 			}
 
 			@media screen and (min-width: 1200px) {
-				&-body {
-					font-size: 24.5px;
-				}
+				@include landing-page-about-fontSizes(50px, 65px, 24.5px);
+			}
+
+			@media screen and (min-width: 1400px) {
+				@include landing-page-about-fontSizes(55px, 70px, 26.5px);
+			}
+
+			@media screen and (min-width: 1620px) {
+				@include landing-page-about-fontSizes(55px, 70px, 29.5px);
+			}
+
+			@media screen and (min-width: 1900px) {
+				padding: 15px 0 25px 0;
+
+				@include landing-page-about-fontSizes(60px, 75px, 34px);
 			}
 		}
 
 		.home-about-me-who {
-			height: calc(50% - 12.5px - 25px);
+			height: calc(50% - 37.5px);
 		}
 
 		.home-about-me-what {
-			height: calc(50% - 12.5px + 25px);
+			height: calc(50% - 37.5px);
 			margin-bottom: 0;
 		}
 
