@@ -1,14 +1,16 @@
 # My Website
 
-Hi! My website location has recently changed, it is now located at https://shivamdh.github.io/ [[link]](https://shivamdh.github.io/). Have a look at it!
+Hi! Welcome to my personal website's repository. My website has been deployed and can be visited at https://shivamdh.github.io/
 
 ## How the website was made
-I created the website using a multitude of languages and frameworks including **HTML**, **CSS**, **JavaScript**, and **React.js**.
+I created the website using a multitude of languages and frameworks including **HTML**, **SASS/CSS**, **JavaScript**, and **React.js**.
 
-React.js renders a single page website running client-side, however Github Pages did not allow for this.
-As a result **Gatsby.js** was used to render a static webpage made from React and allow to be published on Github Pages.
+React allows fast and client-side renderings for single-page applcations, along with seamless integration of 
+third party libraries and features. This website also utilizes React-Bootstrap, Material-UI and a SASS plugin
+to add features and styling over the top. 
+
 
 ## My experience
-My previous experience with React and JavaScript comes from my involvement in an Engineering Design Team at my university,
-having undertaken some independent projects upon my own time, and having utilized these languages and frameworks during my
-first coop/internship
+My previous experience with React and JavaScript comes from my first internship in the summer of 2017. I was working as a Web Applications 
+Developer and used React and Redux to build large scale web applications. Furthermore, I have also been involved in an Engineering Design
+Team at my university and undertaken some independent projects upon my own time to learn more about web development.
