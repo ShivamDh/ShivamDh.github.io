@@ -25,7 +25,7 @@ class About extends Component {
                         <div className="about-me-info-others">
                             I have already completed one four month co-op term working at
                             <a href="http://www.evertz.com/" > Evertz Microsystems </a>
-                            as a Web Applications Developer.
+                            as a Web Applications Developer and am starting another four month internship at <a href="https://www.d2l.com/"> D2L </a> in January 2018!
                             While studying at Waterloo, I have also been a part of the University of Waterloo Midnight Sun Solar Car Team where I worked on embedded systems and website development.
                         </div>
                         <div className="about-me-info-others">
@@ -117,6 +117,21 @@ class About extends Component {
                     <div id="cd-timeline" className="cd-container">
                         <div className="cd-timeline-block">
                             <div className="cd-timeline-content">
+                                <div className="cd-date"> JAN - APR <span> 2018 </span>  </div>
+                                <div className="cd-timeline-content-header">Software Developer</div>
+                                <div className="cd-timeline-content-subheader">
+                                    <a href="https://www.d2l.com/"> D2L (formerly Desire2Learn) </a> 
+                                </div> 
+                                <div className="cd-timeline-content-text">
+                                    Excited to start working at D2L Headquarters in Kitchener, Ontario starting January 2018!
+                                </div>
+                            </div> 
+                            <div className="cd-timeline-img">
+                                <img src="https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/about-schedule-icon.png" alt="Event" />
+                            </div> 
+                        </div> 
+                        <div className="cd-timeline-block">
+                            <div className="cd-timeline-content">
                                 <div className="cd-date"> MAY - AUG <span> 2017 </span>  </div>
                                 <div className="cd-timeline-content-header">Web Application Developer</div>
                                 <div className="cd-timeline-content-subheader">
@@ -205,7 +220,7 @@ class About extends Component {
                         </div>
                     </div>
                 </div>
-                <a className="about-resume" href="/resume">
+                <a className="about-resume" href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/Shivam_Dharme.pdf">
                     <span className="about-resume-text">
                         VIEW MY RESUME
                     </span>
