@@ -47,7 +47,7 @@ class About extends Component {
                                 <ul>
                                     <li> C </li>
                                     <li> C++ </li>
-                                    <li> C# </li>
+                                    <li> C# (.NET) </li>
                                     <li> Python </li>
                                     <li> MySQL </li>
                                     <li> Java </li>
@@ -123,7 +123,8 @@ class About extends Component {
                                     <a href="https://www.d2l.com/"> D2L (formerly Desire2Learn) </a> 
                                 </div> 
                                 <div className="cd-timeline-content-text">
-                                    Excited to start working at D2L Headquarters in Kitchener, Ontario starting January 2018!
+                                    Integrated custom user options with new Lessons tool to allow for more flexibility with user content
+                                    and deliver finer end-user experience for clients.
                                 </div>
                             </div> 
                             <div className="cd-timeline-img">
@@ -220,13 +221,6 @@ class About extends Component {
                         </div>
                     </div>
                 </div>
-                <a className="about-resume" href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/Shivam_Dharme.pdf">
-                    <span className="about-resume-text">
-                        VIEW MY RESUME
-                    </span>
-                    <img className="about-resume-img" alt="Download"
-                        src="https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/download-icon.png" />
-                </a>
             </div>
         )
     }
