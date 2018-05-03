@@ -18,7 +18,7 @@ class Projects extends Component {
                 <div className="row website" key="website">
                     <div className="col-sm-4">
                         <img className="img-responsive" alt="Website Home Screenshot"
-                            src="https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/website-revamp.jpg" />
+                            src="https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/new-website-snapshot.png" />
                     </div>
                     <div className="col-sm-8 content">
                         <h2 className="projectName"> Personal Website Redesign </h2>
@@ -40,6 +40,37 @@ class Projects extends Component {
                             <div> SASS/CSS </div>
                             <div> Bootstrap </div>
                             <div> Material-UI </div>
+                        </div>
+                    </div>
+                </div>
+            ),
+            ar_pathfinder: (
+                <div className="row ar_pathfinder" key="ar_pathfinder">
+                    <div className="col-sm-4">
+                        <img className="img-responsive" alt="ARPathFinder App Image"
+                            src="../img/ARPathFinder.png" />
+                    </div>
+                    <div className="col-sm-8 content">
+                        <h2 className="projectName"> ARPathFinder - A PennAppsXVII Project</h2>
+                        <p className="text-muted">
+                            <span className="glyphicon glyphicon-star"></span>
+                            <a className="githubLink" href="https://github.com/ShivamDh/PennAppsXVII">
+                                &nbsp; Click to view this project on Github
+                            </a>
+                        </p>
+                        <dl className="content-list">
+                            <dd>- Created an augmented-reality Android app to display map directions using AR via camera feed </dd>
+                            <dd>- Built through Android Studio and ARCore to create a comprehensive mobile view display </dd>
+                            <dd>- Integrated OpenGL and Blender to create a 3D marker used within AR mode to display direction </dd>
+                            <dd>- Used Google Maps API to obtain GPS coordinates and place markers in appropriate location</dd>
+                        </dl>
+                        <div className="languages">
+                            <div> Java </div>
+                            <div> ARCore </div>
+                            <div> Android Studio </div>
+                            <div> Blender </div>
+                            <div> OpenGl </div>
+                            <div> Maps API </div>
                         </div>
                     </div>
                 </div>
@@ -454,8 +485,8 @@ class Projects extends Component {
 
         this.state = {
             tab: 1,
-            projectList: ['website', 'starter_blog', 'fitness60', 'trip_weather', 'python_calculator', 'hangr',
-                'oldWebsite', 'android2048', 'quikpic', 'c2048', 'molar_mass', 'hockey_stats', 'snake'],
+            projectList: ['website', 'ar_pathfinder', 'starter_blog', 'fitness60', 'trip_weather', 'python_calculator',
+                'hangr', 'oldWebsite', 'android2048', 'quikpic', 'c2048', 'molar_mass', 'hockey_stats', 'snake']
         }
     }
 
@@ -465,7 +496,7 @@ class Projects extends Component {
         if (key === 4) {
             projectList = ['trip_weather', 'python_calculator', 'c2048', 'molar_mass', 'hockey_stats', 'snake']
         } else if (key === 3) {
-            projectList = ['fitness60', 'android2048']
+            projectList = ['ar_pathfinder', 'fitness60', 'android2048']
         } else if (key === 2) {
             projectList = ['website', 'starter_blog', 'hangr',  'oldWebsite', 'quikpic']
         } else {
