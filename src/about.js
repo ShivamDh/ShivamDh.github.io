@@ -6,16 +6,16 @@ class About extends Component {
     render() {
         return (
             <div className="About">
-                <div className="header" style={{backgroundImage: 'url(https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/about-header.jpg)'}}>
+                <div className="header" style={{backgroundImage: 'url(https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/about-header.jpg)'}}>
                     <div className="header-pic">
-                        <img src="https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/44245.png" alt="Shivam Dharme"/>
+                        <img src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/44251.png" alt="Shivam Dharme"/>
                     </div>
                     <div className="header-text"> 
                         <div className="text"> <i> - MEET SHIVAM DHARME - </i> </div>
                     </div>
                 </div>
                 <div className="about-me">
-                    <div className="about-me-info" style={{backgroundImage: 'url(https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/about-info.jpg'}} >
+                    <div className="about-me-info" style={{backgroundImage: 'url(https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/about-info.jpg'}} >
                         <div className="about-me-info-first">
                             <span> Hi! </span>
                             I'm a second-year Computer Engineering co-op student at the University of Waterloo.
@@ -39,7 +39,7 @@ class About extends Component {
                             passion and interest as me for software development.
                         </div>
                     </div>
-                    <div className="about-me-skills" style={{backgroundImage: 'url(https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/skills-background.jpg)'}} >
+                    <div className="about-me-skills" style={{backgroundImage: 'url(https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/skills-background.jpg)'}} >
                         <div className="about-me-skills-header"> Skills </div>
                         <div className="about-me-skills-software">
                             <div className="about-me-skills-software-header"> Software Knowledge </div>
@@ -112,7 +112,7 @@ class About extends Component {
                     </div>
                 </div>
                 <div className="about-timeline"
-                    style={{backgroundImage: 'url(https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/about-timeline-img.jpg)'}}>
+                    style={{backgroundImage: 'url(https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/about-timeline-img.jpg)'}}>
                     <div className="about-timeline-header"> Experience </div>
                     <div id="cd-timeline" className="cd-container">
                         <div className="cd-timeline-block">
@@ -128,7 +128,7 @@ class About extends Component {
                                 </div>
                             </div> 
                             <div className="cd-timeline-img">
-                                <img src="https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/about-schedule-icon.png" alt="Event" />
+                                <img src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/about-schedule-icon.png" alt="Event" />
                             </div> 
                         </div> 
                         <div className="cd-timeline-block">
@@ -146,7 +146,7 @@ class About extends Component {
                                 </div>
                             </div> 
                             <div className="cd-timeline-img">
-                                <img src="https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/about-work-icon.png" alt="Work" />
+                                <img src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/about-work-icon.png" alt="Work" />
                             </div> 
                         </div> 
                         <div className="cd-timeline-block">
@@ -163,7 +163,7 @@ class About extends Component {
                                 </div>
                             </div> 
                             <div className="cd-timeline-img">
-                                <img src="https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/about-website-icon.png" alt="Car"/>
+                                <img src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/about-website-icon.png" alt="Car"/>
                             </div>
                         </div> 
 
@@ -181,7 +181,7 @@ class About extends Component {
                                 </div>
                             </div> 
                             <div className="cd-timeline-img">
-                                <img src="https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/about-school-icon.png" alt="Study"/>
+                                <img src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/about-school-icon.png" alt="Study"/>
                             </div>
                         </div>
 
@@ -198,7 +198,7 @@ class About extends Component {
                                 </div>
                             </div> 
                             <div className="cd-timeline-img">
-                                <img src="https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/about-chart-icon.png" alt="Company"/>
+                                <img src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/about-chart-icon.png" alt="Company"/>
                             </div>
                         </div>
 						
@@ -216,7 +216,7 @@ class About extends Component {
 								</div>
                             </div> 
                             <div className="cd-timeline-img">
-                                <img src="https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/about-play-icon.png" alt="Company"/>
+                                <img src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/about-play-icon.png" alt="Company"/>
                             </div>
                         </div>
                     </div>

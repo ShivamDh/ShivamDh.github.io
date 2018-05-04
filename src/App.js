@@ -79,7 +79,7 @@ class App extends Component {
 							<Route component={PageNotFound} />
 						</Switch>
 						<div className="footer"
-							style={{backgroundImage: 'url(https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/footer-background.jpg)'}}>
+							style={{backgroundImage: 'url(https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/footer-background.jpg)'}}>
 							<div className="footer-navigation text-center">
 								<a href="/"> HOME </a>
 								<a href="/about"> ABOUT </a>
@@ -89,22 +89,22 @@ class App extends Component {
 							<div className="footer-media" >
 								<a href="https://www.github.com/ShivamDh" target="top">
 									<div className="footer-media-github">
-										<img src="https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/FooterGithub.png" alt="Github" />
+										<img src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/FooterGithub.png" alt="Github" />
 									</div>
 								</a>
-								<a href="https://www.linkedin.com/in/shivam-dharme">
+								<a href="https://www.linkedin.com/in/sdharme">
 									<div className="footer-media-linkedin">
-										<img src="https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/FooterLinkedIn.jpg" alt="LinkedIn" />
+										<img src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/FooterLinkedIn.jpg" alt="LinkedIn" />
 									</div>
 								</a>
 								<a href="mailto:shivamdharme@gmail.ca?Subject=Contact%20Shivam">
 									<div className="footer-media-mail">
-										<img src="https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/FooterEmail.png" alt="Mail" />
+										<img src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/FooterEmail.png" alt="Mail" />
 									</div>
 								</a>
 							</div>
 							<div className="footer-copyright text-center">
-								© <span> 2017 </span> SHIVAM DHARME ALL RIGHTS RESERVED
+								© 2017 SHIVAM DHARME ALL RIGHTS RESERVED
 							</div>
 						</div>
 					</div>

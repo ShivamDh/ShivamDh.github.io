@@ -7,9 +7,9 @@ class Home extends Component {
         return (
             <div className="home">
                 <div className="home-background"
-                    style={{backgroundImage: 'url(https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/home-background.jpg)'}}>
+                    style={{backgroundImage: 'url(https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/home-background.jpg)'}}>
                 	<img className="home-profile-image" alt="Profile"
-                        src="https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/4424.jpg" />
+                        src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/4426.jpg" />
                 	<div className="home-profile-text">
                 		<div className="home-profile-text-describ text-center">
                 			Developer
@@ -24,7 +24,7 @@ class Home extends Component {
                 		</div>
                 	</div>
                 </div>
-                <div className="home-about-me" style={{backgroundImage: 'url(https://raw.githubusercontent.com/ShivamDh/ShivamDh.github.io/development/public/img/home-about.jpg'}} >
+                <div className="home-about-me" style={{backgroundImage: 'url(https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/home-about.jpg'}} >
                     <div className="home-about-me-who">
                         <div className="home-about-me-who-header">
                             <span>&lt;</span>/<span>&gt;</span>
