@@ -3,6 +3,70 @@ import './about.css';
 
 class About extends Component {
 
+    getSoftwareSkillList() {
+        return (
+            <ul>
+                <li> C </li>
+                <li> C++ </li>
+                <li> C# (.NET) </li>
+                <li> Python </li>
+                <li> SQL </li>
+                <li> Java </li>
+                <li> PHP </li>
+                <li id="androidDev"> Android Development </li>
+                <li id="androidSQL"> Android SQLite </li>
+            </ul>
+        )
+    }
+
+    getWebSkillList() {
+        return (
+            <ul>
+                <li> REST API </li>
+                <li> HTML </li>
+                <li> CSS3 </li>
+                <li> LESS </li>
+                <li> SASS </li>
+                <li> Bootstrap </li>
+                <li id="javascript"> JavaScript ES7+</li>
+                <li> jQuery </li>
+                <li> Node </li>
+                <li> Angular </li>
+                <li> React </li>
+                <li> Redux </li>
+                <li> Django </li>
+                <li> Polymer </li>
+                <li> Npm </li>
+                <li> Yarn </li>
+            </ul>
+        );
+    }
+
+    getTechSkillList() {
+        return(
+            <ul>
+                <li> Linux (Ubuntu) </li>
+                <li> Unix (Bash) </li>
+                <li> Git </li>
+                <li> JIRA/Stash </li>
+                <li> Confluence </li>
+                <li> IBM Watson </li>
+                <li> Jasmine </li>
+                <li> Enzyme </li>
+                <li> VHDL </li>
+                <li> SPI </li>
+                <li id="AWS"> Amazon Web Services (AWS) </li>
+                <li> ROS </li>
+                <li> OpenCV </li>
+                <li> Android Studio </li>
+                <li> Eclipse </li>
+                <li> Visual Studio </li>
+                <li> GDB Debugger </li>
+                <li> SQL Server </li>
+            </ul>
+        );
+    }
+
     render() {
         return (
             <div className="About">
@@ -18,15 +82,17 @@ class About extends Component {
                     <div className="about-me-info" style={{backgroundImage: 'url(https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/about-info.jpg'}} >
                         <div className="about-me-info-first">
                             <span> Hi! </span>
-                            I'm a second-year Computer Engineering co-op student at the University of Waterloo.
+                            I'm a second-year Computer Engineering co-op student at the <a href="https://uwaterloo.ca/"> University of Waterloo </a>.
                             My interests lie in software development and through my internships, I hope to utilize my unique
                             skillset to build first-rate applications while gaining invaluable experience. 
                         </div>
                         <div className="about-me-info-others">
-                            I have already completed one four month co-op term working at
-                            <a href="http://www.evertz.com/" > Evertz Microsystems </a>
-                            as a Web Applications Developer and am starting another four month internship at <a href="https://www.d2l.com/"> D2L </a> in January 2018!
-                            While studying at Waterloo, I have also been a part of the University of Waterloo Midnight Sun Solar Car Team where I worked on embedded systems and website development.
+                            I have already completed two four month internships at <a href="https://www.d2l.com/"> D2L </a> and
+                            <a href="http://www.evertz.com/" > Evertz Microsystems </a> as a developer.
+                            While studying at Waterloo, I have also been a part of the two engineering design teams. Currently, I am on
+                            <a href="https://watonomous.ca/"> WATonomous </a> - a team 
+                            attempting to build an autonomo vehicle. During my first year, I was also a part of the
+                            <a href="http://www.uwmidsun.com/"> Midnight Sun Solar Car Team </a> where I worked on embedded systems and website development.
                         </div>
                         <div className="about-me-info-others">
                             Along with personal side-projects completed on my free time, I have also participated in hackathons
@@ -44,69 +110,19 @@ class About extends Component {
                         <div className="about-me-skills-software">
                             <div className="about-me-skills-software-header"> Software Knowledge </div>
                             <div className="about-me-skills-software-list">
-                                <ul>
-                                    <li> C </li>
-                                    <li> C++ </li>
-                                    <li> C# (.NET) </li>
-                                    <li> Python </li>
-                                    <li> MySQL </li>
-                                    <li> Java </li>
-                                    <li> Apache </li>
-                                    <li> PHP </li>
-                                    <li id="androidDev"> Android Development </li>
-                                    <li id="androidSQL"> Android SQLite </li>
-                                </ul>
+                                { this.getSoftwareSkillList() }
                             </div>
                         </div>
                         <div className="about-me-skills-web">
                             <div className="about-me-skills-web-header"> Web Based Languages and Frameworks </div>
                             <div className="about-me-skills-web-list">
-                                <ul>
-                                    <li> HTML </li>
-                                    <li> CSS </li>
-                                    <li> LESS </li>
-                                    <li> SCSS </li>
-                                    <li> Bootstrap </li>
-                                    <li> Javascript </li>
-                                    <li> jQuery </li>
-                                    <li> Node </li>
-                                    <li> AngularJS </li>
-                                    <li> React </li>
-                                    <li> ES6/ES7 </li>
-                                    <li> JSX/Babel </li>
-                                    <li> Redux </li>
-                                    <li> Django </li>
-                                    <li> Gatsby </li>
-                                    <li> Npm </li>
-                                    <li> Yarn </li>
-                                </ul>
+                                { this.getWebSkillList() }
                             </div>
                         </div>
                         <div className="about-me-skills-tech">
                             <div className="about-me-skills-tech-header"> Other Technologies Used </div>
                             <div className="about-me-skills-tech-list">
-                                <ul>
-                                    <li> Linux (Ubuntu) </li>
-                                    <li> Unix </li>
-                                    <li> Git </li>
-                                    <li> Bash </li>
-                                    <li> JIRA </li>
-                                    <li> Confluence </li>
-                                    <li> Stash </li>
-                                    <li> IBM Watson </li>
-                                    <li> Jasmine </li>
-                                    <li> Enzyme </li>
-                                    <li> VHDL </li>
-                                    <li> SPI </li>
-                                    <li id="AWS"> Amazon Web Services (AWS) </li>
-                                    <li> Android Studio </li>
-                                    <li> Eclipse </li>
-                                    <li> Pydev </li>
-                                    <li> Visual Studio </li>
-                                    <li> Pycharm </li>
-                                    <li> GDB Debugger </li>
-                                    <li id="sqlServer"> SQL Server Management Studio </li>
-                                </ul>
+                                { this.getTechSkillList() }
                             </div>
                         </div>
                     </div>
