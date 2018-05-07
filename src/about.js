@@ -117,32 +117,52 @@ class About extends Component {
                     <div id="cd-timeline" className="cd-container">
                         <div className="cd-timeline-block">
                             <div className="cd-timeline-content">
-                                <div className="cd-date"> JAN - APR <span> 2018 </span>  </div>
+                                <div className="cd-date"> JAN 2018 - present  </div>
+                                <div className="cd-timeline-content-header">Software Team Member - Prediction Subteam </div>
+                                <div className="cd-timeline-content-subheader">
+                                    <a href="https://www.d2l.com/"> WATonomous - SAE AutoDrive Challenge </a> 
+                                </div> 
+                                <div className="cd-timeline-content-text">
+                                    - Implemented computer vision software with OpenCV and C++ to track traffic signs <br/>
+                                    - Processed and synchronized IMU data to produce output data <br/>
+                                    - Coded with Robot Operating System (ROS) on Ubuntu for environment setup and package output
+                                </div>
+                            </div> 
+                            <div className="cd-timeline-img">
+                                <img src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/about-car-icon.png" alt="Car" />
+                            </div> 
+                        </div> 
+                        <div className="cd-timeline-block">
+                            <div className="cd-timeline-content">
+                                <div className="cd-date"> JAN - APR 2018  </div>
                                 <div className="cd-timeline-content-header">Software Developer</div>
                                 <div className="cd-timeline-content-subheader">
                                     <a href="https://www.d2l.com/"> D2L (formerly Desire2Learn) </a> 
                                 </div> 
                                 <div className="cd-timeline-content-text">
-                                    Integrated custom user options with new Lessons tool to allow for more flexibility with user content
-                                    and deliver finer end-user experience for clients.
+                                    - Integrated SCORM tools with existing tools for customization in e-learing using C#.NET, REST, MVC <br/>
+                                    - Implemented new features to 'Add' feature in Lessons tool for 50% more content availabilit using React, Node, MySQL <br/>
+                                    - Incorporated time tracking feature to monitor content viewing <br/>
+                                    - Created API for PostgreSQL script for data purge regarding European Union Data Protection Regulation
                                 </div>
                             </div> 
                             <div className="cd-timeline-img">
-                                <img src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/about-schedule-icon.png" alt="Event" />
+                                <img src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/about-schedule-icon.png" alt="Schedule" />
                             </div> 
                         </div> 
                         <div className="cd-timeline-block">
                             <div className="cd-timeline-content">
-                                <div className="cd-date"> MAY - AUG <span> 2017 </span>  </div>
+                                <div className="cd-date"> MAY - AUG 2017 </div>
                                 <div className="cd-timeline-content-header">Web Application Developer</div>
                                 <div className="cd-timeline-content-subheader">
                                     <a href="http://www.evertz.com/"> Evertz Microsystems </a> 
                                 </div> 
                                 <div className="cd-timeline-content-text">
-                                    Developed scalable website applications integrating video streams through React, Redux, ES6, LESS.
-                                    Improved search engine efficiency by over 20% through UI component refactoring and
-                                    refined query model to utilizing more backend power. Built a client-specific independent platform
-                                    for broadcasting controls, utilizing barcode recognition and creating custom job scheduling.
+                                    - Developed scalable website applications integrating video streams through React, Redux, Node, jQuery, LESS <br/>
+                                    - Rearchitected search engine for web component modularity, increasing efficiency by over 20% <br/>
+                                    - Enhanced website data workflow by efficient result querying and refined search results with Python <br/>
+                                    - Built a client-specific independent platform for broadcasting controls,
+                                    utilizing barcode recognition and creating custom job scheduling in Python and PostgreSQL
                                 </div>
                             </div> 
                             <div className="cd-timeline-img">
@@ -151,32 +171,31 @@ class About extends Component {
                         </div> 
                         <div className="cd-timeline-block">
                             <div className="cd-timeline-content">
-                                <div className="cd-date"> SEPT <span> 2016 </span> - APR <span> 2017 </span> </div>
+                                <div className="cd-date"> SEPT 2016 - APR 2017 </div>
                                 <div className="cd-timeline-content-header">Business and Electrical Team Member</div>
                                 <div className="cd-timeline-content-subheader">
                                     <a href="http://www.uwmidsun.com/"> Midnight Sun Solar Race Car Team </a> 
                                 </div> 
                                 <div className="cd-timeline-content-text">
-                                    Built a working footer module through React and tested website components through Ngrok.
-                                    Wrote bare-metal firmware for car's embedded systems, in SPI and C language.
-                                    Aided in resolving website bug fixes and decision making for business team.
+                                    - Built a working footer module through React and Node <br/>
+                                    - Styled new icons and media links on footer with Bootstrap and SCSS <br/>
+                                    - Wrote bare-metal firmware for car's embedded systems, in SPI and C language
                                 </div>
                             </div> 
                             <div className="cd-timeline-img">
-                                <img src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/about-website-icon.png" alt="Car"/>
+                                <img src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/about-website-icon.png" alt="Website"/>
                             </div>
-                        </div> 
-
+                        </div>
                         <div className="cd-timeline-block">
                             <div className="cd-timeline-content">
-                                <div className="cd-date"> SEPT <span> 2016 </span> - present </div>
+                                <div className="cd-date"> SEPT 2016 - present </div>
                                 <div className="cd-timeline-content-header">Computer Engineering Student</div>
                                 <div className="cd-timeline-content-subheader">
                                     <a href="http://www.uwaterloo.ca/"> University of Waterloo </a> 
                                 </div> 
                                 <div className="cd-timeline-content-text">
-                                    Candidate for Bachelor's of Applied Science in Computer Engineering.
-                                    First year average: 87%. Top 10 Rank.
+                                    - Candidate for Bachelor's of Applied Science in Computer Engineering <br/>
+                                    - First year average: 87%. Top 10 Rank
                                     <strong> Expected Graduation in 2021 </strong>
                                 </div>
                             </div> 
@@ -187,36 +206,36 @@ class About extends Component {
 
                         <div className="cd-timeline-block">
                             <div className="cd-timeline-content">
-                                <div className="cd-date"> OCT <span> 2015 </span> - MAR <span> 2016 </span> </div>
+                                <div className="cd-date"> OCT 2015 - MAR 2016 </div>
                                 <div className="cd-timeline-content-header">Board of Director and Finance Team Member</div>
                                 <div className="cd-timeline-content-subheader">
                                     <a href="http://scentsationja.wixsite.com/scentsation"> Scentsation - A Junior Achievement Company </a> 
                                 </div> 
                                 <div className="cd-timeline-content-text">
-                                    Managed company's balances and projected return on investments (ROI) through Excel worksheets.
-                                    Assisted the production team in sourcing environmentally-friendly packaging for products.
+                                    - Managed company's balances and projected return on investments (ROI) through Excel worksheets <br/>
+                                    - Assisted the production team in sourcing environmentally-friendly packaging for products <br/>
                                 </div>
                             </div> 
                             <div className="cd-timeline-img">
-                                <img src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/about-chart-icon.png" alt="Company"/>
+                                <img src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/about-chart-icon.png" alt="Chart"/>
                             </div>
                         </div>
 						
 						<div className="cd-timeline-block">
                             <div className="cd-timeline-content">
-                                <div className="cd-date"> SEPT <span> 2014 </span> - JUN <span> 2016 </span> </div>
+                                <div className="cd-date"> SEPT 2014 - JUN 2016 </div>
                                 <div className="cd-timeline-content-header">Youth Sports and Aquatics Volunteer</div>
                                 <div className="cd-timeline-content-subheader">
                                     <a href="https://www.ymcacalgary.org/"> YMCA Calgary </a> 
                                 </div> 
                                 <div className="cd-timeline-content-text">
-                                    Aided swim instructors with lessons by managing large class sizes, took the initiative to run
-									class games at the end of lessons to review learned skills. 
-									Supervised weekly sports for children, responsible for the safety, setup and conduct of said events.
+                                    - Aided swim instructors with lessons by managing large class sizes <br/>
+                                    - Took initiative to run class games at the end of lessons to review learned skills <br/> 
+									- Supervised weekly sports for children, responsible for the safety, setup and conduct of said events
 								</div>
                             </div> 
                             <div className="cd-timeline-img">
-                                <img src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/about-play-icon.png" alt="Company"/>
+                                <img src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/about-play-icon.png" alt="Play"/>
                             </div>
                         </div>
                     </div>

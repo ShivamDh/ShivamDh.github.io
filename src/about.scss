@@ -73,7 +73,7 @@
 				vertical-align: middle;
 				margin-left: 5%;
 				color: white;
-				font-family: Raleway;
+				font-family: Raleway, Sans-Serif;
 				font-weight: 700;
 				letter-spacing: 4px;
 			}
@@ -121,7 +121,7 @@
 
 		.about-me-info {
 			width: 100%;
-			font-family: Raleway;
+			font-family: Rawline, Raleway, Sans-Serif;
 			color: white;
 
 			a {
@@ -154,7 +154,7 @@
 			width: 100%;
 			background-size: cover;
 			color: #D0CFCF;
-			font-family: Raleway;
+			font-family: Rawline, Raleway, Sans-Serif;
 			padding: 5px 10px 5px 10px;
 			font-size: 10px;
 
@@ -587,7 +587,7 @@
 			padding: 20px 0 5px 0;
 			margin: 0 auto 30px auto;
 			color: white;
-			font-family: Raleway;
+			font-family: Raleway, Sans-Serif;
 			font-size: 40px;
 			position: relative;
 
@@ -698,24 +698,18 @@
 				padding: 5px;
 				box-shadow: 7px 7px 4px #fff;
 				@include clearfix;
+				font-family: Rawline, Raleway, Sans-Serif;
 
 				.cd-date {
-					font-family: Raleway;
 					text-align: right;
 					font-weight: 700;
-
-					span {
-						font-weight: 600;
-					}
 				}
 
 				.cd-timeline-content-header {
-					font-family: Raleway;
 					font-weight: bold;
 				}
 
 				.cd-timeline-content-subheader {
-					font-family: Raleway;
 					font-weight: bold;
 					padding-bottom: 10px;
 
@@ -725,7 +719,6 @@
 				}
 
 				.cd-timeline-content-text {
-					font-family: Raleway;
 					font-weight: 500;
 					margin: 5px 0;
 					line-height: 1.6;
@@ -742,7 +735,7 @@
 					border-right: 7px solid white;
 				}
 			}
-			@include about-timeline-fontSizes(8.5px, 10px, 11.5px, 10px, 9px);
+			@include about-timeline-fontSizes(7px, 7px, 11.5px, 10px, 9px);
 
 			.cd-timeline-content:hover + .cd-timeline-img, .cd-timeline-content:focus + .cd-timeline-img {
 				background: #235B8C;
@@ -751,25 +744,25 @@
 			@media screen and (min-width: 320px) {
 				max-width: 320px;
 
-				@include about-timeline-fontSizes(11px, 13px, 14.5px, 11.5px, 10px);
+				@include about-timeline-fontSizes(8px, 8px, 14.5px, 11.5px, 10px);
 			}
 
 			@media screen and (min-width: 450px) {
 				max-width: 450px;
 
-				@include about-timeline-fontSizes(13px, 15px, 17px, 15px, 13px);
+				@include about-timeline-fontSizes(11.5px, 11.5px, 17px, 15px, 13px);
 			}
 
 			@media screen and (min-width: 550px) {
 				max-width: 550px;
 
-				@include about-timeline-fontSizes(14px, 16px, 19px, 16.5px, 14px);
+				@include about-timeline-fontSizes(13.5px, 13px, 19px, 16.5px, 14px);
 			}
 
 			@media screen and (min-width: 768px) {
 				max-width: 768px;
 
-				@include about-timeline-fontSizes(15px, 19px, 23px, 18.5px, 16px);
+				@include about-timeline-fontSizes(15px, 14.5px, 23px, 18.5px, 16px);
 			}
 
 			@media screen and (min-width: 992px) {
@@ -808,31 +801,31 @@
 					}
 				}
 
-				@include about-timeline-fontSizes(14px, 17px, 20px, 16px, 14px);
+				@include about-timeline-fontSizes(14px, 14.5px, 20px, 16px, 14px);
 			}
 
 			@media screen and (min-width: 1200px) {
 				max-width: 1200px;
 
-				@include about-timeline-fontSizes(15px, 17.5px, 20.5px, 17px, 15px);
+				@include about-timeline-fontSizes(15px, 15px, 20.5px, 17px, 15px);
 			}
 
 			@media screen and (min-width: 1400px) {
 				max-width: 1400px;
 
-				@include about-timeline-fontSizes(16px, 18px, 22px, 19px, 16px);
+				@include about-timeline-fontSizes(16px, 16.5px, 22px, 19px, 16px);
 			}
 
 			@media screen and (min-width: 1620px) {
 				max-width: 1620px;
 
-				@include about-timeline-fontSizes(17px, 19px, 25px, 21px, 18px);
+				@include about-timeline-fontSizes(17px, 17.5px, 25px, 21px, 18px);
 			}
 
 			@media screen and (min-width: 1900px) {
 				max-width: 1900px;
 
-				@include about-timeline-fontSizes(20px, 22px, 30px, 25px, 21px);
+				@include about-timeline-fontSizes(21px, 21px, 30px, 25px, 21px);
 			}
 		}
 	}
