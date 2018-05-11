@@ -44,11 +44,43 @@ class Projects extends Component {
                     </div>
                 </div>
             ),
+            blockchain_tic_tac_toe: (
+                <div className="row blockchain_tic_tac_toe" key="blockchain_tic_tac_toe">
+                    <div className="col-sm-4">
+                        <img className="img-responsive" alt="Blockchain Tic-Tac-Toe Game"
+                            src="../img/blockchain-tic-tac-toe.png" />
+                    </div>
+                    <div className="col-sm-8 content">
+                        <h2 className="projectName"> Blockchain Tic Tac Tic-Tac-Toe </h2>
+                        <p className="text-muted">
+                            <span className="glyphicon glyphicon-star"></span>
+                            <a className="githubLink" href="https://github.com/ShivamDh/blockchain-tic-tac-toe">
+                                &nbsp; Click to view this project on Github
+                            </a>
+                        </p>
+                        <dl className="content-list">
+                            <dd>- A classic tic-tac-toe game built using the fundamentals of blockchain for multiplayer </dd>
+                            <dd>- Built the front-end using Angular and TypeScript for interactive game play</dd>
+                            <dd>- Created a custom blockchain to store game results between two players playing live </dd>
+                            <dd>- Used Express and Pusher API to make the game live and playable by two players on same host </dd>
+                        </dl>
+                        <div className="languages">
+                            <div> Angular </div>
+                            <div> Express </div>
+                            <div> Material-UI </div>
+                            <div> Blockchain </div>
+                            <div> Pusher API </div>
+                            <div> TypeScript </div>
+                            <div> SASS </div>
+                        </div>
+                    </div>
+                </div>
+            ),
             ar_pathfinder: (
                 <div className="row ar_pathfinder" key="ar_pathfinder">
                     <div className="col-sm-4">
                         <img className="img-responsive" alt="ARPathFinder App"
-                            src="../img/ARPathFinder.png" />
+                            src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/ARPathFinder.png" />
                     </div>
                     <div className="col-sm-8 content">
                         <h2 className="projectName"> ARPathFinder - A PennAppsXVII Project</h2>
@@ -69,7 +101,7 @@ class Projects extends Component {
                             <div> ARCore </div>
                             <div> Android Studio </div>
                             <div> Blender </div>
-                            <div> OpenGl </div>
+                            <div> OpenGL </div>
                             <div> Maps API </div>
                         </div>
                     </div>
@@ -485,7 +517,7 @@ class Projects extends Component {
 
         this.state = {
             tab: 1,
-            projectList: ['website', 'ar_pathfinder', 'starter_blog', 'fitness60', 'trip_weather', 'python_calculator',
+            projectList: ['website', 'blockchain_tic_tac_toe', 'ar_pathfinder', 'starter_blog', 'fitness60', 'trip_weather', 'python_calculator',
                 'hangr', 'oldWebsite', 'android2048', 'quikpic', 'c2048', 'molar_mass', 'hockey_stats', 'snake']
         }
     }
@@ -500,8 +532,9 @@ class Projects extends Component {
         } else if (key === 2) {
             projectList = ['website', 'starter_blog', 'hangr',  'oldWebsite', 'quikpic']
         } else {
-            projectList = ['website', 'ar_pathfinder', 'starter_blog', 'fitness60', 'trip_weather', 'python_calculator',
-                'hangr', 'oldWebsite', 'android2048', 'quikpic', 'c2048', 'molar_mass', 'hockey_stats', 'snake']
+            projectList = ['website', 'blockchain_tic_tac_toe, ar_pathfinder', 'starter_blog', 'fitness60',
+                'trip_weather', 'python_calculator', 'hangr', 'oldWebsite', 'android2048', 'quikpic', 'c2048',
+                'molar_mass', 'hockey_stats', 'snake']
         }
 
         this.setState({tab: key, projectList})
