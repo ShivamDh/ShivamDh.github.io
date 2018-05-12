@@ -193,18 +193,9 @@ class Projects extends Component {
                             </a>
                         </p>
                         <dl className="content-list">
-                            <dd>
-                                - A Python GUI (graphical user interface) used to build a simple scientific calculator 
-                                with all basic mathematical operations along with a clear 22-digit numeric display  
-                            </dd>
-                            <dd>
-                                - Also utilizes a History sidebar to allow for easy recollection of past mathematical 
-                                results and to be able to utilize past results for current calculations
-                            </dd>
-                            <dd> 
-                                - OOP implementation allowing for future feature addition as well as utilization of Python Tkinter
-                                for features such as Cascading Menubar, Labels, and Style Configurations   
-                            </dd>
+                            <dd> - Python GUI used to build a simple scientific calculator with basic mathematical operations and 22-digit display </dd>
+                            <dd> - Utilizes a History sidebar to allow for easy recollection of past mathematical results </dd>
+                            <dd> - Built in with OOP implementation and utilization of Python Tkinter features like Menubar, Labels, Styles </dd>   
                         </dl>
                         <div className="languages">
                             <div> Python </div>
@@ -228,23 +219,16 @@ class Projects extends Component {
                             </a>
                         </p>
                         <dl className="content-list">
-                            <dd>
-                                - An Android app that users can use to record and store their workout and fitness data,
-                                which users can later analyze and see their growth and accomplishments
-                            </dd>
-                            <dd>
-                                - The project is a multipage application that includes an options menu, new workout tabs
-                                and a chance to view old workouts and activities
-                            </dd>
-                            <dd>
-                                - SQLite is utilized for workout data storage and Android SharedPreferences
-                                allows for users to save app option
-                            </dd>
+                            <dd> - Android app that users can use to record and store their workout and fitness data </dd>
+                            <dd> - A multipage application that includes an options menu, and abilit to create custom workout tabs </dd>
+                            <dd> - Used Android SQLite to store workout data and ability to view it at a later time </dd>
+                            <dd> - Android SharedPreferences allows for customizable user options like timer </dd>
                         </dl>
                         <div className="languages">
                             <div> Java </div>
                             <div> Android Studio </div>
                             <div> Android SQLite </div>
+                            <div> XML </div>
                         </div>
                     </div>
                 </div>
@@ -264,18 +248,10 @@ class Projects extends Component {
                             </a>
                         </p>
                         <dl className="content-list">
-                            <dd>
-                                - An Internet of Things (IoT) project for a "smart closet" that helps users
-                                select clothes to wear according to user preferences and clothing matches
-                            </dd>
-                            <dd>
-                                - User inputs data through photos, visual recognition stores key info and
-                                when asked, the application gives the best suited pair of clothes to wear
-                            </dd>
-                            <dd> 
-                                - Created through IBM's Watson technology with the application running on a
-                                web server that connects to Watson through Node-RED software
-                            </dd>
+                            <dd> - An Internet of Things (IoT) project for a "smart closet" to help users select clothes </dd>
+                            <dd> - Implements machine learning algorithm to cater choices according to past user selection and 3-set matches </dd>
+                            <dd> - User can input their clothing collection through photos, IBM Watson's visual recognition can find key info </dd>
+                            <dd> - Complete with a SQL backend and IBM Watson's Node-RED technology for fully functional web application </dd>
                         </dl>
                         <div className="languages">
                             <div> IBM Watson </div>
@@ -299,18 +275,9 @@ class Projects extends Component {
                                 &nbsp; Code maintained privately, sorry!
                         </p>
                         <dl className="content-list">
-                            <dd>
-                                - An Android version of the once-popular 2048 game that uses hardware sensors
-                                such as accelerometer readings to control gameplay and user feed
-                            </dd>
-                            <dd>
-                                - An Android version of the once-popular 2048 game that uses hardware sensors
-                                such as accelerometer readings to control gameplay and user feed
-                            </dd>
-                            <dd> 
-                                - Full OOP implementation allowing for future expansion of custom made blocks
-                                as well as user selections regarding which type of gestures to use
-                            </dd>
+                            <dd> - Android version of the popular 2048 game that uses hardware sensors to control gameplay </dd>
+                            <dd> - Integrates accelerometer readings and gyroscope to distinguish user movements and move blocks </dd>
+                            <dd> - Custom 2048 blocks that can have special purposes and user selections for gesture type </dd>
                         </dl>
                         <div className="languages">
                             <div> Java </div>
@@ -359,17 +326,10 @@ class Projects extends Component {
                             </a>
                         </p>
                         <dl className="content-list">
-                            <dd>
-                                - A Chrome extension that allows for faster load times and less internet
-                                bandwidth need by dynamically reducing image size and resolution on webpage
-                            </dd>
-                            <dd>
-                                - Images are sent onto a server run by AWS (Amazon Web Services) that receives
-                                image urls and then transforms them into images upto 10% of the original size
-                            </dd>
-                            <dd> 
-                                - Images are found and repacled dynamically with no change in webpage view
-                            </dd>
+                            <dd> - A Chrome extension that allows for faster load times and smaller bandwidth usage </dd>
+                            <dd> - Dynamically reduce image size and resolution on webpage and sends URL </dd>
+                            <dd> - Images are sent to AWS (Amazon Web Services) server to transforms into 10% of original size </dd>
+                            <dd>  - Images are found and replaced dynamically with no change in webpage view </dd>
                         </dl>
                         <div className="languages">
                             <div> HTML </div>
@@ -395,13 +355,9 @@ class Projects extends Component {
                             </a>
                         </p>
                         <dl className="content-list">
-                            <dd>
-                                - A fun command line game created while learning low-level C language and utilization of simple 
-                                data structures and algorithms for gameplay and state operations
-                            </dd>
-                            <dd>
-                                - Utilized GDB Debugger during development for debugging
-                            </dd>
+                            <dd> - A fun command line game created while learning low-level C language </dd>
+                            <dd> - Utilizes simple data structures and algorithms for gameplay and state operations </dd>
+                            <dd> - Utilized GDB Debugger during development for debugging </dd>
                             <dd style={{fontStyle: 'italic', marginTop: 10}}> 
                                 - Note: A newer version of this game has been created as an Android application, scroll above to view
                             </dd>
@@ -429,15 +385,9 @@ class Projects extends Component {
                             </a>
                         </p>
                         <dl className="content-list">
-                            <dd>
-                                - A chemistry based calculator written in C language
-                            </dd>
-                            <dd>
-                                - Calculates molar mass of any valid element or compound to four decimal places
-                            </dd>
-                            <dd> 
-                                - Incorporates jump case algorithm and recursion for any subscript usage in elements or compounds
-                            </dd>
+                            <dd> - A chemistry based calculator written in C language </dd>
+                            <dd> - Calculates molar mass of any valid element or compound to four decimal places </dd>
+                            <dd> - Incorporates jump case algorithm and recursion for any subscript usage in elements or compounds </dd>
                         </dl>
                         <div className="languages">
                             <div> C </div>
@@ -461,15 +411,10 @@ class Projects extends Component {
                             </a>
                         </p>
                         <dl className="content-list">
-                            <dd>
-                                - A hockey data organizer that combines linked list storage and arrangement to provide a flexible statistics calculator and data manager
-                            </dd>
-                            <dd>
-                                - Incorporates File I/O productivity for adaptable input forms
-                            </dd>
-                            <dd> 
-                                - Utilizes output stream to produce a csv file, arranged to user parameters
-                            </dd>
+                            <dd> - A hockey data organizer that provides a flexible statistics calculator and data manager </dd>
+                            <dd> - Combines linked list storage and arrangement to get appropriate data and parse through </dd>
+                            <dd> - Incorporates File I/O productivity for adaptable input forms </dd>
+                            <dd> - Utilizes output stream to produce a csv file, arranged to user parameters </dd>
                         </dl>
                         <div className="languages">
                             <div> C </div>
@@ -494,16 +439,9 @@ class Projects extends Component {
                             </a>
                         </p>
                         <dl className="content-list">
-                            <dd>
-                                - A fun command prompt game written in C++ language and uses object-oriented design
-                                for modularized and reproducible code segments
-                            </dd>
-                            <dd>
-                                - Incorporates vector class usage for data storage of snake coordinates
-                            </dd>
-                            <dd> 
-                                - Allows for a user-defined interface and gameplay to be setup
-                            </dd>
+                            <dd> - A command prompt game written in C++ language using object-oriented design for modularized code segments </dd>
+                            <dd> - Incorporates vector class usage for data storage of snake coordinates </dd>
+                            <dd> - Allows for a user-defined interface and gameplay to be setup </dd>
                         </dl>
                         <div className="languages">
                             <div> C++ </div>
