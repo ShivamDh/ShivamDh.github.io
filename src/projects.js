@@ -48,10 +48,10 @@ class Projects extends Component {
                 <div className="row blockchain_tic_tac_toe" key="blockchain_tic_tac_toe">
                     <div className="col-sm-4">
                         <img className="img-responsive" alt="Blockchain Tic-Tac-Toe Game"
-                            src="../img/blockchain-tic-tac-toe.png" />
+                            src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/blockchain-tic-tac-toe.png" />
                     </div>
                     <div className="col-sm-8 content">
-                        <h2 className="projectName"> Blockchain Tic Tac Tic-Tac-Toe </h2>
+                        <h2 className="projectName"> Blockchain Tic-Tac-Toe </h2>
                         <p className="text-muted">
                             <span className="glyphicon glyphicon-star"></span>
                             <a className="githubLink" href="https://github.com/ShivamDh/blockchain-tic-tac-toe">
@@ -530,7 +530,7 @@ class Projects extends Component {
         } else if (key === 3) {
             projectList = ['ar_pathfinder', 'fitness60', 'android2048']
         } else if (key === 2) {
-            projectList = ['website', 'starter_blog', 'hangr',  'oldWebsite', 'quikpic']
+            projectList = ['website', 'hangr', 'blockchain_tic_tac_toe', 'starter_blog', 'oldWebsite', 'quikpic']
         } else {
             projectList = ['website', 'blockchain_tic_tac_toe, ar_pathfinder', 'starter_blog', 'fitness60',
                 'trip_weather', 'python_calculator', 'hangr', 'oldWebsite', 'android2048', 'quikpic', 'c2048',
