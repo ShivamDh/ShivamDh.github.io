@@ -48,7 +48,7 @@ class Projects extends Component {
                 <div className="row flights_web_scraping" key="flights_web_scraping">
                     <div className="col-sm-4">
                         <img className="img-responsive" alt="Flights Web Scraper"
-                            src="../img/flights_web_scraping.png" />
+                            src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/flights_web_scraping.png" />
                     </div>
                     <div className="col-sm-8 content">
                         <h2 className="projectName"> Flights Web Scraper </h2>
@@ -150,17 +150,9 @@ class Projects extends Component {
                             </a>
                         </p>
                         <dl className="content-list">
-                            <dd>
-                                - An Django blog template created from scratch to gain experience in Django website creation
-                                and integration of Jinja Templating for modular web applications
-                            </dd>
-                            <dd>
-                                - The project includes backend support for the dynamic entry of blogs using the SQLite as its backend service
-                                and simple admin privileges to edit this data on the go
-                            </dd>
-                            <dd>
-                                - Website designing and UI layout was created through Bootstrap styling along with custom component creations
-                            </dd>
+                            <dd> - Django blog template created from scratch to gain experience in Django website creation and Jinja templating </dd>
+                            <dd> - Project includes backend support for the dynamic entry of blogs using the SQLite </dd>
+                            <dd> - Website designing and UI layout was created through Bootstrap styling along with custom component creations </dd>
                         </dl>
                         <div className="languages">
                             <div> Django (Python) </div>
@@ -185,18 +177,11 @@ class Projects extends Component {
                             </a>
                         </p>
                         <dl className="content-list">
-                            <dd>
-                                - Displays weather on a user defined trip from point A to point B with user selections including time of
-                                trip, how often to check for weather on trip, and what units to display data in
-                            </dd>
-                            <dd>
-                                - Utilizes Google Maps Directions API to obtain the fastest route from user inputted source to destination
-                                and decodes coordinates along the route using Google Maps Geocode API and Polyline Decode Algorithm
-                            </dd>
-                            <dd> 
-                                - Sends API requests to Weather Underground API to obtain weather at user specified time for
-                                coordinates found along the route and displays JSON results in a clean manner to user with specified units
-                            </dd>
+                            <dd> - Display weather on a user defined trip from point A to point B (via road) </dd>
+                            <dd> - Allows for user selections for time of trip, how often to check for weather, and units to display in </dd>
+                            <dd> - Utilizes Google Maps Directions API to obtain the fastest route from user inputted source to destination </dd>
+                            <dd> - Decodes coordinates along the route using Google Maps Geocode API and Polyline Decode Algorithm </dd>
+                            <dd> - Sends API requests to Weather Underground API to obtain weather at user specified time </dd> 
                         </dl>
                         <div className="languages">
                             <div> Python </div>
