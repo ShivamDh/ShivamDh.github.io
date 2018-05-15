@@ -29,10 +29,10 @@ class Projects extends Component {
                             </a>
                         </p>
                         <dl className="content-list">
-                            <dd>- Version 2.0 of my website created, aimed to incorporate more styling and intuitive UI control </dd>
-                            <dd>- Created through ReactJS and a multi-page design for an extremely fast and interactive website</dd>
-                            <dd>- Utilizes SASS styling and React-Bootstrap modelling to scale website for all screen sizes</dd>
-                            <dd>- Incorporates modern ECMAScript 2016 (ES7) along with multiple third party libraries for UX Design</dd>
+                            <dd> - Version 2.0 of my website created, aimed to incorporate more styling and intuitive UI control </dd>
+                            <dd> - Created through ReactJS and a multi-page design for an extremely fast and interactive website</dd>
+                            <dd> - Utilizes SASS styling and React-Bootstrap modelling to scale website for all screen sizes</dd>
+                            <dd> - Incorporates modern ECMAScript 2016 (ES7) along with multiple third party libraries for UX Design</dd>
                         </dl>
                         <div className="languages">
                             <div> Javascript (React, ES7, Node) </div>
@@ -48,7 +48,7 @@ class Projects extends Component {
                 <div className="row flights_web_scraping" key="flights_web_scraping">
                     <div className="col-sm-4">
                         <img className="img-responsive" alt="Flights Web Scraper"
-                            src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/flights_web_scraping.png" />
+                            src="../img/flights-web-scraping.png" />
                     </div>
                     <div className="col-sm-8 content">
                         <h2 className="projectName"> Flights Web Scraper </h2>
@@ -59,10 +59,10 @@ class Projects extends Component {
                             </a>
                         </p>
                         <dl className="content-list">
-                            <dd>- A Python web scraping tool for finding cheapest flights across multiple domains </dd>
-                            <dd>- Uses Beautiful Soup to scrape html data from websites or parses JSON from requests </dd>
-                            <dd>- Outputs final data to a CSV file for easy to read information </dd>
-                            <dd>- Gives user the ability to search for one-way or return trips </dd>
+                            <dd> - A Python web scraping tool for finding cheapest flights across multiple domains </dd>
+                            <dd> - Uses Beautiful Soup to scrape html data from websites or parses JSON from requests </dd>
+                            <dd> - Outputs final data to a CSV file for easy to read information </dd>
+                            <dd> - Gives user the ability to search for one-way or return trips </dd>
                         </dl>
                         <div className="languages">
                             <div> Python </div>
@@ -87,10 +87,10 @@ class Projects extends Component {
                             </a>
                         </p>
                         <dl className="content-list">
-                            <dd>- A classic tic-tac-toe game built using the fundamentals of blockchain for multiplayer </dd>
-                            <dd>- Built the front-end using Angular and TypeScript for interactive game play</dd>
-                            <dd>- Created a custom blockchain to store game results between two players playing live </dd>
-                            <dd>- Used Express and Pusher API to make the game live and playable by two players on same host </dd>
+                            <dd> - A classic tic-tac-toe game built using the fundamentals of blockchain for multiplayer </dd>
+                            <dd> - Built the front-end using Angular and TypeScript for interactive game play</dd>
+                            <dd> - Created a custom blockchain to store game results between two players playing live </dd>
+                            <dd> - Used Express and Pusher API to make the game live and playable by two players on same host </dd>
                         </dl>
                         <div className="languages">
                             <div> Angular </div>
@@ -119,10 +119,10 @@ class Projects extends Component {
                             </a>
                         </p>
                         <dl className="content-list">
-                            <dd>- Created an augmented-reality Android app to display map directions using AR via camera feed </dd>
-                            <dd>- Built through Android Studio and ARCore to create a comprehensive mobile view display </dd>
-                            <dd>- Integrated OpenGL and Blender to create a 3D marker used within AR mode to display direction </dd>
-                            <dd>- Used Google Maps API to obtain GPS coordinates and place markers in appropriate location</dd>
+                            <dd> - Created an augmented-reality Android app to display map directions using AR via camera feed </dd>
+                            <dd> - Built through Android Studio and ARCore to create a comprehensive mobile view display </dd>
+                            <dd> - Integrated OpenGL and Blender to create a 3D marker used within AR mode to display direction </dd>
+                            <dd> - Used Google Maps API to obtain GPS coordinates and place markers in appropriate location</dd>
                         </dl>
                         <div className="languages">
                             <div> Java </div>
@@ -312,9 +312,9 @@ class Projects extends Component {
                             &nbsp; This website has now been archived and no longer open for viewing
                         </p>
                         <dl className="content-list">
-                            <dd>- First porfolio website created for showcasing skills in webpage design and honing skills in web development </dd>
-                            <dd>- Created through ReactJS and utilized a multi-page design to display different parts of the profile</dd>
-                            <dd>- Used CSS styling for layout and cross-browser support, JSX syntax for React applications</dd>
+                            <dd> - First porfolio website created for showcasing skills in webpage design and honing skills in web development </dd>
+                            <dd> - Created through ReactJS and utilized a multi-page design to display different parts of the profile</dd>
+                            <dd> - Used CSS styling for layout and cross-browser support, JSX syntax for React applications</dd>
                         </dl>
                         <div className="languages">
                             <div> Javascript (React, ES6, Node) </div>
@@ -342,7 +342,7 @@ class Projects extends Component {
                             <dd> - A Chrome extension that allows for faster load times and smaller bandwidth usage </dd>
                             <dd> - Dynamically reduce image size and resolution on webpage and sends URL </dd>
                             <dd> - Images are sent to AWS (Amazon Web Services) server to transforms into 10% of original size </dd>
-                            <dd>  - Images are found and replaced dynamically with no change in webpage view </dd>
+                            <dd> - Images are found and replaced dynamically with no change in webpage view </dd>
                         </dl>
                         <div className="languages">
                             <div> HTML </div>
@@ -466,26 +466,47 @@ class Projects extends Component {
             )
         }
 
+        this.projectKeys = {
+            'website': 'web',
+            'flights_web_scraping': 'command-line',
+            'ar_pathfinder': 'mobile',
+            'fitness60': 'mobile',
+            'blockchain-tic-tac-toe': 'web',
+            'trip_weather': 'command-line',
+            'starter_blog': 'web',
+            'python_calculator': 'command-line',
+            'hangr': 'web',
+            'oldWebsite': 'web',
+            'android2048': 'mobile',
+            'quikpic' : 'web',
+            'c2048': 'command-line',
+            'molar_mass': 'command-line',
+            'hockey_stats': 'command-line',
+            'snake': 'command-line'
+        };
+
         this.state = {
             tab: 1,
-            projectList: ['website', 'flights_web_scraping', 'blockchain_tic_tac_toe', 'ar_pathfinder', 'starter_blog', 'fitness60', 'trip_weather', 'python_calculator',
-                'hangr', 'oldWebsite', 'android2048', 'quikpic', 'c2048', 'molar_mass', 'hockey_stats', 'snake']
-        }
+            projectList: Object.keys(this.projectKeys)
+        };
+    }
+
+    _getProjectsByType = (type) => {
+        return Object.keys(this.projectKeys).reduce( (arr, key) => {
+            return this.projectKeys[key] === type ? [...arr, key] : arr
+        }, [])
     }
 
     _handleTabSelect = (key) => {
-        console.log('selected key ', key)
-        let projectList
+        let projectList = []
         if (key === 4) {
-            projectList = ['flights_web_scraping', 'trip_weather', 'python_calculator', 'c2048', 'molar_mass', 'hockey_stats', 'snake']
+            projectList = this._getProjectsByType('command-line');
         } else if (key === 3) {
-            projectList = ['ar_pathfinder', 'fitness60', 'android2048']
+            projectList = this._getProjectsByType('mobile');
         } else if (key === 2) {
-            projectList = ['website', 'hangr', 'blockchain_tic_tac_toe', 'starter_blog', 'oldWebsite', 'quikpic']
+            projectList = this._getProjectsByType('web');
         } else {
-            projectList = ['website', 'flights_web_scraping', 'blockchain_tic_tac_toe, ar_pathfinder', 'starter_blog', 'fitness60',
-                'trip_weather', 'python_calculator', 'hangr', 'oldWebsite', 'android2048', 'quikpic', 'c2048',
-                'molar_mass', 'hockey_stats', 'snake']
+            projectList = Object.keys(this.projectKeys);
         }
 
         this.setState({tab: key, projectList})
