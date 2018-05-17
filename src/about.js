@@ -91,7 +91,7 @@ class About extends Component {
                             <a href="http://www.evertz.com/" > Evertz Microsystems </a> as a developer.
                             While studying at Waterloo, I have also been a part of the two engineering design teams. Currently, I am on
                             <a href="https://watonomous.ca/"> WATonomous </a> - a team 
-                            attempting to build an autonomo vehicle. During my first year, I was also a part of the
+                            attempting to build an autonomous vehicle - part of Prediction subteam. During my first year, I was also a part of the
                             <a href="http://www.uwmidsun.com/"> Midnight Sun Solar Car Team </a> where I worked on embedded systems and website development.
                         </div>
                         <div className="about-me-info-others">

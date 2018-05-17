@@ -22,7 +22,7 @@
 		.pageTitle {
 			margin: 20px 0;
 			color: white;
-			font-family: Raleway;
+			font-family: Raleway, Sans-Serif;
 			font-size: 32px;
 
 			@media screen and (min-width: 768px) {
@@ -41,7 +41,7 @@
 
 		#project-tab {
 			margin-bottom: 20px;
-			font-family: Raleway;
+			font-family: Raleway, Sans-Serif;
 
 			@media screen and (max-width: 450px) {
 				ul li a {
@@ -55,7 +55,7 @@
 		}
 
 		.row {
-			font-family: Raleway;
+			font-family: Rawline, Raleway, Sans-Serif;
 
 			.col-sm-4 img {
 				margin-top: 5px;
