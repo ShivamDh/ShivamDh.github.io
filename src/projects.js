@@ -44,6 +44,35 @@ class Projects extends Component {
                     </div>
                 </div>
             ),
+            tour_planner: (
+                <div className="row flights_web_scraping" key="tour_planner">
+                    <div className="col-sm-4">
+                        <img className="img-responsive" alt="Tour Planner"
+                            src="../img/tour-planner-1.png" />
+                    </div>
+                    <div className="col-sm-8 content">
+                        <h2 className="projectName"> Tour Planner </h2>
+                        <p className="text-muted">
+                            <span className="glyphicon glyphicon-star"></span>
+                            <a className="githubLink" href="https://github.com/ShivamDh/TourPlanner">
+                                &nbsp; Click to view this project on Github
+                            </a>
+                        </p>
+                        <dl className="content-list">
+                            <dd> - A React-Native application for iOS and Android that helps plans tours and trips </dd>
+                            <dd> - Finds the optimal trip route by solving a Travelling Salesman or Hamiltonian path problem </dd>
+                            <dd> - Uses Places API to search for geographical viewpoints or addresses inputted by user </dd>
+                            <dd> - Incorporates a Distance Matrix API to find optimal routes between locations provided </dd>
+                        </dl>
+                        <div className="languages">
+                            <div> React Native </div>
+                            <div> JavaScript </div>
+                            <div> Places API </div>
+                            <div> Distance Matrix API </div>
+                        </div>
+                    </div>
+                </div>
+            ),
             flights_web_scraping: (
                 <div className="row flights_web_scraping" key="flights_web_scraping">
                     <div className="col-sm-4">
@@ -468,8 +497,9 @@ class Projects extends Component {
 
         this.projectKeys = {
             'website': 'web',
-            'flights_web_scraping': 'command-line',
             'ar_pathfinder': 'mobile',
+            'flights_web_scraping': 'command-line',
+            'tour_planner': 'mobile',
             'fitness60': 'mobile',
             'blockchain-tic-tac-toe': 'web',
             'trip_weather': 'command-line',
