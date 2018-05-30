@@ -48,7 +48,7 @@ class Projects extends Component {
                 <div className="row flights_web_scraping" key="tour_planner">
                     <div className="col-sm-4">
                         <img className="img-responsive" alt="Tour Planner"
-                            src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/tour-planner-1.png" />
+                            src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/tour-planner.png" />
                     </div>
                     <div className="col-sm-8 content">
                         <h2 className="projectName"> Tour Planner </h2>
