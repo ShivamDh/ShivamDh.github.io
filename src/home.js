@@ -32,9 +32,9 @@ class Home extends Component {
                             <span>&lt;</span>/<span>&gt;</span>
                         </div>
                         <div className="home-about-me-who-body">
-                            I am a software developer who is <span> passionate </span> about creating <span> superior </span> applications through
-                            <span> effective </span> code and <span> efficient </span> algorithms. I like to produce <span> smart </span> and
-                            <span> cutting-edge </span> solutions to obstacles at hand to deliver <span> excellence </span> at every turn.
+                            I am a software developer who is <span> passionate </span> about creating <span> first-rate </span> applications through
+                            <span> effective </span> code and <span> efficient </span> algorithms. I like to develop <span> smart </span> and
+                            <span> cutting-edge </span> solutions to obstacles at hand and be able to deliver <span> excellence </span> at every turn.
                         </div>
                     </div>
                     <hr/>
@@ -46,8 +46,9 @@ class Home extends Component {
                         </div>
                         <div className="home-about-me-what-body">
                             I am skilled and experienced in both <span> front-end </span> and <span> back-end </span> development through numerous <span> website</span>,
-                            <span> mobile </span> and <span> command-line </span> applications I have made. My knowledge also expands to <span> scripting</span>, <span> embedded systems</span>,
-                            <span> assembly</span>, <span> GUI</span>, and <span> version control</span>. I am always open to new technologies and willing to pick up and learn new programming languages.
+                            <span> mobile </span> and <span> command-line </span> applications I have made. My knowledge also expands to
+                            <span> scripting</span>, <span> embedded systems</span>, <span> artificial intelligence </span> and <span> AR/VR technology </span>.
+                            I am always open to new technologies and willing to pick up and learn new programming skills for the project at hand.
                         </div>
                     </div>
 

@@ -87,21 +87,21 @@ class About extends Component {
                             skillset to build first-rate applications while gaining invaluable experience. 
                         </div>
                         <div className="about-me-info-others">
-                            I have already completed two four month internships at <a href="https://www.d2l.com/"> D2L </a> and
+                            I have completed two four month internships at <a href="https://www.d2l.com/"> D2L </a> and
                             <a href="http://www.evertz.com/" > Evertz Microsystems </a> as a developer.
-                            While studying at Waterloo, I have also been a part of the two engineering design teams. Currently, I am on
-                            <a href="https://watonomous.ca/"> WATonomous </a> - a team 
-                            attempting to build an autonomous vehicle - part of Prediction subteam. During my first year, I was also a part of the
+                            While studying at Waterloo, I have been a part of the two engineering design teams. Currently, I am on the software team on
+                            <a href="https://watonomous.ca/"> WATonomous </a>, helping to convert an electrical vehicle into an autonomous one.
+                            During my first year, I was part of the
                             <a href="http://www.uwmidsun.com/"> Midnight Sun Solar Car Team </a> where I worked on embedded systems and website development.
                         </div>
                         <div className="about-me-info-others">
                             Along with personal side-projects completed on my free time, I have also participated in hackathons
-                            such as HackPrinceton. Feel free to go to the
+                            such as PennApps and HackPrinceton. Feel free to go to the
                             <a href="/projects"> Projects </a>
                             tab to view a full list of all my projects.
                         </div>
                         <div className="about-me-info-others">
-                            I'm always looking for new opportunities to collaborate with others who share the same
+                            Feel free to reach out as I'm always looking for new opportunities to collaborate with others who share the same
                             passion and interest as me for software development.
                         </div>
                     </div>
@@ -177,8 +177,7 @@ class About extends Component {
                                     - Developed scalable website applications integrating video streams through React, Redux, Node, jQuery, LESS <br/>
                                     - Rearchitected search engine for web component modularity, increasing efficiency by over 20% <br/>
                                     - Enhanced website data workflow by efficient result querying and refined search results with Python <br/>
-                                    - Built a client-specific independent platform for broadcasting controls,
-                                    utilizing barcode recognition and creating custom job scheduling in Python and PostgreSQL
+                                    - Built a client-specific platform utilizing barcode recognition and job scheduling through Python and PostgreSQL
                                 </div>
                             </div> 
                             <div className="cd-timeline-img">
