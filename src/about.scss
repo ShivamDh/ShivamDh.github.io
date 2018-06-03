@@ -157,6 +157,9 @@
 			font-family: Rawline, Raleway, Sans-Serif;
 			padding: 5px 10px 5px 10px;
 			font-size: 10px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
 
 			.about-me-skills-header {
 				width: 100%;
@@ -170,6 +173,7 @@
 
 				&-header {
 					font-size: 12px;
+					padding-bottom: 5px;
 				}
 
 				&-list {
