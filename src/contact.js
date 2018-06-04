@@ -39,6 +39,19 @@ class Contact extends Component {
 		this.setState({message: val})
 	}
 
+	createTextField = (text, stateProperty, handler) => {
+		return (
+			<TextField floatingLabelText={text}
+				value={stateProperty}
+				onChange={handler}
+				inputStyle={{color: '#5C5656'}}
+				underlineStyle={{borderColor: '#A69D9D'}}
+				underlineFocusStyle={{borderColor: '#5C5656'}}
+				floatingLabelFocusStyle={{color: '#5C5656'}}
+			    floatingLabelStyle={{color: '#A69D9D'}}/>
+		);
+	}
+
   	render() {
     	return (
 		    <div className="Contact">
@@ -94,34 +107,13 @@ class Contact extends Component {
 			    		<div className="contact-form-inner center-block">
 				    		<div className="form-header text-center h1"> Send a Message </div>
 				    		<div className="form-firstName">
-				    			<TextField floatingLabelText="First Name"
-				    				value={this.state.firstName}
-				    				onChange={this.handleFirstNameChange}
-				    				inputStyle={{color: '#5C5656'}}
-				    				underlineStyle={{borderColor: '#A69D9D'}}
-				    				underlineFocusStyle={{borderColor: '#5C5656'}}
-				    				floatingLabelFocusStyle={{color: '#5C5656'}}
-								    floatingLabelStyle={{color: '#A69D9D'}}/>
+				    			{ this.createTextField("First Name", this.state.firstName, this.handleFirstNameChange) }
 				    		</div>
 				    		<div className="form-lastName">
-				    			<TextField floatingLabelText="Last Name"
-				    				value={this.state.lastName}
-				    				onChange={this.handleLastNameChange}
-				    				inputStyle={{color: '#5C5656'}}
-				    				underlineStyle={{borderColor: '#A69D9D'}}
-				    				underlineFocusStyle={{borderColor: '#5C5656'}}
-				    				floatingLabelFocusStyle={{color: '#5C5656'}}
-								    floatingLabelStyle={{color: '#A69D9D'}}/>
+				    			{ this.createTextField("Last Name", this.state.lastName, this.handleLastNameChange) }
 				    		</div>
 				    		<div className="form-email">
-				    			<TextField floatingLabelText="Email"
-				    				value={this.state.email}
-				    				onChange={this.handleEmailChange}
-				    				inputStyle={{color: '#5C5656'}}
-				    				underlineStyle={{borderColor: '#A69D9D'}}
-				    				underlineFocusStyle={{borderColor: '#5C5656'}}
-				    				floatingLabelFocusStyle={{color: '#5C5656'}}
-								    floatingLabelStyle={{color: '#A69D9D'}}/>
+					    		{ this.createTextField("Email", this.state.email, this.handleEmailChange) }
 				    		</div>
 				    		<div className="form-message">
 				    			<TextField floatingLabelText="Message"

@@ -37,13 +37,9 @@ class App extends Component {
 		    <MuiThemeProvider>
 				<div className="App">
 					<div style={{zIndex: 100000}} className="preloader-wrapper">
-						<div className="preloader"></div>
-						<div className="preloader-left">
-							Text
-						</div>
-						<div className="preloader-right">
-							Text 2
-						</div>
+						<div className="preloader"> </div>
+						<div className="preloader-left"> </div>
+						<div className="preloader-right"> </div>
 					</div>
 					<div className="content"> 
 						<Navbar inverse>
@@ -64,10 +60,18 @@ class App extends Component {
 							</Navbar.Header>
 							<Navbar.Collapse>
 								<Nav bsClass="nav headerLinks">
-									<NavItem className={this.getClass('/')} href="/"> <span data-hover="HOME"> HOME </span> </NavItem>
-									<NavItem className={this.getClass('/about')} href="/about"> <span data-hover="ABOUT"> ABOUT </span></NavItem>
-									<NavItem className={this.getClass('/projects')} href="/projects"> <span data-hover="PROJECTS"> PROJECTS </span></NavItem>
-									<NavItem className={this.getClass('/contact')} href="/contact"> <span data-hover="CONTACT"> CONTACT </span></NavItem>
+									<NavItem className={this.getClass('/')} href="/">
+										<span data-hover="HOME"> HOME </span>
+									</NavItem>
+									<NavItem className={this.getClass('/about')} href="/about">
+										<span data-hover="ABOUT"> About </span>
+									</NavItem>
+									<NavItem className={this.getClass('/projects')} href="/projects">
+										<span data-hover="PROJECTS"> PROJECTS </span>
+									</NavItem>
+									<NavItem className={this.getClass('/contact')} href="/contact">
+										<span data-hover="CONTACT"> CONTACT </span>
+									</NavItem>
 								</Nav>
 							</Navbar.Collapse>
 						</Navbar>
@@ -89,22 +93,25 @@ class App extends Component {
 							<div className="footer-media" >
 								<a href="https://www.github.com/ShivamDh" target="top">
 									<div className="footer-media-github">
-										<img src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/FooterGithub.png" alt="Github" />
+										<img alt="Github"
+											src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/FooterGithub.png" />
 									</div>
 								</a>
 								<a href="https://www.linkedin.com/in/sdharme">
 									<div className="footer-media-linkedin">
-										<img src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/FooterLinkedIn.jpg" alt="LinkedIn" />
+										<img alt="LinkedIn"
+											src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/FooterLinkedIn.jpg" />
 									</div>
 								</a>
 								<a href="mailto:shivamdharme@gmail.ca?Subject=Contact%20Shivam">
 									<div className="footer-media-mail">
-										<img src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/FooterEmail.png" alt="Mail" />
+										<img alt="Mail"
+											src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/FooterEmail.png" />
 									</div>
 								</a>
 							</div>
 							<div className="footer-copyright text-center">
-								© 2017 SHIVAM DHARME ALL RIGHTS RESERVED
+								© 2018 SHIVAM DHARME ALL RIGHTS RESERVED
 							</div>
 						</div>
 					</div>
