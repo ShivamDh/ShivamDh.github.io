@@ -64,7 +64,7 @@ class App extends Component {
 										<span data-hover="HOME"> HOME </span>
 									</NavItem>
 									<NavItem className={this.getClass('/about')} href="/about">
-										<span data-hover="ABOUT"> About </span>
+										<span data-hover="ABOUT"> ABOUT </span>
 									</NavItem>
 									<NavItem className={this.getClass('/projects')} href="/projects">
 										<span data-hover="PROJECTS"> PROJECTS </span>

@@ -24,7 +24,8 @@ class Home extends Component {
                 		</div>
                 	</div>
                 </div>
-                <div className="home-about-me" style={{backgroundImage: 'url(https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/home-about.jpg'}} >
+                <div className="home-about-me"
+                    style={{backgroundImage: 'url(https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/home-about.jpg'}} >
                     <div className="home-about-me-who">
                         <div className="home-about-me-who-header">
                             <span>&lt;</span>/<span>&gt;</span>
@@ -32,9 +33,23 @@ class Home extends Component {
                             <span>&lt;</span>/<span>&gt;</span>
                         </div>
                         <div className="home-about-me-who-body">
-                            I am a software developer who is <span> passionate </span> about creating <span> first-rate </span> applications through
-                            <span> effective </span> code and <span> efficient </span> algorithms. I like to develop <span> smart </span> and
-                            <span> cutting-edge </span> solutions to obstacles at hand and be able to deliver <span> excellence </span> at every turn.
+                            I am a
+                            <span> software developer </span>
+                            who is
+                            <span> passionate </span>
+                            about creating
+                            <span> first-rate </span>
+                            applications through
+                            <span> effective </span>
+                            code and
+                            <span> efficient </span>
+                            algorithms. I like to develop
+                            <span> smart </span>
+                            and
+                            <span> cutting-edge </span>
+                            solutions to obstacles at hand and be able to deliver
+                            <span> excellence </span>
+                            at every turn.
                         </div>
                     </div>
                     <hr/>
@@ -45,10 +60,29 @@ class Home extends Component {
                             <span>&lt;</span>/<span>&gt;</span>
                         </div>
                         <div className="home-about-me-what-body">
-                            I am skilled and experienced in both <span> front-end </span> and <span> back-end </span> development through numerous <span> website</span>,
-                            <span> mobile </span> and <span> command-line </span> applications I have made. My knowledge also expands to
-                            <span> scripting</span>, <span> embedded systems</span>, <span> artificial intelligence </span> and <span> AR/VR technology </span>.
-                            I am always open to new technologies and willing to pick up and learn new programming skills for the project at hand.
+                            I am skilled and experienced in both
+                            <span> front-end </span>
+                            and
+                            <span> back-end </span>
+                            development through numerous
+                            <span> website</span>
+                            ,
+                            <span> mobile </span>
+                            and
+                            <span> command-line </span>
+                            applications I have made. My knowledge also expands to
+                            <span> scripting</span>
+                            ,
+                            <span> embedded systems</span>
+                            ,
+                            <span> artificial intelligence </span>
+                            and
+                            <span> AR/VR technology </span>
+                            . I am always open to new
+                            <span> technologies </span>
+                            and willing to pick up and learn new
+                            <span> programming </span>
+                            skills for the project at hand.
                         </div>
                     </div>
 
