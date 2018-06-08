@@ -9,15 +9,15 @@ const propTypes = {
 export default function PageNotFound({ location }) {
 	console.log('Route unmatched: ', location.pathname)
 
-  	return (
-  		<div className="pageNotFound"
-  			style={{backgroundImage: 'url(https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/404-background.jpg)'}}>
-  			<div className="pageNotFoundText">
-		      	<div className="pageHeader"> Uh oh! Something went wrong there ... </div>
-		      	<div className="pageSubHeader"> Use the navigation tools from the header or footer to navigate to a valid page </div>
-	        </div>
-	    </div>
-  	);
+	return (
+		<div className="pageNotFound"
+			style={{backgroundImage: 'url(https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/404-background.jpg)'}}>
+			<div className="pageNotFoundText">
+				<div className="pageHeader"> Uh oh! Something went wrong ... </div>
+				<div className="pageSubHeader"> Use the navigation tools from the header or footer to navigate to a valid page </div>
+			</div>
+		</div>
+	);
 }
 
 PageNotFound.propTypes = propTypes;

@@ -274,27 +274,6 @@ class Projects extends Component {
                     </div>
                 </div>
             ),
-            oldWebsite: (
-                <div className="row oldWebsite" key="oldWebsite">
-                    <div className="col-sm-4">
-                        <img className="img-responsive" alt="Old Website Home Screenshot"
-                            src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/OldWebsite.png" />
-                    </div>
-                    <div className="col-sm-8 content">
-                        <h2 className="projectName"> First Personal Website (Archived) </h2>
-                        <p className="text-muted">
-                            <span className="glyphicon glyphicon-briefcase"></span>
-                            &nbsp; This website has now been archived and no longer open for viewing
-                        </p>
-                        <dl className="content-list">
-                            <dd> - First porfolio website created for showcasing skills in webpage design and honing skills in web development </dd>
-                            <dd> - Created through ReactJS and utilized a multi-page design to display different parts of the profile</dd>
-                            <dd> - Used CSS styling for layout and cross-browser support, JSX syntax for React applications</dd>
-                        </dl>
-                        { this.makeToolsList(['JavaScript (React, ES7, Node)', 'HTML', 'CSS']) }
-                    </div>
-                </div>
-            ),
             quikpic: (
                 <div className="row quikpic" key="quikpic">
                     <div className="col-sm-4">
@@ -428,7 +407,6 @@ class Projects extends Component {
             'starter_blog': 'web',
             'python_calculator': 'command-line',
             'hangr': 'web',
-            'oldWebsite': 'web',
             'android2048': 'mobile',
             'quikpic' : 'web',
             'c2048': 'command-line',
