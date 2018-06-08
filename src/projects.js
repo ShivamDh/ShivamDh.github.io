@@ -34,13 +34,7 @@ class Projects extends Component {
                             <dd> - Utilizes SASS styling and React-Bootstrap modelling to scale website for all screen sizes</dd>
                             <dd> - Incorporates modern ECMAScript 2016 (ES7) along with multiple third party libraries for UX Design</dd>
                         </dl>
-                        <div className="languages">
-                            <div> Javascript (React, ES7, Node) </div>
-                            <div> HTML </div>
-                            <div> SASS/CSS </div>
-                            <div> Bootstrap </div>
-                            <div> Material-UI </div>
-                        </div>
+                        { this.makeToolsList(['JavaScript (React, ES7, Node)', 'HTML', 'SASS/CSS', 'Bootstrap', 'Material-UI']) }
                     </div>
                 </div>
             ),
@@ -64,12 +58,7 @@ class Projects extends Component {
                             <dd> - Uses Places API to search for geographical viewpoints or addresses inputted by user </dd>
                             <dd> - Incorporates a Distance Matrix API to find optimal routes between locations provided </dd>
                         </dl>
-                        <div className="languages">
-                            <div> React Native </div>
-                            <div> JavaScript </div>
-                            <div> Places API </div>
-                            <div> Distance Matrix API </div>
-                        </div>
+                        { this.makeToolsList(['React-Native', 'JavaScript', 'Places API', 'Distance Matrix API']) }
                     </div>
                 </div>
             ),
@@ -93,11 +82,7 @@ class Projects extends Component {
                             <dd> - Outputs final data to a CSV file for easy to read information </dd>
                             <dd> - Gives user the ability to search for one-way or return trips </dd>
                         </dl>
-                        <div className="languages">
-                            <div> Python </div>
-                            <div> BeautifulSoup </div>
-                            <div> JSON </div>
-                        </div>
+                        { this.makeToolsList(['Python', 'BeautifulSoup', 'JSON']) }
                     </div>
                 </div>
             ),
@@ -121,15 +106,7 @@ class Projects extends Component {
                             <dd> - Created a custom blockchain to store game results between two players playing live </dd>
                             <dd> - Used Express and Pusher API to make the game live and playable by two players on same host </dd>
                         </dl>
-                        <div className="languages">
-                            <div> Angular </div>
-                            <div> Express </div>
-                            <div> Material-UI </div>
-                            <div> Blockchain </div>
-                            <div> Pusher API </div>
-                            <div> TypeScript </div>
-                            <div> SASS </div>
-                        </div>
+                        { this.makeToolsList(['Angular', 'Express', 'Material-UI', 'Blockchain', 'Pusher API', 'TypeScript', 'SASS']) }
                     </div>
                 </div>
             ),
@@ -153,14 +130,7 @@ class Projects extends Component {
                             <dd> - Integrated OpenGL and Blender to create a 3D marker used within AR mode to display direction </dd>
                             <dd> - Used Google Maps API to obtain GPS coordinates and place markers in appropriate location</dd>
                         </dl>
-                        <div className="languages">
-                            <div> Java </div>
-                            <div> ARCore </div>
-                            <div> Android Studio </div>
-                            <div> Blender </div>
-                            <div> OpenGL </div>
-                            <div> Maps API </div>
-                        </div>
+                        { this.makeToolsList(['Java', 'ARCore', 'Android Studio', 'Blender', 'OpenGL', 'Maps API']) }
                     </div>
                 </div>
             ),
@@ -183,11 +153,7 @@ class Projects extends Component {
                             <dd> - Project includes backend support for the dynamic entry of blogs using the SQLite </dd>
                             <dd> - Website designing and UI layout was created through Bootstrap styling along with custom component creations </dd>
                         </dl>
-                        <div className="languages">
-                            <div> Django (Python) </div>
-                            <div> SQLite </div>
-                            <div> Bootstrap </div>
-                        </div>
+                        { this.makeToolsList(['Django (Python)', 'SQLite', 'Bootstrap']) }
                     </div>
                 </div>
             ),
@@ -212,11 +178,7 @@ class Projects extends Component {
                             <dd> - Decodes coordinates along the route using Google Maps Geocode API and Polyline Decode Algorithm </dd>
                             <dd> - Sends API requests to Weather Underground API to obtain weather at user specified time </dd> 
                         </dl>
-                        <div className="languages">
-                            <div> Python </div>
-                            <div> Google Maps API </div>
-                            <div> Weather Underground API </div>
-                        </div>
+                        { this.makeToolsList(['Python', 'Google Maps API', 'Weather Underground API']) }
                     </div>
                 </div>
             ),
@@ -239,10 +201,7 @@ class Projects extends Component {
                             <dd> - Utilizes a History sidebar to allow for easy recollection of past mathematical results </dd>
                             <dd> - Built in with OOP implementation and utilization of Python Tkinter features like Menubar, Labels, Styles </dd>   
                         </dl>
-                        <div className="languages">
-                            <div> Python </div>
-                            <div> Tkinter (GUI package) </div>
-                        </div>
+                        { this.makeToolsList(['Python', 'Tkinter (GUI Package)']) }
                     </div>
                 </div>
             ),
@@ -266,12 +225,7 @@ class Projects extends Component {
                             <dd> - Used Android SQLite to store workout data and ability to view it at a later time </dd>
                             <dd> - Android SharedPreferences allows for customizable user options like timer </dd>
                         </dl>
-                        <div className="languages">
-                            <div> Java </div>
-                            <div> Android Studio </div>
-                            <div> Android SQLite </div>
-                            <div> XML </div>
-                        </div>
+                        { this.makeToolsList(['Java', 'Android Studio', 'SQLite', 'XML']) }                        
                     </div>
                 </div>
             ),
@@ -295,12 +249,7 @@ class Projects extends Component {
                             <dd> - User can input their clothing collection through photos, IBM Watson's visual recognition can find key info </dd>
                             <dd> - Complete with a SQL backend and IBM Watson's Node-RED technology for fully functional web application </dd>
                         </dl>
-                        <div className="languages">
-                            <div> IBM Watson </div>
-                            <div> Node-RED (JavaScript) </div>
-                            <div> HTML </div>
-                            <div> CSS </div>
-                        </div>
+                        { this.makeToolsList(['IBM Watson', 'IBM Bluemix', 'Node-RED', 'HTML', 'CSS']) }
                     </div>
                 </div>
             ),
@@ -321,10 +270,7 @@ class Projects extends Component {
                             <dd> - Integrates accelerometer readings and gyroscope to distinguish user movements and move blocks </dd>
                             <dd> - Custom 2048 blocks that can have special purposes and user selections for gesture type </dd>
                         </dl>
-                        <div className="languages">
-                            <div> Java </div>
-                            <div> Android Studio </div>
-                        </div>
+                        { this.makeToolsList(['Java', 'Android Studio']) }
                     </div>
                 </div>
             ),
@@ -345,11 +291,7 @@ class Projects extends Component {
                             <dd> - Created through ReactJS and utilized a multi-page design to display different parts of the profile</dd>
                             <dd> - Used CSS styling for layout and cross-browser support, JSX syntax for React applications</dd>
                         </dl>
-                        <div className="languages">
-                            <div> Javascript (React, ES6, Node) </div>
-                            <div> HTML </div>
-                            <div> CSS </div>
-                        </div>
+                        { this.makeToolsList(['JavaScript (React, ES7, Node)', 'HTML', 'CSS']) }
                     </div>
                 </div>
             ),
@@ -373,12 +315,7 @@ class Projects extends Component {
                             <dd> - Images are sent to AWS (Amazon Web Services) server to transforms into 10% of original size </dd>
                             <dd> - Images are found and replaced dynamically with no change in webpage view </dd>
                         </dl>
-                        <div className="languages">
-                            <div> HTML </div>
-                            <div> CSS </div>
-                            <div> JavaScript(Node) </div>
-                            <div> Amazon Web Services (AWS) </div>
-                        </div>
+                        { this.makeToolsList(['JavaScipt (Node)', 'Amazon Web Services (AWS)', 'HTML', 'CSS']) }
                     </div>
                 </div>
             ),
@@ -404,11 +341,7 @@ class Projects extends Component {
                                 - Note: A newer version of this game has been created as an Android application, scroll above to view
                             </dd>
                         </dl>
-                        <div className="languages">
-                            <div> C </div>
-                            <div> GDB Debugger </div>
-                            <div> Command Line Tools </div>
-                        </div>
+                        { this.makeToolsList(['C', 'GDB Debugger', 'Command Line Tools']) }
                     </div>
                 </div>
             ),
@@ -431,10 +364,7 @@ class Projects extends Component {
                             <dd> - Calculates molar mass of any valid element or compound to four decimal places </dd>
                             <dd> - Incorporates jump case algorithm and recursion for any subscript usage in elements or compounds </dd>
                         </dl>
-                        <div className="languages">
-                            <div> C </div>
-                            <div> Command Line Tools </div>
-                        </div>
+                        { this.makeToolsList(['C', 'GDB Debugger', 'Command Line Tools']) }
                     </div>
                 </div>
             ),
@@ -458,11 +388,7 @@ class Projects extends Component {
                             <dd> - Incorporates File I/O productivity for adaptable input forms </dd>
                             <dd> - Utilizes output stream to produce a csv file, arranged to user parameters </dd>
                         </dl>
-                        <div className="languages">
-                            <div> C </div>
-                            <div> GDB Debugger </div>
-                            <div> Command Line Tools </div>
-                        </div>
+                        { this.makeToolsList(['C', 'GDB Debugger', 'Command Line Tools']) }
                     </div>
                 </div>
             ),
@@ -485,11 +411,7 @@ class Projects extends Component {
                             <dd> - Incorporates vector class usage for data storage of snake coordinates </dd>
                             <dd> - Allows for a user-defined interface and gameplay to be setup </dd>
                         </dl>
-                        <div className="languages">
-                            <div> C++ </div>
-                            <div> GDB Debugger </div>
-                            <div> Command Line Tools </div>
-                        </div>
+                        { this.makeToolsList(['C++', 'GDB Debugger', 'Command Line Tools']) }
                     </div>
                 </div>
             )
@@ -511,14 +433,26 @@ class Projects extends Component {
             'quikpic' : 'web',
             'c2048': 'command-line',
             'molar_mass': 'command-line',
-            'hockey_stats': 'command-line',
-            'snake': 'command-line'
+            'snake': 'command-line',
+            'hockey_stats': 'command-line'
         };
 
         this.state = {
             tab: 1,
             projectList: Object.keys(this.projectKeys)
         };
+    }
+
+    makeToolsList = (tools) => {
+        return (
+            <div className="tools">
+                {
+                    tools.map(tool => (
+                        <div> {tool} </div>
+                    ))
+                }
+            </div>
+        );
     }
 
     _getProjectsByType = (type) => {
