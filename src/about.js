@@ -84,17 +84,22 @@ class About extends Component {
                     style={{backgroundImage: 'url(https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/about-info.jpg'}} >
                         <div className="about-me-info-first">
                             <span> Hi! </span>
-                            I'm a second-year Computer Engineering co-op student at the <a href="https://uwaterloo.ca/"> University of Waterloo </a>.
-                            My interests lie in software development and through my internships, I hope to utilize my unique
+                            I'm a second-year Computer Engineering co-op student at the
+                            <a href="https://uwaterloo.ca/"> University of Waterloo</a>
+                            . My interests lie in software development and through my internships, I hope to utilize my unique
                             skillset to build first-rate applications while gaining invaluable experience. 
                         </div>
                         <div className="about-me-info-others">
-                            I have completed two four month internships at <a href="https://www.d2l.com/"> D2L </a> and
-                            <a href="http://www.evertz.com/" > Evertz Microsystems </a> as a developer.
-                            While studying at Waterloo, I have been a part of the two engineering design teams. Currently, I am on the software team on
-                            <a href="https://watonomous.ca/"> WATonomous </a>, helping to convert an electrical vehicle into an autonomous one.
-                            During my first year, I was part of the
-                            <a href="http://www.uwmidsun.com/"> Midnight Sun Solar Car Team </a> where I worked on embedded systems and website development.
+                            I have completed two four month internships at
+                            <a href="https://www.d2l.com/"> D2L </a>
+                            and
+                            <a href="http://www.evertz.com/" > Evertz Microsystems </a>
+                            as a developer. While studying at Waterloo, I have been a part of the two engineering design teams. 
+                            Currently, I am on the software team on
+                            <a href="https://watonomous.ca/"> WATonomous</a>
+                            , helping to convert an electrical vehicle into an autonomous one. During my first year, I was part of the
+                            <a href="http://www.uwmidsun.com/"> Midnight Sun Solar Car Team </a>
+                            where I worked on embedded systems and website development.
                         </div>
                         <div className="about-me-info-others">
                             Along with personal side-projects completed on my free time, I have also participated in hackathons
@@ -137,7 +142,7 @@ class About extends Component {
                         <div className="cd-timeline-block">
                             <div className="cd-timeline-content">
                                 <div className="cd-date"> JAN 2018 - present  </div>
-                                <div className="cd-timeline-content-header">Software Team Member - Prediction Subteam </div>
+                                <div className="cd-timeline-content-header"> Software Team Member </div>
                                 <div className="cd-timeline-content-subheader">
                                     <a href="https://www.d2l.com/"> WATonomous - SAE AutoDrive Challenge </a> 
                                 </div> 
@@ -156,7 +161,7 @@ class About extends Component {
                         <div className="cd-timeline-block">
                             <div className="cd-timeline-content">
                                 <div className="cd-date"> JAN - APR 2018  </div>
-                                <div className="cd-timeline-content-header">Software Developer</div>
+                                <div className="cd-timeline-content-header"> Software Developer </div>
                                 <div className="cd-timeline-content-subheader">
                                     <a href="https://www.d2l.com/"> D2L (formerly Desire2Learn) </a> 
                                 </div> 
@@ -177,7 +182,7 @@ class About extends Component {
                         <div className="cd-timeline-block">
                             <div className="cd-timeline-content">
                                 <div className="cd-date"> MAY - AUG 2017 </div>
-                                <div className="cd-timeline-content-header">Web Application Developer</div>
+                                <div className="cd-timeline-content-header"> Web Application Developer </div>
                                 <div className="cd-timeline-content-subheader">
                                     <a href="http://www.evertz.com/"> Evertz Microsystems </a> 
                                 </div> 
@@ -198,7 +203,7 @@ class About extends Component {
                         <div className="cd-timeline-block">
                             <div className="cd-timeline-content">
                                 <div className="cd-date"> SEPT 2016 - APR 2017 </div>
-                                <div className="cd-timeline-content-header">Business and Electrical Team Member</div>
+                                <div className="cd-timeline-content-header"> Business and Electrical Team Member </div>
                                 <div className="cd-timeline-content-subheader">
                                     <a href="http://www.uwmidsun.com/"> Midnight Sun Solar Race Car Team </a> 
                                 </div> 
@@ -217,7 +222,7 @@ class About extends Component {
                         <div className="cd-timeline-block">
                             <div className="cd-timeline-content">
                                 <div className="cd-date"> SEPT 2016 - present </div>
-                                <div className="cd-timeline-content-header">Computer Engineering Student</div>
+                                <div className="cd-timeline-content-header"> Computer Engineering Student </div>
                                 <div className="cd-timeline-content-subheader">
                                     <a href="http://www.uwaterloo.ca/"> University of Waterloo </a> 
                                 </div> 
@@ -236,7 +241,7 @@ class About extends Component {
                         <div className="cd-timeline-block">
                             <div className="cd-timeline-content">
                                 <div className="cd-date"> OCT 2015 - MAR 2016 </div>
-                                <div className="cd-timeline-content-header">Board of Director and Finance Team Member</div>
+                                <div className="cd-timeline-content-header"> Board of Director and Finance Team Member </div>
                                 <div className="cd-timeline-content-subheader">
                                     <a href="http://scentsationja.wixsite.com/scentsation"> Scentsation - A Junior Achievement Company </a> 
                                 </div> 
@@ -255,7 +260,7 @@ class About extends Component {
 						<div className="cd-timeline-block">
                             <div className="cd-timeline-content">
                                 <div className="cd-date"> SEPT 2014 - JUN 2016 </div>
-                                <div className="cd-timeline-content-header">Youth Sports and Aquatics Volunteer</div>
+                                <div className="cd-timeline-content-header"> Youth Sports and Aquatics Volunteer </div>
                                 <div className="cd-timeline-content-subheader">
                                     <a href="https://www.ymcacalgary.org/"> YMCA Calgary </a> 
                                 </div> 

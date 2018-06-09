@@ -116,12 +116,13 @@ class Contact extends Component {
 					    		{ this.createTextField("Email", this.state.email, this.handleEmailChange) }
 				    		</div>
 				    		<div className="form-message">
-				    			<TextField floatingLabelText="Message"
+				    			<TextField multiLine floatingLabelFixed
+				    				floatingLabelText="Message"
 				    				value={this.state.message}
 				    				onChange={this.handleMessageChange}
 				    				hintText="Enter your message"
+				    				hintStyle={{fontWeight: 800}}
 				    				rows={3} rowsMax={7}
-				    				multiLine floatingLabelFixed
 				    				underlineStyle={{borderColor: '#A69D9D'}}
 				    				underlineFocusStyle={{borderColor: '#5C5656'}}
 				    				floatingLabelFocusStyle={{color: '#5C5656'}}
