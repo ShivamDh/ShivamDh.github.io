@@ -13,6 +13,7 @@ class About extends Component {
                 <li> SQL </li>
                 <li> Java </li>
                 <li> PHP </li>
+                <li> Ruby </li>
                 <li id="androidDev"> Android Development </li>
                 <li id="androidSQL"> Android SQLite </li>
             </ul>
@@ -28,13 +29,15 @@ class About extends Component {
                 <li> LESS </li>
                 <li> SASS </li>
                 <li> Bootstrap </li>
-                <li id="javascript"> JavaScript ES7+</li>
+                <li> JavaScript </li>
                 <li> jQuery </li>
                 <li> Node </li>
                 <li> Angular </li>
                 <li> React </li>
                 <li> Redux </li>
                 <li> Django </li>
+                <li> Flask </li>
+                <li> Rails </li>
                 <li> Polymer </li>
                 <li> Npm </li>
                 <li> Yarn </li>
@@ -80,24 +83,30 @@ class About extends Component {
                     </div>
                 </div>
                 <div className="about-me">
-                    <div className="about-me-info"
-                    style={{backgroundImage: 'url(https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/about-info.jpg'}} >
+                    <div className="about-me-info">
                         <div className="about-me-info-first">
                             <span> Hi! </span>
-                            I'm a second-year Computer Engineering co-op student at the
+                            I'm a third-year Computer Engineering co-op student at the
                             <a href="https://uwaterloo.ca/"> University of Waterloo</a>
                             . My interests lie in software development and through my internships, I hope to utilize my unique
                             skillset to build first-rate applications while gaining invaluable experience. 
                         </div>
                         <div className="about-me-info-others">
-                            I have completed two four month internships at
+                            I am currently on my third internship, working at  
+                            <a href="https://www.accenture.com/"> Accenture </a>
+                            within the heart of downtown Toronto.
+                            I have also completed two four month internships at
                             <a href="https://www.d2l.com/"> D2L </a>
                             and
                             <a href="http://www.evertz.com/" > Evertz Microsystems </a>
-                            as a developer. While studying at Waterloo, I have been a part of the two engineering design teams. 
-                            Currently, I am on the software team on
+                            as a developer on their main products.
+                        </div>
+                        <div className="about-me-info-others">
+                            While studying at Waterloo, I have been a part of multiple engineering design teams. 
+                            Most recently, I was on the software team on
                             <a href="https://watonomous.ca/"> WATonomous</a>
-                            , helping to convert an electrical vehicle into an autonomous one. During my first year, I was part of the
+                            , converting an electrical vehicle into an autonomous one.
+                            During my first year, I was a part of the
                             <a href="http://www.uwmidsun.com/"> Midnight Sun Solar Car Team </a>
                             where I worked on embedded systems and website development.
                         </div>
@@ -112,8 +121,7 @@ class About extends Component {
                             passion and interest as me for software development.
                         </div>
                     </div>
-                    <div className="about-me-skills"
-                        style={{backgroundImage: 'url(https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/skills-background.jpg)'}} >
+                    <div className="about-me-skills">
                         <div className="about-me-skills-header"> Skills </div>
                         <div className="about-me-skills-software">
                             <div className="about-me-skills-software-header"> Software Knowledge </div>
