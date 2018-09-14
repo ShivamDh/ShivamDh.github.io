@@ -24,22 +24,23 @@ class About extends Component {
         return (
             <ul>
                 <li> REST API </li>
+                <li> Node </li>
+                <li> JavaScript </li>
+                <li> jQuery </li>
+                <li> React </li>
+                <li> Redux </li>
+                <li> Angular </li>
+                <li> Django </li>
+                <li> Flask </li>
+                <li> Rails </li>
                 <li> HTML </li>
                 <li> CSS3 </li>
                 <li> LESS </li>
                 <li> SASS </li>
                 <li> Bootstrap </li>
-                <li> JavaScript </li>
-                <li> jQuery </li>
-                <li> Node </li>
-                <li> Angular </li>
-                <li> React </li>
-                <li> Redux </li>
-                <li> Django </li>
-                <li> Flask </li>
-                <li> Rails </li>
+                <li> Foundation </li>
                 <li> Polymer </li>
-                <li> Npm </li>
+                <li> NPM </li>
                 <li> Yarn </li>
             </ul>
         );
@@ -166,7 +167,7 @@ class About extends Component {
                                 </div>
                             </div> 
                             <div className="cd-timeline-img">
-                                <img src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/about-car-icon.png" alt="Car" />
+                                <img src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/about-work-icon.png" alt="Car" />
                             </div> 
                         </div> 
                         <div className="cd-timeline-block">
@@ -227,7 +228,7 @@ class About extends Component {
                                 </div>
                             </div> 
                             <div className="cd-timeline-img">
-                                <img src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/about-work-icon.png" alt="Work" />
+                                <img src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/about-web-icon.png" alt="Work" />
                             </div> 
                         </div> 
                         <div className="cd-timeline-block">
@@ -246,7 +247,7 @@ class About extends Component {
                                 </div>
                             </div> 
                             <div className="cd-timeline-img">
-                                <img src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/about-website-icon.png" alt="Website"/>
+                                <img src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/about-sections-icon.png" alt="Website"/>
                             </div>
                         </div>
                         <div className="cd-timeline-block">
