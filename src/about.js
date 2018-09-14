@@ -82,7 +82,8 @@ class About extends Component {
                         <div className="text"> <i> - MEET SHIVAM DHARME - </i> </div>
                     </div>
                 </div>
-                <div className="about-me">
+                <div className="about-me"
+                    style={{backgroundImage: 'url(https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/about-img.jpg)'}}>
                     <div className="about-me-info">
                         <div className="about-me-info-first">
                             <span> Hi! </span>
@@ -149,7 +150,28 @@ class About extends Component {
                     <div id="cd-timeline" className="cd-container">
                         <div className="cd-timeline-block">
                             <div className="cd-timeline-content">
-                                <div className="cd-date"> JAN 2018 - present  </div>
+                                <div className="cd-date"> SEPT 2018 - present  </div>
+                                <div className="cd-timeline-content-header"> Senior Application Engineering Analyst </div>
+                                <div className="cd-timeline-content-subheader">
+                                    <a href="https://www.d2l.com/"> Accenture </a> 
+                                </div> 
+                                <div className="cd-timeline-content-text">
+                                    - Expanded functionality of industry agnostic virtual agent through multi-platform model
+                                    <br/>
+                                    - Incorporated Google Cloud Dialogflow to train and deploy natural language conversational use cases
+                                    <br/>
+                                    - Constructed serverless scalable backend with AWS Lambda, DynamoDB and API Gateway
+                                    <br/>
+                                    - Received formal training in DevOps and official accreditation as an ICAgile certified professional
+                                </div>
+                            </div> 
+                            <div className="cd-timeline-img">
+                                <img src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/about-car-icon.png" alt="Car" />
+                            </div> 
+                        </div> 
+                        <div className="cd-timeline-block">
+                            <div className="cd-timeline-content">
+                                <div className="cd-date"> JAN 2018 - AUG 2018 </div>
                                 <div className="cd-timeline-content-header"> Software Team Member </div>
                                 <div className="cd-timeline-content-subheader">
                                     <a href="https://www.d2l.com/"> WATonomous - SAE AutoDrive Challenge </a> 
