@@ -9,13 +9,13 @@ class About extends Component {
                 <li> C </li>
                 <li> C++ </li>
                 <li> C# (.NET) </li>
+                <li> Java </li>
                 <li> Python </li>
                 <li> SQL </li>
-                <li> Java </li>
                 <li> PHP </li>
                 <li> Ruby </li>
-                <li id="androidDev"> Android Development </li>
-                <li id="androidSQL"> Android SQLite </li>
+                <li> Android </li>
+                <li> React Native </li>
             </ul>
         )
     }
@@ -55,15 +55,14 @@ class About extends Component {
                 <li> JIRA/Stash </li>
                 <li> Confluence </li>
                 <li> IBM Watson </li>
-                <li> Jasmine </li>
-                <li> Enzyme </li>
+                <li> AWS </li>
+                <li> Google Cloud </li>
+                <li> Microsoft Azure </li>
+                <li> OpenCV </li>
                 <li> VHDL </li>
                 <li> SPI </li>
-                <li id="AWS"> Amazon Web Services (AWS) </li>
                 <li> ROS </li>
-                <li> OpenCV </li>
                 <li> Android Studio </li>
-                <li> Eclipse </li>
                 <li> Visual Studio </li>
                 <li> GDB Debugger </li>
                 <li> SQL Server </li>
@@ -88,7 +87,7 @@ class About extends Component {
                     <div className="about-me-info">
                         <div className="about-me-info-first">
                             <span> Hi! </span>
-                            I'm a third-year Computer Engineering co-op student at the
+                            I'm a third-year Computer Engineering student at the
                             <a href="https://uwaterloo.ca/"> University of Waterloo</a>
                             . My interests lie in software development and through my internships, I hope to utilize my unique
                             skillset to build first-rate applications while gaining invaluable experience. 
@@ -120,7 +119,7 @@ class About extends Component {
                         </div>
                         <div className="about-me-info-others">
                             Feel free to reach out as I'm always looking for new opportunities to collaborate with others who share the same
-                            passion and interest as me for software development.
+                            passion and interest as me in application development.
                         </div>
                     </div>
                     <div className="about-me-skills">
@@ -157,13 +156,13 @@ class About extends Component {
                                     <a href="https://www.d2l.com/"> Accenture </a> 
                                 </div> 
                                 <div className="cd-timeline-content-text">
-                                    - Expanded functionality of industry agnostic virtual agent through multi-platform model
+                                    - Expanded functionality of industry agnostic virtual agent
                                     <br/>
                                     - Incorporated Google Cloud Dialogflow to train and deploy natural language conversational use cases
                                     <br/>
                                     - Constructed serverless scalable backend with AWS Lambda, DynamoDB and API Gateway
                                     <br/>
-                                    - Received formal training in DevOps and official accreditation as an ICAgile certified professional
+                                    - Received official accreditation as an ICAgile certified professional
                                 </div>
                             </div> 
                             <div className="cd-timeline-img">
@@ -199,11 +198,11 @@ class About extends Component {
                                 <div className="cd-timeline-content-text">
                                     - Integrated SCORM tools with existing tools for customization in e-learing using C#.NET, REST, MVC
                                     <br/>
-                                    - Implemented new features to 'Add' feature in Lessons tool for 50% more content availabilit using React, Node, MySQL
+                                    - Implemented new features to 'Add' feature in Lessons tool for 50% more content availability using React, Node, MySQL
                                     <br/>
                                     - Incorporated time tracking feature to monitor content viewing
                                     <br/>
-                                    - Created API for PostgreSQL script for data purge regarding European Union Data Protection Regulation
+                                    - Created API for PostgreSQL script for compliance with European Union Data Protection Regulation
                                 </div>
                             </div> 
                             <div className="cd-timeline-img">
@@ -260,7 +259,7 @@ class About extends Component {
                                 <div className="cd-timeline-content-text">
                                     - Candidate for Bachelor's of Applied Science in Computer Engineering
                                     <br/>
-                                    - First year average: 87%. Top 10 Rank
+                                    - Cumulative GPA: 3.9, 
                                     <strong> Expected Graduation in 2021 </strong>
                                 </div>
                             </div> 
