@@ -118,6 +118,7 @@
 
 	.about-me {
 		width: 100%;
+		background-size: cover;
 
 		.about-me-info {
 			width: 100%;
@@ -194,22 +195,12 @@
 								padding-right: 0px;
 							}
 						}
-
-						#androidDev, #androidSQL, #javascript{
-							width: 50%;
-						}
 					}
 				}
 			}
 
-			.about-me-skills-tech .about-me-skills-tech-list ul {
-				li {
-					width: 33.3%;
-				}
-
-				#AWS {
-					width: 66.6%;
-				}
+			.about-me-skills-tech .about-me-skills-tech-list ul li {
+				width: 33.3%;
 			}
 		}
 
@@ -244,28 +235,12 @@
 					padding: 5px 0;
 				}
 
-				.about-me-skills-software .about-me-skills-software-list ul {
-					li {
-						width: 16.6%;
-					}
-
-					#androidDev, #androidSQL {
-						width: 33.2%;
-					}
+				.about-me-skills-software .about-me-skills-software-list ul li {
+					width: 20%;
 				}
 
-				.about-me-skills-web .about-me-skills-web-list ul #javascript {
+				.about-me-skills-tech .about-me-skills-tech-list ul li {
 					width: 25%;
-				}
-
-				.about-me-skills-tech .about-me-skills-tech-list ul {
-					li {
-						width: 25%;
-					}
-
-					#AWS {
-						width: 50%;
-					}
 				}
 
 			}
@@ -321,11 +296,7 @@
 
 				.about-me-skills-web .about-me-skills-web-list ul {
 					li {
-						width: 16.6%;
-					}
-
-					#javascript {
-						width: 33.3%;
+						width: 20%;
 					}
 				}
 			}
@@ -333,12 +304,13 @@
 
 		@media screen and (min-width: 768px) {
 			display: flex;
+
 			.about-me-info, .about-me-skills {
 				width: 50%;
 			}
 
 			.about-me-info .about-me-info-first, .about-me-info  .about-me-info-others {
-				font-size: 14.4px;
+				font-size: 13px;
 
 				span {
 					font-size: 55px;
@@ -364,36 +336,16 @@
 					}
 				}
 
-				.about-me-skills-software {
-					&-list ul {
-						li {
-							width: 25%;
-						}
-
-						#androidDev, #androidSQL, #javascript {
-							width: 50%;
-						}
-					}
+				.about-me-skills-software .about-me-skills-software-list ul li {
+					width: 25%;
 				}		
 
-				.about-me-skills-web .about-me-skills-web-list ul {
-					li {
-						width: 25%;
-					}
-
-					#javascript {
-						width: 50%;
-					}
+				.about-me-skills-web .about-me-skills-web-list ul li {
+					width: 25%;
 				}
 
-				.about-me-skills-tech .about-me-skills-tech-list ul {
-					li {
-						width: 33.3%;
-					}
-
-					#AWS {
-						width: 66.7%;
-					}
+				.about-me-skills-tech .about-me-skills-tech-list ul li {
+					width: 33.3%;
 				}
 			}
 
@@ -401,7 +353,7 @@
 
 		@media screen and (min-width: 880px) {
 			.about-me-info .about-me-info-first, .about-me-info  .about-me-info-others {
-				font-size: 16px;
+				font-size: 14px;
 			}
 
 			.about-me-skills {
@@ -417,26 +369,12 @@
 						font-size: 18px;
 					}
 				}
-
-				.about-me-skills-web .about-me-skills-web-list ul #javascript {
-					width: 25%;
-				}
-
-				.about-me-skills-tech .about-me-skills-tech-list ul {
-					li {
-						width: 25%;
-					}
-
-					#AWS {
-						width: 50%;
-					}
-				}
 			}
 		}
 
 		@media screen and (min-width: 992px) {
 			.about-me-info .about-me-info-first, .about-me-info  .about-me-info-others {
-				font-size: 16px;
+				font-size: 15px;
 
 				span {
 					font-size: 60px;
@@ -454,23 +392,15 @@
 					}
 				}
 
-				.about-me-skills-software {
-					&-list ul {
-						li {
-							width: 16.6%;
-						}
-
-						#androidDev, #androidSQL {
-							width: 33.2%;
-						}
-					}
+				.about-me-skills-tech .about-me-skills-tech-list ul li {
+					width: 25%;
 				}
 			}
 		}
 
 		@media screen and (min-width: 1100px) {
 			.about-me-info .about-me-info-first, .about-me-info  .about-me-info-others {
-				font-size: 17px;
+				font-size: 16px;
 			}
 
 			.about-me-skills {
@@ -483,14 +413,8 @@
 				}
 
 				.about-me-skills-software, .about-me-skills-web {
-					&-list ul {
-						li {
-							width: 16.6%;
-						}
-
-						#androidDev, #androidSQL {
-							width: 33.2%;
-						}
+					&-list ul li {
+						width: 16.6%;
 					}
 				}				
 			}
@@ -498,7 +422,7 @@
 
 		@media screen and (min-width: 1200px) {
 			.about-me-info .about-me-info-first, .about-me-info .about-me-info-others {
-				font-size: 18px;
+				font-size: 17px;
 
 				span {
 					font-size: 70px;
@@ -518,7 +442,7 @@
 
 		@media screen and (min-width: 1400px) {
 			.about-me-info .about-me-info-first, .about-me-info .about-me-info-others {
-				font-size: 19px;
+				font-size: 18px;
 
 				span {
 					font-size: 80px;
@@ -526,7 +450,7 @@
 			}
 
 			.about-me-skills {
-				font-size: 14.5px;
+				font-size: 15px;
 
 				.about-me-skills-software, .about-me-skills-web, .about-me-skills-tech {
 					&-header {
@@ -542,7 +466,7 @@
 
 		@media screen and (min-width: 1620px) {
 			.about-me-info .about-me-info-first, .about-me-info .about-me-info-others {
-				font-size: 20.5px;
+				font-size: 19.5px;
 
 				span {
 					font-size: 80px;
@@ -550,7 +474,7 @@
 			}
 
 			.about-me-skills {
-				font-size: 15px;
+				font-size: 16px;
 
 				.about-me-skills-software, .about-me-skills-web, .about-me-skills-tech {
 					&-header {
@@ -560,6 +484,14 @@
 					&-list ul li:before {
 						padding-right: 10px;
 					}
+				}
+
+				.about-me-skills-software .about-me-skills-software-list ul li {
+					width: 20%;
+				}		
+
+				.about-me-skills-web .about-me-skills-web-list ul li {
+					width: 20%;
 				}
 			}
 		}
@@ -574,11 +506,11 @@
 			}
 
 			.about-me-skills {
+				font-size: 18.5px;
+
 				.about-me-skills-header {
 					font-size: 40px;
 				}
-
-				font-size: 16.5px;
 
 				.about-me-skills-software, .about-me-skills-web, .about-me-skills-tech {
 					&-header {
@@ -588,6 +520,10 @@
 					&-list ul li:before {
 						padding-right: 15px;
 					}
+				}
+
+				.about-me-skills-tech .about-me-skills-tech-list ul li {
+					width: 20%;
 				}
 			}
 		}
