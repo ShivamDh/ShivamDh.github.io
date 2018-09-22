@@ -4,70 +4,26 @@ import './about.css';
 class About extends Component {
 
     getSoftwareSkillList() {
-        return (
-            <ul>
-                <li> C </li>
-                <li> C++ </li>
-                <li> C# (.NET) </li>
-                <li> Java </li>
-                <li> Python </li>
-                <li> SQL </li>
-                <li> PHP </li>
-                <li> Ruby </li>
-                <li> Android </li>
-                <li> React Native </li>
-            </ul>
-        )
+    	let skills = ['C', 'C++', 'C# (.NET)', 'Java', 'Python', 'SQL',
+    	'PHP', 'Ruby', 'Android', 'React Native']
+
+    	return skills.map(skill => <li> {skill} </li>)
     }
 
     getWebSkillList() {
-        return (
-            <ul>
-                <li> REST API </li>
-                <li> Node </li>
-                <li> JavaScript </li>
-                <li> jQuery </li>
-                <li> React </li>
-                <li> Redux </li>
-                <li> Angular </li>
-                <li> Django </li>
-                <li> Flask </li>
-                <li> Rails </li>
-                <li> HTML </li>
-                <li> CSS3 </li>
-                <li> LESS </li>
-                <li> SASS </li>
-                <li> Bootstrap </li>
-                <li> Foundation </li>
-                <li> Polymer </li>
-                <li> NPM </li>
-                <li> Yarn </li>
-            </ul>
-        );
+    	let skills = ['REST API', 'Node', 'JavaScript', 'jQuery', 'React',
+    	'Redux', 'Angular', 'Django', 'Flask', 'Rails', 'HTML5', 'CSS3', 'LESS',
+    	'SASS', 'Bootstrap', 'Foundation', 'Polymer', 'NPM']
+
+    	return skills.map(skill => <li> {skill} </li>)
     }
 
     getTechSkillList() {
-        return(
-            <ul>
-                <li> Linux (Ubuntu) </li>
-                <li> Unix (Bash) </li>
-                <li> Git </li>
-                <li> JIRA/Stash </li>
-                <li> Confluence </li>
-                <li> IBM Watson </li>
-                <li> AWS </li>
-                <li> Google Cloud </li>
-                <li> Microsoft Azure </li>
-                <li> OpenCV </li>
-                <li> VHDL </li>
-                <li> SPI </li>
-                <li> ROS </li>
-                <li> Android Studio </li>
-                <li> Visual Studio </li>
-                <li> GDB Debugger </li>
-                <li> SQL Server </li>
-            </ul>
-        );
+    	let skills = ['Linux (Ubuntu)', 'Unix (Bash)', 'Git', 'JIRA/Stash', 'Confluence',
+    	'IBM Watson', 'AWS', 'Google Cloud', 'Microsoft Azure', 'OpenCV', 'ROS', 'VHDL',
+    	'SPI', 'Android Studio', 'Visual Studio', 'GDB Debugger', 'SQL Server']
+
+    	return skills.map(skill => <li> {skill} </li>)
     }
 
     render() {
@@ -127,19 +83,25 @@ class About extends Component {
                         <div className="about-me-skills-software">
                             <div className="about-me-skills-software-header"> Software Knowledge </div>
                             <div className="about-me-skills-software-list">
-                                { this.getSoftwareSkillList() }
+                            	<ul>
+	                                { this.getSoftwareSkillList() }
+                            	</ul>
                             </div>
                         </div>
                         <div className="about-me-skills-web">
                             <div className="about-me-skills-web-header"> Web Based Languages and Frameworks </div>
                             <div className="about-me-skills-web-list">
-                                { this.getWebSkillList() }
+                            	<ul>
+	                                { this.getWebSkillList() }
+                                </ul>
                             </div>
                         </div>
                         <div className="about-me-skills-tech">
                             <div className="about-me-skills-tech-header"> Other Technologies Used </div>
                             <div className="about-me-skills-tech-list">
-                                { this.getTechSkillList() }
+                            	<ul>
+	                                { this.getTechSkillList() }
+                            	</ul>
                             </div>
                         </div>
                     </div>
