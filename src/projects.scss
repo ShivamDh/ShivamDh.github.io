@@ -43,6 +43,10 @@
 			margin-bottom: 20px;
 			font-family: Raleway, Sans-Serif;
 
+			& > a {
+				color: #0089ff;
+			}
+
 			@media screen and (max-width: 450px) {
 				ul li a {
 					padding: 10px;

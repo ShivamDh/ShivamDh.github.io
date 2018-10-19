@@ -118,13 +118,13 @@ class About extends Component {
                                     <a href="https://www.d2l.com/"> Accenture </a> 
                                 </div> 
                                 <div className="cd-timeline-content-text">
-                                    - Expanded functionality of industry agnostic virtual agent
+                                    - Expanded functionality of industry agnostic virtual agent through Google Cloud AI
                                     <br/>
-                                    - Incorporated Google Cloud Dialogflow to train and deploy natural language conversational use cases
+                                    - Integrated Google Cloud Dialogflow to combine NLP and conversational use cases into multi-platform app
                                     <br/>
-                                    - Constructed serverless scalable backend with AWS Lambda, DynamoDB and API Gateway
+                                    - Constructed serverless scalable backend with AWS Lambda, API Gateway, S3 Storage
                                     <br/>
-                                    - Received official accreditation as an ICAgile certified professional
+                                    - Streamlined data architecture in DynamoDB database with Python Scripting and AWS-SDK
                                 </div>
                             </div> 
                             <div className="cd-timeline-img">
