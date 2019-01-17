@@ -21,7 +21,7 @@ class About extends Component {
     getTechSkillList() {
     	let skills = ['Linux (Ubuntu)', 'Unix (Bash)', 'Git', 'JIRA/Stash', 'Confluence',
     	'IBM Watson', 'AWS', 'Google Cloud', 'Microsoft Azure', 'OpenCV', 'ROS', 'VHDL',
-    	'SPI', 'Android Studio', 'Visual Studio', 'GDB Debugger', 'SQL Server']
+    	'SPI', 'Android Studio', 'Visual Studio', 'GDB Debugger', 'Hyperledger', 'SQL Server']
 
     	return skills.map(skill => <li> {skill} </li>)
     }
@@ -45,14 +45,15 @@ class About extends Component {
                             <span> Hi! </span>
                             I'm a third-year Computer Engineering student at the
                             <a href="https://uwaterloo.ca/"> University of Waterloo</a>
-                            . My interests lie in software development and through my internships, I hope to utilize my unique
-                            skillset to build first-rate applications while gaining invaluable experience. 
+                            . I am highly active in software development and through my internships, I hope to utilize
+                            my unique skillset to build first-rate applications while gaining invaluable experience. 
                         </div>
                         <div className="about-me-info-others">
-                            I am currently on my third internship, working at  
+                            I just finished my third internship, working at  
                             <a href="https://www.accenture.com/"> Accenture </a>
-                            within the heart of downtown Toronto.
-                            I have also completed two four month internships at
+                            in the heart of downtown Toronto. I was working as a Senior Application Engineering
+                            Analyst for the Canadian Innovation Hub there.
+                            Prior to that, I completed two other four-month internships at
                             <a href="https://www.d2l.com/"> D2L </a>
                             and
                             <a href="http://www.evertz.com/" > Evertz Microsystems </a>
@@ -62,19 +63,19 @@ class About extends Component {
                             While studying at Waterloo, I have been a part of multiple engineering design teams. 
                             Most recently, I was on the software team on
                             <a href="https://watonomous.ca/"> WATonomous</a>
-                            , converting an electrical vehicle into an autonomous one.
+                            , helping to convert an electrical vehicle into an autonomous one.
                             During my first year, I was a part of the
                             <a href="http://www.uwmidsun.com/"> Midnight Sun Solar Car Team </a>
                             where I worked on embedded systems and website development.
                         </div>
                         <div className="about-me-info-others">
                             Along with personal side-projects completed on my free time, I have also participated in hackathons
-                            such as PennApps and HackPrinceton. Feel free to go to the
+                            such as HachHarvard, PennApps and HackPrinceton. Feel free to go to the
                             <a href="/projects"> Projects </a>
                             tab to view a full list of all my projects.
                         </div>
                         <div className="about-me-info-others">
-                            Feel free to reach out as I'm always looking for new opportunities to collaborate with others who share the same
+                            Don't hesitate to reach out as I'm always looking for new opportunities to collaborate with others who share the same
                             passion and interest as me in application development.
                         </div>
                     </div>
@@ -118,13 +119,13 @@ class About extends Component {
                                     <a href="https://www.d2l.com/"> Accenture </a> 
                                 </div> 
                                 <div className="cd-timeline-content-text">
-                                    - Expanded functionality of industry agnostic virtual agent through Google Cloud AI
+                                    - Integrated Google Cloud Dialogflow and NLP to expand capabilities of virtual agents and conversational use cases
                                     <br/>
-                                    - Integrated Google Cloud Dialogflow to combine NLP and conversational use cases into multi-platform app
+                                    - Constructed a serverless and scalable backend with AWS Lambda, API Gateway, S3 Storage
                                     <br/>
-                                    - Constructed serverless scalable backend with AWS Lambda, API Gateway, S3 Storage
+                                    - Streamlined data architecture in DynamoDB NoSQL database via Python Scripting and AWS-SDK
                                     <br/>
-                                    - Streamlined data architecture in DynamoDB database with Python Scripting and AWS-SDK
+                                    - Developed and showcased a Unity3D interactive project for a smart-city purpose with Mapbox and REST APIs
                                 </div>
                             </div> 
                             <div className="cd-timeline-img">

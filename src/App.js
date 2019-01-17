@@ -111,7 +111,7 @@ class App extends Component {
 								</a>
 							</div>
 							<div className="footer-copyright text-center">
-								© 2018 SHIVAM DHARME ALL RIGHTS RESERVED
+								© 2019 SHIVAM DHARME ALL RIGHTS RESERVED
 							</div>
 						</div>
 					</div>
