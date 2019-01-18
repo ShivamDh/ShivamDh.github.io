@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import PageNotFound from './PageNotFound';
-import {Navbar, Nav, NavItem} from 'react-bootstrap'
+import { Navbar, Nav, NavItem } from 'react-bootstrap'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import Home from './home'
 import Contact from './contact'
@@ -18,14 +18,14 @@ class App extends Component {
 	onLoad = () => {
 		setTimeout(() => document.body.className += "loaded", 1500)
 		document.addEventListener
-			? 
-				document.addEventListener("DOMContentLoaded", function removeEv() {
-		    		document.removeEventListener("DOMContentLoaded", removeEv, !1)
-		    	},!1)
-			: 
-				document.attachEvent && document.attachEvent("onreadystatechange", function readyState() {
-		    		"complete" === document.readyState && (document.detachEvent("onreadystatechange", readyState))
-				})
+			?
+			document.addEventListener("DOMContentLoaded", function removeEv() {
+				document.removeEventListener("DOMContentLoaded", removeEv, !1)
+			}, !1)
+			:
+			document.attachEvent && document.attachEvent("onreadystatechange", function readyState() {
+				"complete" === document.readyState && (document.detachEvent("onreadystatechange", readyState))
+			})
 	}
 
 	getClass = (url) => {
@@ -34,14 +34,14 @@ class App extends Component {
 
 	render() {
 		return (
-		    <MuiThemeProvider>
+			<MuiThemeProvider>
 				<div className="App">
-					<div style={{zIndex: 100000}} className="preloader-wrapper">
+					<div style={{ zIndex: 100000 }} className="preloader-wrapper">
 						<div className="preloader"> </div>
 						<div className="preloader-left"> </div>
 						<div className="preloader-right"> </div>
 					</div>
-					<div className="content"> 
+					<div className="content">
 						<Navbar inverse>
 							<Navbar.Header>
 								<Navbar.Brand>
@@ -83,7 +83,7 @@ class App extends Component {
 							<Route component={PageNotFound} />
 						</Switch>
 						<div className="footer"
-							style={{backgroundImage: 'url(https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/footer-background.jpg)'}}>
+							style={{ backgroundImage: 'url(https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/footer-background.jpg)' }}>
 							<div className="footer-navigation text-center">
 								<a href="/"> HOME </a>
 								<a href="/about"> ABOUT </a>
@@ -118,7 +118,7 @@ class App extends Component {
 				</div>
 			</MuiThemeProvider>
 		);
-    }
+	}
 }
 
 export default App;

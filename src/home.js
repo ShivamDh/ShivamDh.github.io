@@ -7,25 +7,25 @@ class Home extends Component {
         return (
             <div className="home">
                 <div className="home-background"
-                    style={{backgroundImage: 'url(https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/home-background.jpg)'}}>
-                	<img className="home-profile-image" alt="Profile"
+                    style={{ backgroundImage: 'url(https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/home-background.jpg)' }}>
+                    <img className="home-profile-image" alt="Profile"
                         src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/4426.jpg" />
-                	<div className="home-profile-text">
-                		<div className="home-profile-text-describ text-center">
-                			Developer
+                    <div className="home-profile-text">
+                        <div className="home-profile-text-describ text-center">
+                            Developer
                 			<span> ∙ </span>
-                			Designer
+                            Designer
                 			<span> ∙ </span>
-                			Innovator
+                            Innovator
                 		</div>
-                		<div className="home-profile-text-breakline" />
-                		<div className="home-profile-text-name text-center">
-                			Shivam Dharme
+                        <div className="home-profile-text-breakline" />
+                        <div className="home-profile-text-name text-center">
+                            Shivam Dharme
                 		</div>
-                	</div>
+                    </div>
                 </div>
                 <div className="home-about-me"
-                    style={{backgroundImage: 'url(https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/home-about.jpg'}} >
+                    style={{ backgroundImage: 'url(https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/home-about.jpg' }} >
                     <div className="home-about-me-who">
                         <div className="home-about-me-who-header">
                             <span>&lt;</span>/<span>&gt;</span>
@@ -52,7 +52,7 @@ class Home extends Component {
                             at every turn.
                         </div>
                     </div>
-                    <hr/>
+                    <hr />
                     <div className="home-about-me-what">
                         <div className="home-about-me-what-header">
                             <span>&lt;</span>/<span>&gt;</span>
