@@ -34,7 +34,7 @@ class Projects extends Component {
                             <dd> - Utilizes SASS styling and React-Bootstrap modelling to scale website for all screen sizes</dd>
                             <dd> - Incorporates modern ECMAScript 2016 (ES7) along with multiple third party libraries for UX Design</dd>
                         </dl>
-                        { this.makeToolsList(['JavaScript (React, ES7, Node)', 'HTML', 'SASS/CSS', 'Bootstrap', 'Material-UI']) }
+                        {this.makeToolsList(['JavaScript (React, ES7, Node)', 'HTML', 'SASS/CSS', 'Bootstrap', 'Material-UI'])}
                     </div>
                 </div>
             ),
@@ -58,7 +58,7 @@ class Projects extends Component {
                             <dd> - Uses Places API to search for geographical viewpoints or addresses inputted by user </dd>
                             <dd> - Incorporates a Distance Matrix API to find optimal routes between locations provided </dd>
                         </dl>
-                        { this.makeToolsList(['React-Native', 'JavaScript', 'Places API', 'Distance Matrix API']) }
+                        {this.makeToolsList(['React-Native', 'JavaScript', 'Places API', 'Distance Matrix API'])}
                     </div>
                 </div>
             ),
@@ -82,7 +82,7 @@ class Projects extends Component {
                             <dd> - Outputs final data to a CSV file for easy to read information </dd>
                             <dd> - Gives user the ability to search for one-way or return trips </dd>
                         </dl>
-                        { this.makeToolsList(['Python', 'BeautifulSoup', 'JSON']) }
+                        {this.makeToolsList(['Python', 'BeautifulSoup', 'JSON'])}
                     </div>
                 </div>
             ),
@@ -106,7 +106,7 @@ class Projects extends Component {
                             <dd> - Created a custom blockchain to store game results between two players playing live </dd>
                             <dd> - Used Express and Pusher API to make the game live and playable by two players on same host </dd>
                         </dl>
-                        { this.makeToolsList(['Angular', 'Express', 'Material-UI', 'Blockchain', 'Pusher API', 'TypeScript', 'SASS']) }
+                        {this.makeToolsList(['Angular', 'Express', 'Material-UI', 'Blockchain', 'Pusher API', 'TypeScript', 'SASS'])}
                     </div>
                 </div>
             ),
@@ -130,7 +130,7 @@ class Projects extends Component {
                             <dd> - Integrated OpenGL and Blender to create a 3D marker used within AR mode to display direction </dd>
                             <dd> - Used Google Maps API to obtain GPS coordinates and place markers in appropriate location</dd>
                         </dl>
-                        { this.makeToolsList(['Java', 'ARCore', 'Android Studio', 'Blender', 'OpenGL', 'Maps API']) }
+                        {this.makeToolsList(['Java', 'ARCore', 'Android Studio', 'Blender', 'OpenGL', 'Maps API'])}
                     </div>
                 </div>
             ),
@@ -153,7 +153,7 @@ class Projects extends Component {
                             <dd> - Project includes backend support for the dynamic entry of blogs using the SQLite </dd>
                             <dd> - Website designing and UI layout was created through Bootstrap styling along with custom component creations </dd>
                         </dl>
-                        { this.makeToolsList(['Django (Python)', 'SQLite', 'Bootstrap']) }
+                        {this.makeToolsList(['Django (Python)', 'SQLite', 'Bootstrap'])}
                     </div>
                 </div>
             ),
@@ -176,9 +176,9 @@ class Projects extends Component {
                             <dd> - Allows for user selections for time of trip, how often to check for weather, and units to display in </dd>
                             <dd> - Utilizes Google Maps Directions API to obtain the fastest route from user inputted source to destination </dd>
                             <dd> - Decodes coordinates along the route using Google Maps Geocode API and Polyline Decode Algorithm </dd>
-                            <dd> - Sends API requests to Weather Underground API to obtain weather at user specified time </dd> 
+                            <dd> - Sends API requests to Weather Underground API to obtain weather at user specified time </dd>
                         </dl>
-                        { this.makeToolsList(['Python', 'Google Maps API', 'Weather Underground API']) }
+                        {this.makeToolsList(['Python', 'Google Maps API', 'Weather Underground API'])}
                     </div>
                 </div>
             ),
@@ -199,9 +199,9 @@ class Projects extends Component {
                         <dl className="content-list">
                             <dd> - Python GUI used to build a simple scientific calculator with basic mathematical operations and 22-digit display </dd>
                             <dd> - Utilizes a History sidebar to allow for easy recollection of past mathematical results </dd>
-                            <dd> - Built in with OOP implementation and utilization of Python Tkinter features like Menubar, Labels, Styles </dd>   
+                            <dd> - Built in with OOP implementation and utilization of Python Tkinter features like Menubar, Labels, Styles </dd>
                         </dl>
-                        { this.makeToolsList(['Python', 'Tkinter (GUI Package)']) }
+                        {this.makeToolsList(['Python', 'Tkinter (GUI Package)'])}
                     </div>
                 </div>
             ),
@@ -225,7 +225,7 @@ class Projects extends Component {
                             <dd> - Used Android SQLite to store workout data and ability to view it at a later time </dd>
                             <dd> - Android SharedPreferences allows for customizable user options like timer </dd>
                         </dl>
-                        { this.makeToolsList(['Java', 'Android Studio', 'SQLite', 'XML']) }                        
+                        {this.makeToolsList(['Java', 'Android Studio', 'SQLite', 'XML'])}
                     </div>
                 </div>
             ),
@@ -233,7 +233,7 @@ class Projects extends Component {
                 <div className="row hangr" key="hangr">
                     <div className="col-sm-4">
                         <img className="img-responsive" alt="Hangr Logo"
-                        src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/hangr.jpg" />
+                            src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/hangr.jpg" />
                     </div>
                     <div className="col-sm-8 content">
                         <h2 className="projectName"> Hangr - A HackPrincetonS17 Project </h2>
@@ -249,7 +249,7 @@ class Projects extends Component {
                             <dd> - User can input their clothing collection through photos, IBM Watson's visual recognition can find key info </dd>
                             <dd> - Complete with a SQL backend and IBM Watson's Node-RED technology for fully functional web application </dd>
                         </dl>
-                        { this.makeToolsList(['IBM Watson', 'IBM Bluemix', 'Node-RED', 'HTML', 'CSS']) }
+                        {this.makeToolsList(['IBM Watson', 'IBM Bluemix', 'Node-RED', 'HTML', 'CSS'])}
                     </div>
                 </div>
             ),
@@ -263,14 +263,14 @@ class Projects extends Component {
                         <h2 className="projectName"> 2048 Android Application </h2>
                         <p className="text-muted">
                             <span className="glyphicon glyphicon-lock"></span>
-                                &nbsp; Code maintained privately, sorry!
+                            &nbsp; Code maintained privately, sorry!
                         </p>
                         <dl className="content-list">
                             <dd> - Android version of the popular 2048 game that uses hardware sensors to control gameplay </dd>
                             <dd> - Integrates accelerometer readings and gyroscope to distinguish user movements and move blocks </dd>
                             <dd> - Custom 2048 blocks that can have special purposes and user selections for gesture type </dd>
                         </dl>
-                        { this.makeToolsList(['Java', 'Android Studio']) }
+                        {this.makeToolsList(['Java', 'Android Studio'])}
                     </div>
                 </div>
             ),
@@ -294,7 +294,7 @@ class Projects extends Component {
                             <dd> - Images are sent to AWS (Amazon Web Services) server to transforms into 10% of original size </dd>
                             <dd> - Images are found and replaced dynamically with no change in webpage view </dd>
                         </dl>
-                        { this.makeToolsList(['JavaScipt (Node)', 'Amazon Web Services (AWS)', 'HTML', 'CSS']) }
+                        {this.makeToolsList(['JavaScipt (Node)', 'Amazon Web Services (AWS)', 'HTML', 'CSS'])}
                     </div>
                 </div>
             ),
@@ -302,7 +302,7 @@ class Projects extends Component {
                 <div className="row 2048-c" key="2048-c">
                     <div className="col-sm-4">
                         <img src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/2048C.jpg"
-                            className="img-responsive" alt="2048 Command Line"/>
+                            className="img-responsive" alt="2048 Command Line" />
                     </div>
                     <div className="col-sm-8 content">
                         <h2 className="projectName"> 2048 (Command Line Version) </h2>
@@ -316,11 +316,11 @@ class Projects extends Component {
                             <dd> - A fun command line game created while learning low-level C language </dd>
                             <dd> - Utilizes simple data structures and algorithms for gameplay and state operations </dd>
                             <dd> - Utilized GDB Debugger during development for debugging </dd>
-                            <dd style={{fontStyle: 'italic', marginTop: 10}}> 
+                            <dd style={{ fontStyle: 'italic', marginTop: 10 }}>
                                 - Note: A newer version of this game has been created as an Android application, scroll above to view
                             </dd>
                         </dl>
-                        { this.makeToolsList(['C', 'GDB Debugger', 'Command Line Tools']) }
+                        {this.makeToolsList(['C', 'GDB Debugger', 'Command Line Tools'])}
                     </div>
                 </div>
             ),
@@ -328,7 +328,7 @@ class Projects extends Component {
                 <div className="row molar-mass" key="molar-mass">
                     <div className="col-sm-4">
                         <img className="img-responsive" alt="Molar Mass Calc"
-                        src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/molarMassCalc.jpg" />
+                            src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/molarMassCalc.jpg" />
                     </div>
                     <div className="col-sm-8 content">
                         <h2 className="projectName"> Molar Mass Calculator </h2>
@@ -343,7 +343,7 @@ class Projects extends Component {
                             <dd> - Calculates molar mass of any valid element or compound to four decimal places </dd>
                             <dd> - Incorporates jump case algorithm and recursion for any subscript usage in elements or compounds </dd>
                         </dl>
-                        { this.makeToolsList(['C', 'GDB Debugger', 'Command Line Tools']) }
+                        {this.makeToolsList(['C', 'GDB Debugger', 'Command Line Tools'])}
                     </div>
                 </div>
             ),
@@ -351,7 +351,7 @@ class Projects extends Component {
                 <div className="row hockey-stats" key="hockey-stats">
                     <div className="col-sm-4">
                         <img className="img-responsive" alt="Hockey Statistics Calculator"
-                        src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/hockeyStats.jpg" />
+                            src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/hockeyStats.jpg" />
                     </div>
                     <div className="col-sm-8 content">
                         <h2 className="projectName"> Hockey Statistics Calculator </h2>
@@ -367,7 +367,7 @@ class Projects extends Component {
                             <dd> - Incorporates File I/O productivity for adaptable input forms </dd>
                             <dd> - Utilizes output stream to produce a csv file, arranged to user parameters </dd>
                         </dl>
-                        { this.makeToolsList(['C', 'GDB Debugger', 'Command Line Tools']) }
+                        {this.makeToolsList(['C', 'GDB Debugger', 'Command Line Tools'])}
                     </div>
                 </div>
             ),
@@ -390,7 +390,7 @@ class Projects extends Component {
                             <dd> - Incorporates vector class usage for data storage of snake coordinates </dd>
                             <dd> - Allows for a user-defined interface and gameplay to be setup </dd>
                         </dl>
-                        { this.makeToolsList(['C++', 'GDB Debugger', 'Command Line Tools']) }
+                        {this.makeToolsList(['C++', 'GDB Debugger', 'Command Line Tools'])}
                     </div>
                 </div>
             )
@@ -408,7 +408,7 @@ class Projects extends Component {
             'python_calculator': 'command-line',
             'hangr': 'web',
             'android2048': 'mobile',
-            'quikpic' : 'web',
+            'quikpic': 'web',
             'c2048': 'command-line',
             'molar_mass': 'command-line',
             'snake': 'command-line',
@@ -434,7 +434,7 @@ class Projects extends Component {
     }
 
     _getProjectsByType = (type) => {
-        return Object.keys(this.projectKeys).reduce( (arr, key) => {
+        return Object.keys(this.projectKeys).reduce((arr, key) => {
             return this.projectKeys[key] === type ? [...arr, key] : arr
         }, [])
     }
@@ -451,19 +451,19 @@ class Projects extends Component {
             projectList = Object.keys(this.projectKeys);
         }
 
-        this.setState({tab: key, projectList})
+        this.setState({ tab: key, projectList })
     }
 
     _getProjectItems = (projectKeys) => {
         return projectKeys.reduce((res, val, index, arr) => (index < arr.length - 1 ?
-            [...res, this.projects[val], <hr key={index}/>] : [...res, this.projects[val]]), [])
+            [...res, this.projects[val], <hr key={index} />] : [...res, this.projects[val]]), [])
     }
 
     render() {
         let projectItems = this._getProjectItems(this.state.projectList)
 
         return (
-            <div className="Projects" style={{backgroundImage : 'url(https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/project-background.jpg)'}}>
+            <div className="Projects" style={{ backgroundImage: 'url(https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/project-background.jpg)' }}>
                 <div className="container projects-container">
                     <div className="text-center pageTitle"> Just some of the projects I have worked on </div>
                     <Tabs activeKey={this.state.tab} id="project-tab" onSelect={this._handleTabSelect}>
