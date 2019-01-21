@@ -134,6 +134,29 @@ class Projects extends Component {
                     </div>
                 </div>
             ),
+            market_viewer: (
+                <div className="row market-viewer" key="market-viewer">
+                    <div className="col-sm-4">
+                        <img className="img-responsive" alt="Market Viewer"
+                            src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/market-viewer.PNG" />
+                    </div>
+                    <div className="col-sm-8 content">
+                        <h2 className="projectName"> Market Viewer </h2>
+                        <p className="text-muted">
+                            <span className="glyphicon glyphicon-search"></span>
+                            <a className="githubLink" href="https://github.com/ShivamDh/Market-Viewer">
+                                &nbsp; Click to view this project on Github
+                            </a>
+                        </p>
+                        <dl className="content-list">
+                            <dd> - Built on Ruby on Rails to display live stock and ETF data on a dynamic website </dd>
+                            <dd> - Integrates Charkick graphing library to display the graph and auto-update charting info </dd>
+                            <dd> - Utilized AlphaVantage and Yahoo Finance API for up-to-date stock pricing and company information </dd>
+                        </dl>
+                        {this.makeToolsList(['Ruby', 'Rails', 'AlphaVantage API', 'Yahoo Finance API'])}
+                    </div>
+                </div>
+            ),
             starter_blog: (
                 <div className="row starter-blog" key="starter-blog">
                     <div className="col-sm-4">
@@ -403,6 +426,7 @@ class Projects extends Component {
             'tour_planner': 'mobile',
             'fitness60': 'mobile',
             'blockchain-tic-tac-toe': 'web',
+            'market_viewer': 'web',
             'trip_weather': 'command-line',
             'starter_blog': 'web',
             'python_calculator': 'command-line',
