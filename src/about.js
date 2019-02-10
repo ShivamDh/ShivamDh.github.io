@@ -113,7 +113,7 @@ class About extends Component {
                     <div id="cd-timeline" className="cd-container">
                         <div className="cd-timeline-block">
                             <div className="cd-timeline-content">
-                                <div className="cd-date"> SEPT 2018 - present  </div>
+                                <div className="cd-date"> SEPT 2018 - DEC 2018 </div>
                                 <div className="cd-timeline-content-header"> Senior Application Engineering Analyst </div>
                                 <div className="cd-timeline-content-subheader">
                                     <a href="https://www.d2l.com/"> Accenture </a>
