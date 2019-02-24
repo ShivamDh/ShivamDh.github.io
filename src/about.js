@@ -119,7 +119,7 @@ class About extends Component {
                                     <a href="https://www.d2l.com/"> Accenture </a>
                                 </div>
                                 <div className="cd-timeline-content-text">
-                                    - Integrated Google Cloud Dialogflow and NLP to expand capabilities of virtual agents and conversational use cases
+                                    - Integrated Google Cloud Dialogflow and NLP to expand capabilities of virtual agents
                                     <br />
                                     - Constructed a serverless and scalable backend with AWS Lambda, API Gateway, S3 Storage
                                     <br />
