@@ -121,6 +121,12 @@ class About extends Component {
                                 </div>
                                 <div className="cd-timeline-content-text">
                                     - Charted a complete four-month project plan with relevant stakeholders via design documents and propsals
+                                    <br />
+                                    - Built a prototype diagnosis tool to report software quality on production switches and testbeds
+                                    <br />
+                                    - Transitioned old Python APIs into C++ for efficient data aggregation through Cloud SQL and BigQuery
+                                    <br />
+                                    - Utilized a messaging protocol to send automated emails detailing networking layer status
                                 </div>
                             </div>
                             <div className="cd-timeline-img">
