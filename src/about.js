@@ -49,11 +49,12 @@ class About extends Component {
                             my unique skillset to build first-rate applications while gaining invaluable experience.
                         </div>
                         <div className="about-me-info-others">
-                            I just finished my third internship, working at
+                            I'm currently completing my fourth internship, working at 
+                            <a href="https://www.google.com/"> Google </a>
+                            as a Software Engineer in the Bay Area. 
+                            Prior to this, I completed three other internships, working at
                             <a href="https://www.accenture.com/"> Accenture </a>
-                            in the heart of downtown Toronto. I was working as a Senior Application Engineering
-                            Analyst for the Canadian Innovation Hub there.
-                            Prior to that, I completed two other four-month internships at
+                            in their Innovation Hub, and at
                             <a href="https://www.d2l.com/"> D2L </a>
                             and
                             <a href="http://www.evertz.com/" > Evertz Microsystems </a>
@@ -63,14 +64,14 @@ class About extends Component {
                             While studying at Waterloo, I have been a part of multiple engineering design teams.
                             Most recently, I was on the software team on
                             <a href="https://watonomous.ca/"> WATonomous</a>
-                            , helping to convert an electrical vehicle into an autonomous one.
+                            , helping to convert an electric vehicle into a fully functional autonomous one.
                             During my first year, I was a part of the
                             <a href="http://www.uwmidsun.com/"> Midnight Sun Solar Car Team </a>
                             where I worked on embedded systems and website development.
                         </div>
                         <div className="about-me-info-others">
                             Along with personal side-projects completed on my free time, I have also participated in hackathons
-                            such as HachHarvard, PennApps and HackPrinceton. Feel free to go to the
+                            such as HackHarvard, PennApps and HackPrinceton. Feel free to go to the
                             <a href="/projects"> Projects </a>
                             tab to view a full list of all my projects.
                         </div>
@@ -119,6 +120,7 @@ class About extends Component {
                                     <a href="https://www.google.com/"> Google </a>
                                 </div>
                                 <div className="cd-timeline-content-text">
+                                    - Charted a complete four-month project plan with relevant stakeholders via design documents and propsals
                                 </div>
                             </div>
                             <div className="cd-timeline-img">
