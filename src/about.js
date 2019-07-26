@@ -113,10 +113,24 @@ class About extends Component {
                     <div id="cd-timeline" className="cd-container">
                         <div className="cd-timeline-block">
                             <div className="cd-timeline-content">
+                                <div className="cd-date"> MAY 2019 - AUG 2019 </div>
+                                <div className="cd-timeline-content-header"> Software Engineering Intern </div>
+                                <div className="cd-timeline-content-subheader">
+                                    <a href="https://www.google.com/"> Google </a>
+                                </div>
+                                <div className="cd-timeline-content-text">
+                                </div>
+                            </div>
+                            <div className="cd-timeline-img">
+                                <img src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/about-cloud-icon.png" alt="Cloud" />
+                            </div>
+                        </div>
+                        <div className="cd-timeline-block">
+                            <div className="cd-timeline-content">
                                 <div className="cd-date"> SEPT 2018 - DEC 2018 </div>
                                 <div className="cd-timeline-content-header"> Senior Application Engineering Analyst </div>
                                 <div className="cd-timeline-content-subheader">
-                                    <a href="https://www.d2l.com/"> Accenture </a>
+                                    <a href="https://www.accenture.com/"> Accenture </a>
                                 </div>
                                 <div className="cd-timeline-content-text">
                                     - Integrated Google Cloud Dialogflow and NLP to expand capabilities of virtual agents
@@ -129,7 +143,7 @@ class About extends Component {
                                 </div>
                             </div>
                             <div className="cd-timeline-img">
-                                <img src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/about-work-icon.png" alt="Car" />
+                                <img src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/about-work-icon.png" alt="Briefcase" />
                             </div>
                         </div>
                         <div className="cd-timeline-block">
