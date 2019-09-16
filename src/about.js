@@ -49,9 +49,9 @@ class About extends Component {
                             my unique skillset to build first-rate applications while gaining invaluable experience.
                         </div>
                         <div className="about-me-info-others">
-                            I'm currently completing my fourth internship, working at 
+                            I'm just completed my fourth internship, working at 
                             <a href="https://www.google.com/"> Google </a>
-                            as a Software Engineer in the Bay Area. 
+                            as a Software Engineering Intern in the Bay Area. 
                             Prior to this, I completed three other internships, working at
                             <a href="https://www.accenture.com/"> Accenture </a>
                             in their Innovation Hub, and at
@@ -122,11 +122,11 @@ class About extends Component {
                                 <div className="cd-timeline-content-text">
                                     - Charted a complete four-month project plan with relevant stakeholders via design documents and propsals
                                     <br />
-                                    - Built a prototype diagnosis tool to report software quality on production switches and testbeds
+                                    - Devised a diagnosis tool to report failures on 1000+ networking devices, cutting triage time by 50%
                                     <br />
-                                    - Transitioned old Python APIs into C++ for efficient data aggregation through Cloud SQL and BigQuery
+                                    - Transitioned Python APIs into C++ and optimized SQL queries in BigQuery to improve read time by 65%
                                     <br />
-                                    - Utilized a messaging protocol to send automated emails detailing networking layer status
+                                    - Scheduled automated email alerts to notify dev teams on network layer health with RPC protocol
                                 </div>
                             </div>
                             <div className="cd-timeline-img">
