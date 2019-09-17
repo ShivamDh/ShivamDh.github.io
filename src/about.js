@@ -43,13 +43,13 @@ class About extends Component {
                     <div className="about-me-info">
                         <div className="about-me-info-first">
                             <span> Hi! </span>
-                            I'm a third-year Computer Engineering student at the
+                            I'm a fourth-year Computer Engineering student at the
                             <a href="https://uwaterloo.ca/"> University of Waterloo</a>
-                            . I am highly active in software development and through my internships, I hope to utilize
-                            my unique skillset to build first-rate applications while gaining invaluable experience.
+                            . I am highly active in the software development field and hope to utilize
+                            my unique skillset to build first-rate applications through my internships.
                         </div>
                         <div className="about-me-info-others">
-                            I'm just completed my fourth internship, working at 
+                            I've just completed my fourth internship, working at 
                             <a href="https://www.google.com/"> Google </a>
                             as a Software Engineering Intern in the Bay Area. 
                             Prior to this, I completed three other internships, working at
@@ -244,8 +244,11 @@ class About extends Component {
                                 <div className="cd-timeline-content-text">
                                     - Candidate for Bachelor's of Applied Science in Computer Engineering
                                     <br />
-                                    - Cumulative GPA: 3.9,
-                                    <strong> Expected Graduation in 2021 </strong>
+                                    - Taking an option in Artificial Intelligence
+                                    <br />
+                                    - Cumulative GPA: 3.9, Dean's Honour List 
+                                    <br />
+                                    <strong> - Expected Graduation in 2021 </strong>
                                 </div>
                             </div>
                             <div className="cd-timeline-img">

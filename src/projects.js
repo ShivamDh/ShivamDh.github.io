@@ -420,23 +420,23 @@ class Projects extends Component {
         }
 
         this.projectKeys = {
-            'website': 'web',
-            'ar_pathfinder': 'mobile',
-            'flights_web_scraping': 'command-line',
+            'ar_pathfinder': ['mobile', 'ml-ai-vr'],
+            'flights_web_scraping': ['backend', 'ml-ai-vr'],
             'tour_planner': 'mobile',
+            'website': 'web',
             'fitness60': 'mobile',
-            'blockchain-tic-tac-toe': 'web',
+            'blockchain-tic-tac-toe': ['web', 'ml-ai-vr'],
             'market_viewer': 'web',
-            'trip_weather': 'command-line',
+            'trip_weather': 'backend',
             'starter_blog': 'web',
-            'python_calculator': 'command-line',
-            'hangr': 'web',
-            'android2048': 'mobile',
+            // 'python_calculator': 'command-line',
+            'hangr': ['web', 'ml-ai-vr'],
+            // 'android2048': 'mobile',
             'quikpic': 'web',
-            'c2048': 'command-line',
-            'molar_mass': 'command-line',
-            'snake': 'command-line',
-            'hockey_stats': 'command-line'
+            // 'c2048': 'command-line',
+            // 'molar_mass': 'command-line',
+            // 'snake': 'command-line',
+            'hockey_stats': 'backend'
         };
 
         this.state = {
@@ -450,7 +450,7 @@ class Projects extends Component {
             <div className="tools">
                 {
                     tools.map(tool => (
-                        <div> {tool} </div>
+                        <div key={tool}> {tool} </div>
                     ))
                 }
             </div>
@@ -459,17 +459,19 @@ class Projects extends Component {
 
     _getProjectsByType = (type) => {
         return Object.keys(this.projectKeys).reduce((arr, key) => {
-            return this.projectKeys[key] === type ? [...arr, key] : arr
+            return this.projectKeys[key].includes(type) ? [...arr, key] : arr
         }, [])
     }
 
     _handleTabSelect = (key) => {
         let projectList = []
-        if (key === 4) {
-            projectList = this._getProjectsByType('command-line');
+        if (key === 2) {
+            projectList = this._getProjectsByType('backend');
         } else if (key === 3) {
+            projectList = this._getProjectsByType('ml-ai-vr');
+        } else if (key === 4) {
             projectList = this._getProjectsByType('mobile');
-        } else if (key === 2) {
+        } else if (key === 5) {
             projectList = this._getProjectsByType('web');
         } else {
             projectList = Object.keys(this.projectKeys);
@@ -492,9 +494,10 @@ class Projects extends Component {
                     <div className="text-center pageTitle"> Just some of the projects I have worked on </div>
                     <Tabs activeKey={this.state.tab} id="project-tab" onSelect={this._handleTabSelect}>
                         <Tab eventKey={1} title="All"> </Tab>
-                        <Tab eventKey={2} title="Web"> </Tab>
-                        <Tab eventKey={3} title="Mobile"> </Tab>
-                        <Tab eventKey={4} title="Command Line"> </Tab>
+                        <Tab eventKey={2} title="Backend"> </Tab>
+                        <Tab eventKey={3} title="ML/AI/VR"> </Tab>
+                        <Tab eventKey={4} title="Mobile"> </Tab>
+                        <Tab eventKey={5} title="Web"> </Tab>
                     </Tabs>
                     <FlipMove enterAnimation="elevator" leaveAnimation="elevator">
                         {projectItems}
