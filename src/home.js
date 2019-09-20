@@ -47,7 +47,7 @@ class Home extends Component {
                             <span> smart </span>
                             and
                             <span> cutting-edge </span>
-                            solutions to obstacles at hand and be able to deliver
+                            solutions to obstacles at hand and deliver
                             <span> excellence </span>
                             at every turn.
                         </div>
@@ -60,29 +60,33 @@ class Home extends Component {
                             <span>&lt;</span>/<span>&gt;</span>
                         </div>
                         <div className="home-about-me-what-body">
-                            I am skilled and experienced in both
-                            <span> front-end </span>
+                            I have
+                            <span> industry experience </span>
+                            in many fields of
+                            <span> software development </span>
+                            such as
+                            <span> full-stack </span>
                             and
-                            <span> back-end </span>
-                            development through numerous
-                            <span> website</span>
+                            <span> infrastructure </span>
+                            development. In my free time, I work with
+                            <span> back-end</span>
                             ,
                             <span> mobile </span>
                             and
-                            <span> command-line </span>
-                            applications I have made. My knowledge also expands to
+                            <span> artificial intelligence </span>
+                            systems. My knowledge also expands to
                             <span> scripting</span>
                             ,
                             <span> embedded systems</span>
                             ,
-                            <span> artificial intelligence </span>
+                            <span> machine learning </span>
                             and
-                            <span> AR/VR technology </span>
+                            <span> AR/VR </span>
                             . I am always open to new
                             <span> technologies </span>
-                            and willing to pick up and learn new
-                            <span> programming </span>
-                            skills for the project at hand.
+                            and willing to learn new
+                            <span> programming languages </span>
+                            for the project at hand.
                         </div>
                     </div>
 
