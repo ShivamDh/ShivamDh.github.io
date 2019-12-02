@@ -120,13 +120,11 @@ class About extends Component {
                                     <a href="https://www.google.com/"> Google </a>
                                 </div>
                                 <div className="cd-timeline-content-text">
-                                    - Charted a complete four-month project plan with relevant stakeholders via design documents and propsals
+                                    ‣ Devised a diagnosis tool to report failures on 1000+ networking devices, cutting triage time by 50%
                                     <br />
-                                    - Devised a diagnosis tool to report failures on 1000+ networking devices, cutting triage time by 50%
+                                    ‣ Transitioned Python APIs into C++ and optimized SQL queries in BigQuery to improve read time by 65%
                                     <br />
-                                    - Transitioned Python APIs into C++ and optimized SQL queries in BigQuery to improve read time by 65%
-                                    <br />
-                                    - Scheduled automated email alerts to notify dev teams on network layer health with RPC protocol
+                                    ‣ Scheduled automated email alerts to notify dev teams on network layer health with RPC protocol
                                 </div>
                             </div>
                             <div className="cd-timeline-img">
@@ -141,13 +139,11 @@ class About extends Component {
                                     <a href="https://www.accenture.com/"> Accenture </a>
                                 </div>
                                 <div className="cd-timeline-content-text">
-                                    - Integrated Google Cloud Dialogflow and NLP to expand capabilities of virtual agents
+                                    ‣ Incorporated Google Cloud Dialogflow to train and deploy natural language conversation cases on virtual agent technology
                                     <br />
-                                    - Constructed a serverless and scalable backend with AWS Lambda, API Gateway, S3 Storage
+                                    ‣ Constructed a serverless backend and streamlined data architecture with AWS Lambda, S3 Storage, and NoSQL database (DynamoDB)
                                     <br />
-                                    - Streamlined data architecture in DynamoDB NoSQL database via Python Scripting and AWS-SDK
-                                    <br />
-                                    - Developed and showcased a Unity3D interactive project for a smart-city purpose with Mapbox and REST APIs
+                                    ‣ Developed and showcased a Unity3D interactive project for a smart-city purpose with Mapbox and REST APIs
                                 </div>
                             </div>
                             <div className="cd-timeline-img">
@@ -162,11 +158,11 @@ class About extends Component {
                                     <a href="https://www.d2l.com/"> WATonomous - SAE AutoDrive Challenge </a>
                                 </div>
                                 <div className="cd-timeline-content-text">
-                                    - Implemented computer vision software with OpenCV and C++ to track traffic signs
+                                    ‣ Devised a physics model to predict stop line detection on vehicle's camera feed
                                     <br />
-                                    - Processed and synchronized IMU data to produce output data
+                                    ‣ Processed and synchronized IMU data tooutput prediction data to sub-teams
                                     <br />
-                                    - Coded with Robot Operating System (ROS) on Ubuntu for environment setup and package output
+                                    ‣ Incorporated computer vision software with OpenCV to track traffic signs on live feed
                                 </div>
                             </div>
                             <div className="cd-timeline-img">
@@ -181,13 +177,11 @@ class About extends Component {
                                     <a href="https://www.d2l.com/"> D2L (formerly Desire2Learn) </a>
                                 </div>
                                 <div className="cd-timeline-content-text">
-                                    - Integrated SCORM tools with existing tools for customization in e-learing using C#.NET, REST, MVC
+                                    ‣ Integrated SCORM tools with existing tools for customization in e-learing using C#.NET, REST, MVC
                                     <br />
-                                    - Implemented new features to 'Add' feature in Lessons tool for 50% more content availability using React, Node, MySQL
+                                    ‣ Overhauled Lessons tool for 50% material support and time tracking features via React, Node, MySQL
                                     <br />
-                                    - Incorporated time tracking feature to monitor content viewing
-                                    <br />
-                                    - Created API for PostgreSQL script for compliance with European Union Data Protection Regulation
+                                    ‣ Worked on custom REST API for compliance with European Union Data Protection Regulation
                                 </div>
                             </div>
                             <div className="cd-timeline-img">
@@ -202,13 +196,11 @@ class About extends Component {
                                     <a href="http://www.evertz.com/"> Evertz Microsystems </a>
                                 </div>
                                 <div className="cd-timeline-content-text">
-                                    - Developed scalable website applications integrating video streams through React, Redux, Node, jQuery, LESS
+                                    ‣ Developed scalable website applications integrating video streams through React, Redux, Node, jQuery
                                     <br />
-                                    - Rearchitected search engine for web component modularity, increasing efficiency by over 20%
+                                    ‣ Rearchitected search engine with web component modularity and efficient result querying, increasing efficiency by over 20%
                                     <br />
-                                    - Enhanced website data workflow by efficient result querying and refined search results with Python
-                                    <br />
-                                    - Built a client-specific platform utilizing barcode recognition and job scheduling through Python and PostgreSQL
+                                    ‣ Delivered a client-specific platform utilizing barcode recognition and job scheduling through Python and PostgreSQL
                                 </div>
                             </div>
                             <div className="cd-timeline-img">
@@ -223,11 +215,9 @@ class About extends Component {
                                     <a href="http://www.uwmidsun.com/"> Midnight Sun Solar Race Car Team </a>
                                 </div>
                                 <div className="cd-timeline-content-text">
-                                    - Built a working footer module through React and Node
+                                    ‣ Developed a working footer module for the newly created team website through React and Node
                                     <br />
-                                    - Styled new icons and media links on footer with Bootstrap and SCSS
-                                    <br />
-                                    - Wrote bare-metal firmware for car's embedded systems, in SPI and C language
+                                    ‣ Wrote bare-metal firmware for car's embedded systems, with the SPI protocol and C language
                                 </div>
                             </div>
                             <div className="cd-timeline-img">
@@ -242,11 +232,9 @@ class About extends Component {
                                     <a href="http://www.uwaterloo.ca/"> University of Waterloo </a>
                                 </div>
                                 <div className="cd-timeline-content-text">
-                                    - Candidate for Bachelor's of Applied Science in Computer Engineering
+                                    ‣ Candidate for Bachelor's of Applied Science in Computer Engineering
                                     <br />
-                                    - Taking an option in Artificial Intelligence
-                                    <br />
-                                    - Cumulative GPA: 3.9, Dean's Honour List 
+                                    - Cumulative GPA: 3.9, Dean's Honour List, President's Scholarship, Sandford Award
                                     <br />
                                     <strong> - Expected Graduation in 2021 </strong>
                                 </div>
