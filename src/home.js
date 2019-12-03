@@ -35,9 +35,7 @@ class Home extends Component {
                         <div className="home-about-me-who-body">
                             I am a
                             <span> software developer </span>
-                            who is
-                            <span> passionate </span>
-                            about creating
+                            who is passionate about creating
                             <span> first-rate </span>
                             applications through
                             <span> effective </span>
@@ -62,9 +60,7 @@ class Home extends Component {
                         <div className="home-about-me-what-body">
                             I have
                             <span> industry experience </span>
-                            in many fields of
-                            <span> software development </span>
-                            such as
+                            in many areas of software development such as
                             <span> full-stack </span>
                             and
                             <span> infrastructure </span>

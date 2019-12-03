@@ -243,45 +243,6 @@ class About extends Component {
                                 <img src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/about-school-icon.png" alt="Study" />
                             </div>
                         </div>
-
-                        <div className="cd-timeline-block">
-                            <div className="cd-timeline-content">
-                                <div className="cd-date"> OCT 2015 - MAR 2016 </div>
-                                <div className="cd-timeline-content-header"> Board of Director and Finance Team Member </div>
-                                <div className="cd-timeline-content-subheader">
-                                    <a href="http://scentsationja.wixsite.com/scentsation"> Scentsation - A Junior Achievement Company </a>
-                                </div>
-                                <div className="cd-timeline-content-text">
-                                    - Managed company's balances and projected return on investments (ROI) through Excel worksheets
-                                    <br />
-                                    - Assisted the production team in sourcing environmentally-friendly packaging for products
-                                    <br />
-                                </div>
-                            </div>
-                            <div className="cd-timeline-img">
-                                <img src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/about-chart-icon.png" alt="Chart" />
-                            </div>
-                        </div>
-
-                        <div className="cd-timeline-block">
-                            <div className="cd-timeline-content">
-                                <div className="cd-date"> SEPT 2014 - JUN 2016 </div>
-                                <div className="cd-timeline-content-header"> Youth Sports and Aquatics Volunteer </div>
-                                <div className="cd-timeline-content-subheader">
-                                    <a href="https://www.ymcacalgary.org/"> YMCA Calgary </a>
-                                </div>
-                                <div className="cd-timeline-content-text">
-                                    - Aided swim instructors with lessons by managing large class sizes
-                                    <br />
-                                    - Took initiative to run class games at the end of lessons to review learned skills
-                                    <br />
-                                    - Supervised weekly sports for children, responsible for the safety, setup and conduct of said events
-								</div>
-                            </div>
-                            <div className="cd-timeline-img">
-                                <img src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/about-play-icon.png" alt="Play" />
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
