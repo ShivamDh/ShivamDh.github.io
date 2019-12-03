@@ -234,9 +234,9 @@ class About extends Component {
                                 <div className="cd-timeline-content-text">
                                     ‣ Candidate for Bachelor's of Applied Science in Computer Engineering
                                     <br />
-                                    - Cumulative GPA: 3.9, Dean's Honour List, President's Scholarship, Sandford Award
+                                    ‣ Cumulative GPA: 3.9, Dean's Honour List, President's Scholarship, Sandford Award
                                     <br />
-                                    <strong> - Expected Graduation in 2021 </strong>
+                                    <strong> ‣ Expected Graduation in 2021 </strong>
                                 </div>
                             </div>
                             <div className="cd-timeline-img">
