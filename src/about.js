@@ -5,23 +5,22 @@ class About extends Component {
 
     getSoftwareSkillList() {
         let skills = ['C', 'C++', 'C# (.NET)', 'Java', 'Python', 'SQL',
-            'PHP', 'Ruby', 'Android', 'React Native']
+            'PHP', 'Ruby', 'Android', 'React Native', 'Objective-C', 'iOS']
 
         return skills.map(skill => <li> {skill} </li>)
     }
 
     getWebSkillList() {
-        let skills = ['REST API', 'Node', 'JavaScript', 'jQuery', 'React',
-            'Redux', 'Angular', 'Django', 'Flask', 'Rails', 'HTML5', 'CSS3', 'LESS',
-            'SASS', 'Bootstrap', 'Foundation', 'Polymer', 'NPM']
+        let skills = ['JavaScript', 'jQuery', 'React', 'Redux', 'Angular', 'Django', 'Flask', 'Rails',
+            'REST', 'Node', 'LESS/SASS', 'Bootstrap', 'Foundation', 'Polymer', 'NPM']
 
         return skills.map(skill => <li> {skill} </li>)
     }
 
     getTechSkillList() {
-        let skills = ['Linux (Ubuntu)', 'Unix (Bash)', 'Git', 'JIRA/Stash', 'Confluence',
+        let skills = ['Linux', 'Unix (Shell)', 'Git', 'JIRA', 'Confluence',
             'IBM Watson', 'AWS', 'Google Cloud', 'Microsoft Azure', 'OpenCV', 'ROS', 'VHDL',
-            'SPI', 'Android Studio', 'Visual Studio', 'GDB Debugger', 'Hyperledger', 'SQL Server']
+            'SPI', 'GDB', 'Hyperledger']
 
         return skills.map(skill => <li> {skill} </li>)
     }
@@ -43,16 +42,20 @@ class About extends Component {
                     <div className="about-me-info">
                         <div className="about-me-info-first">
                             <span> Hi! </span>
-                            I'm a fourth-year Computer Engineering student at the
+                            I'm a final year Computer Engineering student at the
                             <a href="https://uwaterloo.ca/"> University of Waterloo</a>
-                            . I am highly active in the software development field and hope to utilize
-                            my unique skillset to build first-rate applications through my internships.
+                            . I'm highly active in the software development field, having completed
+                            <a href="#experience"> 5 internships </a>
+                            and in the middle of a sixth one. I hope to utilize
+                            my unique skillset to build first-rate applications and gain experience as a new-grad software engineer.
                         </div>
                         <div className="about-me-info-others">
-                            I've just completed my fourth internship, working at 
+                            I've just completed my fifth internship, working at 
+                            <a href="https://www.instagram.com/"> Instagram (Facebook) </a>
+                            as a Software Engineer Intern in New York. 
+                            Prior to this, I completed four other internships, working at
                             <a href="https://www.google.com/"> Google </a>
-                            as a Software Engineering Intern in the Bay Area. 
-                            Prior to this, I completed three other internships, working at
+                            on the Google Cloud Platform, at
                             <a href="https://www.accenture.com/"> Accenture </a>
                             in their Innovation Hub, and at
                             <a href="https://www.d2l.com/"> D2L </a>
@@ -61,23 +64,23 @@ class About extends Component {
                             as a developer on their main products.
                         </div>
                         <div className="about-me-info-others">
-                            While studying at Waterloo, I have been a part of multiple engineering design teams.
-                            Most recently, I was on the software team on
+                            I've been a part of multiple engineering design teams at university.
+                            I was on the software team at
                             <a href="https://watonomous.ca/"> WATonomous</a>
-                            , helping to convert an electric vehicle into a fully functional autonomous one.
-                            During my first year, I was a part of the
-                            <a href="http://www.uwmidsun.com/"> Midnight Sun Solar Car Team </a>
-                            where I worked on embedded systems and website development.
+                            , helping to build a fully functional autonomous vehicle.
+                            I was involved with the
+                            <a href="http://www.uwmidsun.com/"> Midnight Sun Solar Car Team</a>
+                            , where I worked on embedded systems and website development.
                         </div>
                         <div className="about-me-info-others">
-                            Along with personal side-projects completed on my free time, I have also participated in hackathons
+                            In addition to personal projects, I've also participated in numerous hackathons
                             such as HackHarvard, PennApps and HackPrinceton. Feel free to go to the
                             <a href="/projects"> Projects </a>
                             tab to view a full list of all my projects.
                         </div>
                         <div className="about-me-info-others">
-                            Don't hesitate to reach out as I'm always looking for new opportunities to collaborate with others who share the same
-                            passion and interest as me in application development.
+                            Don't hesitate to reach out! I'm always looking for new opportunities to collaborate with others
+                            on application development.
                         </div>
                     </div>
                     <div className="about-me-skills">
@@ -90,19 +93,19 @@ class About extends Component {
                                 </ul>
                             </div>
                         </div>
-                        <div className="about-me-skills-web">
-                            <div className="about-me-skills-web-header"> Web Based Languages and Frameworks </div>
-                            <div className="about-me-skills-web-list">
-                                <ul>
-                                    {this.getWebSkillList()}
-                                </ul>
-                            </div>
-                        </div>
                         <div className="about-me-skills-tech">
-                            <div className="about-me-skills-tech-header"> Other Technologies Used </div>
+                            <div className="about-me-skills-tech-header"> Technologies Used </div>
                             <div className="about-me-skills-tech-list">
                                 <ul>
                                     {this.getTechSkillList()}
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="about-me-skills-web">
+                            <div className="about-me-skills-web-header"> Web Frameworks </div>
+                            <div className="about-me-skills-web-list">
+                                <ul>
+                                    {this.getWebSkillList()}
                                 </ul>
                             </div>
                         </div>
@@ -110,8 +113,42 @@ class About extends Component {
                 </div>
                 <div className="about-timeline"
                     style={{ backgroundImage: 'url(https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/about-timeline-img.jpg)' }}>
-                    <div className="about-timeline-header"> Experience </div>
+                    <a id="experience"> <div className="about-timeline-header"> Experience </div> </a>
                     <div id="cd-timeline" className="cd-container">
+                        <div className="cd-timeline-block">
+                            <div className="cd-timeline-content">
+                                <div className="cd-date"> SEP 2020 - DEC 2020 </div>
+                                <div className="cd-timeline-content-header"> Software Engineering Intern </div>
+                                <div className="cd-timeline-content-subheader">
+                                    <a href="https://www.citadel.com/"> Citadel </a>
+                                </div>
+                                <div className="cd-timeline-content-text">
+                                    ‣ Excited to join Citadel for my Fall internship later this year!
+                                </div>
+                            </div>
+                            <div className="cd-timeline-img">
+                                <img src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/about-cash-icon.png" alt="Cloud" />
+                            </div>
+                        </div>
+                        <div className="cd-timeline-block">
+                            <div className="cd-timeline-content">
+                                <div className="cd-date"> JAN 2020 - MAR 2020 </div>
+                                <div className="cd-timeline-content-header"> Software Engineer Intern </div>
+                                <div className="cd-timeline-content-subheader">
+                                    <a href="https://www.instagram.com/"> Instagram (Facebook) </a>
+                                </div>
+                                <div className="cd-timeline-content-text">
+                                    ‣ Spearheaded efforts to provide async loaded image placeholders on Instagram iOS
+                                    <br />
+                                    ‣ Introduced caching support for thumbnails via Objective-C, speeding up image previews by 40%
+                                    <br />
+                                    ‣ Enhanced grid to full-screen image transitions, leading to performance wins on iOS app
+                                </div>
+                            </div>
+                            <div className="cd-timeline-img">
+                                <img src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/about-iphone-icon.png" alt="Cloud" />
+                            </div>
+                        </div>
                         <div className="cd-timeline-block">
                             <div className="cd-timeline-content">
                                 <div className="cd-date"> MAY 2019 - AUG 2019 </div>

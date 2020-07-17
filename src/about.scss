@@ -543,6 +543,9 @@
 	    z-index: -1;
 	    overflow: hidden;
 
+		#experience:hover {
+			text-decoration: none;
+		}
 		
 		.about-timeline-header {
 			display: table;
