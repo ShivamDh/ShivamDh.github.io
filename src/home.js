@@ -28,45 +28,47 @@ class Home extends Component {
                     style={{ backgroundImage: 'url(https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/home-about.jpg' }} >
                     <div className="home-about-me-who">
                         <div className="home-about-me-who-header">
-                            <span>&lt;</span>/<span>&gt;</span>
+                            <span>&lt;</span>
                             &nbsp;&nbsp;&nbsp;WHO AM I&nbsp;&nbsp;&nbsp;
-                            <span>&lt;</span>/<span>&gt;</span>
+                            <span>&gt;</span>
                         </div>
                         <div className="home-about-me-who-body">
-                            I am a
-                            <span> software developer </span>
-                            who is passionate about creating
-                            <span> first-rate </span>
-                            applications through
-                            <span> effective </span>
-                            code and
-                            <span> efficient </span>
-                            algorithms. I like to develop
+                            I'm a
+                            <span> final year </span>
+                            university student, passionate about developing
                             <span> smart </span>
                             and
                             <span> cutting-edge </span>
-                            solutions to obstacles at hand and deliver
-                            <span> excellence </span>
-                            at every turn.
+                            software solutions. I've completed
+                            <span> 5 successful internships </span>
+                            at companies such as
+                            <span> Facebook </span>
+                            ,
+                            <span> Google </span>
+                            and
+                            <span> Accenture </span>
+                            . This Fall, I'll be working at
+                            <span> Citadel </span>
+                            as a Software Engineering Intern.
                         </div>
                     </div>
                     <hr />
                     <div className="home-about-me-what">
                         <div className="home-about-me-what-header">
-                            <span>&lt;</span>/<span>&gt;</span>
+                            <span>&lt;</span>
                             &nbsp;&nbsp;&nbsp;WHAT I DO&nbsp;&nbsp;&nbsp;
-                            <span>&lt;</span>/<span>&gt;</span>
+                            <span>&gt;</span>
                         </div>
                         <div className="home-about-me-what-body">
                             I have
                             <span> industry experience </span>
                             in many areas of software development such as
-                            <span> full-stack </span>
-                            and
-                            <span> infrastructure </span>
-                            development. In my free time, I work with
-                            <span> back-end</span>
+                            <span> full-stack</span>
                             ,
+                            <span> infrastructure </span>
+                            and
+                            <span> backend development </span>
+                            . In my free time, I've worked on
                             <span> mobile </span>
                             and
                             <span> artificial intelligence </span>
@@ -80,8 +82,8 @@ class Home extends Component {
                             <span> AR/VR </span>
                             . I am always open to new
                             <span> technologies </span>
-                            and willing to learn new
-                            <span> programming languages </span>
+                            and willing to
+                            <span> learn </span>
                             for the project at hand.
                         </div>
                     </div>
