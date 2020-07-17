@@ -150,7 +150,7 @@ class Projects extends Component {
                         </p>
                         <dl className="content-list">
                             <dd> - Built on Ruby on Rails to display live stock and ETF data on a dynamic website </dd>
-                            <dd> - Integrates Charkick graphing library to display the graph and auto-update charting info </dd>
+                            <dd> - Integrates Chartkick graphing library to display the graph and auto-update charting info </dd>
                             <dd> - Utilized AlphaVantage and Yahoo Finance API for up-to-date stock pricing and company information </dd>
                         </dl>
                         {this.makeToolsList(['Ruby', 'Rails', 'AlphaVantage API', 'Yahoo Finance API'])}

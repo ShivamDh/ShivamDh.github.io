@@ -16,7 +16,7 @@ class Contact extends Component {
 	submitMessage = () => {
 		if (this.state.firstName && this.state.lastName && this.state.email && this.state.message) {
 			let body = `This is ${this.state.firstName} ${this.state.lastName}. ${this.state.message} \n My contact email is ${this.state.email}`
-			window.open(`mailto: shivam.dharme@gmail.ca?subject=Contact%20Shivam&body=${body}`);
+			window.open(`mailto: shivam.dharme@outloook.com?subject=Contact%20Shivam&body=${body}`);
 			this.setState({ firstName: '', lastName: '', email: '', message: '' })
 		} else {
 			alert("For the message to be sent through proper channels, please enter all fields")
@@ -77,10 +77,10 @@ class Contact extends Component {
 				    		</div>
 							<div className="contact-info-list">
 								<div className="contact-email">
-									<a href="mailto: shivam.dharme@gmail.ca?subject=Contact%20Shivam" target="top">
+									<a href="mailto: shivam.dharme@outlook.com?subject=Contact%20Shivam" target="top">
 										<div>
 											<img alt="email" src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/mail-bw.png" />
-											<div> Email me at shivam.dharme@gmail.com </div>
+											<div> Email me at shivam.dharme@outlook.com </div>
 										</div>
 									</a>
 								</div>

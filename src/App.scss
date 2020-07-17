@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans|Raleway:200,300,400,500,600,700,800,900');
+@import url('https://cdn.rawgit.com/h-ibaldo/Raleway_Fixed_Numerals/master/css/rawline.css');
 
 @mixin standard-link {
 	color: #BCB8B8;
-	font-family: Raleway, Serif;
+	font-family: Raleway, Sans-Serif;
 	font-size: 22px;
 	margin: 15px;
 	padding: 0px;
@@ -159,11 +160,6 @@
 							transform: scaleX(0);
 							transition: all 0.3s ease-in-out 0s;
 							visibility: hidden;
-						}
-
-						&:hover:before {
-							transform: scaleX(1);
-							visibility: visible;
 						}
 
 						span {
@@ -509,28 +505,15 @@
 			.footer-copyright {
 				color: white;
 				font-size: 13px;
-				font-family: Raleway;
+				font-family: Rawline, Raleway, Sans-Serif;
 				width: 100%;
 				padding: 10px 0;
-
-				span {
-					font-size: 15px;
-				}
-
 				@media screen and (min-width: 550px) {
 					font-size: 16px;
-
-					span {
-						font-size: 18px
-					}
 				}
 
 				@media screen and (min-width: 1620px) {
 					font-size: 18px;
-
-					span {
-						font-size: 20px
-					}
 				}
 			}
 		}
