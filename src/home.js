@@ -42,7 +42,7 @@ class Home extends Component {
                             software solutions. I've completed
                             <span> 5 successful internships </span>
                             at companies such as
-                            <span> Facebook </span>
+                            <span> Facebook</span>
                             ,
                             <span> Google </span>
                             and
@@ -67,8 +67,8 @@ class Home extends Component {
                             ,
                             <span> infrastructure </span>
                             and
-                            <span> backend development </span>
-                            . In my free time, I've worked on
+                            <span> backend </span>
+                            development. In my free time, I've worked on
                             <span> mobile </span>
                             and
                             <span> artificial intelligence </span>

@@ -195,11 +195,10 @@ class Projects extends Component {
                             </a>
                         </p>
                         <dl className="content-list">
-                            <dd> - Display weather on a user defined trip from point A to point B (via road) </dd>
+                            <dd> - Displays weather forecasts on a user defined trip from point A to point B (via road) </dd>
                             <dd> - Allows for user selections for time of trip, how often to check for weather, and units to display in </dd>
                             <dd> - Utilizes Google Maps Directions API to obtain the fastest route from user inputted source to destination </dd>
-                            <dd> - Decodes coordinates along the route using Google Maps Geocode API and Polyline Decode Algorithm </dd>
-                            <dd> - Sends API requests to Weather Underground API to obtain weather at user specified time </dd>
+                            <dd> - Incorporates Weather Underground API to obtain weather at user specified time intervals and locations </dd>
                         </dl>
                         {this.makeToolsList(['Python', 'Google Maps API', 'Weather Underground API'])}
                     </div>
@@ -244,7 +243,7 @@ class Projects extends Component {
                         </p>
                         <dl className="content-list">
                             <dd> - Android app that users can use to record and store their workout and fitness data </dd>
-                            <dd> - A multipage application that includes an options menu, and abilit to create custom workout tabs </dd>
+                            <dd> - A multipage application that includes an options menu, and an ability to create custom workout tabs </dd>
                             <dd> - Used Android SQLite to store workout data and ability to view it at a later time </dd>
                             <dd> - Android SharedPreferences allows for customizable user options like timer </dd>
                         </dl>
@@ -386,7 +385,6 @@ class Projects extends Component {
                         </p>
                         <dl className="content-list">
                             <dd> - A hockey data organizer that provides a flexible statistics calculator and data manager </dd>
-                            <dd> - Combines linked list storage and arrangement to get appropriate data and parse through </dd>
                             <dd> - Incorporates File I/O productivity for adaptable input forms </dd>
                             <dd> - Utilizes output stream to produce a csv file, arranged to user parameters </dd>
                         </dl>
@@ -421,13 +419,13 @@ class Projects extends Component {
 
         this.projectKeys = {
             'ar_pathfinder': ['mobile', 'ml-ai-vr'],
-            'flights_web_scraping': ['backend', 'ml-ai-vr'],
+            'flights_web_scraping': ['data', 'ml-ai-vr'],
             'tour_planner': 'mobile',
             'website': 'web',
-            'fitness60': 'mobile',
+            // 'fitness60': 'mobile',
             'blockchain-tic-tac-toe': ['web', 'ml-ai-vr'],
             'market_viewer': 'web',
-            'trip_weather': 'backend',
+            'trip_weather': 'data',
             'starter_blog': 'web',
             // 'python_calculator': 'command-line',
             'hangr': ['web', 'ml-ai-vr'],
@@ -436,7 +434,7 @@ class Projects extends Component {
             // 'c2048': 'command-line',
             // 'molar_mass': 'command-line',
             // 'snake': 'command-line',
-            'hockey_stats': 'backend'
+            'hockey_stats': 'data'
         };
 
         this.state = {
@@ -466,7 +464,7 @@ class Projects extends Component {
     _handleTabSelect = (key) => {
         let projectList = []
         if (key === 2) {
-            projectList = this._getProjectsByType('backend');
+            projectList = this._getProjectsByType('data');
         } else if (key === 3) {
             projectList = this._getProjectsByType('ml-ai-vr');
         } else if (key === 4) {
@@ -491,10 +489,10 @@ class Projects extends Component {
         return (
             <div className="Projects" style={{ backgroundImage: 'url(https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/project-background.jpg)' }}>
                 <div className="container projects-container">
-                    <div className="text-center pageTitle"> Just some of the projects I have worked on </div>
+                    <div className="text-center pageTitle"> Just some of the projects I have worked on in my free time </div>
                     <Tabs activeKey={this.state.tab} id="project-tab" onSelect={this._handleTabSelect}>
                         <Tab eventKey={1} title="All"> </Tab>
-                        <Tab eventKey={2} title="Backend"> </Tab>
+                        <Tab eventKey={2} title="Data"> </Tab>
                         <Tab eventKey={3} title="ML/AI/VR"> </Tab>
                         <Tab eventKey={4} title="Mobile"> </Tab>
                         <Tab eventKey={5} title="Web"> </Tab>

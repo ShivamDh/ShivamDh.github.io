@@ -46,12 +46,14 @@ class About extends Component {
                             <a href="https://uwaterloo.ca/"> University of Waterloo</a>
                             . I'm highly active in the software development field, having completed
                             <a href="#experience"> 5 internships </a>
-                            and in the middle of a sixth one. I hope to utilize
-                            my unique skillset to build first-rate applications and gain experience as a new-grad software engineer.
+                            and in the middle of a 6th one (at 
+                            <a href="https://www.instagram.com/"> Citadel</a>
+                            ). I hope to utilize my unique skillset and continue to build
+                            fast, efficient, and powerful software products as a new-grad software engineer.
                         </div>
                         <div className="about-me-info-others">
                             I've just completed my fifth internship, working at 
-                            <a href="https://www.instagram.com/"> Instagram (Facebook) </a>
+                            <a href="https://www.citadel.com/"> Instagram (Facebook) </a>
                             as a Software Engineer Intern in New York. 
                             Prior to this, I completed four other internships, working at
                             <a href="https://www.google.com/"> Google </a>
@@ -64,23 +66,22 @@ class About extends Component {
                             as a developer on their main products.
                         </div>
                         <div className="about-me-info-others">
-                            I've been a part of multiple engineering design teams at university.
+                            I've been a part of multiple engineering design teams at my university.
                             I was on the software team at
                             <a href="https://watonomous.ca/"> WATonomous</a>
                             , helping to build a fully functional autonomous vehicle.
-                            I was involved with the
+                            I was also involved with the
                             <a href="http://www.uwmidsun.com/"> Midnight Sun Solar Car Team</a>
                             , where I worked on embedded systems and website development.
                         </div>
                         <div className="about-me-info-others">
-                            In addition to personal projects, I've also participated in numerous hackathons
+                            Additionally, I've also participated in numerous hackathons
                             such as HackHarvard, PennApps and HackPrinceton. Feel free to go to the
                             <a href="/projects"> Projects </a>
                             tab to view a full list of all my projects.
                         </div>
                         <div className="about-me-info-others">
-                            Don't hesitate to reach out! I'm always looking for new opportunities to collaborate with others
-                            on application development.
+                            Don't hesitate to reach out! I'm always looking for new opportunities to collaborate with others.
                         </div>
                     </div>
                     <div className="about-me-skills">
@@ -123,7 +124,7 @@ class About extends Component {
                                     <a href="https://www.citadel.com/"> Citadel </a>
                                 </div>
                                 <div className="cd-timeline-content-text">
-                                    ‣ Excited to join Citadel for my Fall internship later this year!
+                                    ‣ Focusing on Data Engineering within the Global Quantitative Strategies (GQS) Team
                                 </div>
                             </div>
                             <div className="cd-timeline-img">

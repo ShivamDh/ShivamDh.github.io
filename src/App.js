@@ -103,7 +103,7 @@ class App extends Component {
 											src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/FooterLinkedIn.jpg" />
 									</div>
 								</a>
-								<a href="mailto:shivamdharme@gmail.ca?Subject=Contact%20Shivam">
+								<a href="mailto:shivam.dharme@outlook.com?Subject=Contact%20Shivam">
 									<div className="footer-media-mail">
 										<img alt="Mail"
 											src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/FooterEmail.png" />
@@ -111,7 +111,7 @@ class App extends Component {
 								</a>
 							</div>
 							<div className="footer-copyright text-center">
-								© 2019 SHIVAM DHARME ALL RIGHTS RESERVED
+								© 2020 SHIVAM DHARME ALL RIGHTS RESERVED
 							</div>
 						</div>
 					</div>

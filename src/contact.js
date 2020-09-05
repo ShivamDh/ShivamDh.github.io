@@ -79,7 +79,7 @@ class Contact extends Component {
 								<div className="contact-email">
 									<a href="mailto: shivam.dharme@outlook.com?subject=Contact%20Shivam" target="top">
 										<div>
-											<img alt="email" src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/mail-bw.png" />
+											<img alt="email" src="https://cdn.rawgit.com/ShivamDh/ShivamDh.github.io/development/public/img/mail-outlook.png" />
 											<div> Email me at shivam.dharme@outlook.com </div>
 										</div>
 									</a>

@@ -1,0 +1,138 @@
+.Projects {
+  padding-bottom: 35px; }
+  @media screen and (min-width: 1620px) {
+    .Projects .projects-container {
+      width: 1500px; } }
+  .Projects .projects-container .pageTitle {
+    margin: 20px 0;
+    color: white;
+    font-family: Raleway, Sans-Serif;
+    font-size: 28px; }
+    @media screen and (min-width: 768px) {
+      .Projects .projects-container .pageTitle {
+        font-size: 32px; } }
+    @media screen and (min-width: 1200px) {
+      .Projects .projects-container .pageTitle {
+        font-size: 36px; } }
+    @media screen and (min-width: 1620px) {
+      .Projects .projects-container .pageTitle {
+        font-size: 44px; } }
+  .Projects .projects-container #project-tab {
+    margin-bottom: 20px;
+    font-family: Raleway, Sans-Serif; }
+    .Projects .projects-container #project-tab > a {
+      color: #0089ff; }
+    @media screen and (max-width: 450px) {
+      .Projects .projects-container #project-tab ul li a {
+        padding: 10px; } }
+    @media screen and (max-width: 375px) {
+      .Projects .projects-container #project-tab {
+        font-size: 12px; } }
+  .Projects .projects-container .row {
+    font-family: Rawline, Raleway, Sans-Serif; }
+    .Projects .projects-container .row .col-sm-4 img {
+      margin-top: 5px; }
+    @media screen and (min-width: 768px) {
+      .Projects .projects-container .row {
+        display: flex; }
+        .Projects .projects-container .row .col-sm-4 {
+          margin-top: auto;
+          margin-bottom: auto; } }
+    .Projects .projects-container .row .content {
+      color: white; }
+      .Projects .projects-container .row .content .projectName {
+        margin-top: 0; }
+        @media screen and (max-width: 767px) {
+          .Projects .projects-container .row .content .projectName {
+            padding-top: 10px; } }
+        @media screen and (max-width: 549px) {
+          .Projects .projects-container .row .content .projectName {
+            font-size: 26px; } }
+        @media screen and (min-width: 1620px) {
+          .Projects .projects-container .row .content .projectName {
+            font-size: 36px; } }
+      .Projects .projects-container .row .content .headingCaption, .Projects .projects-container .row .content .githubLink {
+        text-decoration: none;
+        color: inherit; }
+        .Projects .projects-container .row .content .headingCaption:hover, .Projects .projects-container .row .content .githubLink:hover {
+          color: white; }
+      .Projects .projects-container .row .content .content-list {
+        margin-bottom: 10px; }
+      @media screen and (min-width: 1620px) {
+        .Projects .projects-container .row .content .text-muted, .Projects .projects-container .row .content .content-list {
+          font-size: 18px; } }
+      .Projects .projects-container .row .content .tools {
+        display: flex;
+        font-size: 8px; }
+        .Projects .projects-container .row .content .tools > * {
+          background-color: #E2E2E2;
+          color: black;
+          font-weight: 800;
+          padding: 5px;
+          margin: 0 2px 0 2px;
+          border: 2px solid #949292; }
+        .Projects .projects-container .row .content .tools div:first-child {
+          margin: 0 2px 0 0; }
+        @media screen and (min-width: 450px) {
+          .Projects .projects-container .row .content .tools {
+            font-size: 10px; }
+            .Projects .projects-container .row .content .tools > * {
+              padding: 5px 5px;
+              margin: 0 3px; }
+            .Projects .projects-container .row .content .tools div:first-child {
+              margin-left: 0; } }
+        @media screen and (min-width: 550px) {
+          .Projects .projects-container .row .content .tools {
+            font-size: 12px; }
+            .Projects .projects-container .row .content .tools > * {
+              padding: 5px 5px;
+              margin: 0 7px; }
+            .Projects .projects-container .row .content .tools div:first-child {
+              margin-left: 0; } }
+        @media screen and (min-width: 768px) {
+          .Projects .projects-container .row .content .tools {
+            font-size: 12px; }
+            .Projects .projects-container .row .content .tools > * {
+              padding: 5px 7px;
+              margin: 0 4px; }
+            .Projects .projects-container .row .content .tools div:first-child {
+              margin-left: 0; } }
+        @media screen and (min-width: 992px) {
+          .Projects .projects-container .row .content .tools {
+            font-size: 13px; }
+            .Projects .projects-container .row .content .tools > * {
+              padding: 5px 10px;
+              margin: 0 5px; }
+            .Projects .projects-container .row .content .tools div:first-child {
+              margin-left: 0; } }
+        @media screen and (min-width: 1200px) {
+          .Projects .projects-container .row .content .tools {
+            font-size: 14px; }
+            .Projects .projects-container .row .content .tools > * {
+              padding: 5px 12px;
+              margin: 0 6px; }
+            .Projects .projects-container .row .content .tools div:first-child {
+              margin-left: 0; }
+            .Projects .projects-container .row .content .tools > * {
+              border: 3px solid #949292; } }
+        @media screen and (min-width: 1400px) {
+          .Projects .projects-container .row .content .tools {
+            font-size: 15px; }
+            .Projects .projects-container .row .content .tools > * {
+              padding: 5px 14px;
+              margin: 0 7px; }
+            .Projects .projects-container .row .content .tools div:first-child {
+              margin-left: 0; } }
+        @media screen and (min-width: 1620px) {
+          .Projects .projects-container .row .content .tools {
+            font-size: 18px; }
+            .Projects .projects-container .row .content .tools > * {
+              padding: 5px 15px;
+              margin: 0 8px; }
+            .Projects .projects-container .row .content .tools div:first-child {
+              margin-left: 0; }
+            .Projects .projects-container .row .content .tools > * {
+              border: 4px solid #949292; } }
+  .Projects .projects-container .fitness60 .col-sm-4 img {
+    border: 0.2px solid #969393;
+    border-left: none; }
